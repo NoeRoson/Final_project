@@ -49,6 +49,27 @@ def trimestre(mes):
 def eliminar_alfa(columna):
     '''
     Entra una columna de un DataFrame.
-    Elimina los caracteres alfabéticos de cada elemento de la columna.
+    Elimina los caracteres alfabéticos de cada elemento de la columna y los espacios.
     '''
     return columna.apply(lambda x: ''.join(c if not c.isalpha() and not c.isspace() else '' for c in str(x)))
+
+
+def ccaa(texto):
+    '''
+    Entra una columna de un DataFrame.
+    Divide la cadena en caso de encontrar un paréntesis.
+    Se queda con la primera parte (antes del '(').
+    '''
+    nombres = texto.split('(')
+    comunidad = nombres[0].strip()
+    
+    return comunidad
+
+
+
+
+
+
+
+
+
