@@ -4,7 +4,7 @@ from unidecode import unidecode
 import warnings
 warnings.filterwarnings('ignore')
 import re
-
+from fuzzywuzzy import fuzz
 
 
 def unif_col(columns):
@@ -64,6 +64,41 @@ def ccaa(texto):
     comunidad = nombres[0].strip()
     
     return comunidad
+
+
+
+
+def comunidades(dataframes, column_name='comunidad'):
+    '''
+    Entra una lista de DataFrames (dataframes) y un nombre de columna por defecto ('comunidad')
+    '''
+
+    nombres = ['andalucia', 'aragon', 'asturias', 'baleares', 'canarias',
+                             'cantabria', 'castilla y leon', 'castilla la mancha', 'cataluña',
+                             'valencia', 'extremadura', 'galicia', 'madrid',
+                             'region de murcia', 'navarra', 'pais vasco', 'la rioja',
+                             'ceuta', 'melilla']
+
+    def normalizar_comunidad(nombre_comunidad):
+        '''
+        Toma un nombre de comunidad y devuelve la mejor coincidencia de la lista de nombres dados 
+        utilizando la función fuzz.ratio para calcular la similitud.
+        '''
+        mejor_coincidencia = max(nombres, key=lambda x: fuzz.ratio(x, nombre_comunidad.lower()))
+        return mejor_coincidencia
+       
+    for df in dataframes:
+        '''
+        Se itera sobre cada df de la lista de dataframes. Si la columna especificada (column_name) 
+        está presente, se aplica la normalización
+        '''
+        if column_name in df.columns:
+            df[column_name] = df[column_name].apply(normalizar_comunidad)
+
+    return dataframes
+
+
+
 
 
 
