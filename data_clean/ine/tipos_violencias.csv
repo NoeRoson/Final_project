@@ -1,0 +1,2737 @@
+tipo,comunidad,año,total
+delito,andalucia,2022,9955
+delito,andalucia,2021,926
+delito,andalucia,2020,7103
+delito,andalucia,2019,8539
+delito,andalucia,2018,7856
+delito,andalucia,2017,7539
+delito,andalucia,2016,6734
+delito,andalucia,2015,5592
+delito,aragon,2022,1297
+delito,aragon,2021,1153
+delito,aragon,2020,9070
+delito,aragon,2019,1021
+delito,aragon,2018,1027
+delito,aragon,2017,9510
+delito,aragon,2016,8330
+delito,aragon,2015,5520
+delito,"asturias, principado de",2022,1304
+delito,"asturias, principado de",2021,1063
+delito,"asturias, principado de",2020,7000
+delito,"asturias, principado de",2019,9690
+delito,"asturias, principado de",2018,8960
+delito,"asturias, principado de",2017,8790
+delito,"asturias, principado de",2016,8010
+delito,"asturias, principado de",2015,6280
+delito,"balears, illes",2022,1821
+delito,"balears, illes",2021,1803
+delito,"balears, illes",2020,136
+delito,"balears, illes",2019,1849
+delito,"balears, illes",2018,1554
+delito,"balears, illes",2017,1596
+delito,"balears, illes",2016,1603
+delito,"balears, illes",2015,1092
+delito,canarias,2022,3728
+delito,canarias,2021,355
+delito,canarias,2020,2888
+delito,canarias,2019,3225
+delito,canarias,2018,2866
+delito,canarias,2017,2668
+delito,canarias,2016,2463
+delito,canarias,2015,1971
+delito,cantabria,2022,6250
+delito,cantabria,2021,5410
+delito,cantabria,2020,4450
+delito,cantabria,2019,5350
+delito,cantabria,2018,5950
+delito,cantabria,2017,4400
+delito,cantabria,2016,3840
+delito,cantabria,2015,3260
+delito,castilla y leon,2022,2075
+delito,castilla y leon,2021,181
+delito,castilla y leon,2020,1215
+delito,castilla y leon,2019,159
+delito,castilla y leon,2018,148
+delito,castilla y leon,2017,1469
+delito,castilla y leon,2016,1398
+delito,castilla y leon,2015,1223
+delito,castilla - la mancha,2022,1947
+delito,castilla - la mancha,2021,1749
+delito,castilla - la mancha,2020,1232
+delito,castilla - la mancha,2019,1548
+delito,castilla - la mancha,2018,1461
+delito,castilla - la mancha,2017,1404
+delito,castilla - la mancha,2016,1395
+delito,castilla - la mancha,2015,1255
+delito,cataluna,2022,5967
+delito,cataluna,2021,5605
+delito,cataluna,2020,4039
+delito,cataluna,2019,4644
+delito,cataluna,2018,4314
+delito,cataluna,2017,403
+delito,cataluna,2016,4043
+delito,cataluna,2015,3459
+delito,comunitat valenciana,2022,7734
+delito,comunitat valenciana,2021,6944
+delito,comunitat valenciana,2020,5287
+delito,comunitat valenciana,2019,629
+delito,comunitat valenciana,2018,5633
+delito,comunitat valenciana,2017,5427
+delito,comunitat valenciana,2016,4978
+delito,comunitat valenciana,2015,4151
+delito,extremadura,2022,131
+delito,extremadura,2021,1171
+delito,extremadura,2020,9400
+delito,extremadura,2019,9600
+delito,extremadura,2018,8140
+delito,extremadura,2017,8570
+delito,extremadura,2016,8320
+delito,extremadura,2015,7540
+delito,galicia,2022,2381
+delito,galicia,2021,2093
+delito,galicia,2020,1555
+delito,galicia,2019,1914
+delito,galicia,2018,1712
+delito,galicia,2017,1585
+delito,galicia,2016,1381
+delito,galicia,2015,1263
+delito,"madrid, comunidad de",2022,5033
+delito,"madrid, comunidad de",2021,4295
+delito,"madrid, comunidad de",2020,3029
+delito,"madrid, comunidad de",2019,3963
+delito,"madrid, comunidad de",2018,3405
+delito,"madrid, comunidad de",2017,3385
+delito,"madrid, comunidad de",2016,3047
+delito,"madrid, comunidad de",2015,2802
+delito,"murcia, region de",2022,257
+delito,"murcia, region de",2021,2277
+delito,"murcia, region de",2020,1551
+delito,"murcia, region de",2019,1832
+delito,"murcia, region de",2018,1832
+delito,"murcia, region de",2017,1663
+delito,"murcia, region de",2016,1617
+delito,"murcia, region de",2015,129
+delito,"navarra, comunidad foral de",2022,8760
+delito,"navarra, comunidad foral de",2021,6640
+delito,"navarra, comunidad foral de",2020,4210
+delito,"navarra, comunidad foral de",2019,5740
+delito,"navarra, comunidad foral de",2018,4900
+delito,"navarra, comunidad foral de",2017,4540
+delito,"navarra, comunidad foral de",2016,3870
+delito,"navarra, comunidad foral de",2015,3080
+delito,pais vasco,2022,3013
+delito,pais vasco,2021,2337
+delito,pais vasco,2020,167
+delito,pais vasco,2019,2118
+delito,pais vasco,2018,1722
+delito,pais vasco,2017,1576
+delito,pais vasco,2016,1424
+delito,pais vasco,2015,1267
+delito,"rioja, la",2022,5000
+delito,"rioja, la",2021,3470
+delito,"rioja, la",2020,2340
+delito,"rioja, la",2019,3100
+delito,"rioja, la",2018,3200
+delito,"rioja, la",2017,2640
+delito,"rioja, la",2016,2480
+delito,"rioja, la",2015,2040
+delito,ceuta,2022,1170
+delito,ceuta,2021,970
+delito,ceuta,2020,790
+delito,ceuta,2019,620
+delito,ceuta,2018,810
+delito,ceuta,2017,690
+delito,ceuta,2016,680
+delito,ceuta,2015,590
+delito,melilla,2022,1180
+delito,melilla,2021,880
+delito,melilla,2020,630
+delito,melilla,2019,850
+delito,melilla,2018,830
+delito,melilla,2017,810
+delito,melilla,2016,750
+delito,melilla,2015,690
+homicidio,andalucia,2022,140
+homicidio,andalucia,2021,170
+homicidio,andalucia,2020,100
+homicidio,andalucia,2019,120
+homicidio,andalucia,2018,120
+homicidio,andalucia,2017,80
+homicidio,andalucia,2016,180
+homicidio,andalucia,2015,120
+homicidio,aragon,2022,10
+homicidio,aragon,2021,20
+homicidio,aragon,2020,20
+homicidio,aragon,2019,40
+homicidio,aragon,2018,20
+homicidio,aragon,2017,20
+homicidio,aragon,2016,20
+homicidio,aragon,2015,40
+homicidio,"asturias, principado de",2022,20
+homicidio,"asturias, principado de",2021,20
+homicidio,"asturias, principado de",2020,0
+homicidio,"asturias, principado de",2019,10
+homicidio,"asturias, principado de",2018,40
+homicidio,"asturias, principado de",2017,30
+homicidio,"asturias, principado de",2016,20
+homicidio,"asturias, principado de",2015,0
+homicidio,"balears, illes",2022,10
+homicidio,"balears, illes",2021,30
+homicidio,"balears, illes",2020,20
+homicidio,"balears, illes",2019,60
+homicidio,"balears, illes",2018,20
+homicidio,"balears, illes",2017,40
+homicidio,"balears, illes",2016,20
+homicidio,"balears, illes",2015,20
+homicidio,canarias,2022,50
+homicidio,canarias,2021,50
+homicidio,canarias,2020,40
+homicidio,canarias,2019,50
+homicidio,canarias,2018,60
+homicidio,canarias,2017,30
+homicidio,canarias,2016,70
+homicidio,canarias,2015,90
+homicidio,cantabria,2022,0
+homicidio,cantabria,2021,0
+homicidio,cantabria,2020,0
+homicidio,cantabria,2019,20
+homicidio,cantabria,2018,0
+homicidio,cantabria,2017,0
+homicidio,cantabria,2016,0
+homicidio,cantabria,2015,0
+homicidio,castilla y leon,2022,10
+homicidio,castilla y leon,2021,40
+homicidio,castilla y leon,2020,10
+homicidio,castilla y leon,2019,20
+homicidio,castilla y leon,2018,20
+homicidio,castilla y leon,2017,0
+homicidio,castilla y leon,2016,20
+homicidio,castilla y leon,2015,20
+homicidio,castilla - la mancha,2022,10
+homicidio,castilla - la mancha,2021,20
+homicidio,castilla - la mancha,2020,20
+homicidio,castilla - la mancha,2019,20
+homicidio,castilla - la mancha,2018,20
+homicidio,castilla - la mancha,2017,40
+homicidio,castilla - la mancha,2016,30
+homicidio,castilla - la mancha,2015,30
+homicidio,cataluna,2022,80
+homicidio,cataluna,2021,80
+homicidio,cataluna,2020,170
+homicidio,cataluna,2019,70
+homicidio,cataluna,2018,110
+homicidio,cataluna,2017,140
+homicidio,cataluna,2016,120
+homicidio,cataluna,2015,170
+homicidio,comunitat valenciana,2022,120
+homicidio,comunitat valenciana,2021,130
+homicidio,comunitat valenciana,2020,60
+homicidio,comunitat valenciana,2019,80
+homicidio,comunitat valenciana,2018,100
+homicidio,comunitat valenciana,2017,110
+homicidio,comunitat valenciana,2016,90
+homicidio,comunitat valenciana,2015,120
+homicidio,extremadura,2022,20
+homicidio,extremadura,2021,0
+homicidio,extremadura,2020,0
+homicidio,extremadura,2019,10
+homicidio,extremadura,2018,0
+homicidio,extremadura,2017,0
+homicidio,extremadura,2016,0
+homicidio,extremadura,2015,0
+homicidio,galicia,2022,40
+homicidio,galicia,2021,80
+homicidio,galicia,2020,40
+homicidio,galicia,2019,60
+homicidio,galicia,2018,100
+homicidio,galicia,2017,10
+homicidio,galicia,2016,50
+homicidio,galicia,2015,30
+homicidio,"madrid, comunidad de",2022,110
+homicidio,"madrid, comunidad de",2021,160
+homicidio,"madrid, comunidad de",2020,150
+homicidio,"madrid, comunidad de",2019,100
+homicidio,"madrid, comunidad de",2018,120
+homicidio,"madrid, comunidad de",2017,130
+homicidio,"madrid, comunidad de",2016,150
+homicidio,"madrid, comunidad de",2015,110
+homicidio,"murcia, region de",2022,50
+homicidio,"murcia, region de",2021,20
+homicidio,"murcia, region de",2020,30
+homicidio,"murcia, region de",2019,20
+homicidio,"murcia, region de",2018,0
+homicidio,"murcia, region de",2017,20
+homicidio,"murcia, region de",2016,30
+homicidio,"murcia, region de",2015,30
+homicidio,"navarra, comunidad foral de",2022,10
+homicidio,"navarra, comunidad foral de",2021,10
+homicidio,"navarra, comunidad foral de",2020,10
+homicidio,"navarra, comunidad foral de",2019,10
+homicidio,"navarra, comunidad foral de",2018,10
+homicidio,"navarra, comunidad foral de",2017,0
+homicidio,"navarra, comunidad foral de",2016,0
+homicidio,"navarra, comunidad foral de",2015,0
+homicidio,pais vasco,2022,70
+homicidio,pais vasco,2021,20
+homicidio,pais vasco,2020,20
+homicidio,pais vasco,2019,10
+homicidio,pais vasco,2018,0
+homicidio,pais vasco,2017,20
+homicidio,pais vasco,2016,20
+homicidio,pais vasco,2015,30
+homicidio,"rioja, la",2022,20
+homicidio,"rioja, la",2021,0
+homicidio,"rioja, la",2020,0
+homicidio,"rioja, la",2019,0
+homicidio,"rioja, la",2018,0
+homicidio,"rioja, la",2017,10
+homicidio,"rioja, la",2016,10
+homicidio,"rioja, la",2015,0
+homicidio,ceuta,2022,0
+homicidio,ceuta,2021,0
+homicidio,ceuta,2020,0
+homicidio,ceuta,2019,0
+homicidio,ceuta,2018,0
+homicidio,ceuta,2017,0
+homicidio,ceuta,2016,0
+homicidio,ceuta,2015,0
+homicidio,melilla,2022,0
+homicidio,melilla,2021,0
+homicidio,melilla,2020,0
+homicidio,melilla,2019,0
+homicidio,melilla,2018,0
+homicidio,melilla,2017,10
+homicidio,melilla,2016,0
+homicidio,melilla,2015,0
+lesiones,andalucia,2022,351
+lesiones,andalucia,2021,3097
+lesiones,andalucia,2020,2323
+lesiones,andalucia,2019,2964
+lesiones,andalucia,2018,2809
+lesiones,andalucia,2017,2702
+lesiones,andalucia,2016,2444
+lesiones,andalucia,2015,2287
+lesiones,aragon,2022,5180
+lesiones,aragon,2021,4540
+lesiones,aragon,2020,3740
+lesiones,aragon,2019,4050
+lesiones,aragon,2018,3400
+lesiones,aragon,2017,3730
+lesiones,aragon,2016,3520
+lesiones,aragon,2015,3110
+lesiones,"asturias, principado de",2022,4990
+lesiones,"asturias, principado de",2021,3450
+lesiones,"asturias, principado de",2020,2560
+lesiones,"asturias, principado de",2019,3370
+lesiones,"asturias, principado de",2018,3370
+lesiones,"asturias, principado de",2017,3440
+lesiones,"asturias, principado de",2016,3230
+lesiones,"asturias, principado de",2015,2710
+lesiones,"balears, illes",2022,6400
+lesiones,"balears, illes",2021,5740
+lesiones,"balears, illes",2020,4620
+lesiones,"balears, illes",2019,6760
+lesiones,"balears, illes",2018,5420
+lesiones,"balears, illes",2017,6060
+lesiones,"balears, illes",2016,5960
+lesiones,"balears, illes",2015,4660
+lesiones,canarias,2022,1194
+lesiones,canarias,2021,1031
+lesiones,canarias,2020,9390
+lesiones,canarias,2019,112
+lesiones,canarias,2018,9300
+lesiones,canarias,2017,8470
+lesiones,canarias,2016,8510
+lesiones,canarias,2015,8380
+lesiones,cantabria,2022,1950
+lesiones,cantabria,2021,1770
+lesiones,cantabria,2020,1630
+lesiones,cantabria,2019,1800
+lesiones,cantabria,2018,1980
+lesiones,cantabria,2017,1440
+lesiones,cantabria,2016,1440
+lesiones,cantabria,2015,1650
+lesiones,castilla y leon,2022,7010
+lesiones,castilla y leon,2021,6080
+lesiones,castilla y leon,2020,4050
+lesiones,castilla y leon,2019,5330
+lesiones,castilla y leon,2018,5150
+lesiones,castilla y leon,2017,5160
+lesiones,castilla y leon,2016,5000
+lesiones,castilla y leon,2015,4960
+lesiones,castilla - la mancha,2022,6770
+lesiones,castilla - la mancha,2021,6250
+lesiones,castilla - la mancha,2020,4640
+lesiones,castilla - la mancha,2019,5470
+lesiones,castilla - la mancha,2018,5580
+lesiones,castilla - la mancha,2017,5420
+lesiones,castilla - la mancha,2016,5730
+lesiones,castilla - la mancha,2015,5600
+lesiones,cataluna,2022,2357
+lesiones,cataluna,2021,1996
+lesiones,cataluna,2020,1425
+lesiones,cataluna,2019,1725
+lesiones,cataluna,2018,1523
+lesiones,cataluna,2017,1502
+lesiones,cataluna,2016,1541
+lesiones,cataluna,2015,1446
+lesiones,comunitat valenciana,2022,2912
+lesiones,comunitat valenciana,2021,245
+lesiones,comunitat valenciana,2020,1906
+lesiones,comunitat valenciana,2019,2335
+lesiones,comunitat valenciana,2018,2036
+lesiones,comunitat valenciana,2017,1965
+lesiones,comunitat valenciana,2016,1879
+lesiones,comunitat valenciana,2015,1857
+lesiones,extremadura,2022,4220
+lesiones,extremadura,2021,3550
+lesiones,extremadura,2020,2550
+lesiones,extremadura,2019,3110
+lesiones,extremadura,2018,2860
+lesiones,extremadura,2017,3240
+lesiones,extremadura,2016,3360
+lesiones,extremadura,2015,3050
+lesiones,galicia,2022,9290
+lesiones,galicia,2021,7710
+lesiones,galicia,2020,6070
+lesiones,galicia,2019,6650
+lesiones,galicia,2018,6130
+lesiones,galicia,2017,6500
+lesiones,galicia,2016,5780
+lesiones,galicia,2015,5690
+lesiones,"madrid, comunidad de",2022,223
+lesiones,"madrid, comunidad de",2021,1859
+lesiones,"madrid, comunidad de",2020,1248
+lesiones,"madrid, comunidad de",2019,1659
+lesiones,"madrid, comunidad de",2018,1428
+lesiones,"madrid, comunidad de",2017,1486
+lesiones,"madrid, comunidad de",2016,1422
+lesiones,"madrid, comunidad de",2015,1449
+lesiones,"murcia, region de",2022,1092
+lesiones,"murcia, region de",2021,9240
+lesiones,"murcia, region de",2020,6330
+lesiones,"murcia, region de",2019,8220
+lesiones,"murcia, region de",2018,7330
+lesiones,"murcia, region de",2017,7640
+lesiones,"murcia, region de",2016,7350
+lesiones,"murcia, region de",2015,6520
+lesiones,"navarra, comunidad foral de",2022,3260
+lesiones,"navarra, comunidad foral de",2021,2240
+lesiones,"navarra, comunidad foral de",2020,1570
+lesiones,"navarra, comunidad foral de",2019,2310
+lesiones,"navarra, comunidad foral de",2018,1830
+lesiones,"navarra, comunidad foral de",2017,1770
+lesiones,"navarra, comunidad foral de",2016,1580
+lesiones,"navarra, comunidad foral de",2015,1520
+lesiones,pais vasco,2022,1103
+lesiones,pais vasco,2021,8580
+lesiones,pais vasco,2020,6050
+lesiones,pais vasco,2019,7710
+lesiones,pais vasco,2018,6190
+lesiones,pais vasco,2017,6020
+lesiones,pais vasco,2016,5970
+lesiones,pais vasco,2015,6270
+lesiones,"rioja, la",2022,1750
+lesiones,"rioja, la",2021,1140
+lesiones,"rioja, la",2020,980
+lesiones,"rioja, la",2019,1160
+lesiones,"rioja, la",2018,1210
+lesiones,"rioja, la",2017,990
+lesiones,"rioja, la",2016,1070
+lesiones,"rioja, la",2015,1050
+lesiones,ceuta,2022,520
+lesiones,ceuta,2021,420
+lesiones,ceuta,2020,300
+lesiones,ceuta,2019,200
+lesiones,ceuta,2018,260
+lesiones,ceuta,2017,340
+lesiones,ceuta,2016,460
+lesiones,ceuta,2015,330
+lesiones,melilla,2022,330
+lesiones,melilla,2021,230
+lesiones,melilla,2020,260
+lesiones,melilla,2019,330
+lesiones,melilla,2018,270
+lesiones,melilla,2017,330
+lesiones,melilla,2016,380
+lesiones,melilla,2015,420
+detencion_secuestro,andalucia,2022,70
+detencion_secuestro,andalucia,2021,10
+detencion_secuestro,andalucia,2020,60
+detencion_secuestro,andalucia,2019,50
+detencion_secuestro,andalucia,2018,30
+detencion_secuestro,andalucia,2017,70
+detencion_secuestro,andalucia,2016,50
+detencion_secuestro,andalucia,2015,50
+detencion_secuestro,aragon,2022,10
+detencion_secuestro,aragon,2021,10
+detencion_secuestro,aragon,2020,0
+detencion_secuestro,aragon,2019,0
+detencion_secuestro,aragon,2018,0
+detencion_secuestro,aragon,2017,10
+detencion_secuestro,aragon,2016,0
+detencion_secuestro,aragon,2015,0
+detencion_secuestro,"asturias, principado de",2022,10
+detencion_secuestro,"asturias, principado de",2021,10
+detencion_secuestro,"asturias, principado de",2020,0
+detencion_secuestro,"asturias, principado de",2019,0
+detencion_secuestro,"asturias, principado de",2018,0
+detencion_secuestro,"asturias, principado de",2017,0
+detencion_secuestro,"asturias, principado de",2016,20
+detencion_secuestro,"asturias, principado de",2015,10
+detencion_secuestro,"balears, illes",2022,0
+detencion_secuestro,"balears, illes",2021,10
+detencion_secuestro,"balears, illes",2020,0
+detencion_secuestro,"balears, illes",2019,10
+detencion_secuestro,"balears, illes",2018,0
+detencion_secuestro,"balears, illes",2017,0
+detencion_secuestro,"balears, illes",2016,10
+detencion_secuestro,"balears, illes",2015,0
+detencion_secuestro,canarias,2022,10
+detencion_secuestro,canarias,2021,10
+detencion_secuestro,canarias,2020,10
+detencion_secuestro,canarias,2019,10
+detencion_secuestro,canarias,2018,0
+detencion_secuestro,canarias,2017,10
+detencion_secuestro,canarias,2016,20
+detencion_secuestro,canarias,2015,0
+detencion_secuestro,cantabria,2022,10
+detencion_secuestro,cantabria,2021,0
+detencion_secuestro,cantabria,2020,0
+detencion_secuestro,cantabria,2019,0
+detencion_secuestro,cantabria,2018,10
+detencion_secuestro,cantabria,2017,0
+detencion_secuestro,cantabria,2016,0
+detencion_secuestro,cantabria,2015,10
+detencion_secuestro,castilla y leon,2022,40
+detencion_secuestro,castilla y leon,2021,0
+detencion_secuestro,castilla y leon,2020,10
+detencion_secuestro,castilla y leon,2019,40
+detencion_secuestro,castilla y leon,2018,0
+detencion_secuestro,castilla y leon,2017,10
+detencion_secuestro,castilla y leon,2016,0
+detencion_secuestro,castilla y leon,2015,0
+detencion_secuestro,castilla - la mancha,2022,20
+detencion_secuestro,castilla - la mancha,2021,20
+detencion_secuestro,castilla - la mancha,2020,10
+detencion_secuestro,castilla - la mancha,2019,0
+detencion_secuestro,castilla - la mancha,2018,0
+detencion_secuestro,castilla - la mancha,2017,0
+detencion_secuestro,castilla - la mancha,2016,10
+detencion_secuestro,castilla - la mancha,2015,20
+detencion_secuestro,cataluna,2022,30
+detencion_secuestro,cataluna,2021,30
+detencion_secuestro,cataluna,2020,50
+detencion_secuestro,cataluna,2019,10
+detencion_secuestro,cataluna,2018,10
+detencion_secuestro,cataluna,2017,50
+detencion_secuestro,cataluna,2016,30
+detencion_secuestro,cataluna,2015,20
+detencion_secuestro,comunitat valenciana,2022,60
+detencion_secuestro,comunitat valenciana,2021,60
+detencion_secuestro,comunitat valenciana,2020,40
+detencion_secuestro,comunitat valenciana,2019,40
+detencion_secuestro,comunitat valenciana,2018,20
+detencion_secuestro,comunitat valenciana,2017,30
+detencion_secuestro,comunitat valenciana,2016,60
+detencion_secuestro,comunitat valenciana,2015,0
+detencion_secuestro,extremadura,2022,10
+detencion_secuestro,extremadura,2021,0
+detencion_secuestro,extremadura,2020,0
+detencion_secuestro,extremadura,2019,10
+detencion_secuestro,extremadura,2018,0
+detencion_secuestro,extremadura,2017,0
+detencion_secuestro,extremadura,2016,0
+detencion_secuestro,extremadura,2015,0
+detencion_secuestro,galicia,2022,20
+detencion_secuestro,galicia,2021,20
+detencion_secuestro,galicia,2020,0
+detencion_secuestro,galicia,2019,10
+detencion_secuestro,galicia,2018,20
+detencion_secuestro,galicia,2017,20
+detencion_secuestro,galicia,2016,10
+detencion_secuestro,galicia,2015,10
+detencion_secuestro,"madrid, comunidad de",2022,40
+detencion_secuestro,"madrid, comunidad de",2021,10
+detencion_secuestro,"madrid, comunidad de",2020,0
+detencion_secuestro,"madrid, comunidad de",2019,20
+detencion_secuestro,"madrid, comunidad de",2018,20
+detencion_secuestro,"madrid, comunidad de",2017,10
+detencion_secuestro,"madrid, comunidad de",2016,10
+detencion_secuestro,"madrid, comunidad de",2015,10
+detencion_secuestro,"murcia, region de",2022,40
+detencion_secuestro,"murcia, region de",2021,0
+detencion_secuestro,"murcia, region de",2020,0
+detencion_secuestro,"murcia, region de",2019,0
+detencion_secuestro,"murcia, region de",2018,0
+detencion_secuestro,"murcia, region de",2017,20
+detencion_secuestro,"murcia, region de",2016,0
+detencion_secuestro,"murcia, region de",2015,0
+detencion_secuestro,"navarra, comunidad foral de",2022,0
+detencion_secuestro,"navarra, comunidad foral de",2021,10
+detencion_secuestro,"navarra, comunidad foral de",2020,0
+detencion_secuestro,"navarra, comunidad foral de",2019,0
+detencion_secuestro,"navarra, comunidad foral de",2018,0
+detencion_secuestro,"navarra, comunidad foral de",2017,10
+detencion_secuestro,"navarra, comunidad foral de",2016,10
+detencion_secuestro,"navarra, comunidad foral de",2015,10
+detencion_secuestro,pais vasco,2022,20
+detencion_secuestro,pais vasco,2021,10
+detencion_secuestro,pais vasco,2020,0
+detencion_secuestro,pais vasco,2019,20
+detencion_secuestro,pais vasco,2018,0
+detencion_secuestro,pais vasco,2017,30
+detencion_secuestro,pais vasco,2016,10
+detencion_secuestro,pais vasco,2015,10
+detencion_secuestro,"rioja, la",2022,10
+detencion_secuestro,"rioja, la",2021,0
+detencion_secuestro,"rioja, la",2020,0
+detencion_secuestro,"rioja, la",2019,10
+detencion_secuestro,"rioja, la",2018,0
+detencion_secuestro,"rioja, la",2017,0
+detencion_secuestro,"rioja, la",2016,0
+detencion_secuestro,"rioja, la",2015,50
+detencion_secuestro,ceuta,2022,0
+detencion_secuestro,ceuta,2021,0
+detencion_secuestro,ceuta,2020,0
+detencion_secuestro,ceuta,2019,0
+detencion_secuestro,ceuta,2018,0
+detencion_secuestro,ceuta,2017,0
+detencion_secuestro,ceuta,2016,0
+detencion_secuestro,ceuta,2015,0
+detencion_secuestro,melilla,2022,0
+detencion_secuestro,melilla,2021,0
+detencion_secuestro,melilla,2020,0
+detencion_secuestro,melilla,2019,0
+detencion_secuestro,melilla,2018,0
+detencion_secuestro,melilla,2017,0
+detencion_secuestro,melilla,2016,0
+detencion_secuestro,melilla,2015,0
+amenazas,andalucia,2022,211
+amenazas,andalucia,2021,1972
+amenazas,andalucia,2020,1567
+amenazas,andalucia,2019,187
+amenazas,andalucia,2018,1742
+amenazas,andalucia,2017,1753
+amenazas,andalucia,2016,167
+amenazas,andalucia,2015,1614
+amenazas,aragon,2022,1980
+amenazas,aragon,2021,1440
+amenazas,aragon,2020,1140
+amenazas,aragon,2019,1560
+amenazas,aragon,2018,1770
+amenazas,aragon,2017,1910
+amenazas,aragon,2016,1720
+amenazas,aragon,2015,1170
+amenazas,"asturias, principado de",2022,2330
+amenazas,"asturias, principado de",2021,1970
+amenazas,"asturias, principado de",2020,1330
+amenazas,"asturias, principado de",2019,1910
+amenazas,"asturias, principado de",2018,1830
+amenazas,"asturias, principado de",2017,1890
+amenazas,"asturias, principado de",2016,1620
+amenazas,"asturias, principado de",2015,1430
+amenazas,"balears, illes",2022,2840
+amenazas,"balears, illes",2021,2910
+amenazas,"balears, illes",2020,2260
+amenazas,"balears, illes",2019,3280
+amenazas,"balears, illes",2018,2990
+amenazas,"balears, illes",2017,2830
+amenazas,"balears, illes",2016,2950
+amenazas,"balears, illes",2015,2480
+amenazas,canarias,2022,6670
+amenazas,canarias,2021,6480
+amenazas,canarias,2020,5030
+amenazas,canarias,2019,6040
+amenazas,canarias,2018,5490
+amenazas,canarias,2017,4660
+amenazas,canarias,2016,4340
+amenazas,canarias,2015,4230
+amenazas,cantabria,2022,1160
+amenazas,cantabria,2021,1130
+amenazas,cantabria,2020,790
+amenazas,cantabria,2019,920
+amenazas,cantabria,2018,1140
+amenazas,cantabria,2017,830
+amenazas,cantabria,2016,1010
+amenazas,cantabria,2015,680
+amenazas,castilla y leon,2022,4170
+amenazas,castilla y leon,2021,3760
+amenazas,castilla y leon,2020,2560
+amenazas,castilla y leon,2019,3420
+amenazas,castilla y leon,2018,3320
+amenazas,castilla y leon,2017,3320
+amenazas,castilla y leon,2016,3590
+amenazas,castilla y leon,2015,3380
+amenazas,castilla - la mancha,2022,3760
+amenazas,castilla - la mancha,2021,3590
+amenazas,castilla - la mancha,2020,2630
+amenazas,castilla - la mancha,2019,3170
+amenazas,castilla - la mancha,2018,3420
+amenazas,castilla - la mancha,2017,3630
+amenazas,castilla - la mancha,2016,3350
+amenazas,castilla - la mancha,2015,3600
+amenazas,cataluna,2022,1021
+amenazas,cataluna,2021,9840
+amenazas,cataluna,2020,7000
+amenazas,cataluna,2019,8370
+amenazas,cataluna,2018,8470
+amenazas,cataluna,2017,7490
+amenazas,cataluna,2016,7900
+amenazas,cataluna,2015,8010
+amenazas,comunitat valenciana,2022,1439
+amenazas,comunitat valenciana,2021,1312
+amenazas,comunitat valenciana,2020,9600
+amenazas,comunitat valenciana,2019,115
+amenazas,comunitat valenciana,2018,1123
+amenazas,comunitat valenciana,2017,1018
+amenazas,comunitat valenciana,2016,1005
+amenazas,comunitat valenciana,2015,9590
+amenazas,extremadura,2022,2530
+amenazas,extremadura,2021,2450
+amenazas,extremadura,2020,1960
+amenazas,extremadura,2019,2060
+amenazas,extremadura,2018,1820
+amenazas,extremadura,2017,1980
+amenazas,extremadura,2016,2010
+amenazas,extremadura,2015,1930
+amenazas,galicia,2022,4020
+amenazas,galicia,2021,3360
+amenazas,galicia,2020,2520
+amenazas,galicia,2019,3430
+amenazas,galicia,2018,3800
+amenazas,galicia,2017,3160
+amenazas,galicia,2016,2780
+amenazas,galicia,2015,2970
+amenazas,"madrid, comunidad de",2022,7210
+amenazas,"madrid, comunidad de",2021,5970
+amenazas,"madrid, comunidad de",2020,4520
+amenazas,"madrid, comunidad de",2019,6310
+amenazas,"madrid, comunidad de",2018,5370
+amenazas,"madrid, comunidad de",2017,5650
+amenazas,"madrid, comunidad de",2016,5290
+amenazas,"madrid, comunidad de",2015,5120
+amenazas,"murcia, region de",2022,4920
+amenazas,"murcia, region de",2021,4330
+amenazas,"murcia, region de",2020,2710
+amenazas,"murcia, region de",2019,3160
+amenazas,"murcia, region de",2018,3410
+amenazas,"murcia, region de",2017,2880
+amenazas,"murcia, region de",2016,2830
+amenazas,"murcia, region de",2015,2520
+amenazas,"navarra, comunidad foral de",2022,1160
+amenazas,"navarra, comunidad foral de",2021,910
+amenazas,"navarra, comunidad foral de",2020,590
+amenazas,"navarra, comunidad foral de",2019,750
+amenazas,"navarra, comunidad foral de",2018,630
+amenazas,"navarra, comunidad foral de",2017,680
+amenazas,"navarra, comunidad foral de",2016,750
+amenazas,"navarra, comunidad foral de",2015,570
+amenazas,pais vasco,2022,4730
+amenazas,pais vasco,2021,3860
+amenazas,pais vasco,2020,2900
+amenazas,pais vasco,2019,3810
+amenazas,pais vasco,2018,2970
+amenazas,pais vasco,2017,2510
+amenazas,pais vasco,2016,2420
+amenazas,pais vasco,2015,2770
+amenazas,"rioja, la",2022,760
+amenazas,"rioja, la",2021,580
+amenazas,"rioja, la",2020,310
+amenazas,"rioja, la",2019,530
+amenazas,"rioja, la",2018,560
+amenazas,"rioja, la",2017,550
+amenazas,"rioja, la",2016,440
+amenazas,"rioja, la",2015,440
+amenazas,ceuta,2022,220
+amenazas,ceuta,2021,80
+amenazas,ceuta,2020,140
+amenazas,ceuta,2019,160
+amenazas,ceuta,2018,150
+amenazas,ceuta,2017,160
+amenazas,ceuta,2016,120
+amenazas,ceuta,2015,140
+amenazas,melilla,2022,250
+amenazas,melilla,2021,220
+amenazas,melilla,2020,110
+amenazas,melilla,2019,160
+amenazas,melilla,2018,140
+amenazas,melilla,2017,170
+amenazas,melilla,2016,160
+amenazas,melilla,2015,160
+coacciones,andalucia,2022,4130
+coacciones,andalucia,2021,3550
+coacciones,andalucia,2020,2290
+coacciones,andalucia,2019,3020
+coacciones,andalucia,2018,2500
+coacciones,andalucia,2017,2060
+coacciones,andalucia,2016,2120
+coacciones,andalucia,2015,1780
+coacciones,aragon,2022,670
+coacciones,aragon,2021,700
+coacciones,aragon,2020,430
+coacciones,aragon,2019,440
+coacciones,aragon,2018,490
+coacciones,aragon,2017,320
+coacciones,aragon,2016,310
+coacciones,aragon,2015,290
+coacciones,"asturias, principado de",2022,700
+coacciones,"asturias, principado de",2021,580
+coacciones,"asturias, principado de",2020,240
+coacciones,"asturias, principado de",2019,460
+coacciones,"asturias, principado de",2018,320
+coacciones,"asturias, principado de",2017,240
+coacciones,"asturias, principado de",2016,410
+coacciones,"asturias, principado de",2015,340
+coacciones,"balears, illes",2022,2060
+coacciones,"balears, illes",2021,2190
+coacciones,"balears, illes",2020,1720
+coacciones,"balears, illes",2019,1890
+coacciones,"balears, illes",2018,1510
+coacciones,"balears, illes",2017,1520
+coacciones,"balears, illes",2016,1650
+coacciones,"balears, illes",2015,1170
+coacciones,canarias,2022,1680
+coacciones,canarias,2021,1380
+coacciones,canarias,2020,850
+coacciones,canarias,2019,810
+coacciones,canarias,2018,800
+coacciones,canarias,2017,660
+coacciones,canarias,2016,720
+coacciones,canarias,2015,920
+coacciones,cantabria,2022,190
+coacciones,cantabria,2021,240
+coacciones,cantabria,2020,140
+coacciones,cantabria,2019,350
+coacciones,cantabria,2018,350
+coacciones,cantabria,2017,290
+coacciones,cantabria,2016,200
+coacciones,cantabria,2015,140
+coacciones,castilla y leon,2022,1370
+coacciones,castilla y leon,2021,1140
+coacciones,castilla y leon,2020,600
+coacciones,castilla y leon,2019,790
+coacciones,castilla y leon,2018,630
+coacciones,castilla y leon,2017,740
+coacciones,castilla y leon,2016,550
+coacciones,castilla y leon,2015,570
+coacciones,castilla - la mancha,2022,880
+coacciones,castilla - la mancha,2021,680
+coacciones,castilla - la mancha,2020,450
+coacciones,castilla - la mancha,2019,520
+coacciones,castilla - la mancha,2018,550
+coacciones,castilla - la mancha,2017,430
+coacciones,castilla - la mancha,2016,550
+coacciones,castilla - la mancha,2015,480
+coacciones,cataluna,2022,2150
+coacciones,cataluna,2021,2410
+coacciones,cataluna,2020,1420
+coacciones,cataluna,2019,1360
+coacciones,cataluna,2018,1430
+coacciones,cataluna,2017,1280
+coacciones,cataluna,2016,1350
+coacciones,cataluna,2015,1610
+coacciones,comunitat valenciana,2022,3070
+coacciones,comunitat valenciana,2021,2870
+coacciones,comunitat valenciana,2020,1810
+coacciones,comunitat valenciana,2019,2000
+coacciones,comunitat valenciana,2018,1750
+coacciones,comunitat valenciana,2017,1680
+coacciones,comunitat valenciana,2016,1770
+coacciones,comunitat valenciana,2015,1700
+coacciones,extremadura,2022,850
+coacciones,extremadura,2021,660
+coacciones,extremadura,2020,470
+coacciones,extremadura,2019,680
+coacciones,extremadura,2018,510
+coacciones,extremadura,2017,310
+coacciones,extremadura,2016,410
+coacciones,extremadura,2015,580
+coacciones,galicia,2022,1560
+coacciones,galicia,2021,1170
+coacciones,galicia,2020,860
+coacciones,galicia,2019,1100
+coacciones,galicia,2018,1130
+coacciones,galicia,2017,930
+coacciones,galicia,2016,1050
+coacciones,galicia,2015,810
+coacciones,"madrid, comunidad de",2022,2560
+coacciones,"madrid, comunidad de",2021,2070
+coacciones,"madrid, comunidad de",2020,1180
+coacciones,"madrid, comunidad de",2019,1620
+coacciones,"madrid, comunidad de",2018,1270
+coacciones,"madrid, comunidad de",2017,1450
+coacciones,"madrid, comunidad de",2016,1620
+coacciones,"madrid, comunidad de",2015,1490
+coacciones,"murcia, region de",2022,1000
+coacciones,"murcia, region de",2021,990
+coacciones,"murcia, region de",2020,690
+coacciones,"murcia, region de",2019,770
+coacciones,"murcia, region de",2018,740
+coacciones,"murcia, region de",2017,550
+coacciones,"murcia, region de",2016,530
+coacciones,"murcia, region de",2015,630
+coacciones,"navarra, comunidad foral de",2022,510
+coacciones,"navarra, comunidad foral de",2021,330
+coacciones,"navarra, comunidad foral de",2020,180
+coacciones,"navarra, comunidad foral de",2019,200
+coacciones,"navarra, comunidad foral de",2018,180
+coacciones,"navarra, comunidad foral de",2017,130
+coacciones,"navarra, comunidad foral de",2016,140
+coacciones,"navarra, comunidad foral de",2015,270
+coacciones,pais vasco,2022,2410
+coacciones,pais vasco,2021,1750
+coacciones,pais vasco,2020,1100
+coacciones,pais vasco,2019,1310
+coacciones,pais vasco,2018,1080
+coacciones,pais vasco,2017,850
+coacciones,pais vasco,2016,970
+coacciones,pais vasco,2015,810
+coacciones,"rioja, la",2022,260
+coacciones,"rioja, la",2021,350
+coacciones,"rioja, la",2020,200
+coacciones,"rioja, la",2019,100
+coacciones,"rioja, la",2018,180
+coacciones,"rioja, la",2017,110
+coacciones,"rioja, la",2016,160
+coacciones,"rioja, la",2015,110
+coacciones,ceuta,2022,10
+coacciones,ceuta,2021,10
+coacciones,ceuta,2020,0
+coacciones,ceuta,2019,0
+coacciones,ceuta,2018,20
+coacciones,ceuta,2017,20
+coacciones,ceuta,2016,10
+coacciones,ceuta,2015,10
+coacciones,melilla,2022,40
+coacciones,melilla,2021,30
+coacciones,melilla,2020,0
+coacciones,melilla,2019,60
+coacciones,melilla,2018,30
+coacciones,melilla,2017,20
+coacciones,melilla,2016,10
+coacciones,melilla,2015,0
+tortura_integridad_moral,andalucia,2022,1934
+tortura_integridad_moral,andalucia,2021,1943
+tortura_integridad_moral,andalucia,2020,1549
+tortura_integridad_moral,andalucia,2019,1744
+tortura_integridad_moral,andalucia,2018,1669
+tortura_integridad_moral,andalucia,2017,1541
+tortura_integridad_moral,andalucia,2016,1346
+tortura_integridad_moral,andalucia,2015,7790
+tortura_integridad_moral,aragon,2022,2190
+tortura_integridad_moral,aragon,2021,2120
+tortura_integridad_moral,aragon,2020,2020
+tortura_integridad_moral,aragon,2019,2250
+tortura_integridad_moral,aragon,2018,2520
+tortura_integridad_moral,aragon,2017,1820
+tortura_integridad_moral,aragon,2016,1370
+tortura_integridad_moral,aragon,2015,480
+tortura_integridad_moral,"asturias, principado de",2022,2010
+tortura_integridad_moral,"asturias, principado de",2021,2040
+tortura_integridad_moral,"asturias, principado de",2020,1320
+tortura_integridad_moral,"asturias, principado de",2019,1440
+tortura_integridad_moral,"asturias, principado de",2018,1280
+tortura_integridad_moral,"asturias, principado de",2017,1040
+tortura_integridad_moral,"asturias, principado de",2016,780
+tortura_integridad_moral,"asturias, principado de",2015,390
+tortura_integridad_moral,"balears, illes",2022,2380
+tortura_integridad_moral,"balears, illes",2021,2620
+tortura_integridad_moral,"balears, illes",2020,1760
+tortura_integridad_moral,"balears, illes",2019,2680
+tortura_integridad_moral,"balears, illes",2018,2500
+tortura_integridad_moral,"balears, illes",2017,2290
+tortura_integridad_moral,"balears, illes",2016,2090
+tortura_integridad_moral,"balears, illes",2015,1260
+tortura_integridad_moral,canarias,2022,8930
+tortura_integridad_moral,canarias,2021,1011
+tortura_integridad_moral,canarias,2020,7600
+tortura_integridad_moral,canarias,2019,7800
+tortura_integridad_moral,canarias,2018,7690
+tortura_integridad_moral,canarias,2017,7450
+tortura_integridad_moral,canarias,2016,6320
+tortura_integridad_moral,canarias,2015,3490
+tortura_integridad_moral,cantabria,2022,1380
+tortura_integridad_moral,cantabria,2021,1160
+tortura_integridad_moral,cantabria,2020,830
+tortura_integridad_moral,cantabria,2019,940
+tortura_integridad_moral,cantabria,2018,860
+tortura_integridad_moral,cantabria,2017,760
+tortura_integridad_moral,cantabria,2016,470
+tortura_integridad_moral,cantabria,2015,310
+tortura_integridad_moral,castilla y leon,2022,4300
+tortura_integridad_moral,castilla y leon,2021,3540
+tortura_integridad_moral,castilla y leon,2020,2510
+tortura_integridad_moral,castilla y leon,2019,3170
+tortura_integridad_moral,castilla y leon,2018,2640
+tortura_integridad_moral,castilla y leon,2017,2440
+tortura_integridad_moral,castilla y leon,2016,2340
+tortura_integridad_moral,castilla y leon,2015,1480
+tortura_integridad_moral,castilla - la mancha,2022,3360
+tortura_integridad_moral,castilla - la mancha,2021,2990
+tortura_integridad_moral,castilla - la mancha,2020,1780
+tortura_integridad_moral,castilla - la mancha,2019,2760
+tortura_integridad_moral,castilla - la mancha,2018,2400
+tortura_integridad_moral,castilla - la mancha,2017,2190
+tortura_integridad_moral,castilla - la mancha,2016,1890
+tortura_integridad_moral,castilla - la mancha,2015,1260
+tortura_integridad_moral,cataluna,2022,8160
+tortura_integridad_moral,cataluna,2021,8600
+tortura_integridad_moral,cataluna,2020,6550
+tortura_integridad_moral,cataluna,2019,6950
+tortura_integridad_moral,cataluna,2018,6290
+tortura_integridad_moral,cataluna,2017,5680
+tortura_integridad_moral,cataluna,2016,5520
+tortura_integridad_moral,cataluna,2015,3790
+tortura_integridad_moral,comunitat valenciana,2022,1265
+tortura_integridad_moral,comunitat valenciana,2021,119
+tortura_integridad_moral,comunitat valenciana,2020,9090
+tortura_integridad_moral,comunitat valenciana,2019,1106
+tortura_integridad_moral,comunitat valenciana,2018,9740
+tortura_integridad_moral,comunitat valenciana,2017,1008
+tortura_integridad_moral,comunitat valenciana,2016,8170
+tortura_integridad_moral,comunitat valenciana,2015,4610
+tortura_integridad_moral,extremadura,2022,3080
+tortura_integridad_moral,extremadura,2021,3010
+tortura_integridad_moral,extremadura,2020,2260
+tortura_integridad_moral,extremadura,2019,2040
+tortura_integridad_moral,extremadura,2018,1740
+tortura_integridad_moral,extremadura,2017,1790
+tortura_integridad_moral,extremadura,2016,1430
+tortura_integridad_moral,extremadura,2015,900
+tortura_integridad_moral,galicia,2022,4320
+tortura_integridad_moral,galicia,2021,3970
+tortura_integridad_moral,galicia,2020,2390
+tortura_integridad_moral,galicia,2019,3020
+tortura_integridad_moral,galicia,2018,2470
+tortura_integridad_moral,galicia,2017,2280
+tortura_integridad_moral,galicia,2016,1680
+tortura_integridad_moral,galicia,2015,1080
+tortura_integridad_moral,"madrid, comunidad de",2022,5310
+tortura_integridad_moral,"madrid, comunidad de",2021,5170
+tortura_integridad_moral,"madrid, comunidad de",2020,4030
+tortura_integridad_moral,"madrid, comunidad de",2019,5130
+tortura_integridad_moral,"madrid, comunidad de",2018,4790
+tortura_integridad_moral,"madrid, comunidad de",2017,3980
+tortura_integridad_moral,"madrid, comunidad de",2016,2970
+tortura_integridad_moral,"madrid, comunidad de",2015,1740
+tortura_integridad_moral,"murcia, region de",2022,3020
+tortura_integridad_moral,"murcia, region de",2021,3180
+tortura_integridad_moral,"murcia, region de",2020,2140
+tortura_integridad_moral,"murcia, region de",2019,2290
+tortura_integridad_moral,"murcia, region de",2018,2530
+tortura_integridad_moral,"murcia, region de",2017,2420
+tortura_integridad_moral,"murcia, region de",2016,2090
+tortura_integridad_moral,"murcia, region de",2015,1660
+tortura_integridad_moral,"navarra, comunidad foral de",2022,1400
+tortura_integridad_moral,"navarra, comunidad foral de",2021,1090
+tortura_integridad_moral,"navarra, comunidad foral de",2020,680
+tortura_integridad_moral,"navarra, comunidad foral de",2019,920
+tortura_integridad_moral,"navarra, comunidad foral de",2018,710
+tortura_integridad_moral,"navarra, comunidad foral de",2017,730
+tortura_integridad_moral,"navarra, comunidad foral de",2016,490
+tortura_integridad_moral,"navarra, comunidad foral de",2015,290
+tortura_integridad_moral,pais vasco,2022,4830
+tortura_integridad_moral,pais vasco,2021,3440
+tortura_integridad_moral,pais vasco,2020,2390
+tortura_integridad_moral,pais vasco,2019,2870
+tortura_integridad_moral,pais vasco,2018,2200
+tortura_integridad_moral,pais vasco,2017,1990
+tortura_integridad_moral,pais vasco,2016,1040
+tortura_integridad_moral,pais vasco,2015,220
+tortura_integridad_moral,"rioja, la",2022,690
+tortura_integridad_moral,"rioja, la",2021,500
+tortura_integridad_moral,"rioja, la",2020,400
+tortura_integridad_moral,"rioja, la",2019,440
+tortura_integridad_moral,"rioja, la",2018,470
+tortura_integridad_moral,"rioja, la",2017,410
+tortura_integridad_moral,"rioja, la",2016,370
+tortura_integridad_moral,"rioja, la",2015,190
+tortura_integridad_moral,ceuta,2022,170
+tortura_integridad_moral,ceuta,2021,210
+tortura_integridad_moral,ceuta,2020,150
+tortura_integridad_moral,ceuta,2019,190
+tortura_integridad_moral,ceuta,2018,260
+tortura_integridad_moral,ceuta,2017,80
+tortura_integridad_moral,ceuta,2016,20
+tortura_integridad_moral,ceuta,2015,30
+tortura_integridad_moral,melilla,2022,310
+tortura_integridad_moral,melilla,2021,220
+tortura_integridad_moral,melilla,2020,150
+tortura_integridad_moral,melilla,2019,170
+tortura_integridad_moral,melilla,2018,220
+tortura_integridad_moral,melilla,2017,90
+tortura_integridad_moral,melilla,2016,100
+tortura_integridad_moral,melilla,2015,80
+agresion_sexual,andalucia,2022,160
+agresion_sexual,andalucia,2021,200
+agresion_sexual,andalucia,2020,170
+agresion_sexual,andalucia,2019,170
+agresion_sexual,andalucia,2018,80
+agresion_sexual,andalucia,2017,30
+agresion_sexual,andalucia,2016,190
+agresion_sexual,andalucia,2015,120
+agresion_sexual,aragon,2022,20
+agresion_sexual,aragon,2021,10
+agresion_sexual,aragon,2020,20
+agresion_sexual,aragon,2019,0
+agresion_sexual,aragon,2018,0
+agresion_sexual,aragon,2017,0
+agresion_sexual,aragon,2016,10
+agresion_sexual,aragon,2015,0
+agresion_sexual,"asturias, principado de",2022,30
+agresion_sexual,"asturias, principado de",2021,40
+agresion_sexual,"asturias, principado de",2020,40
+agresion_sexual,"asturias, principado de",2019,10
+agresion_sexual,"asturias, principado de",2018,20
+agresion_sexual,"asturias, principado de",2017,0
+agresion_sexual,"asturias, principado de",2016,30
+agresion_sexual,"asturias, principado de",2015,30
+agresion_sexual,"balears, illes",2022,30
+agresion_sexual,"balears, illes",2021,0
+agresion_sexual,"balears, illes",2020,20
+agresion_sexual,"balears, illes",2019,20
+agresion_sexual,"balears, illes",2018,0
+agresion_sexual,"balears, illes",2017,40
+agresion_sexual,"balears, illes",2016,20
+agresion_sexual,"balears, illes",2015,10
+agresion_sexual,canarias,2022,20
+agresion_sexual,canarias,2021,40
+agresion_sexual,canarias,2020,30
+agresion_sexual,canarias,2019,50
+agresion_sexual,canarias,2018,20
+agresion_sexual,canarias,2017,30
+agresion_sexual,canarias,2016,10
+agresion_sexual,canarias,2015,10
+agresion_sexual,cantabria,2022,10
+agresion_sexual,cantabria,2021,20
+agresion_sexual,cantabria,2020,0
+agresion_sexual,cantabria,2019,0
+agresion_sexual,cantabria,2018,0
+agresion_sexual,cantabria,2017,0
+agresion_sexual,cantabria,2016,0
+agresion_sexual,cantabria,2015,0
+agresion_sexual,castilla y leon,2022,40
+agresion_sexual,castilla y leon,2021,40
+agresion_sexual,castilla y leon,2020,0
+agresion_sexual,castilla y leon,2019,20
+agresion_sexual,castilla y leon,2018,10
+agresion_sexual,castilla y leon,2017,40
+agresion_sexual,castilla y leon,2016,10
+agresion_sexual,castilla y leon,2015,20
+agresion_sexual,castilla - la mancha,2022,20
+agresion_sexual,castilla - la mancha,2021,0
+agresion_sexual,castilla - la mancha,2020,10
+agresion_sexual,castilla - la mancha,2019,70
+agresion_sexual,castilla - la mancha,2018,30
+agresion_sexual,castilla - la mancha,2017,30
+agresion_sexual,castilla - la mancha,2016,40
+agresion_sexual,castilla - la mancha,2015,20
+agresion_sexual,cataluna,2022,130
+agresion_sexual,cataluna,2021,110
+agresion_sexual,cataluna,2020,100
+agresion_sexual,cataluna,2019,100
+agresion_sexual,cataluna,2018,70
+agresion_sexual,cataluna,2017,100
+agresion_sexual,cataluna,2016,60
+agresion_sexual,cataluna,2015,50
+agresion_sexual,comunitat valenciana,2022,100
+agresion_sexual,comunitat valenciana,2021,110
+agresion_sexual,comunitat valenciana,2020,60
+agresion_sexual,comunitat valenciana,2019,120
+agresion_sexual,comunitat valenciana,2018,90
+agresion_sexual,comunitat valenciana,2017,150
+agresion_sexual,comunitat valenciana,2016,110
+agresion_sexual,comunitat valenciana,2015,100
+agresion_sexual,extremadura,2022,60
+agresion_sexual,extremadura,2021,40
+agresion_sexual,extremadura,2020,10
+agresion_sexual,extremadura,2019,30
+agresion_sexual,extremadura,2018,0
+agresion_sexual,extremadura,2017,0
+agresion_sexual,extremadura,2016,20
+agresion_sexual,extremadura,2015,10
+agresion_sexual,galicia,2022,30
+agresion_sexual,galicia,2021,20
+agresion_sexual,galicia,2020,20
+agresion_sexual,galicia,2019,40
+agresion_sexual,galicia,2018,20
+agresion_sexual,galicia,2017,10
+agresion_sexual,galicia,2016,40
+agresion_sexual,galicia,2015,60
+agresion_sexual,"madrid, comunidad de",2022,70
+agresion_sexual,"madrid, comunidad de",2021,60
+agresion_sexual,"madrid, comunidad de",2020,30
+agresion_sexual,"madrid, comunidad de",2019,60
+agresion_sexual,"madrid, comunidad de",2018,80
+agresion_sexual,"madrid, comunidad de",2017,70
+agresion_sexual,"madrid, comunidad de",2016,80
+agresion_sexual,"madrid, comunidad de",2015,50
+agresion_sexual,"murcia, region de",2022,90
+agresion_sexual,"murcia, region de",2021,60
+agresion_sexual,"murcia, region de",2020,20
+agresion_sexual,"murcia, region de",2019,40
+agresion_sexual,"murcia, region de",2018,10
+agresion_sexual,"murcia, region de",2017,0
+agresion_sexual,"murcia, region de",2016,0
+agresion_sexual,"murcia, region de",2015,10
+agresion_sexual,"navarra, comunidad foral de",2022,20
+agresion_sexual,"navarra, comunidad foral de",2021,60
+agresion_sexual,"navarra, comunidad foral de",2020,0
+agresion_sexual,"navarra, comunidad foral de",2019,20
+agresion_sexual,"navarra, comunidad foral de",2018,10
+agresion_sexual,"navarra, comunidad foral de",2017,20
+agresion_sexual,"navarra, comunidad foral de",2016,0
+agresion_sexual,"navarra, comunidad foral de",2015,10
+agresion_sexual,pais vasco,2022,80
+agresion_sexual,pais vasco,2021,50
+agresion_sexual,pais vasco,2020,20
+agresion_sexual,pais vasco,2019,10
+agresion_sexual,pais vasco,2018,10
+agresion_sexual,pais vasco,2017,30
+agresion_sexual,pais vasco,2016,10
+agresion_sexual,pais vasco,2015,0
+agresion_sexual,"rioja, la",2022,0
+agresion_sexual,"rioja, la",2021,0
+agresion_sexual,"rioja, la",2020,0
+agresion_sexual,"rioja, la",2019,0
+agresion_sexual,"rioja, la",2018,0
+agresion_sexual,"rioja, la",2017,0
+agresion_sexual,"rioja, la",2016,0
+agresion_sexual,"rioja, la",2015,0
+agresion_sexual,ceuta,2022,0
+agresion_sexual,ceuta,2021,0
+agresion_sexual,ceuta,2020,0
+agresion_sexual,ceuta,2019,0
+agresion_sexual,ceuta,2018,0
+agresion_sexual,ceuta,2017,0
+agresion_sexual,ceuta,2016,0
+agresion_sexual,ceuta,2015,0
+agresion_sexual,melilla,2022,10
+agresion_sexual,melilla,2021,0
+agresion_sexual,melilla,2020,0
+agresion_sexual,melilla,2019,0
+agresion_sexual,melilla,2018,0
+agresion_sexual,melilla,2017,0
+agresion_sexual,melilla,2016,0
+agresion_sexual,melilla,2015,0
+abuso_sexual,andalucia,2022,180
+abuso_sexual,andalucia,2021,90
+abuso_sexual,andalucia,2020,40
+abuso_sexual,andalucia,2019,140
+abuso_sexual,andalucia,2018,50
+abuso_sexual,andalucia,2017,70
+abuso_sexual,andalucia,2016,20
+abuso_sexual,andalucia,2015,20
+abuso_sexual,aragon,2022,20
+abuso_sexual,aragon,2021,20
+abuso_sexual,aragon,2020,0
+abuso_sexual,aragon,2019,20
+abuso_sexual,aragon,2018,10
+abuso_sexual,aragon,2017,0
+abuso_sexual,aragon,2016,0
+abuso_sexual,aragon,2015,0
+abuso_sexual,"asturias, principado de",2022,20
+abuso_sexual,"asturias, principado de",2021,10
+abuso_sexual,"asturias, principado de",2020,10
+abuso_sexual,"asturias, principado de",2019,10
+abuso_sexual,"asturias, principado de",2018,10
+abuso_sexual,"asturias, principado de",2017,0
+abuso_sexual,"asturias, principado de",2016,10
+abuso_sexual,"asturias, principado de",2015,0
+abuso_sexual,"balears, illes",2022,0
+abuso_sexual,"balears, illes",2021,20
+abuso_sexual,"balears, illes",2020,10
+abuso_sexual,"balears, illes",2019,10
+abuso_sexual,"balears, illes",2018,10
+abuso_sexual,"balears, illes",2017,0
+abuso_sexual,"balears, illes",2016,10
+abuso_sexual,"balears, illes",2015,10
+abuso_sexual,canarias,2022,0
+abuso_sexual,canarias,2021,30
+abuso_sexual,canarias,2020,20
+abuso_sexual,canarias,2019,40
+abuso_sexual,canarias,2018,20
+abuso_sexual,canarias,2017,0
+abuso_sexual,canarias,2016,20
+abuso_sexual,canarias,2015,10
+abuso_sexual,cantabria,2022,0
+abuso_sexual,cantabria,2021,0
+abuso_sexual,cantabria,2020,0
+abuso_sexual,cantabria,2019,0
+abuso_sexual,cantabria,2018,0
+abuso_sexual,cantabria,2017,0
+abuso_sexual,cantabria,2016,0
+abuso_sexual,cantabria,2015,0
+abuso_sexual,castilla y leon,2022,60
+abuso_sexual,castilla y leon,2021,40
+abuso_sexual,castilla y leon,2020,20
+abuso_sexual,castilla y leon,2019,10
+abuso_sexual,castilla y leon,2018,10
+abuso_sexual,castilla y leon,2017,0
+abuso_sexual,castilla y leon,2016,30
+abuso_sexual,castilla y leon,2015,20
+abuso_sexual,castilla - la mancha,2022,10
+abuso_sexual,castilla - la mancha,2021,20
+abuso_sexual,castilla - la mancha,2020,20
+abuso_sexual,castilla - la mancha,2019,10
+abuso_sexual,castilla - la mancha,2018,10
+abuso_sexual,castilla - la mancha,2017,0
+abuso_sexual,castilla - la mancha,2016,20
+abuso_sexual,castilla - la mancha,2015,30
+abuso_sexual,cataluna,2022,70
+abuso_sexual,cataluna,2021,70
+abuso_sexual,cataluna,2020,60
+abuso_sexual,cataluna,2019,30
+abuso_sexual,cataluna,2018,10
+abuso_sexual,cataluna,2017,50
+abuso_sexual,cataluna,2016,20
+abuso_sexual,cataluna,2015,20
+abuso_sexual,comunitat valenciana,2022,100
+abuso_sexual,comunitat valenciana,2021,80
+abuso_sexual,comunitat valenciana,2020,60
+abuso_sexual,comunitat valenciana,2019,30
+abuso_sexual,comunitat valenciana,2018,50
+abuso_sexual,comunitat valenciana,2017,20
+abuso_sexual,comunitat valenciana,2016,40
+abuso_sexual,comunitat valenciana,2015,30
+abuso_sexual,extremadura,2022,10
+abuso_sexual,extremadura,2021,20
+abuso_sexual,extremadura,2020,10
+abuso_sexual,extremadura,2019,10
+abuso_sexual,extremadura,2018,0
+abuso_sexual,extremadura,2017,40
+abuso_sexual,extremadura,2016,0
+abuso_sexual,extremadura,2015,20
+abuso_sexual,galicia,2022,10
+abuso_sexual,galicia,2021,60
+abuso_sexual,galicia,2020,10
+abuso_sexual,galicia,2019,10
+abuso_sexual,galicia,2018,0
+abuso_sexual,galicia,2017,10
+abuso_sexual,galicia,2016,20
+abuso_sexual,galicia,2015,0
+abuso_sexual,"madrid, comunidad de",2022,110
+abuso_sexual,"madrid, comunidad de",2021,50
+abuso_sexual,"madrid, comunidad de",2020,50
+abuso_sexual,"madrid, comunidad de",2019,30
+abuso_sexual,"madrid, comunidad de",2018,20
+abuso_sexual,"madrid, comunidad de",2017,40
+abuso_sexual,"madrid, comunidad de",2016,10
+abuso_sexual,"madrid, comunidad de",2015,20
+abuso_sexual,"murcia, region de",2022,40
+abuso_sexual,"murcia, region de",2021,10
+abuso_sexual,"murcia, region de",2020,0
+abuso_sexual,"murcia, region de",2019,50
+abuso_sexual,"murcia, region de",2018,10
+abuso_sexual,"murcia, region de",2017,20
+abuso_sexual,"murcia, region de",2016,10
+abuso_sexual,"murcia, region de",2015,0
+abuso_sexual,"navarra, comunidad foral de",2022,0
+abuso_sexual,"navarra, comunidad foral de",2021,0
+abuso_sexual,"navarra, comunidad foral de",2020,10
+abuso_sexual,"navarra, comunidad foral de",2019,0
+abuso_sexual,"navarra, comunidad foral de",2018,10
+abuso_sexual,"navarra, comunidad foral de",2017,10
+abuso_sexual,"navarra, comunidad foral de",2016,0
+abuso_sexual,"navarra, comunidad foral de",2015,0
+abuso_sexual,pais vasco,2022,50
+abuso_sexual,pais vasco,2021,40
+abuso_sexual,pais vasco,2020,80
+abuso_sexual,pais vasco,2019,10
+abuso_sexual,pais vasco,2018,40
+abuso_sexual,pais vasco,2017,10
+abuso_sexual,pais vasco,2016,10
+abuso_sexual,pais vasco,2015,10
+abuso_sexual,"rioja, la",2022,0
+abuso_sexual,"rioja, la",2021,0
+abuso_sexual,"rioja, la",2020,0
+abuso_sexual,"rioja, la",2019,0
+abuso_sexual,"rioja, la",2018,0
+abuso_sexual,"rioja, la",2017,0
+abuso_sexual,"rioja, la",2016,0
+abuso_sexual,"rioja, la",2015,0
+abuso_sexual,ceuta,2022,0
+abuso_sexual,ceuta,2021,0
+abuso_sexual,ceuta,2020,10
+abuso_sexual,ceuta,2019,0
+abuso_sexual,ceuta,2018,0
+abuso_sexual,ceuta,2017,0
+abuso_sexual,ceuta,2016,0
+abuso_sexual,ceuta,2015,0
+abuso_sexual,melilla,2022,0
+abuso_sexual,melilla,2021,0
+abuso_sexual,melilla,2020,0
+abuso_sexual,melilla,2019,0
+abuso_sexual,melilla,2018,10
+abuso_sexual,melilla,2017,0
+abuso_sexual,melilla,2016,0
+abuso_sexual,melilla,2015,0
+abuso_menores,andalucia,2022,20
+abuso_menores,andalucia,2021,0
+abuso_menores,andalucia,2020,0
+abuso_menores,andalucia,2019,0
+abuso_menores,andalucia,2018,0
+abuso_menores,andalucia,2017,0
+abuso_menores,andalucia,2016,0
+abuso_menores,andalucia,2015,0
+abuso_menores,aragon,2022,0
+abuso_menores,aragon,2021,0
+abuso_menores,aragon,2020,0
+abuso_menores,aragon,2019,0
+abuso_menores,aragon,2018,0
+abuso_menores,aragon,2017,0
+abuso_menores,aragon,2016,0
+abuso_menores,aragon,2015,0
+abuso_menores,"asturias, principado de",2022,10
+abuso_menores,"asturias, principado de",2021,0
+abuso_menores,"asturias, principado de",2020,0
+abuso_menores,"asturias, principado de",2019,0
+abuso_menores,"asturias, principado de",2018,0
+abuso_menores,"asturias, principado de",2017,0
+abuso_menores,"asturias, principado de",2016,0
+abuso_menores,"asturias, principado de",2015,0
+abuso_menores,"balears, illes",2022,20
+abuso_menores,"balears, illes",2021,0
+abuso_menores,"balears, illes",2020,0
+abuso_menores,"balears, illes",2019,0
+abuso_menores,"balears, illes",2018,0
+abuso_menores,"balears, illes",2017,0
+abuso_menores,"balears, illes",2016,0
+abuso_menores,"balears, illes",2015,0
+abuso_menores,canarias,2022,0
+abuso_menores,canarias,2021,0
+abuso_menores,canarias,2020,0
+abuso_menores,canarias,2019,0
+abuso_menores,canarias,2018,0
+abuso_menores,canarias,2017,0
+abuso_menores,canarias,2016,0
+abuso_menores,canarias,2015,0
+abuso_menores,cantabria,2022,0
+abuso_menores,cantabria,2021,0
+abuso_menores,cantabria,2020,0
+abuso_menores,cantabria,2019,0
+abuso_menores,cantabria,2018,0
+abuso_menores,cantabria,2017,0
+abuso_menores,cantabria,2016,0
+abuso_menores,cantabria,2015,0
+abuso_menores,castilla y leon,2022,10
+abuso_menores,castilla y leon,2021,0
+abuso_menores,castilla y leon,2020,0
+abuso_menores,castilla y leon,2019,0
+abuso_menores,castilla y leon,2018,0
+abuso_menores,castilla y leon,2017,0
+abuso_menores,castilla y leon,2016,0
+abuso_menores,castilla y leon,2015,0
+abuso_menores,castilla - la mancha,2022,10
+abuso_menores,castilla - la mancha,2021,0
+abuso_menores,castilla - la mancha,2020,0
+abuso_menores,castilla - la mancha,2019,0
+abuso_menores,castilla - la mancha,2018,0
+abuso_menores,castilla - la mancha,2017,0
+abuso_menores,castilla - la mancha,2016,0
+abuso_menores,castilla - la mancha,2015,0
+abuso_menores,cataluna,2022,10
+abuso_menores,cataluna,2021,0
+abuso_menores,cataluna,2020,0
+abuso_menores,cataluna,2019,0
+abuso_menores,cataluna,2018,0
+abuso_menores,cataluna,2017,0
+abuso_menores,cataluna,2016,0
+abuso_menores,cataluna,2015,0
+abuso_menores,comunitat valenciana,2022,30
+abuso_menores,comunitat valenciana,2021,0
+abuso_menores,comunitat valenciana,2020,0
+abuso_menores,comunitat valenciana,2019,0
+abuso_menores,comunitat valenciana,2018,0
+abuso_menores,comunitat valenciana,2017,0
+abuso_menores,comunitat valenciana,2016,0
+abuso_menores,comunitat valenciana,2015,0
+abuso_menores,extremadura,2022,0
+abuso_menores,extremadura,2021,0
+abuso_menores,extremadura,2020,0
+abuso_menores,extremadura,2019,0
+abuso_menores,extremadura,2018,0
+abuso_menores,extremadura,2017,0
+abuso_menores,extremadura,2016,0
+abuso_menores,extremadura,2015,0
+abuso_menores,galicia,2022,10
+abuso_menores,galicia,2021,0
+abuso_menores,galicia,2020,0
+abuso_menores,galicia,2019,0
+abuso_menores,galicia,2018,0
+abuso_menores,galicia,2017,0
+abuso_menores,galicia,2016,0
+abuso_menores,galicia,2015,0
+abuso_menores,"madrid, comunidad de",2022,30
+abuso_menores,"madrid, comunidad de",2021,0
+abuso_menores,"madrid, comunidad de",2020,0
+abuso_menores,"madrid, comunidad de",2019,0
+abuso_menores,"madrid, comunidad de",2018,0
+abuso_menores,"madrid, comunidad de",2017,0
+abuso_menores,"madrid, comunidad de",2016,0
+abuso_menores,"madrid, comunidad de",2015,0
+abuso_menores,"murcia, region de",2022,10
+abuso_menores,"murcia, region de",2021,0
+abuso_menores,"murcia, region de",2020,0
+abuso_menores,"murcia, region de",2019,0
+abuso_menores,"murcia, region de",2018,0
+abuso_menores,"murcia, region de",2017,0
+abuso_menores,"murcia, region de",2016,0
+abuso_menores,"murcia, region de",2015,0
+abuso_menores,"navarra, comunidad foral de",2022,0
+abuso_menores,"navarra, comunidad foral de",2021,0
+abuso_menores,"navarra, comunidad foral de",2020,0
+abuso_menores,"navarra, comunidad foral de",2019,0
+abuso_menores,"navarra, comunidad foral de",2018,0
+abuso_menores,"navarra, comunidad foral de",2017,0
+abuso_menores,"navarra, comunidad foral de",2016,0
+abuso_menores,"navarra, comunidad foral de",2015,0
+abuso_menores,pais vasco,2022,30
+abuso_menores,pais vasco,2021,0
+abuso_menores,pais vasco,2020,0
+abuso_menores,pais vasco,2019,0
+abuso_menores,pais vasco,2018,0
+abuso_menores,pais vasco,2017,0
+abuso_menores,pais vasco,2016,0
+abuso_menores,pais vasco,2015,0
+abuso_menores,"rioja, la",2022,0
+abuso_menores,"rioja, la",2021,0
+abuso_menores,"rioja, la",2020,0
+abuso_menores,"rioja, la",2019,0
+abuso_menores,"rioja, la",2018,0
+abuso_menores,"rioja, la",2017,0
+abuso_menores,"rioja, la",2016,0
+abuso_menores,"rioja, la",2015,0
+abuso_menores,ceuta,2022,0
+abuso_menores,ceuta,2021,0
+abuso_menores,ceuta,2020,0
+abuso_menores,ceuta,2019,0
+abuso_menores,ceuta,2018,0
+abuso_menores,ceuta,2017,0
+abuso_menores,ceuta,2016,0
+abuso_menores,ceuta,2015,0
+abuso_menores,melilla,2022,0
+abuso_menores,melilla,2021,0
+abuso_menores,melilla,2020,0
+abuso_menores,melilla,2019,0
+abuso_menores,melilla,2018,0
+abuso_menores,melilla,2017,0
+abuso_menores,melilla,2016,0
+abuso_menores,melilla,2015,0
+allanamiento,andalucia,2022,180
+allanamiento,andalucia,2021,90
+allanamiento,andalucia,2020,130
+allanamiento,andalucia,2019,140
+allanamiento,andalucia,2018,160
+allanamiento,andalucia,2017,250
+allanamiento,andalucia,2016,190
+allanamiento,andalucia,2015,170
+allanamiento,aragon,2022,0
+allanamiento,aragon,2021,0
+allanamiento,aragon,2020,10
+allanamiento,aragon,2019,10
+allanamiento,aragon,2018,30
+allanamiento,aragon,2017,30
+allanamiento,aragon,2016,10
+allanamiento,aragon,2015,10
+allanamiento,"asturias, principado de",2022,0
+allanamiento,"asturias, principado de",2021,10
+allanamiento,"asturias, principado de",2020,0
+allanamiento,"asturias, principado de",2019,0
+allanamiento,"asturias, principado de",2018,30
+allanamiento,"asturias, principado de",2017,30
+allanamiento,"asturias, principado de",2016,30
+allanamiento,"asturias, principado de",2015,60
+allanamiento,"balears, illes",2022,50
+allanamiento,"balears, illes",2021,20
+allanamiento,"balears, illes",2020,80
+allanamiento,"balears, illes",2019,60
+allanamiento,"balears, illes",2018,60
+allanamiento,"balears, illes",2017,110
+allanamiento,"balears, illes",2016,130
+allanamiento,"balears, illes",2015,50
+allanamiento,canarias,2022,0
+allanamiento,canarias,2021,10
+allanamiento,canarias,2020,10
+allanamiento,canarias,2019,20
+allanamiento,canarias,2018,50
+allanamiento,canarias,2017,40
+allanamiento,canarias,2016,30
+allanamiento,canarias,2015,30
+allanamiento,cantabria,2022,10
+allanamiento,cantabria,2021,0
+allanamiento,cantabria,2020,10
+allanamiento,cantabria,2019,0
+allanamiento,cantabria,2018,0
+allanamiento,cantabria,2017,10
+allanamiento,cantabria,2016,30
+allanamiento,cantabria,2015,10
+allanamiento,castilla y leon,2022,10
+allanamiento,castilla y leon,2021,10
+allanamiento,castilla y leon,2020,0
+allanamiento,castilla y leon,2019,20
+allanamiento,castilla y leon,2018,10
+allanamiento,castilla y leon,2017,30
+allanamiento,castilla y leon,2016,10
+allanamiento,castilla y leon,2015,10
+allanamiento,castilla - la mancha,2022,30
+allanamiento,castilla - la mancha,2021,0
+allanamiento,castilla - la mancha,2020,0
+allanamiento,castilla - la mancha,2019,50
+allanamiento,castilla - la mancha,2018,20
+allanamiento,castilla - la mancha,2017,20
+allanamiento,castilla - la mancha,2016,10
+allanamiento,castilla - la mancha,2015,40
+allanamiento,cataluna,2022,320
+allanamiento,cataluna,2021,250
+allanamiento,cataluna,2020,110
+allanamiento,cataluna,2019,200
+allanamiento,cataluna,2018,290
+allanamiento,cataluna,2017,350
+allanamiento,cataluna,2016,270
+allanamiento,cataluna,2015,240
+allanamiento,comunitat valenciana,2022,240
+allanamiento,comunitat valenciana,2021,170
+allanamiento,comunitat valenciana,2020,120
+allanamiento,comunitat valenciana,2019,100
+allanamiento,comunitat valenciana,2018,80
+allanamiento,comunitat valenciana,2017,160
+allanamiento,comunitat valenciana,2016,230
+allanamiento,comunitat valenciana,2015,170
+allanamiento,extremadura,2022,0
+allanamiento,extremadura,2021,0
+allanamiento,extremadura,2020,10
+allanamiento,extremadura,2019,10
+allanamiento,extremadura,2018,0
+allanamiento,extremadura,2017,10
+allanamiento,extremadura,2016,10
+allanamiento,extremadura,2015,0
+allanamiento,galicia,2022,10
+allanamiento,galicia,2021,30
+allanamiento,galicia,2020,20
+allanamiento,galicia,2019,30
+allanamiento,galicia,2018,10
+allanamiento,galicia,2017,40
+allanamiento,galicia,2016,70
+allanamiento,galicia,2015,50
+allanamiento,"madrid, comunidad de",2022,10
+allanamiento,"madrid, comunidad de",2021,30
+allanamiento,"madrid, comunidad de",2020,30
+allanamiento,"madrid, comunidad de",2019,70
+allanamiento,"madrid, comunidad de",2018,90
+allanamiento,"madrid, comunidad de",2017,180
+allanamiento,"madrid, comunidad de",2016,90
+allanamiento,"madrid, comunidad de",2015,130
+allanamiento,"murcia, region de",2022,0
+allanamiento,"murcia, region de",2021,0
+allanamiento,"murcia, region de",2020,10
+allanamiento,"murcia, region de",2019,30
+allanamiento,"murcia, region de",2018,0
+allanamiento,"murcia, region de",2017,20
+allanamiento,"murcia, region de",2016,0
+allanamiento,"murcia, region de",2015,0
+allanamiento,"navarra, comunidad foral de",2022,10
+allanamiento,"navarra, comunidad foral de",2021,30
+allanamiento,"navarra, comunidad foral de",2020,20
+allanamiento,"navarra, comunidad foral de",2019,30
+allanamiento,"navarra, comunidad foral de",2018,40
+allanamiento,"navarra, comunidad foral de",2017,10
+allanamiento,"navarra, comunidad foral de",2016,40
+allanamiento,"navarra, comunidad foral de",2015,40
+allanamiento,pais vasco,2022,0
+allanamiento,pais vasco,2021,10
+allanamiento,pais vasco,2020,10
+allanamiento,pais vasco,2019,10
+allanamiento,pais vasco,2018,40
+allanamiento,pais vasco,2017,0
+allanamiento,pais vasco,2016,0
+allanamiento,pais vasco,2015,0
+allanamiento,"rioja, la",2022,10
+allanamiento,"rioja, la",2021,0
+allanamiento,"rioja, la",2020,10
+allanamiento,"rioja, la",2019,10
+allanamiento,"rioja, la",2018,10
+allanamiento,"rioja, la",2017,0
+allanamiento,"rioja, la",2016,0
+allanamiento,"rioja, la",2015,0
+allanamiento,ceuta,2022,0
+allanamiento,ceuta,2021,0
+allanamiento,ceuta,2020,0
+allanamiento,ceuta,2019,0
+allanamiento,ceuta,2018,0
+allanamiento,ceuta,2017,0
+allanamiento,ceuta,2016,0
+allanamiento,ceuta,2015,0
+allanamiento,melilla,2022,0
+allanamiento,melilla,2021,0
+allanamiento,melilla,2020,0
+allanamiento,melilla,2019,0
+allanamiento,melilla,2018,0
+allanamiento,melilla,2017,0
+allanamiento,melilla,2016,0
+allanamiento,melilla,2015,0
+injurias,andalucia,2022,300
+injurias,andalucia,2021,620
+injurias,andalucia,2020,340
+injurias,andalucia,2019,530
+injurias,andalucia,2018,470
+injurias,andalucia,2017,800
+injurias,andalucia,2016,810
+injurias,andalucia,2015,240
+injurias,aragon,2022,20
+injurias,aragon,2021,100
+injurias,aragon,2020,60
+injurias,aragon,2019,50
+injurias,aragon,2018,60
+injurias,aragon,2017,60
+injurias,aragon,2016,30
+injurias,aragon,2015,10
+injurias,"asturias, principado de",2022,50
+injurias,"asturias, principado de",2021,60
+injurias,"asturias, principado de",2020,70
+injurias,"asturias, principado de",2019,50
+injurias,"asturias, principado de",2018,50
+injurias,"asturias, principado de",2017,60
+injurias,"asturias, principado de",2016,70
+injurias,"asturias, principado de",2015,30
+injurias,"balears, illes",2022,110
+injurias,"balears, illes",2021,270
+injurias,"balears, illes",2020,100
+injurias,"balears, illes",2019,80
+injurias,"balears, illes",2018,80
+injurias,"balears, illes",2017,170
+injurias,"balears, illes",2016,110
+injurias,"balears, illes",2015,80
+injurias,canarias,2022,40
+injurias,canarias,2021,160
+injurias,canarias,2020,80
+injurias,canarias,2019,200
+injurias,canarias,2018,220
+injurias,canarias,2017,370
+injurias,canarias,2016,430
+injurias,canarias,2015,140
+injurias,cantabria,2022,50
+injurias,cantabria,2021,80
+injurias,cantabria,2020,30
+injurias,cantabria,2019,60
+injurias,cantabria,2018,50
+injurias,cantabria,2017,110
+injurias,cantabria,2016,40
+injurias,cantabria,2015,80
+injurias,castilla y leon,2022,120
+injurias,castilla y leon,2021,270
+injurias,castilla y leon,2020,200
+injurias,castilla y leon,2019,110
+injurias,castilla y leon,2018,150
+injurias,castilla y leon,2017,230
+injurias,castilla y leon,2016,170
+injurias,castilla y leon,2015,20
+injurias,castilla - la mancha,2022,100
+injurias,castilla - la mancha,2021,130
+injurias,castilla - la mancha,2020,160
+injurias,castilla - la mancha,2019,200
+injurias,castilla - la mancha,2018,140
+injurias,castilla - la mancha,2017,260
+injurias,castilla - la mancha,2016,240
+injurias,castilla - la mancha,2015,80
+injurias,cataluna,2022,530
+injurias,cataluna,2021,840
+injurias,cataluna,2020,570
+injurias,cataluna,2019,510
+injurias,cataluna,2018,800
+injurias,cataluna,2017,1130
+injurias,cataluna,2016,910
+injurias,cataluna,2015,230
+injurias,comunitat valenciana,2022,370
+injurias,comunitat valenciana,2021,790
+injurias,comunitat valenciana,2020,580
+injurias,comunitat valenciana,2019,830
+injurias,comunitat valenciana,2018,920
+injurias,comunitat valenciana,2017,900
+injurias,comunitat valenciana,2016,890
+injurias,comunitat valenciana,2015,300
+injurias,extremadura,2022,50
+injurias,extremadura,2021,100
+injurias,extremadura,2020,80
+injurias,extremadura,2019,120
+injurias,extremadura,2018,100
+injurias,extremadura,2017,130
+injurias,extremadura,2016,110
+injurias,extremadura,2015,30
+injurias,galicia,2022,80
+injurias,galicia,2021,220
+injurias,galicia,2020,240
+injurias,galicia,2019,150
+injurias,galicia,2018,150
+injurias,galicia,2017,170
+injurias,galicia,2016,110
+injurias,galicia,2015,30
+injurias,"madrid, comunidad de",2022,220
+injurias,"madrid, comunidad de",2021,190
+injurias,"madrid, comunidad de",2020,210
+injurias,"madrid, comunidad de",2019,270
+injurias,"madrid, comunidad de",2018,310
+injurias,"madrid, comunidad de",2017,240
+injurias,"madrid, comunidad de",2016,380
+injurias,"madrid, comunidad de",2015,110
+injurias,"murcia, region de",2022,140
+injurias,"murcia, region de",2021,230
+injurias,"murcia, region de",2020,340
+injurias,"murcia, region de",2019,330
+injurias,"murcia, region de",2018,320
+injurias,"murcia, region de",2017,400
+injurias,"murcia, region de",2016,580
+injurias,"murcia, region de",2015,250
+injurias,"navarra, comunidad foral de",2022,60
+injurias,"navarra, comunidad foral de",2021,30
+injurias,"navarra, comunidad foral de",2020,20
+injurias,"navarra, comunidad foral de",2019,40
+injurias,"navarra, comunidad foral de",2018,50
+injurias,"navarra, comunidad foral de",2017,70
+injurias,"navarra, comunidad foral de",2016,50
+injurias,"navarra, comunidad foral de",2015,0
+injurias,pais vasco,2022,90
+injurias,pais vasco,2021,640
+injurias,pais vasco,2020,490
+injurias,pais vasco,2019,540
+injurias,pais vasco,2018,960
+injurias,pais vasco,2017,800
+injurias,pais vasco,2016,740
+injurias,pais vasco,2015,280
+injurias,"rioja, la",2022,0
+injurias,"rioja, la",2021,20
+injurias,"rioja, la",2020,10
+injurias,"rioja, la",2019,0
+injurias,"rioja, la",2018,10
+injurias,"rioja, la",2017,0
+injurias,"rioja, la",2016,10
+injurias,"rioja, la",2015,0
+injurias,ceuta,2022,0
+injurias,ceuta,2021,10
+injurias,ceuta,2020,0
+injurias,ceuta,2019,0
+injurias,ceuta,2018,10
+injurias,ceuta,2017,0
+injurias,ceuta,2016,10
+injurias,ceuta,2015,10
+injurias,melilla,2022,10
+injurias,melilla,2021,20
+injurias,melilla,2020,10
+injurias,melilla,2019,10
+injurias,melilla,2018,10
+injurias,melilla,2017,40
+injurias,melilla,2016,60
+injurias,melilla,2015,10
+daños,andalucia,2022,1750
+daños,andalucia,2021,1730
+daños,andalucia,2020,990
+daños,andalucia,2019,1360
+daños,andalucia,2018,1210
+daños,andalucia,2017,870
+daños,andalucia,2016,860
+daños,andalucia,2015,440
+daños,aragon,2022,180
+daños,aragon,2021,160
+daños,aragon,2020,90
+daños,aragon,2019,80
+daños,aragon,2018,270
+daños,aragon,2017,250
+daños,aragon,2016,70
+daños,aragon,2015,40
+daños,"asturias, principado de",2022,210
+daños,"asturias, principado de",2021,250
+daños,"asturias, principado de",2020,100
+daños,"asturias, principado de",2019,170
+daños,"asturias, principado de",2018,140
+daños,"asturias, principado de",2017,120
+daños,"asturias, principado de",2016,120
+daños,"asturias, principado de",2015,50
+daños,"balears, illes",2022,150
+daños,"balears, illes",2021,250
+daños,"balears, illes",2020,180
+daños,"balears, illes",2019,250
+daños,"balears, illes",2018,210
+daños,"balears, illes",2017,270
+daños,"balears, illes",2016,240
+daños,"balears, illes",2015,110
+daños,canarias,2022,430
+daños,canarias,2021,590
+daños,canarias,2020,520
+daños,canarias,2019,600
+daños,canarias,2018,500
+daños,canarias,2017,560
+daños,canarias,2016,410
+daños,canarias,2015,290
+daños,cantabria,2022,150
+daños,cantabria,2021,70
+daños,cantabria,2020,70
+daños,cantabria,2019,120
+daños,cantabria,2018,260
+daños,cantabria,2017,110
+daños,cantabria,2016,130
+daños,cantabria,2015,70
+daños,castilla y leon,2022,360
+daños,castilla y leon,2021,330
+daños,castilla y leon,2020,140
+daños,castilla y leon,2019,210
+daños,castilla y leon,2018,250
+daños,castilla y leon,2017,200
+daños,castilla y leon,2016,150
+daños,castilla y leon,2015,110
+daños,castilla - la mancha,2022,200
+daños,castilla - la mancha,2021,180
+daños,castilla - la mancha,2020,150
+daños,castilla - la mancha,2019,210
+daños,castilla - la mancha,2018,140
+daños,castilla - la mancha,2017,120
+daños,castilla - la mancha,2016,70
+daños,castilla - la mancha,2015,90
+daños,cataluna,2022,1430
+daños,cataluna,2021,1390
+daños,cataluna,2020,920
+daños,cataluna,2019,910
+daños,cataluna,2018,1180
+daños,cataluna,2017,930
+daños,cataluna,2016,620
+daños,cataluna,2015,330
+daños,comunitat valenciana,2022,1210
+daños,comunitat valenciana,2021,1040
+daños,comunitat valenciana,2020,780
+daños,comunitat valenciana,2019,1060
+daños,comunitat valenciana,2018,830
+daños,comunitat valenciana,2017,660
+daños,comunitat valenciana,2016,570
+daños,comunitat valenciana,2015,370
+daños,extremadura,2022,150
+daños,extremadura,2021,130
+daños,extremadura,2020,80
+daños,extremadura,2019,120
+daños,extremadura,2018,80
+daños,extremadura,2017,40
+daños,extremadura,2016,60
+daños,extremadura,2015,70
+daños,galicia,2022,370
+daños,galicia,2021,480
+daños,galicia,2020,360
+daños,galicia,2019,450
+daños,galicia,2018,400
+daños,galicia,2017,300
+daños,galicia,2016,210
+daños,galicia,2015,100
+daños,"madrid, comunidad de",2022,770
+daños,"madrid, comunidad de",2021,730
+daños,"madrid, comunidad de",2020,550
+daños,"madrid, comunidad de",2019,680
+daños,"madrid, comunidad de",2018,470
+daños,"madrid, comunidad de",2017,450
+daños,"madrid, comunidad de",2016,200
+daños,"madrid, comunidad de",2015,110
+daños,"murcia, region de",2022,280
+daños,"murcia, region de",2021,270
+daños,"murcia, region de",2020,230
+daños,"murcia, region de",2019,290
+daños,"murcia, region de",2018,380
+daños,"murcia, region de",2017,280
+daños,"murcia, region de",2016,190
+daños,"murcia, region de",2015,140
+daños,"navarra, comunidad foral de",2022,170
+daños,"navarra, comunidad foral de",2021,80
+daños,"navarra, comunidad foral de",2020,30
+daños,"navarra, comunidad foral de",2019,100
+daños,"navarra, comunidad foral de",2018,60
+daños,"navarra, comunidad foral de",2017,30
+daños,"navarra, comunidad foral de",2016,40
+daños,"navarra, comunidad foral de",2015,30
+daños,pais vasco,2022,260
+daños,pais vasco,2021,240
+daños,pais vasco,2020,180
+daños,pais vasco,2019,210
+daños,pais vasco,2018,160
+daños,pais vasco,2017,240
+daños,pais vasco,2016,100
+daños,pais vasco,2015,20
+daños,"rioja, la",2022,30
+daños,"rioja, la",2021,70
+daños,"rioja, la",2020,20
+daños,"rioja, la",2019,80
+daños,"rioja, la",2018,40
+daños,"rioja, la",2017,60
+daños,"rioja, la",2016,10
+daños,"rioja, la",2015,30
+daños,ceuta,2022,0
+daños,ceuta,2021,10
+daños,ceuta,2020,0
+daños,ceuta,2019,10
+daños,ceuta,2018,0
+daños,ceuta,2017,0
+daños,ceuta,2016,0
+daños,ceuta,2015,0
+daños,melilla,2022,20
+daños,melilla,2021,10
+daños,melilla,2020,40
+daños,melilla,2019,10
+daños,melilla,2018,10
+daños,melilla,2017,10
+daños,melilla,2016,0
+daños,melilla,2015,0
+quebrantamiento_condena,andalucia,2022,1599
+quebrantamiento_condena,andalucia,2021,1503
+quebrantamiento_condena,andalucia,2020,1182
+quebrantamiento_condena,andalucia,2019,1291
+quebrantamiento_condena,andalucia,2018,1082
+quebrantamiento_condena,andalucia,2017,9930
+quebrantamiento_condena,andalucia,2016,7400
+quebrantamiento_condena,andalucia,2015,5100
+quebrantamiento_condena,aragon,2022,2570
+quebrantamiento_condena,aragon,2021,2150
+quebrantamiento_condena,aragon,2020,1430
+quebrantamiento_condena,aragon,2019,1560
+quebrantamiento_condena,aragon,2018,1560
+quebrantamiento_condena,aragon,2017,1200
+quebrantamiento_condena,aragon,2016,1230
+quebrantamiento_condena,aragon,2015,310
+quebrantamiento_condena,"asturias, principado de",2022,2470
+quebrantamiento_condena,"asturias, principado de",2021,2120
+quebrantamiento_condena,"asturias, principado de",2020,1300
+quebrantamiento_condena,"asturias, principado de",2019,2150
+quebrantamiento_condena,"asturias, principado de",2018,1760
+quebrantamiento_condena,"asturias, principado de",2017,1860
+quebrantamiento_condena,"asturias, principado de",2016,1600
+quebrantamiento_condena,"asturias, principado de",2015,1170
+quebrantamiento_condena,"balears, illes",2022,3990
+quebrantamiento_condena,"balears, illes",2021,3810
+quebrantamiento_condena,"balears, illes",2020,2710
+quebrantamiento_condena,"balears, illes",2019,3100
+quebrantamiento_condena,"balears, illes",2018,2650
+quebrantamiento_condena,"balears, illes",2017,2440
+quebrantamiento_condena,"balears, illes",2016,2630
+quebrantamiento_condena,"balears, illes",2015,970
+quebrantamiento_condena,canarias,2022,7180
+quebrantamiento_condena,canarias,2021,6070
+quebrantamiento_condena,canarias,2020,5000
+quebrantamiento_condena,canarias,2019,5140
+quebrantamiento_condena,canarias,2018,4190
+quebrantamiento_condena,canarias,2017,4160
+quebrantamiento_condena,canarias,2016,3650
+quebrantamiento_condena,canarias,2015,1940
+quebrantamiento_condena,cantabria,2022,1250
+quebrantamiento_condena,cantabria,2021,920
+quebrantamiento_condena,cantabria,2020,900
+quebrantamiento_condena,cantabria,2019,1060
+quebrantamiento_condena,cantabria,2018,1200
+quebrantamiento_condena,cantabria,2017,780
+quebrantamiento_condena,cantabria,2016,480
+quebrantamiento_condena,cantabria,2015,230
+quebrantamiento_condena,castilla y leon,2022,2810
+quebrantamiento_condena,castilla y leon,2021,2550
+quebrantamiento_condena,castilla y leon,2020,1860
+quebrantamiento_condena,castilla y leon,2019,2390
+quebrantamiento_condena,castilla y leon,2018,2310
+quebrantamiento_condena,castilla y leon,2017,2310
+quebrantamiento_condena,castilla y leon,2016,1840
+quebrantamiento_condena,castilla y leon,2015,1430
+quebrantamiento_condena,castilla - la mancha,2022,4090
+quebrantamiento_condena,castilla - la mancha,2021,3350
+quebrantamiento_condena,castilla - la mancha,2020,2350
+quebrantamiento_condena,castilla - la mancha,2019,2840
+quebrantamiento_condena,castilla - la mancha,2018,2170
+quebrantamiento_condena,castilla - la mancha,2017,1810
+quebrantamiento_condena,castilla - la mancha,2016,1760
+quebrantamiento_condena,castilla - la mancha,2015,1160
+quebrantamiento_condena,cataluna,2022,1123
+quebrantamiento_condena,cataluna,2021,118
+quebrantamiento_condena,cataluna,2020,8550
+quebrantamiento_condena,cataluna,2019,9990
+quebrantamiento_condena,cataluna,2018,8610
+quebrantamiento_condena,cataluna,2017,7580
+quebrantamiento_condena,cataluna,2016,7570
+quebrantamiento_condena,cataluna,2015,5060
+quebrantamiento_condena,comunitat valenciana,2022,1508
+quebrantamiento_condena,comunitat valenciana,2021,1388
+quebrantamiento_condena,comunitat valenciana,2020,1118
+quebrantamiento_condena,comunitat valenciana,2019,1206
+quebrantamiento_condena,comunitat valenciana,2018,1063
+quebrantamiento_condena,comunitat valenciana,2017,1013
+quebrantamiento_condena,comunitat valenciana,2016,8520
+quebrantamiento_condena,comunitat valenciana,2015,5540
+quebrantamiento_condena,extremadura,2022,2020
+quebrantamiento_condena,extremadura,2021,1640
+quebrantamiento_condena,extremadura,2020,1820
+quebrantamiento_condena,extremadura,2019,1320
+quebrantamiento_condena,extremadura,2018,970
+quebrantamiento_condena,extremadura,2017,900
+quebrantamiento_condena,extremadura,2016,800
+quebrantamiento_condena,extremadura,2015,820
+quebrantamiento_condena,galicia,2022,3690
+quebrantamiento_condena,galicia,2021,3530
+quebrantamiento_condena,galicia,2020,2790
+quebrantamiento_condena,galicia,2019,3940
+quebrantamiento_condena,galicia,2018,2720
+quebrantamiento_condena,galicia,2017,2160
+quebrantamiento_condena,galicia,2016,1790
+quebrantamiento_condena,galicia,2015,1540
+quebrantamiento_condena,"madrid, comunidad de",2022,1108
+quebrantamiento_condena,"madrid, comunidad de",2021,9330
+quebrantamiento_condena,"madrid, comunidad de",2020,6630
+quebrantamiento_condena,"madrid, comunidad de",2019,8340
+quebrantamiento_condena,"madrid, comunidad de",2018,6810
+quebrantamiento_condena,"madrid, comunidad de",2017,6440
+quebrantamiento_condena,"madrid, comunidad de",2016,5130
+quebrantamiento_condena,"madrid, comunidad de",2015,4170
+quebrantamiento_condena,"murcia, region de",2022,4900
+quebrantamiento_condena,"murcia, region de",2021,4170
+quebrantamiento_condena,"murcia, region de",2020,2810
+quebrantamiento_condena,"murcia, region de",2019,2950
+quebrantamiento_condena,"murcia, region de",2018,3300
+quebrantamiento_condena,"murcia, region de",2017,2260
+quebrantamiento_condena,"murcia, region de",2016,2410
+quebrantamiento_condena,"murcia, region de",2015,1020
+quebrantamiento_condena,"navarra, comunidad foral de",2022,2000
+quebrantamiento_condena,"navarra, comunidad foral de",2021,1710
+quebrantamiento_condena,"navarra, comunidad foral de",2020,1040
+quebrantamiento_condena,"navarra, comunidad foral de",2019,1270
+quebrantamiento_condena,"navarra, comunidad foral de",2018,1300
+quebrantamiento_condena,"navarra, comunidad foral de",2017,1060
+quebrantamiento_condena,"navarra, comunidad foral de",2016,720
+quebrantamiento_condena,"navarra, comunidad foral de",2015,280
+quebrantamiento_condena,pais vasco,2022,6000
+quebrantamiento_condena,pais vasco,2021,4530
+quebrantamiento_condena,pais vasco,2020,3310
+quebrantamiento_condena,pais vasco,2019,4330
+quebrantamiento_condena,pais vasco,2018,3410
+quebrantamiento_condena,pais vasco,2017,3130
+quebrantamiento_condena,pais vasco,2016,2790
+quebrantamiento_condena,pais vasco,2015,2120
+quebrantamiento_condena,"rioja, la",2022,1340
+quebrantamiento_condena,"rioja, la",2021,710
+quebrantamiento_condena,"rioja, la",2020,380
+quebrantamiento_condena,"rioja, la",2019,680
+quebrantamiento_condena,"rioja, la",2018,660
+quebrantamiento_condena,"rioja, la",2017,450
+quebrantamiento_condena,"rioja, la",2016,390
+quebrantamiento_condena,"rioja, la",2015,170
+quebrantamiento_condena,ceuta,2022,210
+quebrantamiento_condena,ceuta,2021,220
+quebrantamiento_condena,ceuta,2020,140
+quebrantamiento_condena,ceuta,2019,60
+quebrantamiento_condena,ceuta,2018,110
+quebrantamiento_condena,ceuta,2017,70
+quebrantamiento_condena,ceuta,2016,60
+quebrantamiento_condena,ceuta,2015,70
+quebrantamiento_condena,melilla,2022,200
+quebrantamiento_condena,melilla,2021,150
+quebrantamiento_condena,melilla,2020,50
+quebrantamiento_condena,melilla,2019,100
+quebrantamiento_condena,melilla,2018,110
+quebrantamiento_condena,melilla,2017,120
+quebrantamiento_condena,melilla,2016,40
+quebrantamiento_condena,melilla,2015,20
+otros,andalucia,2022,1090
+otros,andalucia,2021,990
+otros,andalucia,2020,700
+otros,andalucia,2019,1170
+otros,andalucia,2018,920
+otros,andalucia,2017,1270
+otros,andalucia,2016,920
+otros,andalucia,2015,1080
+otros,aragon,2022,120
+otros,aragon,2021,260
+otros,aragon,2020,110
+otros,aragon,2019,150
+otros,aragon,2018,140
+otros,aragon,2017,160
+otros,aragon,2016,40
+otros,aragon,2015,60
+otros,"asturias, principado de",2022,190
+otros,"asturias, principado de",2021,70
+otros,"asturias, principado de",2020,30
+otros,"asturias, principado de",2019,110
+otros,"asturias, principado de",2018,110
+otros,"asturias, principado de",2017,80
+otros,"asturias, principado de",2016,70
+otros,"asturias, principado de",2015,60
+otros,"balears, illes",2022,170
+otros,"balears, illes",2021,160
+otros,"balears, illes",2020,120
+otros,"balears, illes",2019,290
+otros,"balears, illes",2018,90
+otros,"balears, illes",2017,190
+otros,"balears, illes",2016,210
+otros,"balears, illes",2015,100
+otros,canarias,2022,330
+otros,canarias,2021,260
+otros,canarias,2020,300
+otros,canarias,2019,290
+otros,canarias,2018,320
+otros,canarias,2017,240
+otros,canarias,2016,100
+otros,canarias,2015,180
+otros,cantabria,2022,90
+otros,cantabria,2021,20
+otros,cantabria,2020,50
+otros,cantabria,2019,80
+otros,cantabria,2018,100
+otros,cantabria,2017,70
+otros,cantabria,2016,40
+otros,cantabria,2015,80
+otros,castilla y leon,2022,440
+otros,castilla y leon,2021,300
+otros,castilla y leon,2020,190
+otros,castilla y leon,2019,370
+otros,castilla y leon,2018,300
+otros,castilla y leon,2017,210
+otros,castilla y leon,2016,270
+otros,castilla y leon,2015,210
+otros,castilla - la mancha,2022,210
+otros,castilla - la mancha,2021,260
+otros,castilla - la mancha,2020,100
+otros,castilla - la mancha,2019,160
+otros,castilla - la mancha,2018,130
+otros,castilla - la mancha,2017,90
+otros,castilla - la mancha,2016,250
+otros,castilla - la mancha,2015,140
+otros,cataluna,2022,1750
+otros,cataluna,2021,670
+otros,cataluna,2020,640
+otros,cataluna,2019,690
+otros,cataluna,2018,640
+otros,cataluna,2017,500
+otros,cataluna,2016,650
+otros,cataluna,2015,600
+otros,comunitat valenciana,2022,800
+otros,comunitat valenciana,2021,790
+otros,comunitat valenciana,2020,430
+otros,comunitat valenciana,2019,670
+otros,comunitat valenciana,2018,530
+otros,comunitat valenciana,2017,520
+otros,comunitat valenciana,2016,490
+otros,comunitat valenciana,2015,410
+otros,extremadura,2022,100
+otros,extremadura,2021,110
+otros,extremadura,2020,150
+otros,extremadura,2019,80
+otros,extremadura,2018,60
+otros,extremadura,2017,130
+otros,extremadura,2016,110
+otros,extremadura,2015,130
+otros,galicia,2022,360
+otros,galicia,2021,280
+otros,galicia,2020,230
+otros,galicia,2019,250
+otros,galicia,2018,170
+otros,galicia,2017,260
+otros,galicia,2016,220
+otros,galicia,2015,260
+otros,"madrid, comunidad de",2022,510
+otros,"madrid, comunidad de",2021,590
+otros,"madrid, comunidad de",2020,430
+otros,"madrid, comunidad de",2019,410
+otros,"madrid, comunidad de",2018,420
+otros,"madrid, comunidad de",2017,350
+otros,"madrid, comunidad de",2016,320
+otros,"madrid, comunidad de",2015,470
+otros,"murcia, region de",2022,290
+otros,"murcia, region de",2021,270
+otros,"murcia, region de",2020,200
+otros,"murcia, region de",2019,170
+otros,"murcia, region de",2018,290
+otros,"murcia, region de",2017,120
+otros,"murcia, region de",2016,150
+otros,"murcia, region de",2015,120
+otros,"navarra, comunidad foral de",2022,160
+otros,"navarra, comunidad foral de",2021,140
+otros,"navarra, comunidad foral de",2020,60
+otros,"navarra, comunidad foral de",2019,90
+otros,"navarra, comunidad foral de",2018,70
+otros,"navarra, comunidad foral de",2017,20
+otros,"navarra, comunidad foral de",2016,50
+otros,"navarra, comunidad foral de",2015,60
+otros,pais vasco,2022,530
+otros,pais vasco,2021,200
+otros,pais vasco,2020,150
+otros,pais vasco,2019,340
+otros,pais vasco,2018,160
+otros,pais vasco,2017,130
+otros,pais vasco,2016,160
+otros,pais vasco,2015,130
+otros,"rioja, la",2022,130
+otros,"rioja, la",2021,100
+otros,"rioja, la",2020,30
+otros,"rioja, la",2019,90
+otros,"rioja, la",2018,60
+otros,"rioja, la",2017,60
+otros,"rioja, la",2016,20
+otros,"rioja, la",2015,0
+otros,ceuta,2022,40
+otros,ceuta,2021,10
+otros,ceuta,2020,50
+otros,ceuta,2019,0
+otros,ceuta,2018,0
+otros,ceuta,2017,20
+otros,ceuta,2016,0
+otros,ceuta,2015,0
+otros,melilla,2022,10
+otros,melilla,2021,0
+otros,melilla,2020,10
+otros,melilla,2019,10
+otros,melilla,2018,30
+otros,melilla,2017,20
+otros,melilla,2016,0
+otros,melilla,2015,0
+faltas,andalucia,2022,20
+faltas,andalucia,2021,40
+faltas,andalucia,2020,40
+faltas,andalucia,2019,400
+faltas,andalucia,2018,570
+faltas,andalucia,2017,1160
+faltas,andalucia,2016,1950
+faltas,andalucia,2015,9000
+faltas,aragon,2022,0
+faltas,aragon,2021,0
+faltas,aragon,2020,0
+faltas,aragon,2019,10
+faltas,aragon,2018,0
+faltas,aragon,2017,110
+faltas,aragon,2016,240
+faltas,aragon,2015,1100
+faltas,"asturias, principado de",2022,0
+faltas,"asturias, principado de",2021,0
+faltas,"asturias, principado de",2020,0
+faltas,"asturias, principado de",2019,0
+faltas,"asturias, principado de",2018,0
+faltas,"asturias, principado de",2017,40
+faltas,"asturias, principado de",2016,140
+faltas,"asturias, principado de",2015,640
+faltas,"balears, illes",2022,0
+faltas,"balears, illes",2021,0
+faltas,"balears, illes",2020,30
+faltas,"balears, illes",2019,20
+faltas,"balears, illes",2018,10
+faltas,"balears, illes",2017,0
+faltas,"balears, illes",2016,100
+faltas,"balears, illes",2015,720
+faltas,canarias,2022,0
+faltas,canarias,2021,10
+faltas,canarias,2020,0
+faltas,canarias,2019,70
+faltas,canarias,2018,80
+faltas,canarias,2017,100
+faltas,canarias,2016,270
+faltas,canarias,2015,3020
+faltas,cantabria,2022,0
+faltas,cantabria,2021,0
+faltas,cantabria,2020,0
+faltas,cantabria,2019,0
+faltas,cantabria,2018,20
+faltas,cantabria,2017,60
+faltas,cantabria,2016,150
+faltas,cantabria,2015,550
+faltas,castilla y leon,2022,0
+faltas,castilla y leon,2021,0
+faltas,castilla y leon,2020,0
+faltas,castilla y leon,2019,60
+faltas,castilla y leon,2018,20
+faltas,castilla y leon,2017,140
+faltas,castilla y leon,2016,560
+faltas,castilla y leon,2015,1830
+faltas,castilla - la mancha,2022,0
+faltas,castilla - la mancha,2021,10
+faltas,castilla - la mancha,2020,60
+faltas,castilla - la mancha,2019,20
+faltas,castilla - la mancha,2018,160
+faltas,castilla - la mancha,2017,150
+faltas,castilla - la mancha,2016,300
+faltas,castilla - la mancha,2015,1270
+faltas,cataluna,2022,0
+faltas,cataluna,2021,0
+faltas,cataluna,2020,10
+faltas,cataluna,2019,30
+faltas,cataluna,2018,160
+faltas,cataluna,2017,360
+faltas,cataluna,2016,1210
+faltas,cataluna,2015,4890
+faltas,comunitat valenciana,2022,0
+faltas,comunitat valenciana,2021,0
+faltas,comunitat valenciana,2020,10
+faltas,comunitat valenciana,2019,120
+faltas,comunitat valenciana,2018,360
+faltas,comunitat valenciana,2017,570
+faltas,comunitat valenciana,2016,1190
+faltas,comunitat valenciana,2015,6530
+faltas,extremadura,2022,0
+faltas,extremadura,2021,10
+faltas,extremadura,2020,10
+faltas,extremadura,2019,20
+faltas,extremadura,2018,10
+faltas,extremadura,2017,60
+faltas,extremadura,2016,250
+faltas,extremadura,2015,1350
+faltas,galicia,2022,0
+faltas,galicia,2021,0
+faltas,galicia,2020,0
+faltas,galicia,2019,50
+faltas,galicia,2018,50
+faltas,galicia,2017,170
+faltas,galicia,2016,310
+faltas,galicia,2015,930
+faltas,"madrid, comunidad de",2022,0
+faltas,"madrid, comunidad de",2021,0
+faltas,"madrid, comunidad de",2020,10
+faltas,"madrid, comunidad de",2019,110
+faltas,"madrid, comunidad de",2018,260
+faltas,"madrid, comunidad de",2017,410
+faltas,"madrid, comunidad de",2016,1140
+faltas,"madrid, comunidad de",2015,3470
+faltas,"murcia, region de",2022,0
+faltas,"murcia, region de",2021,0
+faltas,"murcia, region de",2020,0
+faltas,"murcia, region de",2019,0
+faltas,"murcia, region de",2018,10
+faltas,"murcia, region de",2017,50
+faltas,"murcia, region de",2016,180
+faltas,"murcia, region de",2015,1810
+faltas,"navarra, comunidad foral de",2022,0
+faltas,"navarra, comunidad foral de",2021,0
+faltas,"navarra, comunidad foral de",2020,20
+faltas,"navarra, comunidad foral de",2019,130
+faltas,"navarra, comunidad foral de",2018,80
+faltas,"navarra, comunidad foral de",2017,60
+faltas,"navarra, comunidad foral de",2016,90
+faltas,"navarra, comunidad foral de",2015,180
+faltas,pais vasco,2022,0
+faltas,pais vasco,2021,0
+faltas,pais vasco,2020,0
+faltas,pais vasco,2019,0
+faltas,pais vasco,2018,0
+faltas,pais vasco,2017,350
+faltas,pais vasco,2016,860
+faltas,pais vasco,2015,2720
+faltas,"rioja, la",2022,0
+faltas,"rioja, la",2021,0
+faltas,"rioja, la",2020,0
+faltas,"rioja, la",2019,0
+faltas,"rioja, la",2018,0
+faltas,"rioja, la",2017,50
+faltas,"rioja, la",2016,40
+faltas,"rioja, la",2015,210
+faltas,ceuta,2022,0
+faltas,ceuta,2021,0
+faltas,ceuta,2020,0
+faltas,ceuta,2019,0
+faltas,ceuta,2018,0
+faltas,ceuta,2017,0
+faltas,ceuta,2016,10
+faltas,ceuta,2015,40
+faltas,melilla,2022,0
+faltas,melilla,2021,0
+faltas,melilla,2020,0
+faltas,melilla,2019,0
+faltas,melilla,2018,0
+faltas,melilla,2017,20
+faltas,melilla,2016,0
+faltas,melilla,2015,50
+faltas,andalucia,2022,20
+faltas,andalucia,2021,20
+faltas,andalucia,2020,40
+faltas,andalucia,2019,330
+faltas,andalucia,2018,520
+faltas,andalucia,2017,960
+faltas,andalucia,2016,1760
+faltas,andalucia,2015,8420
+faltas,aragon,2022,0
+faltas,aragon,2021,0
+faltas,aragon,2020,0
+faltas,aragon,2019,10
+faltas,aragon,2018,0
+faltas,aragon,2017,90
+faltas,aragon,2016,200
+faltas,aragon,2015,960
+faltas,"asturias, principado de",2022,0
+faltas,"asturias, principado de",2021,0
+faltas,"asturias, principado de",2020,0
+faltas,"asturias, principado de",2019,0
+faltas,"asturias, principado de",2018,0
+faltas,"asturias, principado de",2017,40
+faltas,"asturias, principado de",2016,120
+faltas,"asturias, principado de",2015,590
+faltas,"balears, illes",2022,0
+faltas,"balears, illes",2021,0
+faltas,"balears, illes",2020,30
+faltas,"balears, illes",2019,20
+faltas,"balears, illes",2018,10
+faltas,"balears, illes",2017,0
+faltas,"balears, illes",2016,80
+faltas,"balears, illes",2015,670
+faltas,canarias,2022,0
+faltas,canarias,2021,10
+faltas,canarias,2020,0
+faltas,canarias,2019,60
+faltas,canarias,2018,60
+faltas,canarias,2017,90
+faltas,canarias,2016,220
+faltas,canarias,2015,2690
+faltas,cantabria,2022,0
+faltas,cantabria,2021,0
+faltas,cantabria,2020,0
+faltas,cantabria,2019,0
+faltas,cantabria,2018,20
+faltas,cantabria,2017,60
+faltas,cantabria,2016,110
+faltas,cantabria,2015,440
+faltas,castilla y leon,2022,0
+faltas,castilla y leon,2021,0
+faltas,castilla y leon,2020,0
+faltas,castilla y leon,2019,50
+faltas,castilla y leon,2018,10
+faltas,castilla y leon,2017,130
+faltas,castilla y leon,2016,500
+faltas,castilla y leon,2015,1720
+faltas,castilla - la mancha,2022,0
+faltas,castilla - la mancha,2021,10
+faltas,castilla - la mancha,2020,30
+faltas,castilla - la mancha,2019,20
+faltas,castilla - la mancha,2018,130
+faltas,castilla - la mancha,2017,120
+faltas,castilla - la mancha,2016,260
+faltas,castilla - la mancha,2015,1130
+faltas,cataluna,2022,0
+faltas,cataluna,2021,0
+faltas,cataluna,2020,10
+faltas,cataluna,2019,30
+faltas,cataluna,2018,140
+faltas,cataluna,2017,290
+faltas,cataluna,2016,1010
+faltas,cataluna,2015,4380
+faltas,comunitat valenciana,2022,0
+faltas,comunitat valenciana,2021,0
+faltas,comunitat valenciana,2020,10
+faltas,comunitat valenciana,2019,90
+faltas,comunitat valenciana,2018,300
+faltas,comunitat valenciana,2017,460
+faltas,comunitat valenciana,2016,970
+faltas,comunitat valenciana,2015,5950
+faltas,extremadura,2022,0
+faltas,extremadura,2021,10
+faltas,extremadura,2020,10
+faltas,extremadura,2019,20
+faltas,extremadura,2018,10
+faltas,extremadura,2017,50
+faltas,extremadura,2016,240
+faltas,extremadura,2015,1320
+faltas,galicia,2022,0
+faltas,galicia,2021,0
+faltas,galicia,2020,0
+faltas,galicia,2019,40
+faltas,galicia,2018,20
+faltas,galicia,2017,140
+faltas,galicia,2016,260
+faltas,galicia,2015,790
+faltas,"madrid, comunidad de",2022,0
+faltas,"madrid, comunidad de",2021,0
+faltas,"madrid, comunidad de",2020,0
+faltas,"madrid, comunidad de",2019,70
+faltas,"madrid, comunidad de",2018,210
+faltas,"madrid, comunidad de",2017,270
+faltas,"madrid, comunidad de",2016,890
+faltas,"madrid, comunidad de",2015,3120
+faltas,"murcia, region de",2022,0
+faltas,"murcia, region de",2021,0
+faltas,"murcia, region de",2020,0
+faltas,"murcia, region de",2019,0
+faltas,"murcia, region de",2018,10
+faltas,"murcia, region de",2017,30
+faltas,"murcia, region de",2016,150
+faltas,"murcia, region de",2015,1730
+faltas,"navarra, comunidad foral de",2022,0
+faltas,"navarra, comunidad foral de",2021,0
+faltas,"navarra, comunidad foral de",2020,20
+faltas,"navarra, comunidad foral de",2019,80
+faltas,"navarra, comunidad foral de",2018,50
+faltas,"navarra, comunidad foral de",2017,60
+faltas,"navarra, comunidad foral de",2016,70
+faltas,"navarra, comunidad foral de",2015,170
+faltas,pais vasco,2022,0
+faltas,pais vasco,2021,0
+faltas,pais vasco,2020,0
+faltas,pais vasco,2019,0
+faltas,pais vasco,2018,0
+faltas,pais vasco,2017,340
+faltas,pais vasco,2016,770
+faltas,pais vasco,2015,2500
+faltas,"rioja, la",2022,0
+faltas,"rioja, la",2021,0
+faltas,"rioja, la",2020,0
+faltas,"rioja, la",2019,0
+faltas,"rioja, la",2018,0
+faltas,"rioja, la",2017,50
+faltas,"rioja, la",2016,40
+faltas,"rioja, la",2015,190
+faltas,ceuta,2022,0
+faltas,ceuta,2021,0
+faltas,ceuta,2020,0
+faltas,ceuta,2019,0
+faltas,ceuta,2018,0
+faltas,ceuta,2017,0
+faltas,ceuta,2016,10
+faltas,ceuta,2015,40
+faltas,melilla,2022,0
+faltas,melilla,2021,0
+faltas,melilla,2020,0
+faltas,melilla,2019,0
+faltas,melilla,2018,0
+faltas,melilla,2017,20
+faltas,melilla,2016,0
+faltas,melilla,2015,50
+faltas,andalucia,2022,0
+faltas,andalucia,2021,20
+faltas,andalucia,2020,0
+faltas,andalucia,2019,70
+faltas,andalucia,2018,50
+faltas,andalucia,2017,200
+faltas,andalucia,2016,190
+faltas,andalucia,2015,580
+faltas,aragon,2022,0
+faltas,aragon,2021,0
+faltas,aragon,2020,0
+faltas,aragon,2019,0
+faltas,aragon,2018,0
+faltas,aragon,2017,20
+faltas,aragon,2016,40
+faltas,aragon,2015,140
+faltas,"asturias, principado de",2022,0
+faltas,"asturias, principado de",2021,0
+faltas,"asturias, principado de",2020,0
+faltas,"asturias, principado de",2019,0
+faltas,"asturias, principado de",2018,0
+faltas,"asturias, principado de",2017,0
+faltas,"asturias, principado de",2016,20
+faltas,"asturias, principado de",2015,50
+faltas,"balears, illes",2022,0
+faltas,"balears, illes",2021,0
+faltas,"balears, illes",2020,0
+faltas,"balears, illes",2019,0
+faltas,"balears, illes",2018,0
+faltas,"balears, illes",2017,0
+faltas,"balears, illes",2016,20
+faltas,"balears, illes",2015,50
+faltas,canarias,2022,0
+faltas,canarias,2021,0
+faltas,canarias,2020,0
+faltas,canarias,2019,10
+faltas,canarias,2018,20
+faltas,canarias,2017,10
+faltas,canarias,2016,50
+faltas,canarias,2015,330
+faltas,cantabria,2022,0
+faltas,cantabria,2021,0
+faltas,cantabria,2020,0
+faltas,cantabria,2019,0
+faltas,cantabria,2018,0
+faltas,cantabria,2017,0
+faltas,cantabria,2016,40
+faltas,cantabria,2015,110
+faltas,castilla y leon,2022,0
+faltas,castilla y leon,2021,0
+faltas,castilla y leon,2020,0
+faltas,castilla y leon,2019,10
+faltas,castilla y leon,2018,10
+faltas,castilla y leon,2017,10
+faltas,castilla y leon,2016,60
+faltas,castilla y leon,2015,110
+faltas,castilla - la mancha,2022,0
+faltas,castilla - la mancha,2021,0
+faltas,castilla - la mancha,2020,30
+faltas,castilla - la mancha,2019,0
+faltas,castilla - la mancha,2018,30
+faltas,castilla - la mancha,2017,30
+faltas,castilla - la mancha,2016,40
+faltas,castilla - la mancha,2015,140
+faltas,cataluna,2022,0
+faltas,cataluna,2021,0
+faltas,cataluna,2020,0
+faltas,cataluna,2019,0
+faltas,cataluna,2018,20
+faltas,cataluna,2017,70
+faltas,cataluna,2016,200
+faltas,cataluna,2015,510
+faltas,comunitat valenciana,2022,0
+faltas,comunitat valenciana,2021,0
+faltas,comunitat valenciana,2020,0
+faltas,comunitat valenciana,2019,30
+faltas,comunitat valenciana,2018,60
+faltas,comunitat valenciana,2017,110
+faltas,comunitat valenciana,2016,220
+faltas,comunitat valenciana,2015,580
+faltas,extremadura,2022,0
+faltas,extremadura,2021,0
+faltas,extremadura,2020,0
+faltas,extremadura,2019,0
+faltas,extremadura,2018,0
+faltas,extremadura,2017,10
+faltas,extremadura,2016,10
+faltas,extremadura,2015,30
+faltas,galicia,2022,0
+faltas,galicia,2021,0
+faltas,galicia,2020,0
+faltas,galicia,2019,10
+faltas,galicia,2018,30
+faltas,galicia,2017,30
+faltas,galicia,2016,50
+faltas,galicia,2015,140
+faltas,"madrid, comunidad de",2022,0
+faltas,"madrid, comunidad de",2021,0
+faltas,"madrid, comunidad de",2020,10
+faltas,"madrid, comunidad de",2019,40
+faltas,"madrid, comunidad de",2018,50
+faltas,"madrid, comunidad de",2017,140
+faltas,"madrid, comunidad de",2016,250
+faltas,"madrid, comunidad de",2015,350
+faltas,"murcia, region de",2022,0
+faltas,"murcia, region de",2021,0
+faltas,"murcia, region de",2020,0
+faltas,"murcia, region de",2019,0
+faltas,"murcia, region de",2018,0
+faltas,"murcia, region de",2017,20
+faltas,"murcia, region de",2016,30
+faltas,"murcia, region de",2015,80
+faltas,"navarra, comunidad foral de",2022,0
+faltas,"navarra, comunidad foral de",2021,0
+faltas,"navarra, comunidad foral de",2020,0
+faltas,"navarra, comunidad foral de",2019,50
+faltas,"navarra, comunidad foral de",2018,30
+faltas,"navarra, comunidad foral de",2017,0
+faltas,"navarra, comunidad foral de",2016,20
+faltas,"navarra, comunidad foral de",2015,10
+faltas,pais vasco,2022,0
+faltas,pais vasco,2021,0
+faltas,pais vasco,2020,0
+faltas,pais vasco,2019,0
+faltas,pais vasco,2018,0
+faltas,pais vasco,2017,10
+faltas,pais vasco,2016,90
+faltas,pais vasco,2015,220
+faltas,"rioja, la",2022,0
+faltas,"rioja, la",2021,0
+faltas,"rioja, la",2020,0
+faltas,"rioja, la",2019,0
+faltas,"rioja, la",2018,0
+faltas,"rioja, la",2017,0
+faltas,"rioja, la",2016,0
+faltas,"rioja, la",2015,20
+faltas,ceuta,2022,0
+faltas,ceuta,2021,0
+faltas,ceuta,2020,0
+faltas,ceuta,2019,0
+faltas,ceuta,2018,0
+faltas,ceuta,2017,0
+faltas,ceuta,2016,0
+faltas,ceuta,2015,0
+faltas,melilla,2022,0
+faltas,melilla,2021,0
+faltas,melilla,2020,0
+faltas,melilla,2019,0
+faltas,melilla,2018,0
+faltas,melilla,2017,0
+faltas,melilla,2016,0
+faltas,melilla,2015,0

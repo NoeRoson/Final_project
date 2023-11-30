@@ -1,0 +1,761 @@
+comunidad,edad,año,total
+andalucia,<18,2022,17
+andalucia,<18,2021,19
+andalucia,<18,2020,25
+andalucia,<18,2019,34
+andalucia,<18,2018,22
+andalucia,<18,2017,13
+andalucia,<18,2016,24
+andalucia,<18,2015,12
+andalucia,18-24,2022,702
+andalucia,18-24,2021,718
+andalucia,18-24,2020,512
+andalucia,18-24,2019,695
+andalucia,18-24,2018,668
+andalucia,18-24,2017,620
+andalucia,18-24,2016,549
+andalucia,18-24,2015,581
+andalucia,25-44,2022,4
+andalucia,25-44,2021,4
+andalucia,25-44,2020,3
+andalucia,25-44,2019,4
+andalucia,25-44,2018,3
+andalucia,25-44,2017,3
+andalucia,25-44,2016,3
+andalucia,25-44,2015,3
+andalucia,45-64,2022,2
+andalucia,45-64,2021,2
+andalucia,45-64,2020,1
+andalucia,45-64,2019,2
+andalucia,45-64,2018,1
+andalucia,45-64,2017,1
+andalucia,45-64,2016,1
+andalucia,45-64,2015,1
+andalucia,>65,2022,215
+andalucia,>65,2021,184
+andalucia,>65,2020,149
+andalucia,>65,2019,159
+andalucia,>65,2018,159
+andalucia,>65,2017,155
+andalucia,>65,2016,142
+andalucia,>65,2015,140
+aragon,<18,2022,6
+aragon,<18,2021,3
+aragon,<18,2020,5
+aragon,<18,2019,6
+aragon,<18,2018,5
+aragon,<18,2017,2
+aragon,<18,2016,1
+aragon,<18,2015,0
+aragon,18-24,2022,96
+aragon,18-24,2021,102
+aragon,18-24,2020,81
+aragon,18-24,2019,88
+aragon,18-24,2018,79
+aragon,18-24,2017,93
+aragon,18-24,2016,87
+aragon,18-24,2015,49
+aragon,25-44,2022,558
+aragon,25-44,2021,547
+aragon,25-44,2020,412
+aragon,25-44,2019,478
+aragon,25-44,2018,477
+aragon,25-44,2017,420
+aragon,25-44,2016,395
+aragon,25-44,2015,317
+aragon,45-64,2022,280
+aragon,45-64,2021,230
+aragon,45-64,2020,207
+aragon,45-64,2019,204
+aragon,45-64,2018,178
+aragon,45-64,2017,150
+aragon,45-64,2016,153
+aragon,45-64,2015,127
+aragon,>65,2022,23
+aragon,>65,2021,17
+aragon,>65,2020,12
+aragon,>65,2019,12
+aragon,>65,2018,25
+aragon,>65,2017,15
+aragon,>65,2016,15
+aragon,>65,2015,14
+"asturias, principado de",<18,2022,1
+"asturias, principado de",<18,2021,0
+"asturias, principado de",<18,2020,0
+"asturias, principado de",<18,2019,0
+"asturias, principado de",<18,2018,0
+"asturias, principado de",<18,2017,0
+"asturias, principado de",<18,2016,0
+"asturias, principado de",<18,2015,0
+"asturias, principado de",18-24,2022,81
+"asturias, principado de",18-24,2021,62
+"asturias, principado de",18-24,2020,45
+"asturias, principado de",18-24,2019,76
+"asturias, principado de",18-24,2018,57
+"asturias, principado de",18-24,2017,54
+"asturias, principado de",18-24,2016,68
+"asturias, principado de",18-24,2015,48
+"asturias, principado de",25-44,2022,501
+"asturias, principado de",25-44,2021,445
+"asturias, principado de",25-44,2020,305
+"asturias, principado de",25-44,2019,397
+"asturias, principado de",25-44,2018,383
+"asturias, principado de",25-44,2017,363
+"asturias, principado de",25-44,2016,338
+"asturias, principado de",25-44,2015,313
+"asturias, principado de",45-64,2022,275
+"asturias, principado de",45-64,2021,221
+"asturias, principado de",45-64,2020,164
+"asturias, principado de",45-64,2019,190
+"asturias, principado de",45-64,2018,186
+"asturias, principado de",45-64,2017,211
+"asturias, principado de",45-64,2016,171
+"asturias, principado de",45-64,2015,160
+"asturias, principado de",>65,2022,36
+"asturias, principado de",>65,2021,38
+"asturias, principado de",>65,2020,20
+"asturias, principado de",>65,2019,26
+"asturias, principado de",>65,2018,21
+"asturias, principado de",>65,2017,25
+"asturias, principado de",>65,2016,22
+"asturias, principado de",>65,2015,21
+"balears, illes",<18,2022,0
+"balears, illes",<18,2021,1
+"balears, illes",<18,2020,1
+"balears, illes",<18,2019,0
+"balears, illes",<18,2018,0
+"balears, illes",<18,2017,0
+"balears, illes",<18,2016,0
+"balears, illes",<18,2015,0
+"balears, illes",18-24,2022,156
+"balears, illes",18-24,2021,144
+"balears, illes",18-24,2020,109
+"balears, illes",18-24,2019,161
+"balears, illes",18-24,2018,141
+"balears, illes",18-24,2017,142
+"balears, illes",18-24,2016,142
+"balears, illes",18-24,2015,112
+"balears, illes",25-44,2022,853
+"balears, illes",25-44,2021,796
+"balears, illes",25-44,2020,638
+"balears, illes",25-44,2019,804
+"balears, illes",25-44,2018,760
+"balears, illes",25-44,2017,732
+"balears, illes",25-44,2016,732
+"balears, illes",25-44,2015,574
+"balears, illes",45-64,2022,331
+"balears, illes",45-64,2021,326
+"balears, illes",45-64,2020,260
+"balears, illes",45-64,2019,350
+"balears, illes",45-64,2018,256
+"balears, illes",45-64,2017,303
+"balears, illes",45-64,2016,295
+"balears, illes",45-64,2015,243
+"balears, illes",>65,2022,26
+"balears, illes",>65,2021,27
+"balears, illes",>65,2020,14
+"balears, illes",>65,2019,33
+"balears, illes",>65,2018,24
+"balears, illes",>65,2017,36
+"balears, illes",>65,2016,27
+"balears, illes",>65,2015,25
+canarias,<18,2022,0
+canarias,<18,2021,0
+canarias,<18,2020,1
+canarias,<18,2019,3
+canarias,<18,2018,0
+canarias,<18,2017,0
+canarias,<18,2016,1
+canarias,<18,2015,1
+canarias,18-24,2022,263
+canarias,18-24,2021,264
+canarias,18-24,2020,194
+canarias,18-24,2019,268
+canarias,18-24,2018,240
+canarias,18-24,2017,204
+canarias,18-24,2016,203
+canarias,18-24,2015,197
+canarias,25-44,2022,2
+canarias,25-44,2021,2
+canarias,25-44,2020,1
+canarias,25-44,2019,1
+canarias,25-44,2018,1
+canarias,25-44,2017,1
+canarias,25-44,2016,1
+canarias,25-44,2015,1
+canarias,45-64,2022,803
+canarias,45-64,2021,773
+canarias,45-64,2020,645
+canarias,45-64,2019,678
+canarias,45-64,2018,584
+canarias,45-64,2017,561
+canarias,45-64,2016,493
+canarias,45-64,2015,508
+canarias,>65,2022,96
+canarias,>65,2021,75
+canarias,>65,2020,67
+canarias,>65,2019,63
+canarias,>65,2018,50
+canarias,>65,2017,61
+canarias,>65,2016,53
+canarias,>65,2015,32
+cantabria,<18,2022,1
+cantabria,<18,2021,2
+cantabria,<18,2020,1
+cantabria,<18,2019,3
+cantabria,<18,2018,2
+cantabria,<18,2017,1
+cantabria,<18,2016,0
+cantabria,<18,2015,2
+cantabria,18-24,2022,35
+cantabria,18-24,2021,41
+cantabria,18-24,2020,35
+cantabria,18-24,2019,51
+cantabria,18-24,2018,38
+cantabria,18-24,2017,34
+cantabria,18-24,2016,34
+cantabria,18-24,2015,21
+cantabria,25-44,2022,221
+cantabria,25-44,2021,215
+cantabria,25-44,2020,184
+cantabria,25-44,2019,202
+cantabria,25-44,2018,221
+cantabria,25-44,2017,188
+cantabria,25-44,2016,146
+cantabria,25-44,2015,148
+cantabria,45-64,2022,117
+cantabria,45-64,2021,97
+cantabria,45-64,2020,81
+cantabria,45-64,2019,89
+cantabria,45-64,2018,103
+cantabria,45-64,2017,79
+cantabria,45-64,2016,64
+cantabria,45-64,2015,76
+cantabria,>65,2022,18
+cantabria,>65,2021,7
+cantabria,>65,2020,9
+cantabria,>65,2019,13
+cantabria,>65,2018,10
+cantabria,>65,2017,10
+cantabria,>65,2016,13
+cantabria,>65,2015,9
+castilla y leon,<18,2022,8
+castilla y leon,<18,2021,7
+castilla y leon,<18,2020,9
+castilla y leon,<18,2019,11
+castilla y leon,<18,2018,2
+castilla y leon,<18,2017,8
+castilla y leon,<18,2016,4
+castilla y leon,<18,2015,8
+castilla y leon,18-24,2022,142
+castilla y leon,18-24,2021,132
+castilla y leon,18-24,2020,85
+castilla y leon,18-24,2019,140
+castilla y leon,18-24,2018,120
+castilla y leon,18-24,2017,127
+castilla y leon,18-24,2016,121
+castilla y leon,18-24,2015,85
+castilla y leon,25-44,2022,694
+castilla y leon,25-44,2021,670
+castilla y leon,25-44,2020,476
+castilla y leon,25-44,2019,614
+castilla y leon,25-44,2018,566
+castilla y leon,25-44,2017,581
+castilla y leon,25-44,2016,561
+castilla y leon,25-44,2015,605
+castilla y leon,45-64,2022,362
+castilla y leon,45-64,2021,291
+castilla y leon,45-64,2020,214
+castilla y leon,45-64,2019,273
+castilla y leon,45-64,2018,324
+castilla y leon,45-64,2017,291
+castilla y leon,45-64,2016,268
+castilla y leon,45-64,2015,256
+castilla y leon,>65,2022,44
+castilla y leon,>65,2021,44
+castilla y leon,>65,2020,27
+castilla y leon,>65,2019,31
+castilla y leon,>65,2018,34
+castilla y leon,>65,2017,43
+castilla y leon,>65,2016,46
+castilla y leon,>65,2015,27
+castilla - la mancha,<18,2022,2
+castilla - la mancha,<18,2021,0
+castilla - la mancha,<18,2020,4
+castilla - la mancha,<18,2019,4
+castilla - la mancha,<18,2018,0
+castilla - la mancha,<18,2017,2
+castilla - la mancha,<18,2016,1
+castilla - la mancha,<18,2015,2
+castilla - la mancha,18-24,2022,131
+castilla - la mancha,18-24,2021,128
+castilla - la mancha,18-24,2020,116
+castilla - la mancha,18-24,2019,127
+castilla - la mancha,18-24,2018,142
+castilla - la mancha,18-24,2017,135
+castilla - la mancha,18-24,2016,130
+castilla - la mancha,18-24,2015,123
+castilla - la mancha,25-44,2022,881
+castilla - la mancha,25-44,2021,771
+castilla - la mancha,25-44,2020,580
+castilla - la mancha,25-44,2019,688
+castilla - la mancha,25-44,2018,672
+castilla - la mancha,25-44,2017,663
+castilla - la mancha,25-44,2016,655
+castilla - la mancha,25-44,2015,672
+castilla - la mancha,45-64,2022,386
+castilla - la mancha,45-64,2021,338
+castilla - la mancha,45-64,2020,224
+castilla - la mancha,45-64,2019,300
+castilla - la mancha,45-64,2018,272
+castilla - la mancha,45-64,2017,244
+castilla - la mancha,45-64,2016,268
+castilla - la mancha,45-64,2015,256
+castilla - la mancha,>65,2022,41
+castilla - la mancha,>65,2021,40
+castilla - la mancha,>65,2020,26
+castilla - la mancha,>65,2019,25
+castilla - la mancha,>65,2018,30
+castilla - la mancha,>65,2017,31
+castilla - la mancha,>65,2016,33
+castilla - la mancha,>65,2015,25
+cataluna,<18,2022,5
+cataluna,<18,2021,10
+cataluna,<18,2020,7
+cataluna,<18,2019,21
+cataluna,<18,2018,18
+cataluna,<18,2017,15
+cataluna,<18,2016,11
+cataluna,<18,2015,17
+cataluna,18-24,2022,421
+cataluna,18-24,2021,407
+cataluna,18-24,2020,317
+cataluna,18-24,2019,380
+cataluna,18-24,2018,345
+cataluna,18-24,2017,354
+cataluna,18-24,2016,365
+cataluna,18-24,2015,352
+cataluna,25-44,2022,2
+cataluna,25-44,2021,2
+cataluna,25-44,2020,2
+cataluna,25-44,2019,2
+cataluna,25-44,2018,2
+cataluna,25-44,2017,2
+cataluna,25-44,2016,2
+cataluna,25-44,2015,2
+cataluna,45-64,2022,1
+cataluna,45-64,2021,931
+cataluna,45-64,2020,716
+cataluna,45-64,2019,798
+cataluna,45-64,2018,756
+cataluna,45-64,2017,671
+cataluna,45-64,2016,732
+cataluna,45-64,2015,644
+cataluna,>65,2022,75
+cataluna,>65,2021,87
+cataluna,>65,2020,56
+cataluna,>65,2019,68
+cataluna,>65,2018,57
+cataluna,>65,2017,70
+cataluna,>65,2016,66
+cataluna,>65,2015,72
+comunitat valenciana,<18,2022,4
+comunitat valenciana,<18,2021,9
+comunitat valenciana,<18,2020,6
+comunitat valenciana,<18,2019,18
+comunitat valenciana,<18,2018,15
+comunitat valenciana,<18,2017,18
+comunitat valenciana,<18,2016,17
+comunitat valenciana,<18,2015,19
+comunitat valenciana,18-24,2022,520
+comunitat valenciana,18-24,2021,528
+comunitat valenciana,18-24,2020,392
+comunitat valenciana,18-24,2019,501
+comunitat valenciana,18-24,2018,489
+comunitat valenciana,18-24,2017,458
+comunitat valenciana,18-24,2016,415
+comunitat valenciana,18-24,2015,423
+comunitat valenciana,25-44,2022,3
+comunitat valenciana,25-44,2021,3
+comunitat valenciana,25-44,2020,2
+comunitat valenciana,25-44,2019,3
+comunitat valenciana,25-44,2018,2
+comunitat valenciana,25-44,2017,2
+comunitat valenciana,25-44,2016,2
+comunitat valenciana,25-44,2015,2
+comunitat valenciana,45-64,2022,1
+comunitat valenciana,45-64,2021,1
+comunitat valenciana,45-64,2020,1
+comunitat valenciana,45-64,2019,1
+comunitat valenciana,45-64,2018,1
+comunitat valenciana,45-64,2017,1
+comunitat valenciana,45-64,2016,989
+comunitat valenciana,45-64,2015,928
+comunitat valenciana,>65,2022,145
+comunitat valenciana,>65,2021,139
+comunitat valenciana,>65,2020,117
+comunitat valenciana,>65,2019,133
+comunitat valenciana,>65,2018,127
+comunitat valenciana,>65,2017,115
+comunitat valenciana,>65,2016,131
+comunitat valenciana,>65,2015,96
+extremadura,<18,2022,5
+extremadura,<18,2021,3
+extremadura,<18,2020,3
+extremadura,<18,2019,3
+extremadura,<18,2018,5
+extremadura,<18,2017,2
+extremadura,<18,2016,3
+extremadura,<18,2015,2
+extremadura,18-24,2022,65
+extremadura,18-24,2021,85
+extremadura,18-24,2020,53
+extremadura,18-24,2019,75
+extremadura,18-24,2018,67
+extremadura,18-24,2017,75
+extremadura,18-24,2016,76
+extremadura,18-24,2015,76
+extremadura,25-44,2022,452
+extremadura,25-44,2021,412
+extremadura,25-44,2020,355
+extremadura,25-44,2019,372
+extremadura,25-44,2018,317
+extremadura,25-44,2017,329
+extremadura,25-44,2016,304
+extremadura,25-44,2015,340
+extremadura,45-64,2022,241
+extremadura,45-64,2021,204
+extremadura,45-64,2020,180
+extremadura,45-64,2019,196
+extremadura,45-64,2018,174
+extremadura,45-64,2017,181
+extremadura,45-64,2016,203
+extremadura,45-64,2015,192
+extremadura,>65,2022,20
+extremadura,>65,2021,22
+extremadura,>65,2020,19
+extremadura,>65,2019,13
+extremadura,>65,2018,15
+extremadura,>65,2017,18
+extremadura,>65,2016,19
+extremadura,>65,2015,21
+galicia,<18,2022,5
+galicia,<18,2021,4
+galicia,<18,2020,7
+galicia,<18,2019,3
+galicia,<18,2018,3
+galicia,<18,2017,9
+galicia,<18,2016,6
+galicia,<18,2015,7
+galicia,18-24,2022,114
+galicia,18-24,2021,125
+galicia,18-24,2020,117
+galicia,18-24,2019,138
+galicia,18-24,2018,120
+galicia,18-24,2017,126
+galicia,18-24,2016,122
+galicia,18-24,2015,97
+galicia,25-44,2022,868
+galicia,25-44,2021,794
+galicia,25-44,2020,607
+galicia,25-44,2019,748
+galicia,25-44,2018,685
+galicia,25-44,2017,654
+galicia,25-44,2016,592
+galicia,25-44,2015,535
+galicia,45-64,2022,476
+galicia,45-64,2021,447
+galicia,45-64,2020,341
+galicia,45-64,2019,378
+galicia,45-64,2018,329
+galicia,45-64,2017,337
+galicia,45-64,2016,285
+galicia,45-64,2015,305
+galicia,>65,2022,62
+galicia,>65,2021,56
+galicia,>65,2020,52
+galicia,>65,2019,52
+galicia,>65,2018,76
+galicia,>65,2017,34
+galicia,>65,2016,43
+galicia,>65,2015,52
+"madrid, comunidad de",<18,2022,1
+"madrid, comunidad de",<18,2021,0
+"madrid, comunidad de",<18,2020,0
+"madrid, comunidad de",<18,2019,2
+"madrid, comunidad de",<18,2018,3
+"madrid, comunidad de",<18,2017,1
+"madrid, comunidad de",<18,2016,1
+"madrid, comunidad de",<18,2015,4
+"madrid, comunidad de",18-24,2022,488
+"madrid, comunidad de",18-24,2021,436
+"madrid, comunidad de",18-24,2020,291
+"madrid, comunidad de",18-24,2019,412
+"madrid, comunidad de",18-24,2018,357
+"madrid, comunidad de",18-24,2017,380
+"madrid, comunidad de",18-24,2016,348
+"madrid, comunidad de",18-24,2015,289
+"madrid, comunidad de",25-44,2022,2
+"madrid, comunidad de",25-44,2021,2
+"madrid, comunidad de",25-44,2020,2
+"madrid, comunidad de",25-44,2019,2
+"madrid, comunidad de",25-44,2018,2
+"madrid, comunidad de",25-44,2017,2
+"madrid, comunidad de",25-44,2016,2
+"madrid, comunidad de",25-44,2015,2
+"madrid, comunidad de",45-64,2022,947
+"madrid, comunidad de",45-64,2021,800
+"madrid, comunidad de",45-64,2020,530
+"madrid, comunidad de",45-64,2019,731
+"madrid, comunidad de",45-64,2018,629
+"madrid, comunidad de",45-64,2017,650
+"madrid, comunidad de",45-64,2016,617
+"madrid, comunidad de",45-64,2015,589
+"madrid, comunidad de",>65,2022,73
+"madrid, comunidad de",>65,2021,50
+"madrid, comunidad de",>65,2020,43
+"madrid, comunidad de",>65,2019,68
+"madrid, comunidad de",>65,2018,61
+"madrid, comunidad de",>65,2017,59
+"madrid, comunidad de",>65,2016,60
+"madrid, comunidad de",>65,2015,57
+"murcia, region de",<18,2022,16
+"murcia, region de",<18,2021,18
+"murcia, region de",<18,2020,11
+"murcia, region de",<18,2019,9
+"murcia, region de",<18,2018,6
+"murcia, region de",<18,2017,13
+"murcia, region de",<18,2016,5
+"murcia, region de",<18,2015,3
+"murcia, region de",18-24,2022,236
+"murcia, region de",18-24,2021,198
+"murcia, region de",18-24,2020,131
+"murcia, region de",18-24,2019,212
+"murcia, region de",18-24,2018,196
+"murcia, region de",18-24,2017,177
+"murcia, region de",18-24,2016,166
+"murcia, region de",18-24,2015,143
+"murcia, region de",25-44,2022,1
+"murcia, region de",25-44,2021,1
+"murcia, region de",25-44,2020,751
+"murcia, region de",25-44,2019,896
+"murcia, region de",25-44,2018,826
+"murcia, region de",25-44,2017,803
+"murcia, region de",25-44,2016,819
+"murcia, region de",25-44,2015,747
+"murcia, region de",45-64,2022,430
+"murcia, region de",45-64,2021,397
+"murcia, region de",45-64,2020,287
+"murcia, region de",45-64,2019,338
+"murcia, region de",45-64,2018,354
+"murcia, region de",45-64,2017,322
+"murcia, region de",45-64,2016,278
+"murcia, region de",45-64,2015,304
+"murcia, region de",>65,2022,48
+"murcia, region de",>65,2021,46
+"murcia, region de",>65,2020,27
+"murcia, region de",>65,2019,29
+"murcia, region de",>65,2018,43
+"murcia, region de",>65,2017,32
+"murcia, region de",>65,2016,32
+"murcia, region de",>65,2015,15
+"navarra, comunidad foral de",<18,2022,1
+"navarra, comunidad foral de",<18,2021,1
+"navarra, comunidad foral de",<18,2020,2
+"navarra, comunidad foral de",<18,2019,3
+"navarra, comunidad foral de",<18,2018,1
+"navarra, comunidad foral de",<18,2017,3
+"navarra, comunidad foral de",<18,2016,0
+"navarra, comunidad foral de",<18,2015,2
+"navarra, comunidad foral de",18-24,2022,67
+"navarra, comunidad foral de",18-24,2021,60
+"navarra, comunidad foral de",18-24,2020,37
+"navarra, comunidad foral de",18-24,2019,70
+"navarra, comunidad foral de",18-24,2018,62
+"navarra, comunidad foral de",18-24,2017,51
+"navarra, comunidad foral de",18-24,2016,40
+"navarra, comunidad foral de",18-24,2015,31
+"navarra, comunidad foral de",25-44,2022,360
+"navarra, comunidad foral de",25-44,2021,275
+"navarra, comunidad foral de",25-44,2020,187
+"navarra, comunidad foral de",25-44,2019,255
+"navarra, comunidad foral de",25-44,2018,195
+"navarra, comunidad foral de",25-44,2017,181
+"navarra, comunidad foral de",25-44,2016,179
+"navarra, comunidad foral de",25-44,2015,159
+"navarra, comunidad foral de",45-64,2022,149
+"navarra, comunidad foral de",45-64,2021,107
+"navarra, comunidad foral de",45-64,2020,79
+"navarra, comunidad foral de",45-64,2019,86
+"navarra, comunidad foral de",45-64,2018,98
+"navarra, comunidad foral de",45-64,2017,88
+"navarra, comunidad foral de",45-64,2016,73
+"navarra, comunidad foral de",45-64,2015,53
+"navarra, comunidad foral de",>65,2022,12
+"navarra, comunidad foral de",>65,2021,10
+"navarra, comunidad foral de",>65,2020,5
+"navarra, comunidad foral de",>65,2019,2
+"navarra, comunidad foral de",>65,2018,2
+"navarra, comunidad foral de",>65,2017,6
+"navarra, comunidad foral de",>65,2016,1
+"navarra, comunidad foral de",>65,2015,2
+pais vasco,<18,2022,1
+pais vasco,<18,2021,4
+pais vasco,<18,2020,1
+pais vasco,<18,2019,7
+pais vasco,<18,2018,4
+pais vasco,<18,2017,11
+pais vasco,<18,2016,7
+pais vasco,<18,2015,3
+pais vasco,18-24,2022,231
+pais vasco,18-24,2021,188
+pais vasco,18-24,2020,132
+pais vasco,18-24,2019,167
+pais vasco,18-24,2018,155
+pais vasco,18-24,2017,135
+pais vasco,18-24,2016,113
+pais vasco,18-24,2015,127
+pais vasco,25-44,2022,1
+pais vasco,25-44,2021,899
+pais vasco,25-44,2020,665
+pais vasco,25-44,2019,842
+pais vasco,25-44,2018,684
+pais vasco,25-44,2017,670
+pais vasco,25-44,2016,667
+pais vasco,25-44,2015,655
+pais vasco,45-64,2022,429
+pais vasco,45-64,2021,372
+pais vasco,45-64,2020,259
+pais vasco,45-64,2019,316
+pais vasco,45-64,2018,275
+pais vasco,45-64,2017,255
+pais vasco,45-64,2016,258
+pais vasco,45-64,2015,239
+pais vasco,>65,2022,34
+pais vasco,>65,2021,23
+pais vasco,>65,2020,21
+pais vasco,>65,2019,26
+pais vasco,>65,2018,28
+pais vasco,>65,2017,18
+pais vasco,>65,2016,21
+pais vasco,>65,2015,25
+"rioja, la",<18,2022,1
+"rioja, la",<18,2021,0
+"rioja, la",<18,2020,2
+"rioja, la",<18,2019,3
+"rioja, la",<18,2018,6
+"rioja, la",<18,2017,1
+"rioja, la",<18,2016,0
+"rioja, la",<18,2015,0
+"rioja, la",18-24,2022,49
+"rioja, la",18-24,2021,30
+"rioja, la",18-24,2020,22
+"rioja, la",18-24,2019,24
+"rioja, la",18-24,2018,29
+"rioja, la",18-24,2017,23
+"rioja, la",18-24,2016,19
+"rioja, la",18-24,2015,29
+"rioja, la",25-44,2022,182
+"rioja, la",25-44,2021,142
+"rioja, la",25-44,2020,118
+"rioja, la",25-44,2019,139
+"rioja, la",25-44,2018,150
+"rioja, la",25-44,2017,117
+"rioja, la",25-44,2016,123
+"rioja, la",25-44,2015,115
+"rioja, la",45-64,2022,95
+"rioja, la",45-64,2021,56
+"rioja, la",45-64,2020,29
+"rioja, la",45-64,2019,46
+"rioja, la",45-64,2018,41
+"rioja, la",45-64,2017,49
+"rioja, la",45-64,2016,51
+"rioja, la",45-64,2015,34
+"rioja, la",>65,2022,2
+"rioja, la",>65,2021,4
+"rioja, la",>65,2020,5
+"rioja, la",>65,2019,5
+"rioja, la",>65,2018,3
+"rioja, la",>65,2017,4
+"rioja, la",>65,2016,4
+"rioja, la",>65,2015,2
+ceuta,<18,2022,1
+ceuta,<18,2021,2
+ceuta,<18,2020,0
+ceuta,<18,2019,0
+ceuta,<18,2018,0
+ceuta,<18,2017,0
+ceuta,<18,2016,0
+ceuta,<18,2015,0
+ceuta,18-24,2022,11
+ceuta,18-24,2021,10
+ceuta,18-24,2020,8
+ceuta,18-24,2019,6
+ceuta,18-24,2018,6
+ceuta,18-24,2017,6
+ceuta,18-24,2016,11
+ceuta,18-24,2015,7
+ceuta,25-44,2022,50
+ceuta,25-44,2021,37
+ceuta,25-44,2020,33
+ceuta,25-44,2019,31
+ceuta,25-44,2018,46
+ceuta,25-44,2017,38
+ceuta,25-44,2016,36
+ceuta,25-44,2015,30
+ceuta,45-64,2022,18
+ceuta,45-64,2021,22
+ceuta,45-64,2020,15
+ceuta,45-64,2019,15
+ceuta,45-64,2018,17
+ceuta,45-64,2017,17
+ceuta,45-64,2016,15
+ceuta,45-64,2015,13
+ceuta,>65,2022,8
+ceuta,>65,2021,5
+ceuta,>65,2020,1
+ceuta,>65,2019,1
+ceuta,>65,2018,0
+ceuta,>65,2017,0
+ceuta,>65,2016,0
+ceuta,>65,2015,4
+melilla,<18,2022,0
+melilla,<18,2021,0
+melilla,<18,2020,0
+melilla,<18,2019,0
+melilla,<18,2018,0
+melilla,<18,2017,0
+melilla,<18,2016,0
+melilla,<18,2015,0
+melilla,18-24,2022,11
+melilla,18-24,2021,6
+melilla,18-24,2020,5
+melilla,18-24,2019,10
+melilla,18-24,2018,6
+melilla,18-24,2017,9
+melilla,18-24,2016,5
+melilla,18-24,2015,9
+melilla,25-44,2022,51
+melilla,25-44,2021,29
+melilla,25-44,2020,24
+melilla,25-44,2019,37
+melilla,25-44,2018,35
+melilla,25-44,2017,31
+melilla,25-44,2016,41
+melilla,25-44,2015,35
+melilla,45-64,2022,23
+melilla,45-64,2021,22
+melilla,45-64,2020,14
+melilla,45-64,2019,13
+melilla,45-64,2018,14
+melilla,45-64,2017,16
+melilla,45-64,2016,9
+melilla,45-64,2015,11
+melilla,>65,2022,1
+melilla,>65,2021,1
+melilla,>65,2020,1
+melilla,>65,2019,0
+melilla,>65,2018,2
+melilla,>65,2017,3
+melilla,>65,2016,3
+melilla,>65,2015,0
