@@ -44,3 +44,11 @@ def trimestre(mes):
         return 'tercero'
     else:
         return 'cuarto'
+    
+
+def eliminar_alfa(columna):
+    '''
+    Entra una columna de un DataFrame.
+    Elimina los caracteres alfabéticos de cada elemento de la columna.
+    '''
+    return columna.apply(lambda x: ''.join(c if not c.isalpha() and not c.isspace() else '' for c in str(x)))
