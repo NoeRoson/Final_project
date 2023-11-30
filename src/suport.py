@@ -6,17 +6,6 @@ warnings.filterwarnings('ignore')
 import re
 
 
-def lower_tildes(column):
-    '''Entra una columna:
-    Se convierte a minúsculas y se eliminan tildes
-    '''
-    return column.apply(lambda x: unidecode(str(x).lower()))
-
-def format_filas(column):
-    '''Entra un df.column:
-    Se convierte a minúsculas y se eliminan tildes
-    '''
-    return column.map(lambda x: unidecode(x.lower()))
 
 def unif_col(columns):
     '''Entran todas las columnas de un df:
@@ -24,6 +13,12 @@ def unif_col(columns):
     '''
     return map(lambda x: unidecode(x.lower()), columns)
 
+
+def lower_tildes(column):
+    '''Entra una columna:
+    Se convierte a minúsculas y se eliminan tildes
+    '''
+    return column.apply(lambda x: unidecode(str(x).lower()))
 
 
 def clean_year(columna):
@@ -36,3 +31,16 @@ def clean_year(columna):
     columna = pd.to_datetime(columna, format='%Y', errors='coerce')  # Convierte a tipo de dato de año
     return columna.dt.year  # Extrae el año de la fecha resultante
 
+
+def trimestre(mes):
+    '''
+    Entra un mes y sale el número del trimestre
+    '''
+    if mes in ['enero', 'febrero', 'marzo']:
+        return 'primero'
+    elif mes in ['abril', 'mayo', 'junio']:
+        return 'segundo'
+    elif mes in ['julio', 'agosto', 'septiembre']:
+        return 'tercero'
+    else:
+        return 'cuarto'
