@@ -99,6 +99,8 @@ def comunidades(dataframes, column_name='comunidad'):
 
 
 
+def eliminar_num(texto):
+    return ''.join(caracter for caracter in texto if not caracter.isdigit())
 
 
 

@@ -1,2737 +1,2737 @@
 tipo,comunidad,año,total
-delito,andalucia,2022,9955
-delito,andalucia,2021,926
-delito,andalucia,2020,7103
-delito,andalucia,2019,8539
-delito,andalucia,2018,7856
-delito,andalucia,2017,7539
-delito,andalucia,2016,6734
-delito,andalucia,2015,5592
-delito,aragon,2022,1297
-delito,aragon,2021,1153
-delito,aragon,2020,9070
-delito,aragon,2019,1021
-delito,aragon,2018,1027
-delito,aragon,2017,9510
-delito,aragon,2016,8330
-delito,aragon,2015,5520
-delito,asturias,2022,1304
-delito,asturias,2021,1063
-delito,asturias,2020,7000
-delito,asturias,2019,9690
-delito,asturias,2018,8960
-delito,asturias,2017,8790
-delito,asturias,2016,8010
-delito,asturias,2015,6280
-delito,baleares,2022,1821
-delito,baleares,2021,1803
-delito,baleares,2020,136
-delito,baleares,2019,1849
-delito,baleares,2018,1554
-delito,baleares,2017,1596
-delito,baleares,2016,1603
-delito,baleares,2015,1092
-delito,canarias,2022,3728
-delito,canarias,2021,355
-delito,canarias,2020,2888
-delito,canarias,2019,3225
-delito,canarias,2018,2866
-delito,canarias,2017,2668
-delito,canarias,2016,2463
-delito,canarias,2015,1971
-delito,cantabria,2022,6250
-delito,cantabria,2021,5410
-delito,cantabria,2020,4450
-delito,cantabria,2019,5350
-delito,cantabria,2018,5950
-delito,cantabria,2017,4400
-delito,cantabria,2016,3840
-delito,cantabria,2015,3260
-delito,castilla y leon,2022,2075
-delito,castilla y leon,2021,181
-delito,castilla y leon,2020,1215
-delito,castilla y leon,2019,159
-delito,castilla y leon,2018,148
-delito,castilla y leon,2017,1469
-delito,castilla y leon,2016,1398
-delito,castilla y leon,2015,1223
-delito,castilla la mancha,2022,1947
-delito,castilla la mancha,2021,1749
-delito,castilla la mancha,2020,1232
-delito,castilla la mancha,2019,1548
-delito,castilla la mancha,2018,1461
-delito,castilla la mancha,2017,1404
-delito,castilla la mancha,2016,1395
-delito,castilla la mancha,2015,1255
-delito,cataluña,2022,5967
-delito,cataluña,2021,5605
-delito,cataluña,2020,4039
-delito,cataluña,2019,4644
-delito,cataluña,2018,4314
-delito,cataluña,2017,403
-delito,cataluña,2016,4043
-delito,cataluña,2015,3459
-delito,valencia,2022,7734
-delito,valencia,2021,6944
-delito,valencia,2020,5287
-delito,valencia,2019,629
-delito,valencia,2018,5633
-delito,valencia,2017,5427
-delito,valencia,2016,4978
-delito,valencia,2015,4151
-delito,extremadura,2022,131
-delito,extremadura,2021,1171
-delito,extremadura,2020,9400
-delito,extremadura,2019,9600
-delito,extremadura,2018,8140
-delito,extremadura,2017,8570
-delito,extremadura,2016,8320
-delito,extremadura,2015,7540
-delito,galicia,2022,2381
-delito,galicia,2021,2093
-delito,galicia,2020,1555
-delito,galicia,2019,1914
-delito,galicia,2018,1712
-delito,galicia,2017,1585
-delito,galicia,2016,1381
-delito,galicia,2015,1263
-delito,madrid,2022,5033
-delito,madrid,2021,4295
-delito,madrid,2020,3029
-delito,madrid,2019,3963
-delito,madrid,2018,3405
-delito,madrid,2017,3385
-delito,madrid,2016,3047
-delito,madrid,2015,2802
-delito,region de murcia,2022,257
-delito,region de murcia,2021,2277
-delito,region de murcia,2020,1551
-delito,region de murcia,2019,1832
-delito,region de murcia,2018,1832
-delito,region de murcia,2017,1663
-delito,region de murcia,2016,1617
-delito,region de murcia,2015,129
-delito,navarra,2022,8760
-delito,navarra,2021,6640
-delito,navarra,2020,4210
-delito,navarra,2019,5740
-delito,navarra,2018,4900
-delito,navarra,2017,4540
-delito,navarra,2016,3870
-delito,navarra,2015,3080
-delito,pais vasco,2022,3013
-delito,pais vasco,2021,2337
-delito,pais vasco,2020,167
-delito,pais vasco,2019,2118
-delito,pais vasco,2018,1722
-delito,pais vasco,2017,1576
-delito,pais vasco,2016,1424
-delito,pais vasco,2015,1267
-delito,la rioja,2022,5000
-delito,la rioja,2021,3470
-delito,la rioja,2020,2340
-delito,la rioja,2019,3100
-delito,la rioja,2018,3200
-delito,la rioja,2017,2640
-delito,la rioja,2016,2480
-delito,la rioja,2015,2040
-delito,ceuta,2022,1170
-delito,ceuta,2021,970
-delito,ceuta,2020,790
-delito,ceuta,2019,620
-delito,ceuta,2018,810
-delito,ceuta,2017,690
-delito,ceuta,2016,680
-delito,ceuta,2015,590
-delito,melilla,2022,1180
-delito,melilla,2021,880
-delito,melilla,2020,630
-delito,melilla,2019,850
-delito,melilla,2018,830
-delito,melilla,2017,810
-delito,melilla,2016,750
-delito,melilla,2015,690
-homicidio,andalucia,2022,140
-homicidio,andalucia,2021,170
-homicidio,andalucia,2020,100
-homicidio,andalucia,2019,120
-homicidio,andalucia,2018,120
-homicidio,andalucia,2017,80
-homicidio,andalucia,2016,180
-homicidio,andalucia,2015,120
-homicidio,aragon,2022,10
-homicidio,aragon,2021,20
-homicidio,aragon,2020,20
-homicidio,aragon,2019,40
-homicidio,aragon,2018,20
-homicidio,aragon,2017,20
-homicidio,aragon,2016,20
-homicidio,aragon,2015,40
-homicidio,asturias,2022,20
-homicidio,asturias,2021,20
-homicidio,asturias,2020,0
-homicidio,asturias,2019,10
-homicidio,asturias,2018,40
-homicidio,asturias,2017,30
-homicidio,asturias,2016,20
-homicidio,asturias,2015,0
-homicidio,baleares,2022,10
-homicidio,baleares,2021,30
-homicidio,baleares,2020,20
-homicidio,baleares,2019,60
-homicidio,baleares,2018,20
-homicidio,baleares,2017,40
-homicidio,baleares,2016,20
-homicidio,baleares,2015,20
-homicidio,canarias,2022,50
-homicidio,canarias,2021,50
-homicidio,canarias,2020,40
-homicidio,canarias,2019,50
-homicidio,canarias,2018,60
-homicidio,canarias,2017,30
-homicidio,canarias,2016,70
-homicidio,canarias,2015,90
-homicidio,cantabria,2022,0
-homicidio,cantabria,2021,0
-homicidio,cantabria,2020,0
-homicidio,cantabria,2019,20
-homicidio,cantabria,2018,0
-homicidio,cantabria,2017,0
-homicidio,cantabria,2016,0
-homicidio,cantabria,2015,0
-homicidio,castilla y leon,2022,10
-homicidio,castilla y leon,2021,40
-homicidio,castilla y leon,2020,10
-homicidio,castilla y leon,2019,20
-homicidio,castilla y leon,2018,20
-homicidio,castilla y leon,2017,0
-homicidio,castilla y leon,2016,20
-homicidio,castilla y leon,2015,20
-homicidio,castilla la mancha,2022,10
-homicidio,castilla la mancha,2021,20
-homicidio,castilla la mancha,2020,20
-homicidio,castilla la mancha,2019,20
-homicidio,castilla la mancha,2018,20
-homicidio,castilla la mancha,2017,40
-homicidio,castilla la mancha,2016,30
-homicidio,castilla la mancha,2015,30
-homicidio,cataluña,2022,80
-homicidio,cataluña,2021,80
-homicidio,cataluña,2020,170
-homicidio,cataluña,2019,70
-homicidio,cataluña,2018,110
-homicidio,cataluña,2017,140
-homicidio,cataluña,2016,120
-homicidio,cataluña,2015,170
-homicidio,valencia,2022,120
-homicidio,valencia,2021,130
-homicidio,valencia,2020,60
-homicidio,valencia,2019,80
-homicidio,valencia,2018,100
-homicidio,valencia,2017,110
-homicidio,valencia,2016,90
-homicidio,valencia,2015,120
-homicidio,extremadura,2022,20
-homicidio,extremadura,2021,0
-homicidio,extremadura,2020,0
-homicidio,extremadura,2019,10
-homicidio,extremadura,2018,0
-homicidio,extremadura,2017,0
-homicidio,extremadura,2016,0
-homicidio,extremadura,2015,0
-homicidio,galicia,2022,40
-homicidio,galicia,2021,80
-homicidio,galicia,2020,40
-homicidio,galicia,2019,60
-homicidio,galicia,2018,100
-homicidio,galicia,2017,10
-homicidio,galicia,2016,50
-homicidio,galicia,2015,30
-homicidio,madrid,2022,110
-homicidio,madrid,2021,160
-homicidio,madrid,2020,150
-homicidio,madrid,2019,100
-homicidio,madrid,2018,120
-homicidio,madrid,2017,130
-homicidio,madrid,2016,150
-homicidio,madrid,2015,110
-homicidio,region de murcia,2022,50
-homicidio,region de murcia,2021,20
-homicidio,region de murcia,2020,30
-homicidio,region de murcia,2019,20
-homicidio,region de murcia,2018,0
-homicidio,region de murcia,2017,20
-homicidio,region de murcia,2016,30
-homicidio,region de murcia,2015,30
-homicidio,navarra,2022,10
-homicidio,navarra,2021,10
-homicidio,navarra,2020,10
-homicidio,navarra,2019,10
-homicidio,navarra,2018,10
-homicidio,navarra,2017,0
-homicidio,navarra,2016,0
-homicidio,navarra,2015,0
-homicidio,pais vasco,2022,70
-homicidio,pais vasco,2021,20
-homicidio,pais vasco,2020,20
-homicidio,pais vasco,2019,10
-homicidio,pais vasco,2018,0
-homicidio,pais vasco,2017,20
-homicidio,pais vasco,2016,20
-homicidio,pais vasco,2015,30
-homicidio,la rioja,2022,20
-homicidio,la rioja,2021,0
-homicidio,la rioja,2020,0
-homicidio,la rioja,2019,0
-homicidio,la rioja,2018,0
-homicidio,la rioja,2017,10
-homicidio,la rioja,2016,10
-homicidio,la rioja,2015,0
-homicidio,ceuta,2022,0
-homicidio,ceuta,2021,0
-homicidio,ceuta,2020,0
-homicidio,ceuta,2019,0
-homicidio,ceuta,2018,0
-homicidio,ceuta,2017,0
-homicidio,ceuta,2016,0
-homicidio,ceuta,2015,0
-homicidio,melilla,2022,0
-homicidio,melilla,2021,0
-homicidio,melilla,2020,0
-homicidio,melilla,2019,0
-homicidio,melilla,2018,0
-homicidio,melilla,2017,10
-homicidio,melilla,2016,0
-homicidio,melilla,2015,0
-lesiones,andalucia,2022,351
-lesiones,andalucia,2021,3097
-lesiones,andalucia,2020,2323
-lesiones,andalucia,2019,2964
-lesiones,andalucia,2018,2809
-lesiones,andalucia,2017,2702
-lesiones,andalucia,2016,2444
-lesiones,andalucia,2015,2287
-lesiones,aragon,2022,5180
-lesiones,aragon,2021,4540
-lesiones,aragon,2020,3740
-lesiones,aragon,2019,4050
-lesiones,aragon,2018,3400
-lesiones,aragon,2017,3730
-lesiones,aragon,2016,3520
-lesiones,aragon,2015,3110
-lesiones,asturias,2022,4990
-lesiones,asturias,2021,3450
-lesiones,asturias,2020,2560
-lesiones,asturias,2019,3370
-lesiones,asturias,2018,3370
-lesiones,asturias,2017,3440
-lesiones,asturias,2016,3230
-lesiones,asturias,2015,2710
-lesiones,baleares,2022,6400
-lesiones,baleares,2021,5740
-lesiones,baleares,2020,4620
-lesiones,baleares,2019,6760
-lesiones,baleares,2018,5420
-lesiones,baleares,2017,6060
-lesiones,baleares,2016,5960
-lesiones,baleares,2015,4660
-lesiones,canarias,2022,1194
-lesiones,canarias,2021,1031
-lesiones,canarias,2020,9390
-lesiones,canarias,2019,112
-lesiones,canarias,2018,9300
-lesiones,canarias,2017,8470
-lesiones,canarias,2016,8510
-lesiones,canarias,2015,8380
-lesiones,cantabria,2022,1950
-lesiones,cantabria,2021,1770
-lesiones,cantabria,2020,1630
-lesiones,cantabria,2019,1800
-lesiones,cantabria,2018,1980
-lesiones,cantabria,2017,1440
-lesiones,cantabria,2016,1440
-lesiones,cantabria,2015,1650
-lesiones,castilla y leon,2022,7010
-lesiones,castilla y leon,2021,6080
-lesiones,castilla y leon,2020,4050
-lesiones,castilla y leon,2019,5330
-lesiones,castilla y leon,2018,5150
-lesiones,castilla y leon,2017,5160
-lesiones,castilla y leon,2016,5000
-lesiones,castilla y leon,2015,4960
-lesiones,castilla la mancha,2022,6770
-lesiones,castilla la mancha,2021,6250
-lesiones,castilla la mancha,2020,4640
-lesiones,castilla la mancha,2019,5470
-lesiones,castilla la mancha,2018,5580
-lesiones,castilla la mancha,2017,5420
-lesiones,castilla la mancha,2016,5730
-lesiones,castilla la mancha,2015,5600
-lesiones,cataluña,2022,2357
-lesiones,cataluña,2021,1996
-lesiones,cataluña,2020,1425
-lesiones,cataluña,2019,1725
-lesiones,cataluña,2018,1523
-lesiones,cataluña,2017,1502
-lesiones,cataluña,2016,1541
-lesiones,cataluña,2015,1446
-lesiones,valencia,2022,2912
-lesiones,valencia,2021,245
-lesiones,valencia,2020,1906
-lesiones,valencia,2019,2335
-lesiones,valencia,2018,2036
-lesiones,valencia,2017,1965
-lesiones,valencia,2016,1879
-lesiones,valencia,2015,1857
-lesiones,extremadura,2022,4220
-lesiones,extremadura,2021,3550
-lesiones,extremadura,2020,2550
-lesiones,extremadura,2019,3110
-lesiones,extremadura,2018,2860
-lesiones,extremadura,2017,3240
-lesiones,extremadura,2016,3360
-lesiones,extremadura,2015,3050
-lesiones,galicia,2022,9290
-lesiones,galicia,2021,7710
-lesiones,galicia,2020,6070
-lesiones,galicia,2019,6650
-lesiones,galicia,2018,6130
-lesiones,galicia,2017,6500
-lesiones,galicia,2016,5780
-lesiones,galicia,2015,5690
-lesiones,madrid,2022,223
-lesiones,madrid,2021,1859
-lesiones,madrid,2020,1248
-lesiones,madrid,2019,1659
-lesiones,madrid,2018,1428
-lesiones,madrid,2017,1486
-lesiones,madrid,2016,1422
-lesiones,madrid,2015,1449
-lesiones,region de murcia,2022,1092
-lesiones,region de murcia,2021,9240
-lesiones,region de murcia,2020,6330
-lesiones,region de murcia,2019,8220
-lesiones,region de murcia,2018,7330
-lesiones,region de murcia,2017,7640
-lesiones,region de murcia,2016,7350
-lesiones,region de murcia,2015,6520
-lesiones,navarra,2022,3260
-lesiones,navarra,2021,2240
-lesiones,navarra,2020,1570
-lesiones,navarra,2019,2310
-lesiones,navarra,2018,1830
-lesiones,navarra,2017,1770
-lesiones,navarra,2016,1580
-lesiones,navarra,2015,1520
-lesiones,pais vasco,2022,1103
-lesiones,pais vasco,2021,8580
-lesiones,pais vasco,2020,6050
-lesiones,pais vasco,2019,7710
-lesiones,pais vasco,2018,6190
-lesiones,pais vasco,2017,6020
-lesiones,pais vasco,2016,5970
-lesiones,pais vasco,2015,6270
-lesiones,la rioja,2022,1750
-lesiones,la rioja,2021,1140
-lesiones,la rioja,2020,980
-lesiones,la rioja,2019,1160
-lesiones,la rioja,2018,1210
-lesiones,la rioja,2017,990
-lesiones,la rioja,2016,1070
-lesiones,la rioja,2015,1050
-lesiones,ceuta,2022,520
-lesiones,ceuta,2021,420
-lesiones,ceuta,2020,300
-lesiones,ceuta,2019,200
-lesiones,ceuta,2018,260
-lesiones,ceuta,2017,340
-lesiones,ceuta,2016,460
-lesiones,ceuta,2015,330
-lesiones,melilla,2022,330
-lesiones,melilla,2021,230
-lesiones,melilla,2020,260
-lesiones,melilla,2019,330
-lesiones,melilla,2018,270
-lesiones,melilla,2017,330
-lesiones,melilla,2016,380
-lesiones,melilla,2015,420
-detencion_secuestro,andalucia,2022,70
-detencion_secuestro,andalucia,2021,10
-detencion_secuestro,andalucia,2020,60
-detencion_secuestro,andalucia,2019,50
-detencion_secuestro,andalucia,2018,30
-detencion_secuestro,andalucia,2017,70
-detencion_secuestro,andalucia,2016,50
-detencion_secuestro,andalucia,2015,50
-detencion_secuestro,aragon,2022,10
-detencion_secuestro,aragon,2021,10
-detencion_secuestro,aragon,2020,0
-detencion_secuestro,aragon,2019,0
-detencion_secuestro,aragon,2018,0
-detencion_secuestro,aragon,2017,10
-detencion_secuestro,aragon,2016,0
-detencion_secuestro,aragon,2015,0
-detencion_secuestro,asturias,2022,10
-detencion_secuestro,asturias,2021,10
-detencion_secuestro,asturias,2020,0
-detencion_secuestro,asturias,2019,0
-detencion_secuestro,asturias,2018,0
-detencion_secuestro,asturias,2017,0
-detencion_secuestro,asturias,2016,20
-detencion_secuestro,asturias,2015,10
-detencion_secuestro,baleares,2022,0
-detencion_secuestro,baleares,2021,10
-detencion_secuestro,baleares,2020,0
-detencion_secuestro,baleares,2019,10
-detencion_secuestro,baleares,2018,0
-detencion_secuestro,baleares,2017,0
-detencion_secuestro,baleares,2016,10
-detencion_secuestro,baleares,2015,0
-detencion_secuestro,canarias,2022,10
-detencion_secuestro,canarias,2021,10
-detencion_secuestro,canarias,2020,10
-detencion_secuestro,canarias,2019,10
-detencion_secuestro,canarias,2018,0
-detencion_secuestro,canarias,2017,10
-detencion_secuestro,canarias,2016,20
-detencion_secuestro,canarias,2015,0
-detencion_secuestro,cantabria,2022,10
-detencion_secuestro,cantabria,2021,0
-detencion_secuestro,cantabria,2020,0
-detencion_secuestro,cantabria,2019,0
-detencion_secuestro,cantabria,2018,10
-detencion_secuestro,cantabria,2017,0
-detencion_secuestro,cantabria,2016,0
-detencion_secuestro,cantabria,2015,10
-detencion_secuestro,castilla y leon,2022,40
-detencion_secuestro,castilla y leon,2021,0
-detencion_secuestro,castilla y leon,2020,10
-detencion_secuestro,castilla y leon,2019,40
-detencion_secuestro,castilla y leon,2018,0
-detencion_secuestro,castilla y leon,2017,10
-detencion_secuestro,castilla y leon,2016,0
-detencion_secuestro,castilla y leon,2015,0
-detencion_secuestro,castilla la mancha,2022,20
-detencion_secuestro,castilla la mancha,2021,20
-detencion_secuestro,castilla la mancha,2020,10
-detencion_secuestro,castilla la mancha,2019,0
-detencion_secuestro,castilla la mancha,2018,0
-detencion_secuestro,castilla la mancha,2017,0
-detencion_secuestro,castilla la mancha,2016,10
-detencion_secuestro,castilla la mancha,2015,20
-detencion_secuestro,cataluña,2022,30
-detencion_secuestro,cataluña,2021,30
-detencion_secuestro,cataluña,2020,50
-detencion_secuestro,cataluña,2019,10
-detencion_secuestro,cataluña,2018,10
-detencion_secuestro,cataluña,2017,50
-detencion_secuestro,cataluña,2016,30
-detencion_secuestro,cataluña,2015,20
-detencion_secuestro,valencia,2022,60
-detencion_secuestro,valencia,2021,60
-detencion_secuestro,valencia,2020,40
-detencion_secuestro,valencia,2019,40
-detencion_secuestro,valencia,2018,20
-detencion_secuestro,valencia,2017,30
-detencion_secuestro,valencia,2016,60
-detencion_secuestro,valencia,2015,0
-detencion_secuestro,extremadura,2022,10
-detencion_secuestro,extremadura,2021,0
-detencion_secuestro,extremadura,2020,0
-detencion_secuestro,extremadura,2019,10
-detencion_secuestro,extremadura,2018,0
-detencion_secuestro,extremadura,2017,0
-detencion_secuestro,extremadura,2016,0
-detencion_secuestro,extremadura,2015,0
-detencion_secuestro,galicia,2022,20
-detencion_secuestro,galicia,2021,20
-detencion_secuestro,galicia,2020,0
-detencion_secuestro,galicia,2019,10
-detencion_secuestro,galicia,2018,20
-detencion_secuestro,galicia,2017,20
-detencion_secuestro,galicia,2016,10
-detencion_secuestro,galicia,2015,10
-detencion_secuestro,madrid,2022,40
-detencion_secuestro,madrid,2021,10
-detencion_secuestro,madrid,2020,0
-detencion_secuestro,madrid,2019,20
-detencion_secuestro,madrid,2018,20
-detencion_secuestro,madrid,2017,10
-detencion_secuestro,madrid,2016,10
-detencion_secuestro,madrid,2015,10
-detencion_secuestro,region de murcia,2022,40
-detencion_secuestro,region de murcia,2021,0
-detencion_secuestro,region de murcia,2020,0
-detencion_secuestro,region de murcia,2019,0
-detencion_secuestro,region de murcia,2018,0
-detencion_secuestro,region de murcia,2017,20
-detencion_secuestro,region de murcia,2016,0
-detencion_secuestro,region de murcia,2015,0
-detencion_secuestro,navarra,2022,0
-detencion_secuestro,navarra,2021,10
-detencion_secuestro,navarra,2020,0
-detencion_secuestro,navarra,2019,0
-detencion_secuestro,navarra,2018,0
-detencion_secuestro,navarra,2017,10
-detencion_secuestro,navarra,2016,10
-detencion_secuestro,navarra,2015,10
-detencion_secuestro,pais vasco,2022,20
-detencion_secuestro,pais vasco,2021,10
-detencion_secuestro,pais vasco,2020,0
-detencion_secuestro,pais vasco,2019,20
-detencion_secuestro,pais vasco,2018,0
-detencion_secuestro,pais vasco,2017,30
-detencion_secuestro,pais vasco,2016,10
-detencion_secuestro,pais vasco,2015,10
-detencion_secuestro,la rioja,2022,10
-detencion_secuestro,la rioja,2021,0
-detencion_secuestro,la rioja,2020,0
-detencion_secuestro,la rioja,2019,10
-detencion_secuestro,la rioja,2018,0
-detencion_secuestro,la rioja,2017,0
-detencion_secuestro,la rioja,2016,0
-detencion_secuestro,la rioja,2015,50
-detencion_secuestro,ceuta,2022,0
-detencion_secuestro,ceuta,2021,0
-detencion_secuestro,ceuta,2020,0
-detencion_secuestro,ceuta,2019,0
-detencion_secuestro,ceuta,2018,0
-detencion_secuestro,ceuta,2017,0
-detencion_secuestro,ceuta,2016,0
-detencion_secuestro,ceuta,2015,0
-detencion_secuestro,melilla,2022,0
-detencion_secuestro,melilla,2021,0
-detencion_secuestro,melilla,2020,0
-detencion_secuestro,melilla,2019,0
-detencion_secuestro,melilla,2018,0
-detencion_secuestro,melilla,2017,0
-detencion_secuestro,melilla,2016,0
-detencion_secuestro,melilla,2015,0
-amenazas,andalucia,2022,211
-amenazas,andalucia,2021,1972
-amenazas,andalucia,2020,1567
-amenazas,andalucia,2019,187
-amenazas,andalucia,2018,1742
-amenazas,andalucia,2017,1753
-amenazas,andalucia,2016,167
-amenazas,andalucia,2015,1614
-amenazas,aragon,2022,1980
-amenazas,aragon,2021,1440
-amenazas,aragon,2020,1140
-amenazas,aragon,2019,1560
-amenazas,aragon,2018,1770
-amenazas,aragon,2017,1910
-amenazas,aragon,2016,1720
-amenazas,aragon,2015,1170
-amenazas,asturias,2022,2330
-amenazas,asturias,2021,1970
-amenazas,asturias,2020,1330
-amenazas,asturias,2019,1910
-amenazas,asturias,2018,1830
-amenazas,asturias,2017,1890
-amenazas,asturias,2016,1620
-amenazas,asturias,2015,1430
-amenazas,baleares,2022,2840
-amenazas,baleares,2021,2910
-amenazas,baleares,2020,2260
-amenazas,baleares,2019,3280
-amenazas,baleares,2018,2990
-amenazas,baleares,2017,2830
-amenazas,baleares,2016,2950
-amenazas,baleares,2015,2480
-amenazas,canarias,2022,6670
-amenazas,canarias,2021,6480
-amenazas,canarias,2020,5030
-amenazas,canarias,2019,6040
-amenazas,canarias,2018,5490
-amenazas,canarias,2017,4660
-amenazas,canarias,2016,4340
-amenazas,canarias,2015,4230
-amenazas,cantabria,2022,1160
-amenazas,cantabria,2021,1130
-amenazas,cantabria,2020,790
-amenazas,cantabria,2019,920
-amenazas,cantabria,2018,1140
-amenazas,cantabria,2017,830
-amenazas,cantabria,2016,1010
-amenazas,cantabria,2015,680
-amenazas,castilla y leon,2022,4170
-amenazas,castilla y leon,2021,3760
-amenazas,castilla y leon,2020,2560
-amenazas,castilla y leon,2019,3420
-amenazas,castilla y leon,2018,3320
-amenazas,castilla y leon,2017,3320
-amenazas,castilla y leon,2016,3590
-amenazas,castilla y leon,2015,3380
-amenazas,castilla la mancha,2022,3760
-amenazas,castilla la mancha,2021,3590
-amenazas,castilla la mancha,2020,2630
-amenazas,castilla la mancha,2019,3170
-amenazas,castilla la mancha,2018,3420
-amenazas,castilla la mancha,2017,3630
-amenazas,castilla la mancha,2016,3350
-amenazas,castilla la mancha,2015,3600
-amenazas,cataluña,2022,1021
-amenazas,cataluña,2021,9840
-amenazas,cataluña,2020,7000
-amenazas,cataluña,2019,8370
-amenazas,cataluña,2018,8470
-amenazas,cataluña,2017,7490
-amenazas,cataluña,2016,7900
-amenazas,cataluña,2015,8010
-amenazas,valencia,2022,1439
-amenazas,valencia,2021,1312
-amenazas,valencia,2020,9600
-amenazas,valencia,2019,115
-amenazas,valencia,2018,1123
-amenazas,valencia,2017,1018
-amenazas,valencia,2016,1005
-amenazas,valencia,2015,9590
-amenazas,extremadura,2022,2530
-amenazas,extremadura,2021,2450
-amenazas,extremadura,2020,1960
-amenazas,extremadura,2019,2060
-amenazas,extremadura,2018,1820
-amenazas,extremadura,2017,1980
-amenazas,extremadura,2016,2010
-amenazas,extremadura,2015,1930
-amenazas,galicia,2022,4020
-amenazas,galicia,2021,3360
-amenazas,galicia,2020,2520
-amenazas,galicia,2019,3430
-amenazas,galicia,2018,3800
-amenazas,galicia,2017,3160
-amenazas,galicia,2016,2780
-amenazas,galicia,2015,2970
-amenazas,madrid,2022,7210
-amenazas,madrid,2021,5970
-amenazas,madrid,2020,4520
-amenazas,madrid,2019,6310
-amenazas,madrid,2018,5370
-amenazas,madrid,2017,5650
-amenazas,madrid,2016,5290
-amenazas,madrid,2015,5120
-amenazas,region de murcia,2022,4920
-amenazas,region de murcia,2021,4330
-amenazas,region de murcia,2020,2710
-amenazas,region de murcia,2019,3160
-amenazas,region de murcia,2018,3410
-amenazas,region de murcia,2017,2880
-amenazas,region de murcia,2016,2830
-amenazas,region de murcia,2015,2520
-amenazas,navarra,2022,1160
-amenazas,navarra,2021,910
-amenazas,navarra,2020,590
-amenazas,navarra,2019,750
-amenazas,navarra,2018,630
-amenazas,navarra,2017,680
-amenazas,navarra,2016,750
-amenazas,navarra,2015,570
-amenazas,pais vasco,2022,4730
-amenazas,pais vasco,2021,3860
-amenazas,pais vasco,2020,2900
-amenazas,pais vasco,2019,3810
-amenazas,pais vasco,2018,2970
-amenazas,pais vasco,2017,2510
-amenazas,pais vasco,2016,2420
-amenazas,pais vasco,2015,2770
-amenazas,la rioja,2022,760
-amenazas,la rioja,2021,580
-amenazas,la rioja,2020,310
-amenazas,la rioja,2019,530
-amenazas,la rioja,2018,560
-amenazas,la rioja,2017,550
-amenazas,la rioja,2016,440
-amenazas,la rioja,2015,440
-amenazas,ceuta,2022,220
-amenazas,ceuta,2021,80
-amenazas,ceuta,2020,140
-amenazas,ceuta,2019,160
-amenazas,ceuta,2018,150
-amenazas,ceuta,2017,160
-amenazas,ceuta,2016,120
-amenazas,ceuta,2015,140
-amenazas,melilla,2022,250
-amenazas,melilla,2021,220
-amenazas,melilla,2020,110
-amenazas,melilla,2019,160
-amenazas,melilla,2018,140
-amenazas,melilla,2017,170
-amenazas,melilla,2016,160
-amenazas,melilla,2015,160
-coacciones,andalucia,2022,4130
-coacciones,andalucia,2021,3550
-coacciones,andalucia,2020,2290
-coacciones,andalucia,2019,3020
-coacciones,andalucia,2018,2500
-coacciones,andalucia,2017,2060
-coacciones,andalucia,2016,2120
-coacciones,andalucia,2015,1780
-coacciones,aragon,2022,670
-coacciones,aragon,2021,700
-coacciones,aragon,2020,430
-coacciones,aragon,2019,440
-coacciones,aragon,2018,490
-coacciones,aragon,2017,320
-coacciones,aragon,2016,310
-coacciones,aragon,2015,290
-coacciones,asturias,2022,700
-coacciones,asturias,2021,580
-coacciones,asturias,2020,240
-coacciones,asturias,2019,460
-coacciones,asturias,2018,320
-coacciones,asturias,2017,240
-coacciones,asturias,2016,410
-coacciones,asturias,2015,340
-coacciones,baleares,2022,2060
-coacciones,baleares,2021,2190
-coacciones,baleares,2020,1720
-coacciones,baleares,2019,1890
-coacciones,baleares,2018,1510
-coacciones,baleares,2017,1520
-coacciones,baleares,2016,1650
-coacciones,baleares,2015,1170
-coacciones,canarias,2022,1680
-coacciones,canarias,2021,1380
-coacciones,canarias,2020,850
-coacciones,canarias,2019,810
-coacciones,canarias,2018,800
-coacciones,canarias,2017,660
-coacciones,canarias,2016,720
-coacciones,canarias,2015,920
-coacciones,cantabria,2022,190
-coacciones,cantabria,2021,240
-coacciones,cantabria,2020,140
-coacciones,cantabria,2019,350
-coacciones,cantabria,2018,350
-coacciones,cantabria,2017,290
-coacciones,cantabria,2016,200
-coacciones,cantabria,2015,140
-coacciones,castilla y leon,2022,1370
-coacciones,castilla y leon,2021,1140
-coacciones,castilla y leon,2020,600
-coacciones,castilla y leon,2019,790
-coacciones,castilla y leon,2018,630
-coacciones,castilla y leon,2017,740
-coacciones,castilla y leon,2016,550
-coacciones,castilla y leon,2015,570
-coacciones,castilla la mancha,2022,880
-coacciones,castilla la mancha,2021,680
-coacciones,castilla la mancha,2020,450
-coacciones,castilla la mancha,2019,520
-coacciones,castilla la mancha,2018,550
-coacciones,castilla la mancha,2017,430
-coacciones,castilla la mancha,2016,550
-coacciones,castilla la mancha,2015,480
-coacciones,cataluña,2022,2150
-coacciones,cataluña,2021,2410
-coacciones,cataluña,2020,1420
-coacciones,cataluña,2019,1360
-coacciones,cataluña,2018,1430
-coacciones,cataluña,2017,1280
-coacciones,cataluña,2016,1350
-coacciones,cataluña,2015,1610
-coacciones,valencia,2022,3070
-coacciones,valencia,2021,2870
-coacciones,valencia,2020,1810
-coacciones,valencia,2019,2000
-coacciones,valencia,2018,1750
-coacciones,valencia,2017,1680
-coacciones,valencia,2016,1770
-coacciones,valencia,2015,1700
-coacciones,extremadura,2022,850
-coacciones,extremadura,2021,660
-coacciones,extremadura,2020,470
-coacciones,extremadura,2019,680
-coacciones,extremadura,2018,510
-coacciones,extremadura,2017,310
-coacciones,extremadura,2016,410
-coacciones,extremadura,2015,580
-coacciones,galicia,2022,1560
-coacciones,galicia,2021,1170
-coacciones,galicia,2020,860
-coacciones,galicia,2019,1100
-coacciones,galicia,2018,1130
-coacciones,galicia,2017,930
-coacciones,galicia,2016,1050
-coacciones,galicia,2015,810
-coacciones,madrid,2022,2560
-coacciones,madrid,2021,2070
-coacciones,madrid,2020,1180
-coacciones,madrid,2019,1620
-coacciones,madrid,2018,1270
-coacciones,madrid,2017,1450
-coacciones,madrid,2016,1620
-coacciones,madrid,2015,1490
-coacciones,region de murcia,2022,1000
-coacciones,region de murcia,2021,990
-coacciones,region de murcia,2020,690
-coacciones,region de murcia,2019,770
-coacciones,region de murcia,2018,740
-coacciones,region de murcia,2017,550
-coacciones,region de murcia,2016,530
-coacciones,region de murcia,2015,630
-coacciones,navarra,2022,510
-coacciones,navarra,2021,330
-coacciones,navarra,2020,180
-coacciones,navarra,2019,200
-coacciones,navarra,2018,180
-coacciones,navarra,2017,130
-coacciones,navarra,2016,140
-coacciones,navarra,2015,270
-coacciones,pais vasco,2022,2410
-coacciones,pais vasco,2021,1750
-coacciones,pais vasco,2020,1100
-coacciones,pais vasco,2019,1310
-coacciones,pais vasco,2018,1080
-coacciones,pais vasco,2017,850
-coacciones,pais vasco,2016,970
-coacciones,pais vasco,2015,810
-coacciones,la rioja,2022,260
-coacciones,la rioja,2021,350
-coacciones,la rioja,2020,200
-coacciones,la rioja,2019,100
-coacciones,la rioja,2018,180
-coacciones,la rioja,2017,110
-coacciones,la rioja,2016,160
-coacciones,la rioja,2015,110
-coacciones,ceuta,2022,10
-coacciones,ceuta,2021,10
-coacciones,ceuta,2020,0
-coacciones,ceuta,2019,0
-coacciones,ceuta,2018,20
-coacciones,ceuta,2017,20
-coacciones,ceuta,2016,10
-coacciones,ceuta,2015,10
-coacciones,melilla,2022,40
-coacciones,melilla,2021,30
-coacciones,melilla,2020,0
-coacciones,melilla,2019,60
-coacciones,melilla,2018,30
-coacciones,melilla,2017,20
-coacciones,melilla,2016,10
-coacciones,melilla,2015,0
-tortura_integridad_moral,andalucia,2022,1934
-tortura_integridad_moral,andalucia,2021,1943
-tortura_integridad_moral,andalucia,2020,1549
-tortura_integridad_moral,andalucia,2019,1744
-tortura_integridad_moral,andalucia,2018,1669
-tortura_integridad_moral,andalucia,2017,1541
-tortura_integridad_moral,andalucia,2016,1346
-tortura_integridad_moral,andalucia,2015,7790
-tortura_integridad_moral,aragon,2022,2190
-tortura_integridad_moral,aragon,2021,2120
-tortura_integridad_moral,aragon,2020,2020
-tortura_integridad_moral,aragon,2019,2250
-tortura_integridad_moral,aragon,2018,2520
-tortura_integridad_moral,aragon,2017,1820
-tortura_integridad_moral,aragon,2016,1370
-tortura_integridad_moral,aragon,2015,480
-tortura_integridad_moral,asturias,2022,2010
-tortura_integridad_moral,asturias,2021,2040
-tortura_integridad_moral,asturias,2020,1320
-tortura_integridad_moral,asturias,2019,1440
-tortura_integridad_moral,asturias,2018,1280
-tortura_integridad_moral,asturias,2017,1040
-tortura_integridad_moral,asturias,2016,780
-tortura_integridad_moral,asturias,2015,390
-tortura_integridad_moral,baleares,2022,2380
-tortura_integridad_moral,baleares,2021,2620
-tortura_integridad_moral,baleares,2020,1760
-tortura_integridad_moral,baleares,2019,2680
-tortura_integridad_moral,baleares,2018,2500
-tortura_integridad_moral,baleares,2017,2290
-tortura_integridad_moral,baleares,2016,2090
-tortura_integridad_moral,baleares,2015,1260
-tortura_integridad_moral,canarias,2022,8930
-tortura_integridad_moral,canarias,2021,1011
-tortura_integridad_moral,canarias,2020,7600
-tortura_integridad_moral,canarias,2019,7800
-tortura_integridad_moral,canarias,2018,7690
-tortura_integridad_moral,canarias,2017,7450
-tortura_integridad_moral,canarias,2016,6320
-tortura_integridad_moral,canarias,2015,3490
-tortura_integridad_moral,cantabria,2022,1380
-tortura_integridad_moral,cantabria,2021,1160
-tortura_integridad_moral,cantabria,2020,830
-tortura_integridad_moral,cantabria,2019,940
-tortura_integridad_moral,cantabria,2018,860
-tortura_integridad_moral,cantabria,2017,760
-tortura_integridad_moral,cantabria,2016,470
-tortura_integridad_moral,cantabria,2015,310
-tortura_integridad_moral,castilla y leon,2022,4300
-tortura_integridad_moral,castilla y leon,2021,3540
-tortura_integridad_moral,castilla y leon,2020,2510
-tortura_integridad_moral,castilla y leon,2019,3170
-tortura_integridad_moral,castilla y leon,2018,2640
-tortura_integridad_moral,castilla y leon,2017,2440
-tortura_integridad_moral,castilla y leon,2016,2340
-tortura_integridad_moral,castilla y leon,2015,1480
-tortura_integridad_moral,castilla la mancha,2022,3360
-tortura_integridad_moral,castilla la mancha,2021,2990
-tortura_integridad_moral,castilla la mancha,2020,1780
-tortura_integridad_moral,castilla la mancha,2019,2760
-tortura_integridad_moral,castilla la mancha,2018,2400
-tortura_integridad_moral,castilla la mancha,2017,2190
-tortura_integridad_moral,castilla la mancha,2016,1890
-tortura_integridad_moral,castilla la mancha,2015,1260
-tortura_integridad_moral,cataluña,2022,8160
-tortura_integridad_moral,cataluña,2021,8600
-tortura_integridad_moral,cataluña,2020,6550
-tortura_integridad_moral,cataluña,2019,6950
-tortura_integridad_moral,cataluña,2018,6290
-tortura_integridad_moral,cataluña,2017,5680
-tortura_integridad_moral,cataluña,2016,5520
-tortura_integridad_moral,cataluña,2015,3790
-tortura_integridad_moral,valencia,2022,1265
-tortura_integridad_moral,valencia,2021,119
-tortura_integridad_moral,valencia,2020,9090
-tortura_integridad_moral,valencia,2019,1106
-tortura_integridad_moral,valencia,2018,9740
-tortura_integridad_moral,valencia,2017,1008
-tortura_integridad_moral,valencia,2016,8170
-tortura_integridad_moral,valencia,2015,4610
-tortura_integridad_moral,extremadura,2022,3080
-tortura_integridad_moral,extremadura,2021,3010
-tortura_integridad_moral,extremadura,2020,2260
-tortura_integridad_moral,extremadura,2019,2040
-tortura_integridad_moral,extremadura,2018,1740
-tortura_integridad_moral,extremadura,2017,1790
-tortura_integridad_moral,extremadura,2016,1430
-tortura_integridad_moral,extremadura,2015,900
-tortura_integridad_moral,galicia,2022,4320
-tortura_integridad_moral,galicia,2021,3970
-tortura_integridad_moral,galicia,2020,2390
-tortura_integridad_moral,galicia,2019,3020
-tortura_integridad_moral,galicia,2018,2470
-tortura_integridad_moral,galicia,2017,2280
-tortura_integridad_moral,galicia,2016,1680
-tortura_integridad_moral,galicia,2015,1080
-tortura_integridad_moral,madrid,2022,5310
-tortura_integridad_moral,madrid,2021,5170
-tortura_integridad_moral,madrid,2020,4030
-tortura_integridad_moral,madrid,2019,5130
-tortura_integridad_moral,madrid,2018,4790
-tortura_integridad_moral,madrid,2017,3980
-tortura_integridad_moral,madrid,2016,2970
-tortura_integridad_moral,madrid,2015,1740
-tortura_integridad_moral,region de murcia,2022,3020
-tortura_integridad_moral,region de murcia,2021,3180
-tortura_integridad_moral,region de murcia,2020,2140
-tortura_integridad_moral,region de murcia,2019,2290
-tortura_integridad_moral,region de murcia,2018,2530
-tortura_integridad_moral,region de murcia,2017,2420
-tortura_integridad_moral,region de murcia,2016,2090
-tortura_integridad_moral,region de murcia,2015,1660
-tortura_integridad_moral,navarra,2022,1400
-tortura_integridad_moral,navarra,2021,1090
-tortura_integridad_moral,navarra,2020,680
-tortura_integridad_moral,navarra,2019,920
-tortura_integridad_moral,navarra,2018,710
-tortura_integridad_moral,navarra,2017,730
-tortura_integridad_moral,navarra,2016,490
-tortura_integridad_moral,navarra,2015,290
-tortura_integridad_moral,pais vasco,2022,4830
-tortura_integridad_moral,pais vasco,2021,3440
-tortura_integridad_moral,pais vasco,2020,2390
-tortura_integridad_moral,pais vasco,2019,2870
-tortura_integridad_moral,pais vasco,2018,2200
-tortura_integridad_moral,pais vasco,2017,1990
-tortura_integridad_moral,pais vasco,2016,1040
-tortura_integridad_moral,pais vasco,2015,220
-tortura_integridad_moral,la rioja,2022,690
-tortura_integridad_moral,la rioja,2021,500
-tortura_integridad_moral,la rioja,2020,400
-tortura_integridad_moral,la rioja,2019,440
-tortura_integridad_moral,la rioja,2018,470
-tortura_integridad_moral,la rioja,2017,410
-tortura_integridad_moral,la rioja,2016,370
-tortura_integridad_moral,la rioja,2015,190
-tortura_integridad_moral,ceuta,2022,170
-tortura_integridad_moral,ceuta,2021,210
-tortura_integridad_moral,ceuta,2020,150
-tortura_integridad_moral,ceuta,2019,190
-tortura_integridad_moral,ceuta,2018,260
-tortura_integridad_moral,ceuta,2017,80
-tortura_integridad_moral,ceuta,2016,20
-tortura_integridad_moral,ceuta,2015,30
-tortura_integridad_moral,melilla,2022,310
-tortura_integridad_moral,melilla,2021,220
-tortura_integridad_moral,melilla,2020,150
-tortura_integridad_moral,melilla,2019,170
-tortura_integridad_moral,melilla,2018,220
-tortura_integridad_moral,melilla,2017,90
-tortura_integridad_moral,melilla,2016,100
-tortura_integridad_moral,melilla,2015,80
-agresion_sexual,andalucia,2022,160
-agresion_sexual,andalucia,2021,200
-agresion_sexual,andalucia,2020,170
-agresion_sexual,andalucia,2019,170
-agresion_sexual,andalucia,2018,80
-agresion_sexual,andalucia,2017,30
-agresion_sexual,andalucia,2016,190
-agresion_sexual,andalucia,2015,120
-agresion_sexual,aragon,2022,20
-agresion_sexual,aragon,2021,10
-agresion_sexual,aragon,2020,20
-agresion_sexual,aragon,2019,0
-agresion_sexual,aragon,2018,0
-agresion_sexual,aragon,2017,0
-agresion_sexual,aragon,2016,10
-agresion_sexual,aragon,2015,0
-agresion_sexual,asturias,2022,30
-agresion_sexual,asturias,2021,40
-agresion_sexual,asturias,2020,40
-agresion_sexual,asturias,2019,10
-agresion_sexual,asturias,2018,20
-agresion_sexual,asturias,2017,0
-agresion_sexual,asturias,2016,30
-agresion_sexual,asturias,2015,30
-agresion_sexual,baleares,2022,30
-agresion_sexual,baleares,2021,0
-agresion_sexual,baleares,2020,20
-agresion_sexual,baleares,2019,20
-agresion_sexual,baleares,2018,0
-agresion_sexual,baleares,2017,40
-agresion_sexual,baleares,2016,20
-agresion_sexual,baleares,2015,10
-agresion_sexual,canarias,2022,20
-agresion_sexual,canarias,2021,40
-agresion_sexual,canarias,2020,30
-agresion_sexual,canarias,2019,50
-agresion_sexual,canarias,2018,20
-agresion_sexual,canarias,2017,30
-agresion_sexual,canarias,2016,10
-agresion_sexual,canarias,2015,10
-agresion_sexual,cantabria,2022,10
-agresion_sexual,cantabria,2021,20
-agresion_sexual,cantabria,2020,0
-agresion_sexual,cantabria,2019,0
-agresion_sexual,cantabria,2018,0
-agresion_sexual,cantabria,2017,0
-agresion_sexual,cantabria,2016,0
-agresion_sexual,cantabria,2015,0
-agresion_sexual,castilla y leon,2022,40
-agresion_sexual,castilla y leon,2021,40
-agresion_sexual,castilla y leon,2020,0
-agresion_sexual,castilla y leon,2019,20
-agresion_sexual,castilla y leon,2018,10
-agresion_sexual,castilla y leon,2017,40
-agresion_sexual,castilla y leon,2016,10
-agresion_sexual,castilla y leon,2015,20
-agresion_sexual,castilla la mancha,2022,20
-agresion_sexual,castilla la mancha,2021,0
-agresion_sexual,castilla la mancha,2020,10
-agresion_sexual,castilla la mancha,2019,70
-agresion_sexual,castilla la mancha,2018,30
-agresion_sexual,castilla la mancha,2017,30
-agresion_sexual,castilla la mancha,2016,40
-agresion_sexual,castilla la mancha,2015,20
-agresion_sexual,cataluña,2022,130
-agresion_sexual,cataluña,2021,110
-agresion_sexual,cataluña,2020,100
-agresion_sexual,cataluña,2019,100
-agresion_sexual,cataluña,2018,70
-agresion_sexual,cataluña,2017,100
-agresion_sexual,cataluña,2016,60
-agresion_sexual,cataluña,2015,50
-agresion_sexual,valencia,2022,100
-agresion_sexual,valencia,2021,110
-agresion_sexual,valencia,2020,60
-agresion_sexual,valencia,2019,120
-agresion_sexual,valencia,2018,90
-agresion_sexual,valencia,2017,150
-agresion_sexual,valencia,2016,110
-agresion_sexual,valencia,2015,100
-agresion_sexual,extremadura,2022,60
-agresion_sexual,extremadura,2021,40
-agresion_sexual,extremadura,2020,10
-agresion_sexual,extremadura,2019,30
-agresion_sexual,extremadura,2018,0
-agresion_sexual,extremadura,2017,0
-agresion_sexual,extremadura,2016,20
-agresion_sexual,extremadura,2015,10
-agresion_sexual,galicia,2022,30
-agresion_sexual,galicia,2021,20
-agresion_sexual,galicia,2020,20
-agresion_sexual,galicia,2019,40
-agresion_sexual,galicia,2018,20
-agresion_sexual,galicia,2017,10
-agresion_sexual,galicia,2016,40
-agresion_sexual,galicia,2015,60
-agresion_sexual,madrid,2022,70
-agresion_sexual,madrid,2021,60
-agresion_sexual,madrid,2020,30
-agresion_sexual,madrid,2019,60
-agresion_sexual,madrid,2018,80
-agresion_sexual,madrid,2017,70
-agresion_sexual,madrid,2016,80
-agresion_sexual,madrid,2015,50
-agresion_sexual,region de murcia,2022,90
-agresion_sexual,region de murcia,2021,60
-agresion_sexual,region de murcia,2020,20
-agresion_sexual,region de murcia,2019,40
-agresion_sexual,region de murcia,2018,10
-agresion_sexual,region de murcia,2017,0
-agresion_sexual,region de murcia,2016,0
-agresion_sexual,region de murcia,2015,10
-agresion_sexual,navarra,2022,20
-agresion_sexual,navarra,2021,60
-agresion_sexual,navarra,2020,0
-agresion_sexual,navarra,2019,20
-agresion_sexual,navarra,2018,10
-agresion_sexual,navarra,2017,20
-agresion_sexual,navarra,2016,0
-agresion_sexual,navarra,2015,10
-agresion_sexual,pais vasco,2022,80
-agresion_sexual,pais vasco,2021,50
-agresion_sexual,pais vasco,2020,20
-agresion_sexual,pais vasco,2019,10
-agresion_sexual,pais vasco,2018,10
-agresion_sexual,pais vasco,2017,30
-agresion_sexual,pais vasco,2016,10
-agresion_sexual,pais vasco,2015,0
-agresion_sexual,la rioja,2022,0
-agresion_sexual,la rioja,2021,0
-agresion_sexual,la rioja,2020,0
-agresion_sexual,la rioja,2019,0
-agresion_sexual,la rioja,2018,0
-agresion_sexual,la rioja,2017,0
-agresion_sexual,la rioja,2016,0
-agresion_sexual,la rioja,2015,0
-agresion_sexual,ceuta,2022,0
-agresion_sexual,ceuta,2021,0
-agresion_sexual,ceuta,2020,0
-agresion_sexual,ceuta,2019,0
-agresion_sexual,ceuta,2018,0
-agresion_sexual,ceuta,2017,0
-agresion_sexual,ceuta,2016,0
-agresion_sexual,ceuta,2015,0
-agresion_sexual,melilla,2022,10
-agresion_sexual,melilla,2021,0
-agresion_sexual,melilla,2020,0
-agresion_sexual,melilla,2019,0
-agresion_sexual,melilla,2018,0
-agresion_sexual,melilla,2017,0
-agresion_sexual,melilla,2016,0
-agresion_sexual,melilla,2015,0
-abuso_sexual,andalucia,2022,180
-abuso_sexual,andalucia,2021,90
-abuso_sexual,andalucia,2020,40
-abuso_sexual,andalucia,2019,140
-abuso_sexual,andalucia,2018,50
-abuso_sexual,andalucia,2017,70
-abuso_sexual,andalucia,2016,20
-abuso_sexual,andalucia,2015,20
-abuso_sexual,aragon,2022,20
-abuso_sexual,aragon,2021,20
-abuso_sexual,aragon,2020,0
-abuso_sexual,aragon,2019,20
-abuso_sexual,aragon,2018,10
-abuso_sexual,aragon,2017,0
-abuso_sexual,aragon,2016,0
-abuso_sexual,aragon,2015,0
-abuso_sexual,asturias,2022,20
-abuso_sexual,asturias,2021,10
-abuso_sexual,asturias,2020,10
-abuso_sexual,asturias,2019,10
-abuso_sexual,asturias,2018,10
-abuso_sexual,asturias,2017,0
-abuso_sexual,asturias,2016,10
-abuso_sexual,asturias,2015,0
-abuso_sexual,baleares,2022,0
-abuso_sexual,baleares,2021,20
-abuso_sexual,baleares,2020,10
-abuso_sexual,baleares,2019,10
-abuso_sexual,baleares,2018,10
-abuso_sexual,baleares,2017,0
-abuso_sexual,baleares,2016,10
-abuso_sexual,baleares,2015,10
-abuso_sexual,canarias,2022,0
-abuso_sexual,canarias,2021,30
-abuso_sexual,canarias,2020,20
-abuso_sexual,canarias,2019,40
-abuso_sexual,canarias,2018,20
-abuso_sexual,canarias,2017,0
-abuso_sexual,canarias,2016,20
-abuso_sexual,canarias,2015,10
-abuso_sexual,cantabria,2022,0
-abuso_sexual,cantabria,2021,0
-abuso_sexual,cantabria,2020,0
-abuso_sexual,cantabria,2019,0
-abuso_sexual,cantabria,2018,0
-abuso_sexual,cantabria,2017,0
-abuso_sexual,cantabria,2016,0
-abuso_sexual,cantabria,2015,0
-abuso_sexual,castilla y leon,2022,60
-abuso_sexual,castilla y leon,2021,40
-abuso_sexual,castilla y leon,2020,20
-abuso_sexual,castilla y leon,2019,10
-abuso_sexual,castilla y leon,2018,10
-abuso_sexual,castilla y leon,2017,0
-abuso_sexual,castilla y leon,2016,30
-abuso_sexual,castilla y leon,2015,20
-abuso_sexual,castilla la mancha,2022,10
-abuso_sexual,castilla la mancha,2021,20
-abuso_sexual,castilla la mancha,2020,20
-abuso_sexual,castilla la mancha,2019,10
-abuso_sexual,castilla la mancha,2018,10
-abuso_sexual,castilla la mancha,2017,0
-abuso_sexual,castilla la mancha,2016,20
-abuso_sexual,castilla la mancha,2015,30
-abuso_sexual,cataluña,2022,70
-abuso_sexual,cataluña,2021,70
-abuso_sexual,cataluña,2020,60
-abuso_sexual,cataluña,2019,30
-abuso_sexual,cataluña,2018,10
-abuso_sexual,cataluña,2017,50
-abuso_sexual,cataluña,2016,20
-abuso_sexual,cataluña,2015,20
-abuso_sexual,valencia,2022,100
-abuso_sexual,valencia,2021,80
-abuso_sexual,valencia,2020,60
-abuso_sexual,valencia,2019,30
-abuso_sexual,valencia,2018,50
-abuso_sexual,valencia,2017,20
-abuso_sexual,valencia,2016,40
-abuso_sexual,valencia,2015,30
-abuso_sexual,extremadura,2022,10
-abuso_sexual,extremadura,2021,20
-abuso_sexual,extremadura,2020,10
-abuso_sexual,extremadura,2019,10
-abuso_sexual,extremadura,2018,0
-abuso_sexual,extremadura,2017,40
-abuso_sexual,extremadura,2016,0
-abuso_sexual,extremadura,2015,20
-abuso_sexual,galicia,2022,10
-abuso_sexual,galicia,2021,60
-abuso_sexual,galicia,2020,10
-abuso_sexual,galicia,2019,10
-abuso_sexual,galicia,2018,0
-abuso_sexual,galicia,2017,10
-abuso_sexual,galicia,2016,20
-abuso_sexual,galicia,2015,0
-abuso_sexual,madrid,2022,110
-abuso_sexual,madrid,2021,50
-abuso_sexual,madrid,2020,50
-abuso_sexual,madrid,2019,30
-abuso_sexual,madrid,2018,20
-abuso_sexual,madrid,2017,40
-abuso_sexual,madrid,2016,10
-abuso_sexual,madrid,2015,20
-abuso_sexual,region de murcia,2022,40
-abuso_sexual,region de murcia,2021,10
-abuso_sexual,region de murcia,2020,0
-abuso_sexual,region de murcia,2019,50
-abuso_sexual,region de murcia,2018,10
-abuso_sexual,region de murcia,2017,20
-abuso_sexual,region de murcia,2016,10
-abuso_sexual,region de murcia,2015,0
-abuso_sexual,navarra,2022,0
-abuso_sexual,navarra,2021,0
-abuso_sexual,navarra,2020,10
-abuso_sexual,navarra,2019,0
-abuso_sexual,navarra,2018,10
-abuso_sexual,navarra,2017,10
-abuso_sexual,navarra,2016,0
-abuso_sexual,navarra,2015,0
-abuso_sexual,pais vasco,2022,50
-abuso_sexual,pais vasco,2021,40
-abuso_sexual,pais vasco,2020,80
-abuso_sexual,pais vasco,2019,10
-abuso_sexual,pais vasco,2018,40
-abuso_sexual,pais vasco,2017,10
-abuso_sexual,pais vasco,2016,10
-abuso_sexual,pais vasco,2015,10
-abuso_sexual,la rioja,2022,0
-abuso_sexual,la rioja,2021,0
-abuso_sexual,la rioja,2020,0
-abuso_sexual,la rioja,2019,0
-abuso_sexual,la rioja,2018,0
-abuso_sexual,la rioja,2017,0
-abuso_sexual,la rioja,2016,0
-abuso_sexual,la rioja,2015,0
-abuso_sexual,ceuta,2022,0
-abuso_sexual,ceuta,2021,0
-abuso_sexual,ceuta,2020,10
-abuso_sexual,ceuta,2019,0
-abuso_sexual,ceuta,2018,0
-abuso_sexual,ceuta,2017,0
-abuso_sexual,ceuta,2016,0
-abuso_sexual,ceuta,2015,0
-abuso_sexual,melilla,2022,0
-abuso_sexual,melilla,2021,0
-abuso_sexual,melilla,2020,0
-abuso_sexual,melilla,2019,0
-abuso_sexual,melilla,2018,10
-abuso_sexual,melilla,2017,0
-abuso_sexual,melilla,2016,0
 abuso_sexual,melilla,2015,0
-abuso_menores,andalucia,2022,20
-abuso_menores,andalucia,2021,0
-abuso_menores,andalucia,2020,0
-abuso_menores,andalucia,2019,0
-abuso_menores,andalucia,2018,0
-abuso_menores,andalucia,2017,0
-abuso_menores,andalucia,2016,0
-abuso_menores,andalucia,2015,0
-abuso_menores,aragon,2022,0
-abuso_menores,aragon,2021,0
-abuso_menores,aragon,2020,0
-abuso_menores,aragon,2019,0
-abuso_menores,aragon,2018,0
-abuso_menores,aragon,2017,0
-abuso_menores,aragon,2016,0
-abuso_menores,aragon,2015,0
-abuso_menores,asturias,2022,10
-abuso_menores,asturias,2021,0
-abuso_menores,asturias,2020,0
-abuso_menores,asturias,2019,0
-abuso_menores,asturias,2018,0
-abuso_menores,asturias,2017,0
-abuso_menores,asturias,2016,0
-abuso_menores,asturias,2015,0
-abuso_menores,baleares,2022,20
-abuso_menores,baleares,2021,0
-abuso_menores,baleares,2020,0
-abuso_menores,baleares,2019,0
-abuso_menores,baleares,2018,0
-abuso_menores,baleares,2017,0
-abuso_menores,baleares,2016,0
+agresion_sexual,asturias,2015,30
+agresion_sexual,baleares,2015,10
+agresion_sexual,canarias,2015,10
+agresion_sexual,cantabria,2015,0
+agresion_sexual,castilla y leon,2015,20
+agresion_sexual,castilla la mancha,2015,20
+agresion_sexual,cataluña,2015,50
+agresion_sexual,valencia,2015,100
+agresion_sexual,extremadura,2015,10
+agresion_sexual,galicia,2015,60
+agresion_sexual,madrid,2015,50
+agresion_sexual,region de murcia,2015,10
+agresion_sexual,navarra,2015,10
+agresion_sexual,pais vasco,2015,0
+agresion_sexual,la rioja,2015,0
+agresion_sexual,aragon,2015,0
+agresion_sexual,ceuta,2015,0
+agresion_sexual,andalucia,2015,120
+tortura_integridad_moral,ceuta,2015,30
+tortura_integridad_moral,asturias,2015,390
+tortura_integridad_moral,baleares,2015,1260
+tortura_integridad_moral,canarias,2015,3490
+tortura_integridad_moral,cantabria,2015,310
+tortura_integridad_moral,castilla y leon,2015,1480
+tortura_integridad_moral,castilla la mancha,2015,1260
+tortura_integridad_moral,cataluña,2015,3790
+tortura_integridad_moral,valencia,2015,4610
+tortura_integridad_moral,extremadura,2015,900
+tortura_integridad_moral,galicia,2015,1080
+tortura_integridad_moral,madrid,2015,1740
+tortura_integridad_moral,region de murcia,2015,1660
+tortura_integridad_moral,navarra,2015,290
+tortura_integridad_moral,pais vasco,2015,220
+tortura_integridad_moral,la rioja,2015,190
+tortura_integridad_moral,melilla,2015,80
+tortura_integridad_moral,aragon,2015,480
+agresion_sexual,melilla,2015,0
+abuso_sexual,aragon,2015,0
 abuso_menores,baleares,2015,0
-abuso_menores,canarias,2022,0
-abuso_menores,canarias,2021,0
-abuso_menores,canarias,2020,0
-abuso_menores,canarias,2019,0
-abuso_menores,canarias,2018,0
-abuso_menores,canarias,2017,0
-abuso_menores,canarias,2016,0
 abuso_menores,canarias,2015,0
-abuso_menores,cantabria,2022,0
-abuso_menores,cantabria,2021,0
-abuso_menores,cantabria,2020,0
-abuso_menores,cantabria,2019,0
-abuso_menores,cantabria,2018,0
-abuso_menores,cantabria,2017,0
-abuso_menores,cantabria,2016,0
 abuso_menores,cantabria,2015,0
-abuso_menores,castilla y leon,2022,10
-abuso_menores,castilla y leon,2021,0
-abuso_menores,castilla y leon,2020,0
-abuso_menores,castilla y leon,2019,0
-abuso_menores,castilla y leon,2018,0
-abuso_menores,castilla y leon,2017,0
-abuso_menores,castilla y leon,2016,0
 abuso_menores,castilla y leon,2015,0
-abuso_menores,castilla la mancha,2022,10
-abuso_menores,castilla la mancha,2021,0
-abuso_menores,castilla la mancha,2020,0
-abuso_menores,castilla la mancha,2019,0
-abuso_menores,castilla la mancha,2018,0
-abuso_menores,castilla la mancha,2017,0
-abuso_menores,castilla la mancha,2016,0
 abuso_menores,castilla la mancha,2015,0
-abuso_menores,cataluña,2022,10
-abuso_menores,cataluña,2021,0
-abuso_menores,cataluña,2020,0
-abuso_menores,cataluña,2019,0
-abuso_menores,cataluña,2018,0
-abuso_menores,cataluña,2017,0
-abuso_menores,cataluña,2016,0
 abuso_menores,cataluña,2015,0
-abuso_menores,valencia,2022,30
-abuso_menores,valencia,2021,0
-abuso_menores,valencia,2020,0
-abuso_menores,valencia,2019,0
-abuso_menores,valencia,2018,0
-abuso_menores,valencia,2017,0
-abuso_menores,valencia,2016,0
 abuso_menores,valencia,2015,0
-abuso_menores,extremadura,2022,0
-abuso_menores,extremadura,2021,0
-abuso_menores,extremadura,2020,0
-abuso_menores,extremadura,2019,0
-abuso_menores,extremadura,2018,0
-abuso_menores,extremadura,2017,0
-abuso_menores,extremadura,2016,0
 abuso_menores,extremadura,2015,0
-abuso_menores,galicia,2022,10
-abuso_menores,galicia,2021,0
-abuso_menores,galicia,2020,0
-abuso_menores,galicia,2019,0
-abuso_menores,galicia,2018,0
-abuso_menores,galicia,2017,0
-abuso_menores,galicia,2016,0
 abuso_menores,galicia,2015,0
-abuso_menores,madrid,2022,30
-abuso_menores,madrid,2021,0
-abuso_menores,madrid,2020,0
-abuso_menores,madrid,2019,0
-abuso_menores,madrid,2018,0
-abuso_menores,madrid,2017,0
-abuso_menores,madrid,2016,0
 abuso_menores,madrid,2015,0
-abuso_menores,region de murcia,2022,10
-abuso_menores,region de murcia,2021,0
-abuso_menores,region de murcia,2020,0
-abuso_menores,region de murcia,2019,0
-abuso_menores,region de murcia,2018,0
-abuso_menores,region de murcia,2017,0
-abuso_menores,region de murcia,2016,0
 abuso_menores,region de murcia,2015,0
-abuso_menores,navarra,2022,0
-abuso_menores,navarra,2021,0
-abuso_menores,navarra,2020,0
-abuso_menores,navarra,2019,0
-abuso_menores,navarra,2018,0
-abuso_menores,navarra,2017,0
-abuso_menores,navarra,2016,0
 abuso_menores,navarra,2015,0
-abuso_menores,pais vasco,2022,30
-abuso_menores,pais vasco,2021,0
-abuso_menores,pais vasco,2020,0
-abuso_menores,pais vasco,2019,0
-abuso_menores,pais vasco,2018,0
-abuso_menores,pais vasco,2017,0
-abuso_menores,pais vasco,2016,0
 abuso_menores,pais vasco,2015,0
-abuso_menores,la rioja,2022,0
-abuso_menores,la rioja,2021,0
-abuso_menores,la rioja,2020,0
-abuso_menores,la rioja,2019,0
-abuso_menores,la rioja,2018,0
-abuso_menores,la rioja,2017,0
-abuso_menores,la rioja,2016,0
 abuso_menores,la rioja,2015,0
-abuso_menores,ceuta,2022,0
-abuso_menores,ceuta,2021,0
-abuso_menores,ceuta,2020,0
-abuso_menores,ceuta,2019,0
-abuso_menores,ceuta,2018,0
-abuso_menores,ceuta,2017,0
-abuso_menores,ceuta,2016,0
 abuso_menores,ceuta,2015,0
-abuso_menores,melilla,2022,0
-abuso_menores,melilla,2021,0
-abuso_menores,melilla,2020,0
-abuso_menores,melilla,2019,0
-abuso_menores,melilla,2018,0
-abuso_menores,melilla,2017,0
-abuso_menores,melilla,2016,0
+abuso_menores,asturias,2015,0
+abuso_sexual,andalucia,2015,20
+abuso_menores,aragon,2015,0
+abuso_sexual,ceuta,2015,0
+abuso_sexual,asturias,2015,0
+abuso_sexual,baleares,2015,10
+abuso_sexual,canarias,2015,10
+abuso_sexual,cantabria,2015,0
+abuso_sexual,castilla y leon,2015,20
+abuso_sexual,castilla la mancha,2015,30
+abuso_sexual,cataluña,2015,20
+abuso_sexual,valencia,2015,30
+abuso_sexual,extremadura,2015,20
+abuso_sexual,galicia,2015,0
+abuso_sexual,madrid,2015,20
+abuso_sexual,region de murcia,2015,0
+abuso_sexual,navarra,2015,0
+abuso_sexual,pais vasco,2015,10
+abuso_sexual,la rioja,2015,0
+abuso_menores,andalucia,2015,0
 abuso_menores,melilla,2015,0
-allanamiento,andalucia,2022,180
-allanamiento,andalucia,2021,90
-allanamiento,andalucia,2020,130
-allanamiento,andalucia,2019,140
-allanamiento,andalucia,2018,160
-allanamiento,andalucia,2017,250
-allanamiento,andalucia,2016,190
+tortura_integridad_moral,andalucia,2015,7790
+coacciones,ceuta,2015,10
+detencion_secuestro,asturias,2015,10
+detencion_secuestro,baleares,2015,0
+detencion_secuestro,canarias,2015,0
+detencion_secuestro,cantabria,2015,10
+detencion_secuestro,castilla y leon,2015,0
+detencion_secuestro,castilla la mancha,2015,20
+detencion_secuestro,cataluña,2015,20
+detencion_secuestro,valencia,2015,0
+detencion_secuestro,extremadura,2015,0
+detencion_secuestro,galicia,2015,10
+detencion_secuestro,madrid,2015,10
+detencion_secuestro,region de murcia,2015,0
+detencion_secuestro,navarra,2015,10
+detencion_secuestro,pais vasco,2015,10
+detencion_secuestro,la rioja,2015,50
+detencion_secuestro,aragon,2015,0
+detencion_secuestro,ceuta,2015,0
+detencion_secuestro,andalucia,2015,50
+lesiones,ceuta,2015,330
+lesiones,asturias,2015,2710
+lesiones,baleares,2015,4660
+lesiones,canarias,2015,8380
+lesiones,cantabria,2015,1650
+lesiones,castilla y leon,2015,4960
+lesiones,castilla la mancha,2015,5600
+lesiones,cataluña,2015,1446
+lesiones,valencia,2015,1857
+lesiones,extremadura,2015,3050
+lesiones,galicia,2015,5690
+lesiones,madrid,2015,1449
+lesiones,region de murcia,2015,6520
+lesiones,navarra,2015,1520
+lesiones,pais vasco,2015,6270
+lesiones,la rioja,2015,1050
+lesiones,melilla,2015,420
+coacciones,melilla,2015,0
+detencion_secuestro,melilla,2015,0
+amenazas,aragon,2015,1170
+coacciones,asturias,2015,340
+coacciones,baleares,2015,1170
+coacciones,canarias,2015,920
+coacciones,cantabria,2015,140
+coacciones,castilla y leon,2015,570
+coacciones,castilla la mancha,2015,480
+coacciones,cataluña,2015,1610
+coacciones,valencia,2015,1700
+coacciones,extremadura,2015,580
+coacciones,galicia,2015,810
+coacciones,madrid,2015,1490
+coacciones,region de murcia,2015,630
+coacciones,navarra,2015,270
+coacciones,pais vasco,2015,810
+coacciones,la rioja,2015,110
+coacciones,aragon,2015,290
+amenazas,andalucia,2015,1614
+coacciones,andalucia,2015,1780
+amenazas,ceuta,2015,140
+amenazas,asturias,2015,1430
+amenazas,baleares,2015,2480
+amenazas,canarias,2015,4230
+amenazas,cantabria,2015,680
+amenazas,castilla y leon,2015,3380
+amenazas,castilla la mancha,2015,3600
+amenazas,cataluña,2015,8010
+amenazas,valencia,2015,9590
+amenazas,extremadura,2015,1930
+amenazas,galicia,2015,2970
+amenazas,madrid,2015,5120
+amenazas,region de murcia,2015,2520
+amenazas,navarra,2015,570
+amenazas,pais vasco,2015,2770
+amenazas,la rioja,2015,440
+amenazas,melilla,2015,160
+lesiones,aragon,2015,3110
 allanamiento,andalucia,2015,170
-allanamiento,aragon,2022,0
-allanamiento,aragon,2021,0
-allanamiento,aragon,2020,10
-allanamiento,aragon,2019,10
-allanamiento,aragon,2018,30
-allanamiento,aragon,2017,30
-allanamiento,aragon,2016,10
-allanamiento,aragon,2015,10
-allanamiento,asturias,2022,0
-allanamiento,asturias,2021,10
-allanamiento,asturias,2020,0
-allanamiento,asturias,2019,0
-allanamiento,asturias,2018,30
-allanamiento,asturias,2017,30
-allanamiento,asturias,2016,30
 allanamiento,asturias,2015,60
-allanamiento,baleares,2022,50
-allanamiento,baleares,2021,20
-allanamiento,baleares,2020,80
-allanamiento,baleares,2019,60
-allanamiento,baleares,2018,60
-allanamiento,baleares,2017,110
-allanamiento,baleares,2016,130
-allanamiento,baleares,2015,50
-allanamiento,canarias,2022,0
-allanamiento,canarias,2021,10
-allanamiento,canarias,2020,10
-allanamiento,canarias,2019,20
-allanamiento,canarias,2018,50
-allanamiento,canarias,2017,40
-allanamiento,canarias,2016,30
-allanamiento,canarias,2015,30
-allanamiento,cantabria,2022,10
-allanamiento,cantabria,2021,0
-allanamiento,cantabria,2020,10
-allanamiento,cantabria,2019,0
-allanamiento,cantabria,2018,0
-allanamiento,cantabria,2017,10
-allanamiento,cantabria,2016,30
-allanamiento,cantabria,2015,10
-allanamiento,castilla y leon,2022,10
-allanamiento,castilla y leon,2021,10
-allanamiento,castilla y leon,2020,0
-allanamiento,castilla y leon,2019,20
-allanamiento,castilla y leon,2018,10
-allanamiento,castilla y leon,2017,30
-allanamiento,castilla y leon,2016,10
-allanamiento,castilla y leon,2015,10
-allanamiento,castilla la mancha,2022,30
-allanamiento,castilla la mancha,2021,0
-allanamiento,castilla la mancha,2020,0
-allanamiento,castilla la mancha,2019,50
-allanamiento,castilla la mancha,2018,20
-allanamiento,castilla la mancha,2017,20
-allanamiento,castilla la mancha,2016,10
-allanamiento,castilla la mancha,2015,40
-allanamiento,cataluña,2022,320
-allanamiento,cataluña,2021,250
-allanamiento,cataluña,2020,110
-allanamiento,cataluña,2019,200
-allanamiento,cataluña,2018,290
-allanamiento,cataluña,2017,350
-allanamiento,cataluña,2016,270
-allanamiento,cataluña,2015,240
-allanamiento,valencia,2022,240
-allanamiento,valencia,2021,170
-allanamiento,valencia,2020,120
-allanamiento,valencia,2019,100
-allanamiento,valencia,2018,80
-allanamiento,valencia,2017,160
-allanamiento,valencia,2016,230
-allanamiento,valencia,2015,170
-allanamiento,extremadura,2022,0
-allanamiento,extremadura,2021,0
-allanamiento,extremadura,2020,10
-allanamiento,extremadura,2019,10
-allanamiento,extremadura,2018,0
-allanamiento,extremadura,2017,10
-allanamiento,extremadura,2016,10
-allanamiento,extremadura,2015,0
-allanamiento,galicia,2022,10
-allanamiento,galicia,2021,30
-allanamiento,galicia,2020,20
-allanamiento,galicia,2019,30
-allanamiento,galicia,2018,10
-allanamiento,galicia,2017,40
-allanamiento,galicia,2016,70
-allanamiento,galicia,2015,50
-allanamiento,madrid,2022,10
-allanamiento,madrid,2021,30
-allanamiento,madrid,2020,30
-allanamiento,madrid,2019,70
-allanamiento,madrid,2018,90
-allanamiento,madrid,2017,180
-allanamiento,madrid,2016,90
-allanamiento,madrid,2015,130
-allanamiento,region de murcia,2022,0
-allanamiento,region de murcia,2021,0
-allanamiento,region de murcia,2020,10
-allanamiento,region de murcia,2019,30
-allanamiento,region de murcia,2018,0
-allanamiento,region de murcia,2017,20
-allanamiento,region de murcia,2016,0
-allanamiento,region de murcia,2015,0
-allanamiento,navarra,2022,10
-allanamiento,navarra,2021,30
-allanamiento,navarra,2020,20
-allanamiento,navarra,2019,30
-allanamiento,navarra,2018,40
-allanamiento,navarra,2017,10
-allanamiento,navarra,2016,40
-allanamiento,navarra,2015,40
-allanamiento,pais vasco,2022,0
-allanamiento,pais vasco,2021,10
-allanamiento,pais vasco,2020,10
-allanamiento,pais vasco,2019,10
-allanamiento,pais vasco,2018,40
-allanamiento,pais vasco,2017,0
-allanamiento,pais vasco,2016,0
-allanamiento,pais vasco,2015,0
-allanamiento,la rioja,2022,10
-allanamiento,la rioja,2021,0
-allanamiento,la rioja,2020,10
-allanamiento,la rioja,2019,10
-allanamiento,la rioja,2018,10
-allanamiento,la rioja,2017,0
-allanamiento,la rioja,2016,0
-allanamiento,la rioja,2015,0
-allanamiento,ceuta,2022,0
-allanamiento,ceuta,2021,0
-allanamiento,ceuta,2020,0
-allanamiento,ceuta,2019,0
-allanamiento,ceuta,2018,0
-allanamiento,ceuta,2017,0
-allanamiento,ceuta,2016,0
-allanamiento,ceuta,2015,0
-allanamiento,melilla,2022,0
-allanamiento,melilla,2021,0
-allanamiento,melilla,2020,0
-allanamiento,melilla,2019,0
-allanamiento,melilla,2018,0
-allanamiento,melilla,2017,0
-allanamiento,melilla,2016,0
-allanamiento,melilla,2015,0
-injurias,andalucia,2022,300
-injurias,andalucia,2021,620
-injurias,andalucia,2020,340
-injurias,andalucia,2019,530
-injurias,andalucia,2018,470
-injurias,andalucia,2017,800
-injurias,andalucia,2016,810
-injurias,andalucia,2015,240
-injurias,aragon,2022,20
-injurias,aragon,2021,100
-injurias,aragon,2020,60
-injurias,aragon,2019,50
-injurias,aragon,2018,60
-injurias,aragon,2017,60
-injurias,aragon,2016,30
-injurias,aragon,2015,10
-injurias,asturias,2022,50
-injurias,asturias,2021,60
-injurias,asturias,2020,70
-injurias,asturias,2019,50
-injurias,asturias,2018,50
-injurias,asturias,2017,60
-injurias,asturias,2016,70
-injurias,asturias,2015,30
-injurias,baleares,2022,110
-injurias,baleares,2021,270
-injurias,baleares,2020,100
-injurias,baleares,2019,80
-injurias,baleares,2018,80
-injurias,baleares,2017,170
-injurias,baleares,2016,110
-injurias,baleares,2015,80
-injurias,canarias,2022,40
-injurias,canarias,2021,160
-injurias,canarias,2020,80
-injurias,canarias,2019,200
-injurias,canarias,2018,220
-injurias,canarias,2017,370
-injurias,canarias,2016,430
-injurias,canarias,2015,140
-injurias,cantabria,2022,50
-injurias,cantabria,2021,80
-injurias,cantabria,2020,30
-injurias,cantabria,2019,60
-injurias,cantabria,2018,50
-injurias,cantabria,2017,110
-injurias,cantabria,2016,40
-injurias,cantabria,2015,80
-injurias,castilla y leon,2022,120
-injurias,castilla y leon,2021,270
-injurias,castilla y leon,2020,200
-injurias,castilla y leon,2019,110
-injurias,castilla y leon,2018,150
-injurias,castilla y leon,2017,230
-injurias,castilla y leon,2016,170
-injurias,castilla y leon,2015,20
-injurias,castilla la mancha,2022,100
-injurias,castilla la mancha,2021,130
-injurias,castilla la mancha,2020,160
-injurias,castilla la mancha,2019,200
-injurias,castilla la mancha,2018,140
-injurias,castilla la mancha,2017,260
-injurias,castilla la mancha,2016,240
-injurias,castilla la mancha,2015,80
-injurias,cataluña,2022,530
-injurias,cataluña,2021,840
-injurias,cataluña,2020,570
-injurias,cataluña,2019,510
-injurias,cataluña,2018,800
-injurias,cataluña,2017,1130
-injurias,cataluña,2016,910
-injurias,cataluña,2015,230
-injurias,valencia,2022,370
-injurias,valencia,2021,790
-injurias,valencia,2020,580
-injurias,valencia,2019,830
-injurias,valencia,2018,920
-injurias,valencia,2017,900
-injurias,valencia,2016,890
-injurias,valencia,2015,300
-injurias,extremadura,2022,50
-injurias,extremadura,2021,100
-injurias,extremadura,2020,80
-injurias,extremadura,2019,120
-injurias,extremadura,2018,100
-injurias,extremadura,2017,130
-injurias,extremadura,2016,110
-injurias,extremadura,2015,30
-injurias,galicia,2022,80
-injurias,galicia,2021,220
-injurias,galicia,2020,240
-injurias,galicia,2019,150
-injurias,galicia,2018,150
-injurias,galicia,2017,170
-injurias,galicia,2016,110
-injurias,galicia,2015,30
-injurias,madrid,2022,220
-injurias,madrid,2021,190
-injurias,madrid,2020,210
-injurias,madrid,2019,270
-injurias,madrid,2018,310
-injurias,madrid,2017,240
-injurias,madrid,2016,380
-injurias,madrid,2015,110
-injurias,region de murcia,2022,140
-injurias,region de murcia,2021,230
-injurias,region de murcia,2020,340
-injurias,region de murcia,2019,330
-injurias,region de murcia,2018,320
-injurias,region de murcia,2017,400
-injurias,region de murcia,2016,580
-injurias,region de murcia,2015,250
-injurias,navarra,2022,60
-injurias,navarra,2021,30
-injurias,navarra,2020,20
-injurias,navarra,2019,40
-injurias,navarra,2018,50
-injurias,navarra,2017,70
-injurias,navarra,2016,50
-injurias,navarra,2015,0
-injurias,pais vasco,2022,90
-injurias,pais vasco,2021,640
-injurias,pais vasco,2020,490
-injurias,pais vasco,2019,540
-injurias,pais vasco,2018,960
-injurias,pais vasco,2017,800
-injurias,pais vasco,2016,740
-injurias,pais vasco,2015,280
-injurias,la rioja,2022,0
-injurias,la rioja,2021,20
-injurias,la rioja,2020,10
-injurias,la rioja,2019,0
-injurias,la rioja,2018,10
-injurias,la rioja,2017,0
-injurias,la rioja,2016,10
-injurias,la rioja,2015,0
-injurias,ceuta,2022,0
-injurias,ceuta,2021,10
-injurias,ceuta,2020,0
-injurias,ceuta,2019,0
-injurias,ceuta,2018,10
-injurias,ceuta,2017,0
-injurias,ceuta,2016,10
-injurias,ceuta,2015,10
-injurias,melilla,2022,10
-injurias,melilla,2021,20
-injurias,melilla,2020,10
-injurias,melilla,2019,10
-injurias,melilla,2018,10
-injurias,melilla,2017,40
-injurias,melilla,2016,60
-injurias,melilla,2015,10
-daños,andalucia,2022,1750
-daños,andalucia,2021,1730
-daños,andalucia,2020,990
-daños,andalucia,2019,1360
-daños,andalucia,2018,1210
-daños,andalucia,2017,870
-daños,andalucia,2016,860
-daños,andalucia,2015,440
-daños,aragon,2022,180
-daños,aragon,2021,160
-daños,aragon,2020,90
-daños,aragon,2019,80
-daños,aragon,2018,270
-daños,aragon,2017,250
-daños,aragon,2016,70
-daños,aragon,2015,40
-daños,asturias,2022,210
-daños,asturias,2021,250
-daños,asturias,2020,100
-daños,asturias,2019,170
-daños,asturias,2018,140
-daños,asturias,2017,120
-daños,asturias,2016,120
-daños,asturias,2015,50
-daños,baleares,2022,150
-daños,baleares,2021,250
-daños,baleares,2020,180
-daños,baleares,2019,250
-daños,baleares,2018,210
-daños,baleares,2017,270
-daños,baleares,2016,240
-daños,baleares,2015,110
-daños,canarias,2022,430
-daños,canarias,2021,590
-daños,canarias,2020,520
-daños,canarias,2019,600
-daños,canarias,2018,500
-daños,canarias,2017,560
-daños,canarias,2016,410
-daños,canarias,2015,290
-daños,cantabria,2022,150
-daños,cantabria,2021,70
-daños,cantabria,2020,70
-daños,cantabria,2019,120
-daños,cantabria,2018,260
-daños,cantabria,2017,110
-daños,cantabria,2016,130
-daños,cantabria,2015,70
-daños,castilla y leon,2022,360
-daños,castilla y leon,2021,330
-daños,castilla y leon,2020,140
-daños,castilla y leon,2019,210
-daños,castilla y leon,2018,250
-daños,castilla y leon,2017,200
-daños,castilla y leon,2016,150
-daños,castilla y leon,2015,110
-daños,castilla la mancha,2022,200
-daños,castilla la mancha,2021,180
-daños,castilla la mancha,2020,150
-daños,castilla la mancha,2019,210
-daños,castilla la mancha,2018,140
-daños,castilla la mancha,2017,120
-daños,castilla la mancha,2016,70
-daños,castilla la mancha,2015,90
-daños,cataluña,2022,1430
-daños,cataluña,2021,1390
-daños,cataluña,2020,920
-daños,cataluña,2019,910
-daños,cataluña,2018,1180
-daños,cataluña,2017,930
-daños,cataluña,2016,620
-daños,cataluña,2015,330
-daños,valencia,2022,1210
-daños,valencia,2021,1040
-daños,valencia,2020,780
-daños,valencia,2019,1060
-daños,valencia,2018,830
-daños,valencia,2017,660
-daños,valencia,2016,570
-daños,valencia,2015,370
-daños,extremadura,2022,150
-daños,extremadura,2021,130
-daños,extremadura,2020,80
-daños,extremadura,2019,120
-daños,extremadura,2018,80
-daños,extremadura,2017,40
-daños,extremadura,2016,60
-daños,extremadura,2015,70
-daños,galicia,2022,370
-daños,galicia,2021,480
-daños,galicia,2020,360
-daños,galicia,2019,450
-daños,galicia,2018,400
-daños,galicia,2017,300
-daños,galicia,2016,210
-daños,galicia,2015,100
-daños,madrid,2022,770
-daños,madrid,2021,730
-daños,madrid,2020,550
-daños,madrid,2019,680
-daños,madrid,2018,470
-daños,madrid,2017,450
-daños,madrid,2016,200
-daños,madrid,2015,110
-daños,region de murcia,2022,280
-daños,region de murcia,2021,270
-daños,region de murcia,2020,230
-daños,region de murcia,2019,290
-daños,region de murcia,2018,380
-daños,region de murcia,2017,280
-daños,region de murcia,2016,190
-daños,region de murcia,2015,140
-daños,navarra,2022,170
-daños,navarra,2021,80
-daños,navarra,2020,30
-daños,navarra,2019,100
-daños,navarra,2018,60
-daños,navarra,2017,30
-daños,navarra,2016,40
-daños,navarra,2015,30
-daños,pais vasco,2022,260
-daños,pais vasco,2021,240
-daños,pais vasco,2020,180
-daños,pais vasco,2019,210
-daños,pais vasco,2018,160
-daños,pais vasco,2017,240
-daños,pais vasco,2016,100
-daños,pais vasco,2015,20
-daños,la rioja,2022,30
-daños,la rioja,2021,70
-daños,la rioja,2020,20
-daños,la rioja,2019,80
-daños,la rioja,2018,40
-daños,la rioja,2017,60
-daños,la rioja,2016,10
-daños,la rioja,2015,30
-daños,ceuta,2022,0
-daños,ceuta,2021,10
-daños,ceuta,2020,0
-daños,ceuta,2019,10
-daños,ceuta,2018,0
-daños,ceuta,2017,0
-daños,ceuta,2016,0
-daños,ceuta,2015,0
-daños,melilla,2022,20
-daños,melilla,2021,10
-daños,melilla,2020,40
-daños,melilla,2019,10
-daños,melilla,2018,10
-daños,melilla,2017,10
-daños,melilla,2016,0
-daños,melilla,2015,0
-quebrantamiento_condena,andalucia,2022,1599
-quebrantamiento_condena,andalucia,2021,1503
-quebrantamiento_condena,andalucia,2020,1182
-quebrantamiento_condena,andalucia,2019,1291
-quebrantamiento_condena,andalucia,2018,1082
-quebrantamiento_condena,andalucia,2017,9930
-quebrantamiento_condena,andalucia,2016,7400
-quebrantamiento_condena,andalucia,2015,5100
-quebrantamiento_condena,aragon,2022,2570
-quebrantamiento_condena,aragon,2021,2150
-quebrantamiento_condena,aragon,2020,1430
-quebrantamiento_condena,aragon,2019,1560
-quebrantamiento_condena,aragon,2018,1560
-quebrantamiento_condena,aragon,2017,1200
-quebrantamiento_condena,aragon,2016,1230
-quebrantamiento_condena,aragon,2015,310
-quebrantamiento_condena,asturias,2022,2470
-quebrantamiento_condena,asturias,2021,2120
-quebrantamiento_condena,asturias,2020,1300
-quebrantamiento_condena,asturias,2019,2150
-quebrantamiento_condena,asturias,2018,1760
-quebrantamiento_condena,asturias,2017,1860
-quebrantamiento_condena,asturias,2016,1600
-quebrantamiento_condena,asturias,2015,1170
-quebrantamiento_condena,baleares,2022,3990
-quebrantamiento_condena,baleares,2021,3810
-quebrantamiento_condena,baleares,2020,2710
-quebrantamiento_condena,baleares,2019,3100
-quebrantamiento_condena,baleares,2018,2650
-quebrantamiento_condena,baleares,2017,2440
-quebrantamiento_condena,baleares,2016,2630
-quebrantamiento_condena,baleares,2015,970
-quebrantamiento_condena,canarias,2022,7180
-quebrantamiento_condena,canarias,2021,6070
-quebrantamiento_condena,canarias,2020,5000
-quebrantamiento_condena,canarias,2019,5140
-quebrantamiento_condena,canarias,2018,4190
-quebrantamiento_condena,canarias,2017,4160
-quebrantamiento_condena,canarias,2016,3650
-quebrantamiento_condena,canarias,2015,1940
-quebrantamiento_condena,cantabria,2022,1250
-quebrantamiento_condena,cantabria,2021,920
-quebrantamiento_condena,cantabria,2020,900
-quebrantamiento_condena,cantabria,2019,1060
-quebrantamiento_condena,cantabria,2018,1200
-quebrantamiento_condena,cantabria,2017,780
-quebrantamiento_condena,cantabria,2016,480
-quebrantamiento_condena,cantabria,2015,230
-quebrantamiento_condena,castilla y leon,2022,2810
-quebrantamiento_condena,castilla y leon,2021,2550
-quebrantamiento_condena,castilla y leon,2020,1860
-quebrantamiento_condena,castilla y leon,2019,2390
-quebrantamiento_condena,castilla y leon,2018,2310
-quebrantamiento_condena,castilla y leon,2017,2310
-quebrantamiento_condena,castilla y leon,2016,1840
-quebrantamiento_condena,castilla y leon,2015,1430
-quebrantamiento_condena,castilla la mancha,2022,4090
-quebrantamiento_condena,castilla la mancha,2021,3350
-quebrantamiento_condena,castilla la mancha,2020,2350
-quebrantamiento_condena,castilla la mancha,2019,2840
-quebrantamiento_condena,castilla la mancha,2018,2170
-quebrantamiento_condena,castilla la mancha,2017,1810
-quebrantamiento_condena,castilla la mancha,2016,1760
-quebrantamiento_condena,castilla la mancha,2015,1160
-quebrantamiento_condena,cataluña,2022,1123
-quebrantamiento_condena,cataluña,2021,118
-quebrantamiento_condena,cataluña,2020,8550
-quebrantamiento_condena,cataluña,2019,9990
-quebrantamiento_condena,cataluña,2018,8610
-quebrantamiento_condena,cataluña,2017,7580
-quebrantamiento_condena,cataluña,2016,7570
-quebrantamiento_condena,cataluña,2015,5060
-quebrantamiento_condena,valencia,2022,1508
-quebrantamiento_condena,valencia,2021,1388
-quebrantamiento_condena,valencia,2020,1118
-quebrantamiento_condena,valencia,2019,1206
-quebrantamiento_condena,valencia,2018,1063
-quebrantamiento_condena,valencia,2017,1013
-quebrantamiento_condena,valencia,2016,8520
-quebrantamiento_condena,valencia,2015,5540
-quebrantamiento_condena,extremadura,2022,2020
-quebrantamiento_condena,extremadura,2021,1640
-quebrantamiento_condena,extremadura,2020,1820
-quebrantamiento_condena,extremadura,2019,1320
-quebrantamiento_condena,extremadura,2018,970
-quebrantamiento_condena,extremadura,2017,900
-quebrantamiento_condena,extremadura,2016,800
-quebrantamiento_condena,extremadura,2015,820
-quebrantamiento_condena,galicia,2022,3690
-quebrantamiento_condena,galicia,2021,3530
-quebrantamiento_condena,galicia,2020,2790
-quebrantamiento_condena,galicia,2019,3940
-quebrantamiento_condena,galicia,2018,2720
-quebrantamiento_condena,galicia,2017,2160
-quebrantamiento_condena,galicia,2016,1790
-quebrantamiento_condena,galicia,2015,1540
-quebrantamiento_condena,madrid,2022,1108
-quebrantamiento_condena,madrid,2021,9330
-quebrantamiento_condena,madrid,2020,6630
-quebrantamiento_condena,madrid,2019,8340
-quebrantamiento_condena,madrid,2018,6810
-quebrantamiento_condena,madrid,2017,6440
-quebrantamiento_condena,madrid,2016,5130
-quebrantamiento_condena,madrid,2015,4170
-quebrantamiento_condena,region de murcia,2022,4900
-quebrantamiento_condena,region de murcia,2021,4170
-quebrantamiento_condena,region de murcia,2020,2810
-quebrantamiento_condena,region de murcia,2019,2950
-quebrantamiento_condena,region de murcia,2018,3300
-quebrantamiento_condena,region de murcia,2017,2260
-quebrantamiento_condena,region de murcia,2016,2410
-quebrantamiento_condena,region de murcia,2015,1020
-quebrantamiento_condena,navarra,2022,2000
-quebrantamiento_condena,navarra,2021,1710
-quebrantamiento_condena,navarra,2020,1040
-quebrantamiento_condena,navarra,2019,1270
-quebrantamiento_condena,navarra,2018,1300
-quebrantamiento_condena,navarra,2017,1060
-quebrantamiento_condena,navarra,2016,720
-quebrantamiento_condena,navarra,2015,280
-quebrantamiento_condena,pais vasco,2022,6000
-quebrantamiento_condena,pais vasco,2021,4530
-quebrantamiento_condena,pais vasco,2020,3310
-quebrantamiento_condena,pais vasco,2019,4330
-quebrantamiento_condena,pais vasco,2018,3410
-quebrantamiento_condena,pais vasco,2017,3130
-quebrantamiento_condena,pais vasco,2016,2790
-quebrantamiento_condena,pais vasco,2015,2120
-quebrantamiento_condena,la rioja,2022,1340
-quebrantamiento_condena,la rioja,2021,710
-quebrantamiento_condena,la rioja,2020,380
-quebrantamiento_condena,la rioja,2019,680
-quebrantamiento_condena,la rioja,2018,660
-quebrantamiento_condena,la rioja,2017,450
-quebrantamiento_condena,la rioja,2016,390
-quebrantamiento_condena,la rioja,2015,170
-quebrantamiento_condena,ceuta,2022,210
-quebrantamiento_condena,ceuta,2021,220
-quebrantamiento_condena,ceuta,2020,140
-quebrantamiento_condena,ceuta,2019,60
-quebrantamiento_condena,ceuta,2018,110
-quebrantamiento_condena,ceuta,2017,70
-quebrantamiento_condena,ceuta,2016,60
-quebrantamiento_condena,ceuta,2015,70
-quebrantamiento_condena,melilla,2022,200
-quebrantamiento_condena,melilla,2021,150
-quebrantamiento_condena,melilla,2020,50
-quebrantamiento_condena,melilla,2019,100
-quebrantamiento_condena,melilla,2018,110
-quebrantamiento_condena,melilla,2017,120
-quebrantamiento_condena,melilla,2016,40
-quebrantamiento_condena,melilla,2015,20
-otros,andalucia,2022,1090
-otros,andalucia,2021,990
-otros,andalucia,2020,700
-otros,andalucia,2019,1170
-otros,andalucia,2018,920
-otros,andalucia,2017,1270
-otros,andalucia,2016,920
-otros,andalucia,2015,1080
-otros,aragon,2022,120
-otros,aragon,2021,260
-otros,aragon,2020,110
-otros,aragon,2019,150
-otros,aragon,2018,140
-otros,aragon,2017,160
-otros,aragon,2016,40
-otros,aragon,2015,60
-otros,asturias,2022,190
-otros,asturias,2021,70
-otros,asturias,2020,30
-otros,asturias,2019,110
-otros,asturias,2018,110
-otros,asturias,2017,80
-otros,asturias,2016,70
-otros,asturias,2015,60
-otros,baleares,2022,170
-otros,baleares,2021,160
-otros,baleares,2020,120
-otros,baleares,2019,290
-otros,baleares,2018,90
-otros,baleares,2017,190
-otros,baleares,2016,210
-otros,baleares,2015,100
-otros,canarias,2022,330
-otros,canarias,2021,260
-otros,canarias,2020,300
-otros,canarias,2019,290
-otros,canarias,2018,320
-otros,canarias,2017,240
-otros,canarias,2016,100
-otros,canarias,2015,180
-otros,cantabria,2022,90
-otros,cantabria,2021,20
-otros,cantabria,2020,50
-otros,cantabria,2019,80
-otros,cantabria,2018,100
-otros,cantabria,2017,70
-otros,cantabria,2016,40
-otros,cantabria,2015,80
-otros,castilla y leon,2022,440
-otros,castilla y leon,2021,300
-otros,castilla y leon,2020,190
-otros,castilla y leon,2019,370
-otros,castilla y leon,2018,300
-otros,castilla y leon,2017,210
-otros,castilla y leon,2016,270
-otros,castilla y leon,2015,210
-otros,castilla la mancha,2022,210
-otros,castilla la mancha,2021,260
-otros,castilla la mancha,2020,100
-otros,castilla la mancha,2019,160
-otros,castilla la mancha,2018,130
-otros,castilla la mancha,2017,90
-otros,castilla la mancha,2016,250
-otros,castilla la mancha,2015,140
-otros,cataluña,2022,1750
-otros,cataluña,2021,670
-otros,cataluña,2020,640
-otros,cataluña,2019,690
-otros,cataluña,2018,640
-otros,cataluña,2017,500
-otros,cataluña,2016,650
-otros,cataluña,2015,600
-otros,valencia,2022,800
-otros,valencia,2021,790
-otros,valencia,2020,430
-otros,valencia,2019,670
-otros,valencia,2018,530
-otros,valencia,2017,520
-otros,valencia,2016,490
-otros,valencia,2015,410
-otros,extremadura,2022,100
-otros,extremadura,2021,110
-otros,extremadura,2020,150
-otros,extremadura,2019,80
-otros,extremadura,2018,60
-otros,extremadura,2017,130
-otros,extremadura,2016,110
-otros,extremadura,2015,130
-otros,galicia,2022,360
-otros,galicia,2021,280
-otros,galicia,2020,230
-otros,galicia,2019,250
-otros,galicia,2018,170
-otros,galicia,2017,260
-otros,galicia,2016,220
-otros,galicia,2015,260
-otros,madrid,2022,510
-otros,madrid,2021,590
-otros,madrid,2020,430
-otros,madrid,2019,410
-otros,madrid,2018,420
-otros,madrid,2017,350
-otros,madrid,2016,320
-otros,madrid,2015,470
-otros,region de murcia,2022,290
-otros,region de murcia,2021,270
-otros,region de murcia,2020,200
-otros,region de murcia,2019,170
-otros,region de murcia,2018,290
-otros,region de murcia,2017,120
-otros,region de murcia,2016,150
-otros,region de murcia,2015,120
-otros,navarra,2022,160
-otros,navarra,2021,140
-otros,navarra,2020,60
-otros,navarra,2019,90
-otros,navarra,2018,70
-otros,navarra,2017,20
-otros,navarra,2016,50
-otros,navarra,2015,60
-otros,pais vasco,2022,530
-otros,pais vasco,2021,200
-otros,pais vasco,2020,150
-otros,pais vasco,2019,340
-otros,pais vasco,2018,160
-otros,pais vasco,2017,130
-otros,pais vasco,2016,160
-otros,pais vasco,2015,130
-otros,la rioja,2022,130
-otros,la rioja,2021,100
-otros,la rioja,2020,30
-otros,la rioja,2019,90
-otros,la rioja,2018,60
-otros,la rioja,2017,60
-otros,la rioja,2016,20
-otros,la rioja,2015,0
-otros,ceuta,2022,40
-otros,ceuta,2021,10
-otros,ceuta,2020,50
-otros,ceuta,2019,0
-otros,ceuta,2018,0
-otros,ceuta,2017,20
-otros,ceuta,2016,0
-otros,ceuta,2015,0
-otros,melilla,2022,10
-otros,melilla,2021,0
-otros,melilla,2020,10
-otros,melilla,2019,10
-otros,melilla,2018,30
-otros,melilla,2017,20
-otros,melilla,2016,0
-otros,melilla,2015,0
-faltas,andalucia,2022,20
-faltas,andalucia,2021,40
-faltas,andalucia,2020,40
-faltas,andalucia,2019,400
-faltas,andalucia,2018,570
-faltas,andalucia,2017,1160
-faltas,andalucia,2016,1950
-faltas,andalucia,2015,9000
-faltas,aragon,2022,0
-faltas,aragon,2021,0
-faltas,aragon,2020,0
-faltas,aragon,2019,10
-faltas,aragon,2018,0
-faltas,aragon,2017,110
-faltas,aragon,2016,240
-faltas,aragon,2015,1100
-faltas,asturias,2022,0
-faltas,asturias,2021,0
-faltas,asturias,2020,0
-faltas,asturias,2019,0
-faltas,asturias,2018,0
-faltas,asturias,2017,40
-faltas,asturias,2016,140
-faltas,asturias,2015,640
-faltas,baleares,2022,0
-faltas,baleares,2021,0
-faltas,baleares,2020,30
-faltas,baleares,2019,20
-faltas,baleares,2018,10
-faltas,baleares,2017,0
-faltas,baleares,2016,100
 faltas,baleares,2015,720
-faltas,canarias,2022,0
-faltas,canarias,2021,10
-faltas,canarias,2020,0
-faltas,canarias,2019,70
-faltas,canarias,2018,80
-faltas,canarias,2017,100
-faltas,canarias,2016,270
 faltas,canarias,2015,3020
-faltas,cantabria,2022,0
-faltas,cantabria,2021,0
-faltas,cantabria,2020,0
-faltas,cantabria,2019,0
-faltas,cantabria,2018,20
-faltas,cantabria,2017,60
-faltas,cantabria,2016,150
 faltas,cantabria,2015,550
-faltas,castilla y leon,2022,0
-faltas,castilla y leon,2021,0
-faltas,castilla y leon,2020,0
-faltas,castilla y leon,2019,60
-faltas,castilla y leon,2018,20
-faltas,castilla y leon,2017,140
-faltas,castilla y leon,2016,560
 faltas,castilla y leon,2015,1830
-faltas,castilla la mancha,2022,0
-faltas,castilla la mancha,2021,10
-faltas,castilla la mancha,2020,60
-faltas,castilla la mancha,2019,20
-faltas,castilla la mancha,2018,160
-faltas,castilla la mancha,2017,150
-faltas,castilla la mancha,2016,300
 faltas,castilla la mancha,2015,1270
-faltas,cataluña,2022,0
-faltas,cataluña,2021,0
-faltas,cataluña,2020,10
-faltas,cataluña,2019,30
-faltas,cataluña,2018,160
-faltas,cataluña,2017,360
-faltas,cataluña,2016,1210
 faltas,cataluña,2015,4890
-faltas,valencia,2022,0
-faltas,valencia,2021,0
-faltas,valencia,2020,10
-faltas,valencia,2019,120
-faltas,valencia,2018,360
-faltas,valencia,2017,570
-faltas,valencia,2016,1190
 faltas,valencia,2015,6530
-faltas,extremadura,2022,0
-faltas,extremadura,2021,10
-faltas,extremadura,2020,10
-faltas,extremadura,2019,20
-faltas,extremadura,2018,10
-faltas,extremadura,2017,60
-faltas,extremadura,2016,250
 faltas,extremadura,2015,1350
-faltas,galicia,2022,0
-faltas,galicia,2021,0
-faltas,galicia,2020,0
-faltas,galicia,2019,50
-faltas,galicia,2018,50
-faltas,galicia,2017,170
-faltas,galicia,2016,310
 faltas,galicia,2015,930
-faltas,madrid,2022,0
-faltas,madrid,2021,0
-faltas,madrid,2020,10
-faltas,madrid,2019,110
-faltas,madrid,2018,260
-faltas,madrid,2017,410
-faltas,madrid,2016,1140
 faltas,madrid,2015,3470
-faltas,region de murcia,2022,0
-faltas,region de murcia,2021,0
-faltas,region de murcia,2020,0
-faltas,region de murcia,2019,0
-faltas,region de murcia,2018,10
-faltas,region de murcia,2017,50
-faltas,region de murcia,2016,180
 faltas,region de murcia,2015,1810
-faltas,navarra,2022,0
-faltas,navarra,2021,0
-faltas,navarra,2020,20
-faltas,navarra,2019,130
-faltas,navarra,2018,80
-faltas,navarra,2017,60
-faltas,navarra,2016,90
 faltas,navarra,2015,180
-faltas,pais vasco,2022,0
-faltas,pais vasco,2021,0
-faltas,pais vasco,2020,0
-faltas,pais vasco,2019,0
-faltas,pais vasco,2018,0
-faltas,pais vasco,2017,350
-faltas,pais vasco,2016,860
 faltas,pais vasco,2015,2720
-faltas,la rioja,2022,0
-faltas,la rioja,2021,0
-faltas,la rioja,2020,0
-faltas,la rioja,2019,0
-faltas,la rioja,2018,0
-faltas,la rioja,2017,50
-faltas,la rioja,2016,40
 faltas,la rioja,2015,210
-faltas,ceuta,2022,0
-faltas,ceuta,2021,0
-faltas,ceuta,2020,0
-faltas,ceuta,2019,0
-faltas,ceuta,2018,0
-faltas,ceuta,2017,0
-faltas,ceuta,2016,10
 faltas,ceuta,2015,40
-faltas,melilla,2022,0
-faltas,melilla,2021,0
-faltas,melilla,2020,0
-faltas,melilla,2019,0
-faltas,melilla,2018,0
-faltas,melilla,2017,20
-faltas,melilla,2016,0
+faltas,asturias,2015,640
 faltas,melilla,2015,50
-faltas,andalucia,2022,20
-faltas,andalucia,2021,20
-faltas,andalucia,2020,40
-faltas,andalucia,2019,330
-faltas,andalucia,2018,520
-faltas,andalucia,2017,960
-faltas,andalucia,2016,1760
+faltas,aragon,2015,1100
+otros,melilla,2015,0
+otros,baleares,2015,100
+otros,canarias,2015,180
+otros,cantabria,2015,80
+otros,castilla y leon,2015,210
+otros,castilla la mancha,2015,140
+otros,cataluña,2015,600
+otros,valencia,2015,410
+otros,extremadura,2015,130
+otros,galicia,2015,260
+otros,madrid,2015,470
+otros,region de murcia,2015,120
+otros,navarra,2015,60
+otros,pais vasco,2015,130
+otros,la rioja,2015,0
+otros,ceuta,2015,0
+faltas,andalucia,2015,9000
+otros,asturias,2015,60
 faltas,andalucia,2015,8420
-faltas,aragon,2022,0
-faltas,aragon,2021,0
-faltas,aragon,2020,0
-faltas,aragon,2019,10
-faltas,aragon,2018,0
-faltas,aragon,2017,90
-faltas,aragon,2016,200
-faltas,aragon,2015,960
-faltas,asturias,2022,0
-faltas,asturias,2021,0
-faltas,asturias,2020,0
-faltas,asturias,2019,0
-faltas,asturias,2018,0
-faltas,asturias,2017,40
-faltas,asturias,2016,120
 faltas,asturias,2015,590
-faltas,baleares,2022,0
-faltas,baleares,2021,0
-faltas,baleares,2020,30
-faltas,baleares,2019,20
-faltas,baleares,2018,10
-faltas,baleares,2017,0
-faltas,baleares,2016,80
-faltas,baleares,2015,670
-faltas,canarias,2022,0
-faltas,canarias,2021,10
-faltas,canarias,2020,0
-faltas,canarias,2019,60
-faltas,canarias,2018,60
-faltas,canarias,2017,90
-faltas,canarias,2016,220
-faltas,canarias,2015,2690
-faltas,cantabria,2022,0
-faltas,cantabria,2021,0
-faltas,cantabria,2020,0
-faltas,cantabria,2019,0
-faltas,cantabria,2018,20
-faltas,cantabria,2017,60
-faltas,cantabria,2016,110
-faltas,cantabria,2015,440
-faltas,castilla y leon,2022,0
-faltas,castilla y leon,2021,0
-faltas,castilla y leon,2020,0
-faltas,castilla y leon,2019,50
-faltas,castilla y leon,2018,10
-faltas,castilla y leon,2017,130
-faltas,castilla y leon,2016,500
-faltas,castilla y leon,2015,1720
-faltas,castilla la mancha,2022,0
-faltas,castilla la mancha,2021,10
-faltas,castilla la mancha,2020,30
-faltas,castilla la mancha,2019,20
-faltas,castilla la mancha,2018,130
-faltas,castilla la mancha,2017,120
-faltas,castilla la mancha,2016,260
-faltas,castilla la mancha,2015,1130
-faltas,cataluña,2022,0
-faltas,cataluña,2021,0
-faltas,cataluña,2020,10
-faltas,cataluña,2019,30
-faltas,cataluña,2018,140
-faltas,cataluña,2017,290
-faltas,cataluña,2016,1010
-faltas,cataluña,2015,4380
-faltas,valencia,2022,0
-faltas,valencia,2021,0
-faltas,valencia,2020,10
-faltas,valencia,2019,90
-faltas,valencia,2018,300
-faltas,valencia,2017,460
-faltas,valencia,2016,970
-faltas,valencia,2015,5950
-faltas,extremadura,2022,0
-faltas,extremadura,2021,10
-faltas,extremadura,2020,10
-faltas,extremadura,2019,20
-faltas,extremadura,2018,10
-faltas,extremadura,2017,50
-faltas,extremadura,2016,240
-faltas,extremadura,2015,1320
-faltas,galicia,2022,0
-faltas,galicia,2021,0
-faltas,galicia,2020,0
-faltas,galicia,2019,40
-faltas,galicia,2018,20
-faltas,galicia,2017,140
-faltas,galicia,2016,260
-faltas,galicia,2015,790
-faltas,madrid,2022,0
-faltas,madrid,2021,0
-faltas,madrid,2020,0
-faltas,madrid,2019,70
-faltas,madrid,2018,210
-faltas,madrid,2017,270
-faltas,madrid,2016,890
-faltas,madrid,2015,3120
-faltas,region de murcia,2022,0
-faltas,region de murcia,2021,0
-faltas,region de murcia,2020,0
-faltas,region de murcia,2019,0
-faltas,region de murcia,2018,10
-faltas,region de murcia,2017,30
-faltas,region de murcia,2016,150
-faltas,region de murcia,2015,1730
-faltas,navarra,2022,0
-faltas,navarra,2021,0
-faltas,navarra,2020,20
-faltas,navarra,2019,80
-faltas,navarra,2018,50
-faltas,navarra,2017,60
-faltas,navarra,2016,70
-faltas,navarra,2015,170
-faltas,pais vasco,2022,0
-faltas,pais vasco,2021,0
-faltas,pais vasco,2020,0
-faltas,pais vasco,2019,0
-faltas,pais vasco,2018,0
-faltas,pais vasco,2017,340
-faltas,pais vasco,2016,770
-faltas,pais vasco,2015,2500
-faltas,la rioja,2022,0
-faltas,la rioja,2021,0
-faltas,la rioja,2020,0
-faltas,la rioja,2019,0
-faltas,la rioja,2018,0
-faltas,la rioja,2017,50
-faltas,la rioja,2016,40
-faltas,la rioja,2015,190
-faltas,ceuta,2022,0
-faltas,ceuta,2021,0
-faltas,ceuta,2020,0
-faltas,ceuta,2019,0
-faltas,ceuta,2018,0
-faltas,ceuta,2017,0
-faltas,ceuta,2016,10
-faltas,ceuta,2015,40
-faltas,melilla,2022,0
-faltas,melilla,2021,0
-faltas,melilla,2020,0
-faltas,melilla,2019,0
-faltas,melilla,2018,0
-faltas,melilla,2017,20
-faltas,melilla,2016,0
-faltas,melilla,2015,50
-faltas,andalucia,2022,0
-faltas,andalucia,2021,20
-faltas,andalucia,2020,0
-faltas,andalucia,2019,70
-faltas,andalucia,2018,50
-faltas,andalucia,2017,200
-faltas,andalucia,2016,190
-faltas,andalucia,2015,580
-faltas,aragon,2022,0
-faltas,aragon,2021,0
-faltas,aragon,2020,0
-faltas,aragon,2019,0
-faltas,aragon,2018,0
-faltas,aragon,2017,20
-faltas,aragon,2016,40
-faltas,aragon,2015,140
-faltas,asturias,2022,0
-faltas,asturias,2021,0
-faltas,asturias,2020,0
-faltas,asturias,2019,0
-faltas,asturias,2018,0
-faltas,asturias,2017,0
-faltas,asturias,2016,20
-faltas,asturias,2015,50
-faltas,baleares,2022,0
-faltas,baleares,2021,0
-faltas,baleares,2020,0
-faltas,baleares,2019,0
-faltas,baleares,2018,0
-faltas,baleares,2017,0
-faltas,baleares,2016,20
 faltas,baleares,2015,50
-faltas,canarias,2022,0
-faltas,canarias,2021,0
-faltas,canarias,2020,0
-faltas,canarias,2019,10
-faltas,canarias,2018,20
-faltas,canarias,2017,10
-faltas,canarias,2016,50
 faltas,canarias,2015,330
-faltas,cantabria,2022,0
-faltas,cantabria,2021,0
-faltas,cantabria,2020,0
-faltas,cantabria,2019,0
-faltas,cantabria,2018,0
-faltas,cantabria,2017,0
-faltas,cantabria,2016,40
 faltas,cantabria,2015,110
-faltas,castilla y leon,2022,0
-faltas,castilla y leon,2021,0
-faltas,castilla y leon,2020,0
-faltas,castilla y leon,2019,10
-faltas,castilla y leon,2018,10
-faltas,castilla y leon,2017,10
-faltas,castilla y leon,2016,60
 faltas,castilla y leon,2015,110
-faltas,castilla la mancha,2022,0
-faltas,castilla la mancha,2021,0
-faltas,castilla la mancha,2020,30
-faltas,castilla la mancha,2019,0
-faltas,castilla la mancha,2018,30
-faltas,castilla la mancha,2017,30
-faltas,castilla la mancha,2016,40
 faltas,castilla la mancha,2015,140
-faltas,cataluña,2022,0
-faltas,cataluña,2021,0
-faltas,cataluña,2020,0
-faltas,cataluña,2019,0
-faltas,cataluña,2018,20
-faltas,cataluña,2017,70
-faltas,cataluña,2016,200
 faltas,cataluña,2015,510
-faltas,valencia,2022,0
-faltas,valencia,2021,0
-faltas,valencia,2020,0
-faltas,valencia,2019,30
-faltas,valencia,2018,60
-faltas,valencia,2017,110
-faltas,valencia,2016,220
 faltas,valencia,2015,580
-faltas,extremadura,2022,0
-faltas,extremadura,2021,0
-faltas,extremadura,2020,0
-faltas,extremadura,2019,0
-faltas,extremadura,2018,0
-faltas,extremadura,2017,10
-faltas,extremadura,2016,10
 faltas,extremadura,2015,30
-faltas,galicia,2022,0
-faltas,galicia,2021,0
-faltas,galicia,2020,0
-faltas,galicia,2019,10
-faltas,galicia,2018,30
-faltas,galicia,2017,30
-faltas,galicia,2016,50
 faltas,galicia,2015,140
-faltas,madrid,2022,0
-faltas,madrid,2021,0
-faltas,madrid,2020,10
-faltas,madrid,2019,40
-faltas,madrid,2018,50
-faltas,madrid,2017,140
-faltas,madrid,2016,250
 faltas,madrid,2015,350
-faltas,region de murcia,2022,0
-faltas,region de murcia,2021,0
-faltas,region de murcia,2020,0
-faltas,region de murcia,2019,0
-faltas,region de murcia,2018,0
-faltas,region de murcia,2017,20
-faltas,region de murcia,2016,30
 faltas,region de murcia,2015,80
-faltas,navarra,2022,0
-faltas,navarra,2021,0
-faltas,navarra,2020,0
-faltas,navarra,2019,50
-faltas,navarra,2018,30
-faltas,navarra,2017,0
-faltas,navarra,2016,20
 faltas,navarra,2015,10
-faltas,pais vasco,2022,0
-faltas,pais vasco,2021,0
-faltas,pais vasco,2020,0
-faltas,pais vasco,2019,0
-faltas,pais vasco,2018,0
-faltas,pais vasco,2017,10
-faltas,pais vasco,2016,90
 faltas,pais vasco,2015,220
-faltas,la rioja,2022,0
-faltas,la rioja,2021,0
-faltas,la rioja,2020,0
-faltas,la rioja,2019,0
-faltas,la rioja,2018,0
-faltas,la rioja,2017,0
-faltas,la rioja,2016,0
 faltas,la rioja,2015,20
-faltas,ceuta,2022,0
-faltas,ceuta,2021,0
-faltas,ceuta,2020,0
-faltas,ceuta,2019,0
-faltas,ceuta,2018,0
-faltas,ceuta,2017,0
-faltas,ceuta,2016,0
 faltas,ceuta,2015,0
-faltas,melilla,2022,0
-faltas,melilla,2021,0
-faltas,melilla,2020,0
-faltas,melilla,2019,0
-faltas,melilla,2018,0
-faltas,melilla,2017,0
-faltas,melilla,2016,0
+faltas,asturias,2015,50
+faltas,aragon,2015,960
+faltas,aragon,2015,140
+faltas,melilla,2015,50
+faltas,baleares,2015,670
+faltas,canarias,2015,2690
+faltas,cantabria,2015,440
+faltas,castilla y leon,2015,1720
+faltas,castilla la mancha,2015,1130
+faltas,cataluña,2015,4380
+faltas,valencia,2015,5950
+faltas,extremadura,2015,1320
+faltas,galicia,2015,790
+faltas,madrid,2015,3120
+faltas,region de murcia,2015,1730
+faltas,navarra,2015,170
+faltas,pais vasco,2015,2500
+faltas,la rioja,2015,190
+faltas,ceuta,2015,40
+faltas,andalucia,2015,580
+allanamiento,aragon,2015,10
+otros,aragon,2015,60
+quebrantamiento_condena,melilla,2015,20
+injurias,baleares,2015,80
+injurias,canarias,2015,140
+injurias,cantabria,2015,80
+injurias,castilla y leon,2015,20
+injurias,castilla la mancha,2015,80
+injurias,cataluña,2015,230
+injurias,valencia,2015,300
+injurias,extremadura,2015,30
+injurias,galicia,2015,30
+injurias,madrid,2015,110
+injurias,region de murcia,2015,250
+injurias,navarra,2015,0
+injurias,pais vasco,2015,280
+injurias,la rioja,2015,0
+injurias,ceuta,2015,10
+injurias,asturias,2015,30
+injurias,melilla,2015,10
+injurias,aragon,2015,10
+allanamiento,melilla,2015,0
+allanamiento,baleares,2015,50
+allanamiento,canarias,2015,30
+allanamiento,cantabria,2015,10
+allanamiento,castilla y leon,2015,10
+allanamiento,castilla la mancha,2015,40
+allanamiento,cataluña,2015,240
+allanamiento,valencia,2015,170
+allanamiento,extremadura,2015,0
+allanamiento,galicia,2015,50
+allanamiento,madrid,2015,130
+allanamiento,region de murcia,2015,0
+allanamiento,navarra,2015,40
+allanamiento,pais vasco,2015,0
+allanamiento,la rioja,2015,0
+allanamiento,ceuta,2015,0
+injurias,andalucia,2015,240
+otros,andalucia,2015,1080
+daños,andalucia,2015,440
+daños,asturias,2015,50
+quebrantamiento_condena,baleares,2015,970
+quebrantamiento_condena,canarias,2015,1940
+quebrantamiento_condena,cantabria,2015,230
+quebrantamiento_condena,castilla y leon,2015,1430
+quebrantamiento_condena,castilla la mancha,2015,1160
+quebrantamiento_condena,cataluña,2015,5060
+quebrantamiento_condena,valencia,2015,5540
+quebrantamiento_condena,extremadura,2015,820
+quebrantamiento_condena,galicia,2015,1540
+quebrantamiento_condena,madrid,2015,4170
+quebrantamiento_condena,region de murcia,2015,1020
+quebrantamiento_condena,navarra,2015,280
+quebrantamiento_condena,pais vasco,2015,2120
+quebrantamiento_condena,la rioja,2015,170
+quebrantamiento_condena,ceuta,2015,70
+quebrantamiento_condena,asturias,2015,1170
+daños,aragon,2015,40
+quebrantamiento_condena,aragon,2015,310
+daños,melilla,2015,0
+daños,baleares,2015,110
+daños,canarias,2015,290
+daños,cantabria,2015,70
+daños,castilla y leon,2015,110
+daños,castilla la mancha,2015,90
+daños,cataluña,2015,330
+daños,valencia,2015,370
+daños,extremadura,2015,70
+daños,galicia,2015,100
+daños,madrid,2015,110
+daños,region de murcia,2015,140
+daños,navarra,2015,30
+daños,pais vasco,2015,20
+daños,la rioja,2015,30
+daños,ceuta,2015,0
+quebrantamiento_condena,andalucia,2015,5100
+lesiones,andalucia,2015,2287
 faltas,melilla,2015,0
+delito,pais vasco,2015,1267
+delito,castilla y leon,2015,1223
+homicidio,valencia,2015,120
+homicidio,andalucia,2015,120
+delito,la rioja,2015,2040
+delito,navarra,2015,3080
+homicidio,asturias,2015,0
+homicidio,galicia,2015,30
+delito,madrid,2015,2802
+delito,canarias,2015,1971
+delito,ceuta,2015,590
+delito,aragon,2015,5520
+homicidio,castilla la mancha,2015,30
+homicidio,ceuta,2015,0
+delito,melilla,2015,690
+delito,baleares,2015,1092
+homicidio,cataluña,2015,170
+delito,valencia,2015,4151
+delito,andalucia,2015,5592
+delito,cataluña,2015,3459
+homicidio,pais vasco,2015,30
+homicidio,aragon,2015,40
+homicidio,canarias,2015,90
+homicidio,madrid,2015,110
+delito,asturias,2015,6280
+delito,cantabria,2015,3260
+homicidio,region de murcia,2015,30
+homicidio,extremadura,2015,0
+homicidio,baleares,2015,20
+homicidio,melilla,2015,0
+homicidio,cantabria,2015,0
+homicidio,navarra,2015,0
+delito,extremadura,2015,7540
+delito,castilla la mancha,2015,1255
+homicidio,castilla y leon,2015,20
+delito,region de murcia,2015,129
+homicidio,la rioja,2015,0
+delito,galicia,2015,1263
+abuso_sexual,valencia,2016,40
+daños,castilla y leon,2016,150
+daños,baleares,2016,240
+allanamiento,valencia,2016,230
+amenazas,pais vasco,2016,2420
+delito,ceuta,2016,680
+abuso_sexual,castilla y leon,2016,30
+homicidio,baleares,2016,20
+amenazas,la rioja,2016,440
+abuso_sexual,castilla la mancha,2016,20
+abuso_sexual,extremadura,2016,0
+faltas,valencia,2016,1190
+faltas,aragon,2016,40
+faltas,valencia,2016,220
+daños,castilla la mancha,2016,70
+amenazas,navarra,2016,750
+abuso_sexual,cantabria,2016,0
+daños,aragon,2016,70
+coacciones,castilla y leon,2016,550
+daños,canarias,2016,410
+coacciones,cantabria,2016,200
+daños,asturias,2016,120
+coacciones,aragon,2016,310
+allanamiento,castilla la mancha,2016,10
+otros,pais vasco,2016,160
+coacciones,canarias,2016,720
+coacciones,andalucia,2016,2120
+faltas,extremadura,2016,240
+faltas,extremadura,2016,10
+homicidio,galicia,2016,50
+allanamiento,cataluña,2016,270
+coacciones,asturias,2016,410
+abuso_sexual,cataluña,2016,20
+daños,cantabria,2016,130
+faltas,castilla la mancha,2016,300
+faltas,cataluña,2016,1210
+otros,asturias,2016,70
+amenazas,ceuta,2016,120
+coacciones,baleares,2016,1650
+delito,region de murcia,2016,1617
+amenazas,melilla,2016,160
+coacciones,la rioja,2016,160
+allanamiento,castilla y leon,2016,10
+faltas,aragon,2016,200
+delito,andalucia,2016,6734
+amenazas,baleares,2016,2950
+faltas,galicia,2016,310
+homicidio,region de murcia,2016,30
+amenazas,asturias,2016,1620
+daños,region de murcia,2016,190
+abuso_sexual,pais vasco,2016,10
+amenazas,aragon,2016,1720
+delito,asturias,2016,8010
+daños,navarra,2016,40
+amenazas,andalucia,2016,167
+faltas,cantabria,2016,110
+abuso_sexual,la rioja,2016,0
+allanamiento,canarias,2016,30
+detencion_secuestro,melilla,2016,0
+daños,pais vasco,2016,100
+detencion_secuestro,ceuta,2016,0
+otros,andalucia,2016,920
+faltas,region de murcia,2016,30
+abuso_sexual,ceuta,2016,0
+detencion_secuestro,la rioja,2016,0
+otros,valencia,2016,490
+faltas,madrid,2016,1140
+allanamiento,baleares,2016,130
+detencion_secuestro,pais vasco,2016,10
+daños,la rioja,2016,10
+detencion_secuestro,navarra,2016,10
+homicidio,asturias,2016,20
+amenazas,canarias,2016,4340
+abuso_sexual,navarra,2016,0
+faltas,madrid,2016,250
+amenazas,madrid,2016,5290
+abuso_sexual,galicia,2016,20
+otros,aragon,2016,40
+faltas,baleares,2016,80
+faltas,galicia,2016,50
+amenazas,galicia,2016,2780
+coacciones,castilla la mancha,2016,550
+daños,valencia,2016,570
+homicidio,madrid,2016,150
+amenazas,extremadura,2016,2010
+faltas,valencia,2016,970
+abuso_sexual,madrid,2016,10
+amenazas,valencia,2016,1005
+amenazas,region de murcia,2016,2830
+faltas,extremadura,2016,250
+amenazas,cataluña,2016,7900
+otros,navarra,2016,50
+delito,cantabria,2016,3840
+amenazas,castilla la mancha,2016,3350
+abuso_sexual,region de murcia,2016,10
+daños,galicia,2016,210
+amenazas,castilla y leon,2016,3590
+faltas,andalucia,2016,190
+delito,madrid,2016,3047
+faltas,pais vasco,2016,770
+allanamiento,cantabria,2016,30
+amenazas,cantabria,2016,1010
+daños,madrid,2016,200
+daños,extremadura,2016,60
+homicidio,extremadura,2016,0
+otros,la rioja,2016,20
+coacciones,cataluña,2016,1350
+faltas,cantabria,2016,40
+injurias,cantabria,2016,40
+tortura_integridad_moral,la rioja,2016,370
+delito,cataluña,2016,4043
+otros,cantabria,2016,40
+tortura_integridad_moral,pais vasco,2016,1040
+agresion_sexual,madrid,2016,80
+allanamiento,la rioja,2016,0
+tortura_integridad_moral,navarra,2016,490
+injurias,castilla y leon,2016,170
+delito,pais vasco,2016,1424
+faltas,asturias,2016,140
+delito,castilla y leon,2016,1398
+tortura_integridad_moral,region de murcia,2016,2090
+faltas,asturias,2016,120
+homicidio,castilla la mancha,2016,30
+tortura_integridad_moral,madrid,2016,2970
+injurias,castilla la mancha,2016,240
+tortura_integridad_moral,galicia,2016,1680
+agresion_sexual,region de murcia,2016,0
+faltas,madrid,2016,890
+otros,castilla la mancha,2016,250
+allanamiento,pais vasco,2016,0
+tortura_integridad_moral,extremadura,2016,1430
+injurias,cataluña,2016,910
+faltas,castilla y leon,2016,60
+agresion_sexual,navarra,2016,0
+faltas,baleares,2016,20
+tortura_integridad_moral,valencia,2016,8170
+tortura_integridad_moral,ceuta,2016,20
+agresion_sexual,galicia,2016,40
+injurias,andalucia,2016,810
+allanamiento,melilla,2016,0
+agresion_sexual,castilla y leon,2016,10
+faltas,region de murcia,2016,150
+faltas,andalucia,2016,1950
+agresion_sexual,cantabria,2016,0
+agresion_sexual,cataluña,2016,60
+injurias,aragon,2016,30
+faltas,canarias,2016,50
+agresion_sexual,canarias,2016,10
+otros,castilla y leon,2016,270
+delito,aragon,2016,8330
+agresion_sexual,baleares,2016,20
+agresion_sexual,valencia,2016,110
+homicidio,cantabria,2016,0
+injurias,asturias,2016,70
+delito,la rioja,2016,2480
+agresion_sexual,asturias,2016,30
+allanamiento,ceuta,2016,0
+homicidio,castilla y leon,2016,20
+agresion_sexual,aragon,2016,10
+faltas,aragon,2016,240
+injurias,baleares,2016,110
+agresion_sexual,andalucia,2016,190
+agresion_sexual,extremadura,2016,20
+otros,melilla,2016,0
+tortura_integridad_moral,melilla,2016,100
+injurias,canarias,2016,430
+otros,cataluña,2016,650
+tortura_integridad_moral,cataluña,2016,5520
+injurias,valencia,2016,890
+delito,navarra,2016,3870
+coacciones,ceuta,2016,10
+faltas,galicia,2016,260
+injurias,pais vasco,2016,740
+faltas,cantabria,2016,150
+homicidio,valencia,2016,90
+coacciones,pais vasco,2016,970
+abuso_sexual,aragon,2016,0
+coacciones,navarra,2016,140
+injurias,la rioja,2016,10
+faltas,cataluña,2016,200
+coacciones,region de murcia,2016,530
+abuso_sexual,asturias,2016,10
+allanamiento,galicia,2016,70
+coacciones,madrid,2016,1620
+injurias,ceuta,2016,10
+coacciones,galicia,2016,1050
+abuso_sexual,baleares,2016,10
+otros,baleares,2016,210
+abuso_sexual,melilla,2016,0
+faltas,castilla y leon,2016,560
+coacciones,extremadura,2016,410
+injurias,melilla,2016,60
+allanamiento,extremadura,2016,10
+coacciones,valencia,2016,1770
+daños,andalucia,2016,860
+abuso_sexual,canarias,2016,20
+abuso_sexual,andalucia,2016,20
+faltas,baleares,2016,100
+injurias,navarra,2016,50
+allanamiento,madrid,2016,90
+tortura_integridad_moral,castilla la mancha,2016,1890
+agresion_sexual,pais vasco,2016,10
+faltas,canarias,2016,220
+allanamiento,navarra,2016,40
+tortura_integridad_moral,castilla y leon,2016,2340
+injurias,extremadura,2016,110
+agresion_sexual,la rioja,2016,0
+tortura_integridad_moral,cantabria,2016,470
+otros,ceuta,2016,0
+injurias,galicia,2016,110
+homicidio,cataluña,2016,120
+tortura_integridad_moral,canarias,2016,6320
+otros,canarias,2016,100
+allanamiento,region de murcia,2016,0
+tortura_integridad_moral,baleares,2016,2090
+agresion_sexual,ceuta,2016,0
+homicidio,canarias,2016,70
+faltas,castilla la mancha,2016,40
+tortura_integridad_moral,asturias,2016,780
+injurias,madrid,2016,380
+faltas,canarias,2016,270
+tortura_integridad_moral,aragon,2016,1370
+agresion_sexual,melilla,2016,0
+faltas,asturias,2016,20
+tortura_integridad_moral,andalucia,2016,1346
+faltas,navarra,2016,70
+injurias,region de murcia,2016,580
+coacciones,melilla,2016,10
+faltas,melilla,2016,0
+daños,cataluña,2016,620
+lesiones,la rioja,2016,1070
+faltas,castilla la mancha,2016,260
+detencion_secuestro,andalucia,2016,50
+quebrantamiento_condena,ceuta,2016,60
+faltas,pais vasco,2016,860
+lesiones,melilla,2016,380
+quebrantamiento_condena,castilla y leon,2016,1840
+lesiones,ceuta,2016,460
+abuso_menores,castilla y leon,2016,0
+otros,madrid,2016,320
+homicidio,la rioja,2016,10
+abuso_menores,melilla,2016,0
+quebrantamiento_condena,castilla la mancha,2016,1760
+lesiones,pais vasco,2016,5970
+abuso_menores,castilla la mancha,2016,0
+faltas,la rioja,2016,0
+lesiones,navarra,2016,1580
+quebrantamiento_condena,cataluña,2016,7570
+lesiones,region de murcia,2016,7350
+delito,extremadura,2016,8320
+quebrantamiento_condena,cantabria,2016,480
+faltas,la rioja,2016,40
+detencion_secuestro,aragon,2016,0
+delito,baleares,2016,1603
+abuso_menores,asturias,2016,0
+detencion_secuestro,castilla la mancha,2016,10
+faltas,melilla,2016,0
+quebrantamiento_condena,melilla,2016,40
+detencion_secuestro,castilla y leon,2016,0
+quebrantamiento_condena,asturias,2016,1600
+homicidio,pais vasco,2016,20
+detencion_secuestro,cantabria,2016,0
+abuso_menores,baleares,2016,0
+faltas,navarra,2016,90
+detencion_secuestro,canarias,2016,20
+quebrantamiento_condena,baleares,2016,2630
+detencion_secuestro,baleares,2016,10
+abuso_menores,canarias,2016,0
+homicidio,aragon,2016,20
+allanamiento,andalucia,2016,190
+faltas,pais vasco,2016,90
+detencion_secuestro,asturias,2016,20
+quebrantamiento_condena,canarias,2016,3650
+abuso_menores,cantabria,2016,0
+quebrantamiento_condena,aragon,2016,1230
+abuso_menores,cataluña,2016,0
+otros,extremadura,2016,110
+lesiones,cantabria,2016,1440
+abuso_menores,galicia,2016,0
+lesiones,canarias,2016,8510
+otros,galicia,2016,220
+quebrantamiento_condena,region de murcia,2016,2410
+abuso_menores,pais vasco,2016,0
+lesiones,baleares,2016,5960
+abuso_menores,madrid,2016,0
+homicidio,andalucia,2016,180
+faltas,melilla,2016,0
+lesiones,asturias,2016,3230
+quebrantamiento_condena,navarra,2016,720
+delito,canarias,2016,2463
+lesiones,aragon,2016,3520
+abuso_menores,region de murcia,2016,0
+homicidio,melilla,2016,0
+lesiones,andalucia,2016,2444
+abuso_menores,navarra,2016,0
+quebrantamiento_condena,pais vasco,2016,2790
+faltas,castilla y leon,2016,500
+lesiones,madrid,2016,1422
+quebrantamiento_condena,madrid,2016,5130
+faltas,ceuta,2016,0
+faltas,andalucia,2016,1760
+quebrantamiento_condena,valencia,2016,8520
+lesiones,galicia,2016,5780
+abuso_menores,ceuta,2016,0
+quebrantamiento_condena,extremadura,2016,800
+lesiones,extremadura,2016,3360
+abuso_menores,valencia,2016,0
+delito,valencia,2016,4978
+faltas,ceuta,2016,10
+faltas,la rioja,2016,40
+lesiones,valencia,2016,1879
+abuso_menores,la rioja,2016,0
+quebrantamiento_condena,galicia,2016,1790
+homicidio,ceuta,2016,0
+lesiones,cataluña,2016,1541
+abuso_menores,extremadura,2016,0
+lesiones,castilla la mancha,2016,5730
+quebrantamiento_condena,la rioja,2016,390
+faltas,ceuta,2016,10
+lesiones,castilla y leon,2016,5000
+detencion_secuestro,cataluña,2016,30
+agresion_sexual,castilla la mancha,2016,40
+delito,melilla,2016,750
+homicidio,navarra,2016,0
+detencion_secuestro,valencia,2016,60
+abuso_menores,andalucia,2016,0
+quebrantamiento_condena,andalucia,2016,7400
+delito,galicia,2016,1381
+faltas,navarra,2016,20
+faltas,region de murcia,2016,180
+abuso_menores,aragon,2016,0
+allanamiento,aragon,2016,10
+detencion_secuestro,galicia,2016,10
+detencion_secuestro,madrid,2016,10
+faltas,cataluña,2016,1010
+allanamiento,asturias,2016,30
+detencion_secuestro,extremadura,2016,0
+daños,ceuta,2016,0
+otros,region de murcia,2016,150
+delito,castilla la mancha,2016,1395
+detencion_secuestro,region de murcia,2016,0
+daños,melilla,2016,0
+lesiones,extremadura,2017,3240
+abuso_menores,ceuta,2017,0
+quebrantamiento_condena,extremadura,2017,900
+tortura_integridad_moral,cantabria,2017,760
+otros,ceuta,2017,20
+faltas,navarra,2017,60
+injurias,galicia,2017,170
+tortura_integridad_moral,canarias,2017,7450
+homicidio,cataluña,2017,140
+abuso_menores,valencia,2017,0
+daños,melilla,2017,10
+detencion_secuestro,melilla,2017,0
+agresion_sexual,la rioja,2017,0
+injurias,extremadura,2017,130
+abuso_menores,andalucia,2017,0
+abuso_menores,extremadura,2017,0
+lesiones,cataluña,2017,1502
+faltas,region de murcia,2017,20
+tortura_integridad_moral,valencia,2017,1008
+allanamiento,pais vasco,2017,0
+faltas,madrid,2017,270
+faltas,baleares,2017,0
+tortura_integridad_moral,cataluña,2017,5680
+agresion_sexual,pais vasco,2017,30
+homicidio,ceuta,2017,0
+injurias,valencia,2017,900
+abuso_menores,la rioja,2017,0
+daños,pais vasco,2017,240
+tortura_integridad_moral,castilla la mancha,2017,2190
+quebrantamiento_condena,galicia,2017,2160
+lesiones,valencia,2017,1965
+faltas,asturias,2017,40
+allanamiento,navarra,2017,10
+allanamiento,canarias,2017,40
+tortura_integridad_moral,castilla y leon,2017,2440
+abuso_sexual,la rioja,2017,0
+delito,castilla y leon,2017,1469
+tortura_integridad_moral,baleares,2017,2290
+amenazas,andalucia,2017,1753
+lesiones,galicia,2017,6500
+faltas,la rioja,2017,50
+coacciones,ceuta,2017,20
+faltas,asturias,2017,0
+amenazas,aragon,2017,1910
+allanamiento,madrid,2017,180
+faltas,cantabria,2017,60
+abuso_menores,navarra,2017,0
+coacciones,la rioja,2017,110
+injurias,pais vasco,2017,800
+faltas,la rioja,2017,50
+quebrantamiento_condena,cataluña,2017,7580
+abuso_sexual,aragon,2017,0
+otros,extremadura,2017,130
+coacciones,pais vasco,2017,850
+lesiones,navarra,2017,1770
+delito,navarra,2017,4540
+faltas,galicia,2017,140
+faltas,cataluña,2017,70
+allanamiento,asturias,2017,30
+coacciones,navarra,2017,130
+faltas,la rioja,2017,0
+homicidio,asturias,2017,30
+agresion_sexual,ceuta,2017,0
+lesiones,region de murcia,2017,7640
+abuso_sexual,andalucia,2017,70
+faltas,canarias,2017,100
+faltas,castilla la mancha,2017,30
+delito,extremadura,2017,8570
+injurias,cataluña,2017,1130
+tortura_integridad_moral,asturias,2017,1040
+injurias,madrid,2017,240
+quebrantamiento_condena,valencia,2017,1013
+otros,canarias,2017,240
+allanamiento,region de murcia,2017,20
+tortura_integridad_moral,aragon,2017,1820
+agresion_sexual,melilla,2017,0
+homicidio,canarias,2017,30
+lesiones,madrid,2017,1486
+daños,navarra,2017,30
+tortura_integridad_moral,andalucia,2017,1541
+detencion_secuestro,galicia,2017,20
+injurias,region de murcia,2017,400
+delito,canarias,2017,2668
+otros,valencia,2017,520
+abuso_menores,cataluña,2017,0
+coacciones,melilla,2017,20
+injurias,navarra,2017,70
+agresion_sexual,navarra,2017,20
+lesiones,castilla la mancha,2017,5420
+faltas,ceuta,2017,0
+homicidio,melilla,2017,10
+injurias,asturias,2017,60
+homicidio,castilla y leon,2017,0
+allanamiento,baleares,2017,110
+agresion_sexual,asturias,2017,0
+otros,galicia,2017,260
+otros,castilla y leon,2017,210
+allanamiento,ceuta,2017,0
+faltas,aragon,2017,110
+lesiones,asturias,2017,3440
+detencion_secuestro,pais vasco,2017,30
+agresion_sexual,aragon,2017,0
+agresion_sexual,extremadura,2017,0
+injurias,baleares,2017,170
+abuso_menores,pais vasco,2017,0
+quebrantamiento_condena,navarra,2017,1060
+detencion_secuestro,region de murcia,2017,20
+agresion_sexual,andalucia,2017,30
+delito,andalucia,2017,7539
+homicidio,cantabria,2017,0
+abuso_menores,madrid,2017,0
+agresion_sexual,baleares,2017,40
+lesiones,baleares,2017,6060
+agresion_sexual,valencia,2017,150
+abuso_menores,region de murcia,2017,0
+injurias,andalucia,2017,800
+detencion_secuestro,navarra,2017,10
+delito,la rioja,2017,2640
+quebrantamiento_condena,pais vasco,2017,3130
+faltas,andalucia,2017,1160
+daños,ceuta,2017,0
+agresion_sexual,castilla y leon,2017,40
+delito,cataluña,2017,403
+lesiones,andalucia,2017,2702
+faltas,canarias,2017,10
+agresion_sexual,cataluña,2017,100
+homicidio,navarra,2017,0
+agresion_sexual,cantabria,2017,0
+delito,baleares,2017,1596
+faltas,melilla,2017,0
+injurias,aragon,2017,60
+homicidio,andalucia,2017,80
+allanamiento,melilla,2017,0
+abuso_sexual,melilla,2017,0
+agresion_sexual,canarias,2017,30
+faltas,region de murcia,2017,30
+lesiones,aragon,2017,3730
+tortura_integridad_moral,extremadura,2017,1790
+delito,melilla,2017,810
+agresion_sexual,galicia,2017,10
+faltas,madrid,2017,410
+faltas,andalucia,2017,960
+quebrantamiento_condena,madrid,2017,6440
+homicidio,castilla la mancha,2017,40
+tortura_integridad_moral,region de murcia,2017,2420
+otros,cantabria,2017,70
+allanamiento,la rioja,2017,0
+lesiones,castilla y leon,2017,5160
+otros,andalucia,2017,1270
+tortura_integridad_moral,madrid,2017,3980
+agresion_sexual,region de murcia,2017,0
+injurias,castilla la mancha,2017,260
+abuso_sexual,ceuta,2017,0
+delito,pais vasco,2017,1576
+detencion_secuestro,ceuta,2017,0
+tortura_integridad_moral,galicia,2017,2280
+faltas,ceuta,2017,0
+injurias,la rioja,2017,0
+detencion_secuestro,madrid,2017,10
+faltas,ceuta,2017,0
+faltas,castilla y leon,2017,10
+faltas,baleares,2017,0
+tortura_integridad_moral,melilla,2017,90
+tortura_integridad_moral,navarra,2017,730
+faltas,asturias,2017,40
+faltas,castilla y leon,2017,130
+injurias,canarias,2017,370
+faltas,cantabria,2017,0
+faltas,melilla,2017,20
+daños,la rioja,2017,60
+tortura_integridad_moral,ceuta,2017,80
+otros,melilla,2017,20
+injurias,cantabria,2017,110
+lesiones,canarias,2017,8470
+detencion_secuestro,la rioja,2017,0
+tortura_integridad_moral,la rioja,2017,410
+otros,castilla la mancha,2017,90
+quebrantamiento_condena,region de murcia,2017,2260
+delito,asturias,2017,8790
+delito,aragon,2017,9510
+quebrantamiento_condena,la rioja,2017,450
+abuso_menores,galicia,2017,0
+tortura_integridad_moral,pais vasco,2017,1990
+agresion_sexual,madrid,2017,70
+injurias,castilla y leon,2017,230
+lesiones,cantabria,2017,1440
+faltas,cataluña,2017,290
+faltas,region de murcia,2017,50
+homicidio,valencia,2017,110
+coacciones,canarias,2017,660
+coacciones,baleares,2017,1520
+quebrantamiento_condena,baleares,2017,2440
+faltas,extremadura,2017,50
+homicidio,pais vasco,2017,20
+allanamiento,castilla y leon,2017,30
+allanamiento,valencia,2017,160
+faltas,madrid,2017,140
+daños,valencia,2017,660
+daños,canarias,2017,560
+amenazas,la rioja,2017,550
+detencion_secuestro,castilla y leon,2017,10
+amenazas,galicia,2017,3160
+abuso_menores,cantabria,2017,0
+coacciones,asturias,2017,240
+abuso_menores,canarias,2017,0
+homicidio,region de murcia,2017,20
+allanamiento,aragon,2017,30
+detencion_secuestro,aragon,2017,10
+homicidio,aragon,2017,20
+daños,cataluña,2017,930
+coacciones,cantabria,2017,290
+abuso_sexual,castilla y leon,2017,0
+otros,aragon,2017,160
+daños,asturias,2017,120
+faltas,melilla,2017,20
+detencion_secuestro,andalucia,2017,70
+homicidio,madrid,2017,130
+allanamiento,cantabria,2017,10
+detencion_secuestro,cantabria,2017,0
+quebrantamiento_condena,melilla,2017,120
+delito,valencia,2017,5427
+allanamiento,cataluña,2017,350
+amenazas,extremadura,2017,1980
+quebrantamiento_condena,cantabria,2017,780
+daños,baleares,2017,270
+amenazas,baleares,2017,2830
+faltas,castilla la mancha,2017,150
+daños,castilla y leon,2017,200
+abuso_sexual,castilla la mancha,2017,0
+detencion_secuestro,valencia,2017,30
+abuso_sexual,galicia,2017,10
+abuso_menores,aragon,2017,0
+amenazas,melilla,2017,170
+faltas,galicia,2017,30
+allanamiento,andalucia,2017,250
+amenazas,canarias,2017,4660
+amenazas,cantabria,2017,830
+faltas,cantabria,2017,60
+quebrantamiento_condena,andalucia,2017,9930
+agresion_sexual,castilla la mancha,2017,30
+abuso_sexual,valencia,2017,20
+amenazas,region de murcia,2017,2880
+detencion_secuestro,baleares,2017,0
+amenazas,ceuta,2017,160
+delito,madrid,2017,3385
+faltas,cataluña,2017,360
+daños,cantabria,2017,110
+abuso_sexual,cataluña,2017,50
+faltas,andalucia,2017,200
+homicidio,baleares,2017,40
+quebrantamiento_condena,canarias,2017,4160
+coacciones,aragon,2017,320
+quebrantamiento_condena,asturias,2017,1860
+faltas,aragon,2017,20
+otros,asturias,2017,80
+delito,region de murcia,2017,1663
+faltas,pais vasco,2017,340
+faltas,extremadura,2017,10
+faltas,navarra,2017,60
+homicidio,galicia,2017,10
+detencion_secuestro,asturias,2017,0
+coacciones,andalucia,2017,2060
+abuso_menores,baleares,2017,0
+amenazas,madrid,2017,5650
+faltas,canarias,2017,90
+otros,pais vasco,2017,130
+abuso_sexual,madrid,2017,40
+otros,navarra,2017,20
+faltas,navarra,2017,0
+coacciones,galicia,2017,930
+daños,madrid,2017,450
+quebrantamiento_condena,castilla la mancha,2017,1810
+daños,region de murcia,2017,280
+lesiones,la rioja,2017,990
+detencion_secuestro,canarias,2017,10
+otros,cataluña,2017,500
+injurias,melilla,2017,40
+abuso_menores,asturias,2017,0
+abuso_sexual,pais vasco,2017,10
+coacciones,extremadura,2017,310
+faltas,valencia,2017,460
+otros,la rioja,2017,60
+otros,madrid,2017,350
+abuso_sexual,baleares,2017,0
+daños,castilla la mancha,2017,120
+faltas,castilla y leon,2017,140
+faltas,aragon,2017,90
+abuso_menores,castilla la mancha,2017,0
+coacciones,region de murcia,2017,550
+daños,galicia,2017,300
+detencion_secuestro,cataluña,2017,50
+abuso_sexual,asturias,2017,0
+amenazas,navarra,2017,680
+lesiones,pais vasco,2017,6020
+otros,baleares,2017,190
+abuso_sexual,region de murcia,2017,20
+injurias,ceuta,2017,0
+delito,cantabria,2017,4400
+coacciones,madrid,2017,1450
+abuso_sexual,navarra,2017,10
+amenazas,castilla la mancha,2017,3630
+abuso_menores,melilla,2017,0
+allanamiento,castilla la mancha,2017,20
+allanamiento,galicia,2017,40
+quebrantamiento_condena,aragon,2017,1200
+amenazas,castilla y leon,2017,3320
+delito,ceuta,2017,690
+delito,castilla la mancha,2017,1404
+faltas,castilla la mancha,2017,120
+coacciones,castilla la mancha,2017,430
+abuso_sexual,cantabria,2017,0
+daños,aragon,2017,250
+detencion_secuestro,extremadura,2017,0
+quebrantamiento_condena,castilla y leon,2017,2310
+abuso_menores,castilla y leon,2017,0
+amenazas,valencia,2017,1018
+lesiones,melilla,2017,330
+coacciones,castilla y leon,2017,740
+detencion_secuestro,castilla la mancha,2017,0
+faltas,galicia,2017,170
+faltas,baleares,2017,0
+faltas,valencia,2017,570
+faltas,pais vasco,2017,350
+faltas,valencia,2017,110
+homicidio,la rioja,2017,10
+daños,extremadura,2017,40
+amenazas,asturias,2017,1890
+amenazas,cataluña,2017,7490
+quebrantamiento_condena,ceuta,2017,70
+coacciones,valencia,2017,1680
+abuso_sexual,canarias,2017,0
+daños,andalucia,2017,870
+delito,galicia,2017,1585
+abuso_sexual,extremadura,2017,40
+homicidio,extremadura,2017,0
+lesiones,ceuta,2017,340
+otros,region de murcia,2017,120
+coacciones,cataluña,2017,1280
+faltas,extremadura,2017,60
+allanamiento,extremadura,2017,10
+amenazas,pais vasco,2017,2510
+faltas,pais vasco,2017,10
+allanamiento,castilla la mancha,2018,20
+abuso_sexual,navarra,2018,10
+agresion_sexual,galicia,2018,20
+abuso_menores,melilla,2018,0
+otros,castilla la mancha,2018,130
+injurias,andalucia,2018,470
+abuso_sexual,region de murcia,2018,10
+abuso_menores,asturias,2018,0
+agresion_sexual,cataluña,2018,70
+homicidio,andalucia,2018,120
+otros,valencia,2018,530
+otros,region de murcia,2018,290
+otros,galicia,2018,170
+allanamiento,castilla y leon,2018,10
+abuso_menores,madrid,2018,0
+allanamiento,melilla,2018,0
+abuso_sexual,melilla,2018,10
+abuso_menores,region de murcia,2018,0
+abuso_sexual,madrid,2018,20
+abuso_menores,pais vasco,2018,0
+allanamiento,aragon,2018,30
+allanamiento,ceuta,2018,0
+abuso_menores,baleares,2018,0
+agresion_sexual,extremadura,2018,0
+abuso_sexual,galicia,2018,0
+agresion_sexual,valencia,2018,90
+faltas,pais vasco,2018,0
+abuso_menores,cantabria,2018,0
+delito,melilla,2018,830
+allanamiento,region de murcia,2018,0
+delito,asturias,2018,8960
+allanamiento,extremadura,2018,0
+abuso_sexual,cantabria,2018,0
+otros,ceuta,2018,0
+abuso_sexual,la rioja,2018,0
+agresion_sexual,melilla,2018,0
+abuso_menores,castilla y leon,2018,0
+abuso_menores,valencia,2018,0
+abuso_sexual,pais vasco,2018,40
+abuso_sexual,castilla y leon,2018,10
+faltas,la rioja,2018,0
+homicidio,asturias,2018,40
+allanamiento,cantabria,2018,0
+abuso_menores,ceuta,2018,0
+otros,la rioja,2018,60
+homicidio,aragon,2018,20
+abuso_sexual,canarias,2018,20
+faltas,baleares,2018,10
+abuso_sexual,asturias,2018,10
+abuso_menores,castilla la mancha,2018,0
+faltas,asturias,2018,0
+otros,madrid,2018,420
+allanamiento,galicia,2018,10
+otros,cataluña,2018,640
+abuso_sexual,baleares,2018,10
+abuso_sexual,aragon,2018,10
+allanamiento,madrid,2018,90
+allanamiento,baleares,2018,60
+homicidio,canarias,2018,60
+abuso_menores,cataluña,2018,0
+faltas,andalucia,2018,50
+abuso_sexual,andalucia,2018,50
+otros,extremadura,2018,60
+homicidio,cantabria,2018,0
+agresion_sexual,la rioja,2018,0
+allanamiento,navarra,2018,40
+allanamiento,la rioja,2018,10
+homicidio,baleares,2018,20
+otros,melilla,2018,30
+abuso_menores,la rioja,2018,0
+faltas,aragon,2018,0
+abuso_menores,galicia,2018,0
+allanamiento,andalucia,2018,160
+abuso_sexual,valencia,2018,50
+agresion_sexual,madrid,2018,80
+allanamiento,cataluña,2018,290
+otros,pais vasco,2018,160
+abuso_menores,canarias,2018,0
+abuso_sexual,extremadura,2018,0
+faltas,melilla,2018,0
+abuso_menores,andalucia,2018,0
+agresion_sexual,region de murcia,2018,10
+faltas,ceuta,2018,0
+abuso_sexual,cataluña,2018,10
+allanamiento,canarias,2018,50
+delito,castilla la mancha,2018,1461
+abuso_menores,aragon,2018,0
+abuso_menores,extremadura,2018,0
+allanamiento,valencia,2018,80
+agresion_sexual,pais vasco,2018,10
+abuso_sexual,ceuta,2018,0
+faltas,navarra,2018,50
+delito,cataluña,2018,4314
+allanamiento,pais vasco,2018,40
+abuso_sexual,castilla la mancha,2018,10
+otros,navarra,2018,70
+agresion_sexual,navarra,2018,10
+delito,ceuta,2018,810
+faltas,baleares,2018,0
+allanamiento,asturias,2018,30
+faltas,canarias,2018,60
+agresion_sexual,ceuta,2018,0
+delito,la rioja,2018,3200
+delito,madrid,2018,3405
+amenazas,aragon,2018,1770
+faltas,aragon,2018,0
+amenazas,asturias,2018,1830
+daños,region de murcia,2018,380
+amenazas,baleares,2018,2990
+daños,navarra,2018,60
+faltas,galicia,2018,50
+homicidio,region de murcia,2018,0
+daños,madrid,2018,470
+amenazas,cantabria,2018,1140
+faltas,valencia,2018,300
+amenazas,castilla y leon,2018,3320
+faltas,madrid,2018,50
+amenazas,canarias,2018,5490
+daños,galicia,2018,400
+amenazas,andalucia,2018,1742
+detencion_secuestro,melilla,2018,0
+daños,melilla,2018,10
+detencion_secuestro,madrid,2018,20
+detencion_secuestro,region de murcia,2018,0
+daños,ceuta,2018,0
+detencion_secuestro,navarra,2018,0
+delito,cantabria,2018,5950
+faltas,region de murcia,2018,0
+otros,andalucia,2018,920
+homicidio,navarra,2018,10
+daños,la rioja,2018,40
+detencion_secuestro,la rioja,2018,0
+detencion_secuestro,ceuta,2018,0
+faltas,madrid,2018,260
+daños,pais vasco,2018,160
+detencion_secuestro,pais vasco,2018,0
+faltas,region de murcia,2018,10
+amenazas,castilla la mancha,2018,3420
+amenazas,cataluña,2018,8470
+otros,asturias,2018,110
+amenazas,ceuta,2018,150
+delito,canarias,2018,2866
+delito,region de murcia,2018,1832
+amenazas,melilla,2018,140
+daños,cantabria,2018,260
+daños,castilla y leon,2018,250
+coacciones,andalucia,2018,2500
+coacciones,aragon,2018,490
+homicidio,galicia,2018,100
+faltas,extremadura,2018,0
+faltas,extremadura,2018,10
+coacciones,asturias,2018,320
+daños,canarias,2018,500
+faltas,cataluña,2018,160
+otros,aragon,2018,140
+amenazas,la rioja,2018,560
+amenazas,pais vasco,2018,2970
+daños,extremadura,2018,80
+amenazas,valencia,2018,1123
+faltas,extremadura,2018,10
+amenazas,extremadura,2018,1820
+delito,baleares,2018,1554
+amenazas,galicia,2018,3800
+faltas,valencia,2018,360
+daños,valencia,2018,830
+homicidio,madrid,2018,120
+amenazas,region de murcia,2018,3410
+agresion_sexual,castilla la mancha,2018,30
+daños,cataluña,2018,1180
+amenazas,navarra,2018,630
+daños,castilla la mancha,2018,140
+amenazas,madrid,2018,5370
+faltas,navarra,2018,30
+detencion_secuestro,galicia,2018,20
+faltas,cataluña,2018,140
+lesiones,cataluña,2018,1523
+faltas,ceuta,2018,0
+faltas,ceuta,2018,0
+lesiones,valencia,2018,2036
+quebrantamiento_condena,galicia,2018,2720
+delito,extremadura,2018,8140
+lesiones,castilla la mancha,2018,5580
+lesiones,extremadura,2018,2860
+quebrantamiento_condena,extremadura,2018,970
+lesiones,galicia,2018,6130
+quebrantamiento_condena,valencia,2018,1063
+lesiones,madrid,2018,1428
+lesiones,region de murcia,2018,7330
+faltas,la rioja,2018,0
+homicidio,ceuta,2018,0
+quebrantamiento_condena,cataluña,2018,8610
+lesiones,castilla y leon,2018,5150
+lesiones,cantabria,2018,1980
+quebrantamiento_condena,pais vasco,2018,3410
+lesiones,andalucia,2018,2809
+faltas,andalucia,2018,520
+lesiones,aragon,2018,3400
+faltas,melilla,2018,0
+faltas,castilla y leon,2018,10
+quebrantamiento_condena,madrid,2018,6810
+lesiones,asturias,2018,3370
+quebrantamiento_condena,navarra,2018,1300
+lesiones,baleares,2018,5420
+quebrantamiento_condena,la rioja,2018,660
+lesiones,canarias,2018,9300
+faltas,melilla,2018,0
+quebrantamiento_condena,region de murcia,2018,3300
+homicidio,melilla,2018,0
+lesiones,navarra,2018,1830
+quebrantamiento_condena,ceuta,2018,110
+lesiones,pais vasco,2018,6190
+detencion_secuestro,cantabria,2018,10
+delito,galicia,2018,1712
+detencion_secuestro,castilla y leon,2018,0
+faltas,navarra,2018,80
+quebrantamiento_condena,asturias,2018,1760
+detencion_secuestro,castilla la mancha,2018,0
+quebrantamiento_condena,melilla,2018,110
+homicidio,pais vasco,2018,0
+detencion_secuestro,cataluña,2018,10
+delito,andalucia,2018,7856
+delito,valencia,2018,5633
+detencion_secuestro,valencia,2018,20
+quebrantamiento_condena,andalucia,2018,1082
+detencion_secuestro,extremadura,2018,0
+quebrantamiento_condena,aragon,2018,1560
+detencion_secuestro,canarias,2018,0
+quebrantamiento_condena,baleares,2018,2650
+faltas,pais vasco,2018,0
+faltas,la rioja,2018,0
+lesiones,la rioja,2018,1210
+quebrantamiento_condena,castilla la mancha,2018,2170
+faltas,castilla la mancha,2018,130
+lesiones,ceuta,2018,260
+quebrantamiento_condena,castilla y leon,2018,2310
+lesiones,melilla,2018,270
+homicidio,la rioja,2018,0
+detencion_secuestro,andalucia,2018,30
+faltas,pais vasco,2018,0
+detencion_secuestro,aragon,2018,0
+quebrantamiento_condena,cantabria,2018,1200
+detencion_secuestro,asturias,2018,0
+quebrantamiento_condena,canarias,2018,4190
+detencion_secuestro,baleares,2018,0
+coacciones,baleares,2018,1510
+daños,baleares,2018,210
+faltas,galicia,2018,30
+coacciones,canarias,2018,800
+injurias,cataluña,2018,800
+faltas,baleares,2018,10
+tortura_integridad_moral,valencia,2018,9740
+delito,pais vasco,2018,1722
+delito,aragon,2018,1027
+tortura_integridad_moral,cataluña,2018,6290
+injurias,valencia,2018,920
+tortura_integridad_moral,castilla la mancha,2018,2400
+faltas,madrid,2018,210
+homicidio,cataluña,2018,110
+tortura_integridad_moral,castilla y leon,2018,2640
+injurias,extremadura,2018,100
+tortura_integridad_moral,cantabria,2018,860
+injurias,galicia,2018,150
+tortura_integridad_moral,canarias,2018,7690
+faltas,canarias,2018,80
+faltas,castilla la mancha,2018,30
+tortura_integridad_moral,baleares,2018,2500
+injurias,madrid,2018,310
+tortura_integridad_moral,asturias,2018,1280
+delito,castilla y leon,2018,148
+tortura_integridad_moral,aragon,2018,2520
+otros,canarias,2018,320
+faltas,asturias,2018,0
+injurias,region de murcia,2018,320
+tortura_integridad_moral,andalucia,2018,1669
+injurias,navarra,2018,50
+coacciones,melilla,2018,30
+faltas,cantabria,2018,20
+tortura_integridad_moral,extremadura,2018,1740
+faltas,castilla y leon,2018,10
+tortura_integridad_moral,galicia,2018,2470
+injurias,castilla la mancha,2018,140
+faltas,andalucia,2018,570
+faltas,canarias,2018,20
+agresion_sexual,castilla y leon,2018,10
+agresion_sexual,cantabria,2018,0
+injurias,aragon,2018,60
+agresion_sexual,canarias,2018,20
+homicidio,castilla y leon,2018,20
+agresion_sexual,baleares,2018,0
+injurias,asturias,2018,50
+faltas,region de murcia,2018,10
+agresion_sexual,asturias,2018,20
+faltas,aragon,2018,0
+agresion_sexual,aragon,2018,0
+injurias,baleares,2018,80
+homicidio,valencia,2018,100
+agresion_sexual,andalucia,2018,80
+faltas,cantabria,2018,0
+tortura_integridad_moral,melilla,2018,220
+injurias,canarias,2018,220
+tortura_integridad_moral,ceuta,2018,260
+injurias,cantabria,2018,50
+tortura_integridad_moral,la rioja,2018,470
+tortura_integridad_moral,pais vasco,2018,2200
+injurias,castilla y leon,2018,150
+faltas,asturias,2018,0
+homicidio,castilla la mancha,2018,20
+tortura_integridad_moral,navarra,2018,710
+tortura_integridad_moral,region de murcia,2018,2530
+otros,cantabria,2018,100
+tortura_integridad_moral,madrid,2018,4790
+otros,castilla y leon,2018,300
+coacciones,ceuta,2018,20
+abuso_menores,navarra,2018,0
+coacciones,castilla la mancha,2018,550
+injurias,ceuta,2018,10
+daños,aragon,2018,270
+daños,andalucia,2018,1210
+faltas,castilla y leon,2018,20
+coacciones,cataluña,2018,1430
+faltas,galicia,2018,20
+coacciones,region de murcia,2018,740
+delito,navarra,2018,4900
+coacciones,castilla y leon,2018,630
+faltas,valencia,2018,60
+otros,baleares,2018,90
+injurias,la rioja,2018,10
+coacciones,navarra,2018,180
+coacciones,galicia,2018,1130
+injurias,melilla,2018,10
+coacciones,madrid,2018,1270
+faltas,castilla la mancha,2018,160
+faltas,cantabria,2018,20
+coacciones,cantabria,2018,350
+coacciones,la rioja,2018,180
+faltas,cataluña,2018,20
+homicidio,extremadura,2018,0
+coacciones,extremadura,2018,510
+daños,asturias,2018,140
+coacciones,pais vasco,2018,1080
+coacciones,valencia,2018,1750
+injurias,pais vasco,2018,960
+quebrantamiento_condena,extremadura,2019,1320
+daños,castilla la mancha,2019,210
+faltas,extremadura,2019,20
+injurias,canarias,2019,200
+allanamiento,ceuta,2019,0
+daños,castilla y leon,2019,210
+faltas,castilla la mancha,2019,20
+quebrantamiento_condena,valencia,2019,1206
+quebrantamiento_condena,ceuta,2019,60
+faltas,pais vasco,2019,0
+allanamiento,cataluña,2019,200
+injurias,cantabria,2019,60
+otros,asturias,2019,110
+otros,castilla y leon,2019,370
+delito,region de murcia,2019,1832
+quebrantamiento_condena,cataluña,2019,9990
+injurias,castilla y leon,2019,110
+quebrantamiento_condena,castilla la mancha,2019,2840
+abuso_menores,melilla,2019,0
+injurias,pais vasco,2019,540
+abuso_menores,ceuta,2019,0
+injurias,andalucia,2019,530
+daños,canarias,2019,600
+quebrantamiento_condena,pais vasco,2019,4330
+faltas,castilla y leon,2019,50
+injurias,aragon,2019,50
+abuso_menores,pais vasco,2019,0
+daños,asturias,2019,170
+delito,la rioja,2019,3100
+quebrantamiento_condena,navarra,2019,1270
+allanamiento,melilla,2019,0
+quebrantamiento_condena,la rioja,2019,680
+otros,castilla la mancha,2019,160
+homicidio,andalucia,2019,120
+faltas,region de murcia,2019,0
+injurias,asturias,2019,50
+daños,cantabria,2019,120
+quebrantamiento_condena,region de murcia,2019,2950
+allanamiento,valencia,2019,100
+faltas,canarias,2019,60
+abuso_menores,la rioja,2019,0
+delito,baleares,2019,1849
+quebrantamiento_condena,madrid,2019,8340
+injurias,baleares,2019,80
+delito,extremadura,2019,9600
+daños,aragon,2019,80
+allanamiento,extremadura,2019,10
+otros,baleares,2019,290
+quebrantamiento_condena,galicia,2019,3940
+delito,cataluña,2019,4644
+injurias,castilla la mancha,2019,200
+injurias,cataluña,2019,510
+quebrantamiento_condena,castilla y leon,2019,2390
+daños,baleares,2019,250
+faltas,cantabria,2019,0
+injurias,galicia,2019,150
+allanamiento,castilla y leon,2019,20
+daños,melilla,2019,10
+daños,galicia,2019,450
+allanamiento,baleares,2019,60
+daños,ceuta,2019,10
+otros,andalucia,2019,1170
+injurias,madrid,2019,270
+injurias,la rioja,2019,0
+otros,cataluña,2019,690
+allanamiento,region de murcia,2019,30
+otros,aragon,2019,150
+allanamiento,canarias,2019,20
+daños,la rioja,2019,80
+otros,canarias,2019,290
+daños,madrid,2019,680
+injurias,region de murcia,2019,330
+daños,pais vasco,2019,210
+delito,melilla,2019,850
+delito,valencia,2019,629
+delito,madrid,2019,3963
+delito,ceuta,2019,620
+injurias,navarra,2019,40
+daños,navarra,2019,100
+allanamiento,cantabria,2019,0
+allanamiento,madrid,2019,70
+faltas,valencia,2019,90
+injurias,ceuta,2019,0
+daños,andalucia,2019,1360
+quebrantamiento_condena,andalucia,2019,1291
+faltas,cataluña,2019,30
+daños,cataluña,2019,910
+allanamiento,la rioja,2019,10
+otros,cantabria,2019,80
+quebrantamiento_condena,cantabria,2019,1060
+daños,region de murcia,2019,290
+allanamiento,andalucia,2019,140
+faltas,navarra,2019,80
+quebrantamiento_condena,canarias,2019,5140
+quebrantamiento_condena,melilla,2019,100
+delito,galicia,2019,1914
+allanamiento,castilla la mancha,2019,50
+injurias,melilla,2019,10
+faltas,la rioja,2019,0
+otros,extremadura,2019,80
+quebrantamiento_condena,baleares,2019,3100
+faltas,galicia,2019,40
+daños,valencia,2019,1060
+allanamiento,pais vasco,2019,10
+otros,valencia,2019,670
+allanamiento,aragon,2019,10
+injurias,valencia,2019,830
+quebrantamiento_condena,asturias,2019,2150
+delito,navarra,2019,5740
+allanamiento,galicia,2019,30
+delito,pais vasco,2019,2118
+quebrantamiento_condena,aragon,2019,1560
+injurias,extremadura,2019,120
+daños,extremadura,2019,120
+allanamiento,asturias,2019,0
+allanamiento,navarra,2019,30
+faltas,madrid,2019,70
+faltas,andalucia,2019,330
+detencion_secuestro,galicia,2019,10
+homicidio,castilla y leon,2019,20
+agresion_sexual,canarias,2019,50
+faltas,aragon,2019,10
+detencion_secuestro,pais vasco,2019,20
+agresion_sexual,baleares,2019,20
+detencion_secuestro,la rioja,2019,10
+homicidio,navarra,2019,10
+faltas,aragon,2019,10
+agresion_sexual,asturias,2019,10
+agresion_sexual,aragon,2019,0
+detencion_secuestro,ceuta,2019,0
+agresion_sexual,andalucia,2019,170
+faltas,cantabria,2019,0
+tortura_integridad_moral,melilla,2019,170
+detencion_secuestro,melilla,2019,0
+delito,canarias,2019,3225
+faltas,madrid,2019,110
+faltas,castilla y leon,2019,10
+tortura_integridad_moral,madrid,2019,5130
+amenazas,baleares,2019,3280
+amenazas,asturias,2019,1910
+tortura_integridad_moral,region de murcia,2019,2290
+tortura_integridad_moral,navarra,2019,920
+detencion_secuestro,navarra,2019,0
+amenazas,aragon,2019,1560
+homicidio,castilla la mancha,2019,20
+faltas,asturias,2019,0
+tortura_integridad_moral,la rioja,2019,440
+faltas,region de murcia,2019,0
+tortura_integridad_moral,ceuta,2019,190
+amenazas,andalucia,2019,187
+tortura_integridad_moral,pais vasco,2019,2870
+tortura_integridad_moral,galicia,2019,3020
+agresion_sexual,cantabria,2019,0
+agresion_sexual,castilla y leon,2019,20
+agresion_sexual,melilla,2019,0
+otros,ceuta,2019,0
+agresion_sexual,ceuta,2019,0
+detencion_secuestro,cantabria,2019,0
+agresion_sexual,la rioja,2019,0
+detencion_secuestro,castilla y leon,2019,40
+faltas,navarra,2019,130
+faltas,baleares,2019,20
+agresion_sexual,pais vasco,2019,10
+detencion_secuestro,castilla la mancha,2019,0
+faltas,baleares,2019,0
+agresion_sexual,navarra,2019,20
+detencion_secuestro,cataluña,2019,10
+otros,melilla,2019,10
+homicidio,pais vasco,2019,10
+agresion_sexual,region de murcia,2019,40
+homicidio,cantabria,2019,20
+agresion_sexual,castilla la mancha,2019,70
+faltas,canarias,2019,10
+faltas,region de murcia,2019,0
+faltas,andalucia,2019,400
+detencion_secuestro,madrid,2019,20
+agresion_sexual,cataluña,2019,100
+detencion_secuestro,region de murcia,2019,0
+faltas,navarra,2019,50
+detencion_secuestro,extremadura,2019,10
+delito,cantabria,2019,5350
+agresion_sexual,extremadura,2019,30
+detencion_secuestro,valencia,2019,40
+agresion_sexual,galicia,2019,40
+agresion_sexual,madrid,2019,60
+agresion_sexual,valencia,2019,120
+faltas,pais vasco,2019,0
+amenazas,canarias,2019,6040
+tortura_integridad_moral,extremadura,2019,2040
+coacciones,la rioja,2019,100
+coacciones,pais vasco,2019,1310
+faltas,galicia,2019,10
+delito,castilla y leon,2019,159
+coacciones,navarra,2019,200
+amenazas,pais vasco,2019,3810
+faltas,asturias,2019,0
+coacciones,region de murcia,2019,770
+amenazas,la rioja,2019,530
+faltas,castilla y leon,2019,60
+coacciones,madrid,2019,1620
+faltas,valencia,2019,120
+coacciones,galicia,2019,1100
+amenazas,ceuta,2019,160
+homicidio,extremadura,2019,10
+coacciones,extremadura,2019,680
+amenazas,melilla,2019,160
+coacciones,cantabria,2019,350
+faltas,castilla la mancha,2019,20
+coacciones,baleares,2019,1890
+coacciones,castilla y leon,2019,790
+faltas,extremadura,2019,0
+coacciones,castilla la mancha,2019,520
+faltas,cataluña,2019,0
+homicidio,galicia,2019,60
+faltas,cataluña,2019,30
+coacciones,cataluña,2019,1360
+coacciones,aragon,2019,440
+coacciones,valencia,2019,2000
+faltas,valencia,2019,30
+coacciones,andalucia,2019,3020
+coacciones,asturias,2019,460
+faltas,galicia,2019,50
+abuso_menores,navarra,2019,0
+amenazas,navarra,2019,750
+faltas,baleares,2019,20
+tortura_integridad_moral,valencia,2019,1106
+amenazas,cantabria,2019,920
+homicidio,region de murcia,2019,20
+tortura_integridad_moral,cataluña,2019,6950
+homicidio,cataluña,2019,70
+tortura_integridad_moral,castilla la mancha,2019,2760
+amenazas,castilla y leon,2019,3420
+amenazas,castilla la mancha,2019,3170
+tortura_integridad_moral,castilla y leon,2019,3170
+faltas,madrid,2019,40
+amenazas,cataluña,2019,8370
+tortura_integridad_moral,cantabria,2019,940
+amenazas,valencia,2019,115
+faltas,canarias,2019,70
+faltas,castilla la mancha,2019,0
+tortura_integridad_moral,canarias,2019,7800
+coacciones,melilla,2019,60
+homicidio,valencia,2019,80
+faltas,cantabria,2019,0
+homicidio,madrid,2019,100
+amenazas,region de murcia,2019,3160
+amenazas,madrid,2019,6310
+coacciones,ceuta,2019,0
+tortura_integridad_moral,andalucia,2019,1744
+tortura_integridad_moral,aragon,2019,2250
+delito,aragon,2019,1021
+tortura_integridad_moral,asturias,2019,1440
+amenazas,extremadura,2019,2060
+tortura_integridad_moral,baleares,2019,2680
+faltas,extremadura,2019,20
+amenazas,galicia,2019,3430
+detencion_secuestro,canarias,2019,10
+coacciones,canarias,2019,810
+abuso_menores,cantabria,2019,0
+abuso_sexual,region de murcia,2019,50
+faltas,aragon,2019,0
+lesiones,canarias,2019,112
+homicidio,baleares,2019,60
+abuso_menores,valencia,2019,0
+homicidio,asturias,2019,10
+abuso_sexual,valencia,2019,30
+lesiones,melilla,2019,330
+lesiones,madrid,2019,1659
+lesiones,castilla la mancha,2019,5470
+abuso_sexual,cataluña,2019,30
+homicidio,melilla,2019,0
+detencion_secuestro,andalucia,2019,50
+abuso_sexual,navarra,2019,0
+homicidio,ceuta,2019,0
+abuso_sexual,castilla la mancha,2019,10
+homicidio,la rioja,2019,0
+abuso_sexual,ceuta,2019,0
+lesiones,baleares,2019,6760
+lesiones,ceuta,2019,200
+abuso_sexual,extremadura,2019,10
+abuso_sexual,madrid,2019,30
+abuso_sexual,la rioja,2019,0
+homicidio,aragon,2019,40
+lesiones,pais vasco,2019,7710
+lesiones,cantabria,2019,1800
+otros,madrid,2019,410
+faltas,andalucia,2019,70
+abuso_menores,castilla y leon,2019,0
+lesiones,la rioja,2019,1160
+abuso_menores,canarias,2019,0
+abuso_menores,cataluña,2019,0
+abuso_sexual,galicia,2019,10
+faltas,la rioja,2019,0
+otros,pais vasco,2019,340
+faltas,melilla,2019,0
+abuso_menores,aragon,2019,0
+faltas,melilla,2019,0
+lesiones,navarra,2019,2310
+abuso_menores,castilla la mancha,2019,0
+abuso_sexual,castilla y leon,2019,10
+abuso_sexual,melilla,2019,0
+delito,castilla la mancha,2019,1548
+abuso_menores,region de murcia,2019,0
+faltas,asturias,2019,0
+lesiones,region de murcia,2019,8220
+detencion_secuestro,asturias,2019,0
+lesiones,valencia,2019,2335
+abuso_sexual,asturias,2019,10
+lesiones,extremadura,2019,3110
+abuso_sexual,pais vasco,2019,10
+homicidio,canarias,2019,50
+lesiones,andalucia,2019,2964
+faltas,ceuta,2019,0
+abuso_sexual,aragon,2019,20
+otros,galicia,2019,250
+faltas,ceuta,2019,0
+detencion_secuestro,baleares,2019,10
+delito,asturias,2019,9690
+abuso_sexual,andalucia,2019,140
+abuso_menores,andalucia,2019,0
+abuso_menores,baleares,2019,0
+otros,navarra,2019,90
+abuso_menores,asturias,2019,0
+abuso_menores,extremadura,2019,0
+faltas,pais vasco,2019,0
+lesiones,castilla y leon,2019,5330
+faltas,melilla,2019,0
+abuso_sexual,cantabria,2019,0
+detencion_secuestro,aragon,2019,0
+lesiones,cataluña,2019,1725
+abuso_menores,madrid,2019,0
+lesiones,asturias,2019,3370
+lesiones,galicia,2019,6650
+otros,la rioja,2019,90
+abuso_sexual,canarias,2019,40
+otros,region de murcia,2019,170
+abuso_menores,galicia,2019,0
+faltas,ceuta,2019,0
+lesiones,aragon,2019,4050
+abuso_sexual,baleares,2019,10
+delito,andalucia,2019,8539
+faltas,la rioja,2019,0
+lesiones,castilla la mancha,2020,4640
+delito,cantabria,2020,4450
+delito,valencia,2020,5287
+quebrantamiento_condena,madrid,2020,6630
+daños,valencia,2020,780
+amenazas,madrid,2020,4520
+lesiones,cataluña,2020,1425
+faltas,extremadura,2020,10
+amenazas,extremadura,2020,1960
+daños,extremadura,2020,80
+lesiones,valencia,2020,1906
+amenazas,region de murcia,2020,2710
+amenazas,galicia,2020,2520
+daños,castilla la mancha,2020,150
+amenazas,navarra,2020,590
+amenazas,melilla,2020,110
+coacciones,andalucia,2020,2290
+coacciones,aragon,2020,430
+lesiones,asturias,2020,2560
+daños,cantabria,2020,70
+coacciones,asturias,2020,240
+quebrantamiento_condena,la rioja,2020,380
+quebrantamiento_condena,pais vasco,2020,3310
+faltas,cataluña,2020,10
+daños,canarias,2020,520
+lesiones,aragon,2020,3740
+coacciones,baleares,2020,1720
+lesiones,andalucia,2020,2323
+homicidio,galicia,2020,40
+faltas,extremadura,2020,0
+lesiones,baleares,2020,4620
+quebrantamiento_condena,navarra,2020,1040
+amenazas,ceuta,2020,140
+daños,castilla y leon,2020,140
+delito,extremadura,2020,9400
+faltas,melilla,2020,0
+daños,cataluña,2020,920
+otros,asturias,2020,30
+delito,region de murcia,2020,1551
+homicidio,madrid,2020,150
+amenazas,pais vasco,2020,2900
+lesiones,castilla y leon,2020,4050
+quebrantamiento_condena,region de murcia,2020,2810
+homicidio,melilla,2020,0
+faltas,galicia,2020,0
+faltas,extremadura,2020,10
+amenazas,la rioja,2020,310
+lesiones,canarias,2020,9390
+faltas,melilla,2020,0
+faltas,valencia,2020,10
+lesiones,cantabria,2020,1630
+amenazas,valencia,2020,9600
+amenazas,canarias,2020,5030
+quebrantamiento_condena,galicia,2020,2790
+detencion_secuestro,aragon,2020,0
+quebrantamiento_condena,andalucia,2020,1182
+detencion_secuestro,galicia,2020,0
+coacciones,canarias,2020,850
+detencion_secuestro,madrid,2020,0
+faltas,navarra,2020,0
+daños,melilla,2020,40
+otros,andalucia,2020,700
+detencion_secuestro,extremadura,2020,0
+quebrantamiento_condena,castilla y leon,2020,1860
+detencion_secuestro,region de murcia,2020,0
+faltas,region de murcia,2020,0
+detencion_secuestro,navarra,2020,0
+daños,ceuta,2020,0
+lesiones,melilla,2020,260
+faltas,la rioja,2020,0
+detencion_secuestro,pais vasco,2020,0
+lesiones,ceuta,2020,300
+detencion_secuestro,andalucia,2020,60
+detencion_secuestro,la rioja,2020,0
+homicidio,pais vasco,2020,20
+detencion_secuestro,valencia,2020,40
+quebrantamiento_condena,baleares,2020,2710
+detencion_secuestro,baleares,2020,0
+detencion_secuestro,cantabria,2020,0
+faltas,pais vasco,2020,0
+detencion_secuestro,castilla y leon,2020,10
+quebrantamiento_condena,melilla,2020,50
+quebrantamiento_condena,canarias,2020,5000
+detencion_secuestro,castilla la mancha,2020,10
+homicidio,la rioja,2020,0
+quebrantamiento_condena,asturias,2020,1300
+faltas,navarra,2020,20
+detencion_secuestro,asturias,2020,0
+detencion_secuestro,cataluña,2020,50
+delito,galicia,2020,1555
+faltas,pais vasco,2020,0
+quebrantamiento_condena,aragon,2020,1430
+quebrantamiento_condena,cantabria,2020,900
+faltas,aragon,2020,0
+faltas,cataluña,2020,10
+faltas,madrid,2020,10
+quebrantamiento_condena,castilla la mancha,2020,2350
+detencion_secuestro,ceuta,2020,0
+otros,aragon,2020,110
+homicidio,ceuta,2020,0
+detencion_secuestro,canarias,2020,10
+lesiones,madrid,2020,1248
+amenazas,cantabria,2020,790
+quebrantamiento_condena,ceuta,2020,140
+quebrantamiento_condena,extremadura,2020,1820
+daños,madrid,2020,550
+daños,region de murcia,2020,230
+faltas,galicia,2020,0
+lesiones,galicia,2020,6070
+faltas,ceuta,2020,0
+faltas,ceuta,2020,0
+homicidio,region de murcia,2020,30
+amenazas,castilla la mancha,2020,2630
+daños,galicia,2020,360
+lesiones,extremadura,2020,2550
+amenazas,cataluña,2020,7000
+amenazas,castilla y leon,2020,2560
+daños,la rioja,2020,20
+quebrantamiento_condena,valencia,2020,1118
+lesiones,region de murcia,2020,6330
+lesiones,la rioja,2020,980
+delito,madrid,2020,3029
+faltas,la rioja,2020,0
+homicidio,navarra,2020,10
+detencion_secuestro,melilla,2020,0
+lesiones,pais vasco,2020,6050
+quebrantamiento_condena,cataluña,2020,8550
+daños,pais vasco,2020,180
+amenazas,baleares,2020,2260
+faltas,madrid,2020,10
+lesiones,navarra,2020,1570
+faltas,region de murcia,2020,0
+amenazas,aragon,2020,1140
+delito,andalucia,2020,7103
+daños,navarra,2020,30
+faltas,valencia,2020,10
+faltas,castilla la mancha,2020,30
+amenazas,asturias,2020,1330
+amenazas,andalucia,2020,1567
+abuso_menores,navarra,2020,0
+coacciones,ceuta,2020,0
+faltas,castilla y leon,2020,0
+allanamiento,ceuta,2020,0
+agresion_sexual,madrid,2020,30
+agresion_sexual,region de murcia,2020,20
+homicidio,cantabria,2020,0
+allanamiento,la rioja,2020,10
+faltas,navarra,2020,20
+agresion_sexual,navarra,2020,0
+otros,melilla,2020,10
+abuso_menores,canarias,2020,0
+allanamiento,pais vasco,2020,10
+agresion_sexual,pais vasco,2020,20
+faltas,baleares,2020,0
+delito,castilla la mancha,2020,1232
+agresion_sexual,la rioja,2020,0
+allanamiento,navarra,2020,20
+otros,region de murcia,2020,200
+agresion_sexual,ceuta,2020,0
+delito,ceuta,2020,790
+agresion_sexual,melilla,2020,0
+allanamiento,region de murcia,2020,10
+otros,cataluña,2020,640
+agresion_sexual,galicia,2020,20
+agresion_sexual,extremadura,2020,10
+abuso_menores,cantabria,2020,0
+faltas,baleares,2020,30
+faltas,aragon,2020,0
+agresion_sexual,baleares,2020,20
+abuso_menores,melilla,2020,0
+injurias,asturias,2020,70
+agresion_sexual,canarias,2020,30
+abuso_menores,castilla la mancha,2020,0
+agresion_sexual,cantabria,2020,0
+homicidio,castilla y leon,2020,10
+abuso_menores,castilla y leon,2020,0
+injurias,aragon,2020,60
+otros,ceuta,2020,50
+agresion_sexual,castilla y leon,2020,0
+faltas,canarias,2020,0
+injurias,andalucia,2020,340
+faltas,melilla,2020,0
+agresion_sexual,cataluña,2020,100
+faltas,andalucia,2020,40
+allanamiento,andalucia,2020,130
+agresion_sexual,valencia,2020,60
+allanamiento,melilla,2020,0
+daños,baleares,2020,180
+otros,castilla la mancha,2020,100
+agresion_sexual,castilla la mancha,2020,10
+abuso_sexual,andalucia,2020,40
+allanamiento,aragon,2020,10
+abuso_sexual,aragon,2020,0
+homicidio,asturias,2020,0
+abuso_sexual,galicia,2020,10
+allanamiento,castilla la mancha,2020,0
+otros,valencia,2020,430
+otros,pais vasco,2020,150
+abuso_sexual,madrid,2020,50
+delito,asturias,2020,7000
+abuso_sexual,region de murcia,2020,0
+allanamiento,castilla y leon,2020,0
+abuso_sexual,navarra,2020,10
+faltas,aragon,2020,0
+delito,melilla,2020,630
+allanamiento,cantabria,2020,10
+abuso_sexual,la rioja,2020,0
+otros,navarra,2020,60
+abuso_sexual,ceuta,2020,10
+allanamiento,canarias,2020,10
+faltas,andalucia,2020,0
+delito,cataluña,2020,4039
+abuso_menores,andalucia,2020,0
+allanamiento,baleares,2020,80
+abuso_sexual,melilla,2020,0
+abuso_sexual,pais vasco,2020,80
+delito,canarias,2020,2888
+homicidio,baleares,2020,20
+allanamiento,cataluña,2020,110
+allanamiento,madrid,2020,30
+abuso_sexual,asturias,2020,10
+abuso_menores,baleares,2020,0
+abuso_menores,asturias,2020,0
+homicidio,canarias,2020,40
+abuso_sexual,baleares,2020,10
+allanamiento,galicia,2020,20
+faltas,asturias,2020,0
+faltas,la rioja,2020,0
+abuso_sexual,canarias,2020,20
+abuso_menores,aragon,2020,0
+otros,la rioja,2020,30
+allanamiento,extremadura,2020,10
+otros,extremadura,2020,150
+abuso_sexual,castilla y leon,2020,20
+abuso_sexual,castilla la mancha,2020,20
+abuso_sexual,cataluña,2020,60
+allanamiento,valencia,2020,120
+faltas,pais vasco,2020,0
+abuso_sexual,valencia,2020,60
+abuso_sexual,extremadura,2020,10
+allanamiento,asturias,2020,0
+abuso_sexual,cantabria,2020,0
+injurias,baleares,2020,100
+delito,la rioja,2020,2340
+agresion_sexual,aragon,2020,20
+injurias,ceuta,2020,0
+coacciones,region de murcia,2020,690
+delito,aragon,2020,9070
+coacciones,navarra,2020,180
+injurias,la rioja,2020,10
+faltas,cantabria,2020,0
+coacciones,pais vasco,2020,1100
+coacciones,la rioja,2020,200
+injurias,pais vasco,2020,490
+abuso_menores,la rioja,2020,0
+abuso_menores,madrid,2020,0
+abuso_menores,galicia,2020,0
+coacciones,melilla,2020,0
+injurias,navarra,2020,20
+otros,canarias,2020,300
+delito,baleares,2020,136
+faltas,cantabria,2020,0
+tortura_integridad_moral,andalucia,2020,1549
+homicidio,valencia,2020,60
+faltas,canarias,2020,0
+abuso_menores,extremadura,2020,0
+agresion_sexual,asturias,2020,40
+faltas,cataluña,2020,0
+tortura_integridad_moral,aragon,2020,2020
+faltas,castilla y leon,2020,0
+homicidio,extremadura,2020,0
+otros,galicia,2020,230
+coacciones,cantabria,2020,140
+coacciones,castilla y leon,2020,600
+daños,asturias,2020,100
+faltas,castilla la mancha,2020,60
+abuso_menores,pais vasco,2020,0
+coacciones,castilla la mancha,2020,450
+abuso_menores,region de murcia,2020,0
+coacciones,cataluña,2020,1420
+daños,aragon,2020,90
+coacciones,madrid,2020,1180
+otros,baleares,2020,120
+coacciones,valencia,2020,1810
+delito,castilla y leon,2020,1215
+daños,andalucia,2020,990
+coacciones,extremadura,2020,470
+faltas,galicia,2020,0
+delito,navarra,2020,4210
+faltas,valencia,2020,0
+coacciones,galicia,2020,860
+injurias,melilla,2020,10
+faltas,ceuta,2020,0
+faltas,asturias,2020,0
+tortura_integridad_moral,asturias,2020,1320
+injurias,region de murcia,2020,340
+injurias,madrid,2020,210
+tortura_integridad_moral,baleares,2020,1760
+injurias,castilla la mancha,2020,160
+tortura_integridad_moral,region de murcia,2020,2140
+tortura_integridad_moral,navarra,2020,680
+tortura_integridad_moral,pais vasco,2020,2390
+injurias,castilla y leon,2020,200
+abuso_menores,valencia,2020,0
+tortura_integridad_moral,la rioja,2020,400
+homicidio,castilla la mancha,2020,20
+otros,madrid,2020,430
+faltas,asturias,2020,0
+tortura_integridad_moral,ceuta,2020,150
+injurias,cantabria,2020,30
+homicidio,aragon,2020,20
+otros,castilla y leon,2020,190
+faltas,region de murcia,2020,0
+abuso_menores,cataluña,2020,0
+tortura_integridad_moral,melilla,2020,150
+injurias,canarias,2020,80
+agresion_sexual,andalucia,2020,170
+faltas,cantabria,2020,0
+tortura_integridad_moral,madrid,2020,4030
+tortura_integridad_moral,galicia,2020,2390
+faltas,castilla y leon,2020,0
+injurias,extremadura,2020,80
+tortura_integridad_moral,canarias,2020,7600
+faltas,madrid,2020,0
+tortura_integridad_moral,cantabria,2020,830
+injurias,galicia,2020,240
+homicidio,andalucia,2020,100
+faltas,castilla la mancha,2020,30
+delito,pais vasco,2020,167
+faltas,canarias,2020,0
+tortura_integridad_moral,castilla y leon,2020,2510
+injurias,cataluña,2020,570
+faltas,andalucia,2020,40
+injurias,valencia,2020,580
+tortura_integridad_moral,castilla la mancha,2020,1780
+faltas,baleares,2020,30
+tortura_integridad_moral,cataluña,2020,6550
+tortura_integridad_moral,extremadura,2020,2260
+homicidio,cataluña,2020,170
+abuso_menores,ceuta,2020,0
+otros,cantabria,2020,50
+tortura_integridad_moral,valencia,2020,9090
+faltas,andalucia,2021,20
+otros,galicia,2021,280
+otros,region de murcia,2021,270
+faltas,melilla,2021,0
+faltas,castilla y leon,2021,0
+faltas,canarias,2021,10
+delito,cataluña,2021,5605
+otros,extremadura,2021,110
+otros,madrid,2021,590
+delito,valencia,2021,6944
+otros,navarra,2021,140
+faltas,madrid,2021,0
+otros,aragon,2021,260
+faltas,baleares,2021,0
+otros,cantabria,2021,20
+faltas,galicia,2021,0
+faltas,canarias,2021,10
+faltas,cantabria,2021,0
+faltas,extremadura,2021,10
+otros,castilla y leon,2021,300
+faltas,cantabria,2021,0
+otros,asturias,2021,70
+faltas,castilla y leon,2021,0
+faltas,valencia,2021,0
+faltas,castilla la mancha,2021,10
+otros,baleares,2021,160
+delito,castilla y leon,2021,181
+faltas,cataluña,2021,0
+faltas,asturias,2021,0
+otros,canarias,2021,260
+quebrantamiento_condena,ceuta,2021,220
+faltas,asturias,2021,0
+faltas,baleares,2021,0
+faltas,ceuta,2021,0
+otros,pais vasco,2021,200
+faltas,la rioja,2021,0
+otros,valencia,2021,790
+delito,cantabria,2021,5410
+otros,la rioja,2021,100
+quebrantamiento_condena,melilla,2021,150
+faltas,pais vasco,2021,0
+faltas,aragon,2021,0
+faltas,aragon,2021,0
+otros,cataluña,2021,670
+otros,melilla,2021,0
+faltas,navarra,2021,0
+delito,castilla la mancha,2021,1749
+faltas,andalucia,2021,40
+otros,castilla la mancha,2021,260
+delito,canarias,2021,355
+faltas,region de murcia,2021,0
+otros,ceuta,2021,10
+otros,andalucia,2021,990
+abuso_menores,andalucia,2021,0
+quebrantamiento_condena,pais vasco,2021,4530
+tortura_integridad_moral,navarra,2021,1090
+lesiones,ceuta,2021,420
+tortura_integridad_moral,pais vasco,2021,3440
+tortura_integridad_moral,la rioja,2021,500
+tortura_integridad_moral,ceuta,2021,210
+homicidio,castilla la mancha,2021,20
+faltas,castilla y leon,2021,0
+tortura_integridad_moral,melilla,2021,220
+agresion_sexual,aragon,2021,10
+faltas,cantabria,2021,0
+agresion_sexual,asturias,2021,40
+lesiones,la rioja,2021,1140
+agresion_sexual,baleares,2021,0
+agresion_sexual,canarias,2021,40
+agresion_sexual,andalucia,2021,200
+lesiones,pais vasco,2021,8580
+tortura_integridad_moral,region de murcia,2021,3180
+tortura_integridad_moral,galicia,2021,3970
+lesiones,melilla,2021,230
+tortura_integridad_moral,aragon,2021,2120
+homicidio,valencia,2021,130
+tortura_integridad_moral,asturias,2021,2040
+tortura_integridad_moral,baleares,2021,2620
+tortura_integridad_moral,canarias,2021,1011
+tortura_integridad_moral,madrid,2021,5170
+tortura_integridad_moral,cantabria,2021,1160
+faltas,castilla la mancha,2021,0
+tortura_integridad_moral,castilla la mancha,2021,2990
+tortura_integridad_moral,cataluña,2021,8600
+tortura_integridad_moral,valencia,2021,119
+homicidio,cataluña,2021,80
+tortura_integridad_moral,extremadura,2021,3010
+tortura_integridad_moral,castilla y leon,2021,3540
+tortura_integridad_moral,andalucia,2021,1943
+agresion_sexual,cantabria,2021,20
+homicidio,castilla y leon,2021,40
+abuso_sexual,andalucia,2021,90
+abuso_sexual,aragon,2021,20
+abuso_sexual,asturias,2021,10
+abuso_sexual,baleares,2021,20
+homicidio,canarias,2021,50
+abuso_sexual,canarias,2021,30
+agresion_sexual,melilla,2021,0
+faltas,asturias,2021,0
+abuso_sexual,cantabria,2021,0
+delito,asturias,2021,1063
+abuso_sexual,castilla y leon,2021,40
+abuso_sexual,castilla la mancha,2021,20
+abuso_sexual,cataluña,2021,70
+abuso_sexual,valencia,2021,80
+lesiones,region de murcia,2021,9240
+agresion_sexual,castilla y leon,2021,40
+homicidio,ceuta,2021,0
+quebrantamiento_condena,la rioja,2021,710
+agresion_sexual,castilla la mancha,2021,0
+agresion_sexual,cataluña,2021,110
+faltas,canarias,2021,0
+agresion_sexual,valencia,2021,110
+lesiones,navarra,2021,2240
+agresion_sexual,extremadura,2021,40
+agresion_sexual,ceuta,2021,0
+agresion_sexual,galicia,2021,20
+agresion_sexual,region de murcia,2021,60
+agresion_sexual,navarra,2021,60
+homicidio,cantabria,2021,0
+agresion_sexual,pais vasco,2021,50
+faltas,baleares,2021,0
+agresion_sexual,la rioja,2021,0
+agresion_sexual,madrid,2021,60
+faltas,cataluña,2021,0
+coacciones,melilla,2021,30
+coacciones,ceuta,2021,10
+amenazas,aragon,2021,1440
+faltas,region de murcia,2021,0
+amenazas,asturias,2021,1970
+detencion_secuestro,baleares,2021,10
+amenazas,baleares,2021,2910
+amenazas,canarias,2021,6480
+amenazas,andalucia,2021,1972
+amenazas,cantabria,2021,1130
+amenazas,castilla la mancha,2021,3590
+homicidio,region de murcia,2021,20
+amenazas,cataluña,2021,9840
+faltas,madrid,2021,0
+amenazas,valencia,2021,1312
+homicidio,la rioja,2021,0
+amenazas,castilla y leon,2021,3760
+amenazas,extremadura,2021,2450
+homicidio,navarra,2021,10
+detencion_secuestro,ceuta,2021,0
+detencion_secuestro,castilla la mancha,2021,20
+detencion_secuestro,cantabria,2021,0
+detencion_secuestro,cataluña,2021,30
+detencion_secuestro,valencia,2021,60
+detencion_secuestro,extremadura,2021,0
+homicidio,pais vasco,2021,20
+detencion_secuestro,melilla,2021,0
+detencion_secuestro,galicia,2021,20
+detencion_secuestro,region de murcia,2021,0
+faltas,navarra,2021,0
+detencion_secuestro,navarra,2021,10
+detencion_secuestro,canarias,2021,10
+detencion_secuestro,pais vasco,2021,10
+detencion_secuestro,la rioja,2021,0
+detencion_secuestro,madrid,2021,10
+amenazas,galicia,2021,3360
+amenazas,madrid,2021,5970
+amenazas,region de murcia,2021,4330
+coacciones,castilla y leon,2021,1140
+coacciones,castilla la mancha,2021,680
+coacciones,cataluña,2021,2410
+coacciones,valencia,2021,2870
+coacciones,extremadura,2021,660
+coacciones,galicia,2021,1170
+delito,aragon,2021,1153
+faltas,valencia,2021,0
+homicidio,extremadura,2021,0
+faltas,la rioja,2021,0
+coacciones,region de murcia,2021,990
+coacciones,navarra,2021,330
+coacciones,pais vasco,2021,1750
+coacciones,la rioja,2021,350
+coacciones,madrid,2021,2070
+detencion_secuestro,andalucia,2021,10
+coacciones,cantabria,2021,240
+faltas,extremadura,2021,0
+amenazas,navarra,2021,910
+amenazas,pais vasco,2021,3860
+homicidio,madrid,2021,160
+amenazas,la rioja,2021,580
+faltas,galicia,2021,0
+detencion_secuestro,asturias,2021,10
+amenazas,ceuta,2021,80
+detencion_secuestro,aragon,2021,10
+amenazas,melilla,2021,220
+coacciones,andalucia,2021,3550
+coacciones,aragon,2021,700
+coacciones,asturias,2021,580
+coacciones,baleares,2021,2190
+coacciones,canarias,2021,1380
+homicidio,galicia,2021,80
+abuso_sexual,extremadura,2021,20
+faltas,pais vasco,2021,0
+abuso_sexual,galicia,2021,60
+faltas,aragon,2021,0
+daños,andalucia,2021,1730
+delito,navarra,2021,6640
+faltas,galicia,2021,0
+daños,aragon,2021,160
+lesiones,cantabria,2021,1770
+daños,asturias,2021,250
+injurias,melilla,2021,20
+daños,baleares,2021,250
+daños,cantabria,2021,70
+daños,castilla y leon,2021,330
+daños,castilla la mancha,2021,180
+faltas,extremadura,2021,10
+daños,cataluña,2021,1390
+delito,region de murcia,2021,2277
+daños,canarias,2021,590
+faltas,melilla,2021,0
+injurias,ceuta,2021,10
+injurias,pais vasco,2021,640
+lesiones,castilla y leon,2021,6080
+injurias,castilla y leon,2021,270
+delito,baleares,2021,1803
+injurias,castilla la mancha,2021,130
+injurias,cataluña,2021,840
+injurias,valencia,2021,790
+injurias,la rioja,2021,20
+injurias,extremadura,2021,100
+delito,pais vasco,2021,2337
+injurias,madrid,2021,190
+faltas,madrid,2021,0
+homicidio,melilla,2021,0
+injurias,region de murcia,2021,230
+injurias,navarra,2021,30
+injurias,galicia,2021,220
+daños,valencia,2021,1040
+daños,extremadura,2021,130
+daños,galicia,2021,480
+lesiones,aragon,2021,4540
+delito,galicia,2021,2093
+quebrantamiento_condena,castilla y leon,2021,2550
+quebrantamiento_condena,castilla la mancha,2021,3350
+quebrantamiento_condena,cataluña,2021,118
+quebrantamiento_condena,valencia,2021,1388
+quebrantamiento_condena,cantabria,2021,920
+faltas,castilla la mancha,2021,10
+lesiones,andalucia,2021,3097
+quebrantamiento_condena,galicia,2021,3530
+quebrantamiento_condena,madrid,2021,9330
+quebrantamiento_condena,region de murcia,2021,4170
+delito,extremadura,2021,1171
+quebrantamiento_condena,navarra,2021,1710
+quebrantamiento_condena,extremadura,2021,1640
+quebrantamiento_condena,canarias,2021,6070
+lesiones,asturias,2021,3450
+quebrantamiento_condena,baleares,2021,3810
+daños,madrid,2021,730
+daños,region de murcia,2021,270
+daños,navarra,2021,80
+faltas,valencia,2021,0
+daños,pais vasco,2021,240
+lesiones,canarias,2021,1031
+daños,la rioja,2021,70
+delito,madrid,2021,4295
+daños,ceuta,2021,10
+daños,melilla,2021,10
+quebrantamiento_condena,andalucia,2021,1503
+lesiones,baleares,2021,5740
+quebrantamiento_condena,aragon,2021,2150
+quebrantamiento_condena,asturias,2021,2120
+faltas,cataluña,2021,0
+homicidio,baleares,2021,30
+faltas,region de murcia,2021,0
+injurias,cantabria,2021,80
+delito,la rioja,2021,3470
+lesiones,galicia,2021,7710
+abuso_menores,cataluña,2021,0
+abuso_menores,valencia,2021,0
+homicidio,aragon,2021,20
+abuso_menores,extremadura,2021,0
+abuso_menores,galicia,2021,0
+abuso_menores,castilla la mancha,2021,0
+abuso_menores,madrid,2021,0
+faltas,ceuta,2021,0
+abuso_menores,navarra,2021,0
+lesiones,extremadura,2021,3550
+abuso_menores,pais vasco,2021,0
+abuso_menores,la rioja,2021,0
+abuso_menores,ceuta,2021,0
+abuso_menores,region de murcia,2021,0
+faltas,melilla,2021,0
+abuso_menores,castilla y leon,2021,0
+faltas,ceuta,2021,0
+abuso_sexual,madrid,2021,50
+abuso_sexual,region de murcia,2021,10
+abuso_sexual,navarra,2021,0
+abuso_sexual,pais vasco,2021,40
+abuso_sexual,la rioja,2021,0
+abuso_sexual,ceuta,2021,0
+abuso_sexual,melilla,2021,0
+faltas,andalucia,2021,20
+lesiones,madrid,2021,1859
+abuso_menores,aragon,2021,0
+homicidio,asturias,2021,20
+abuso_menores,asturias,2021,0
+abuso_menores,baleares,2021,0
+abuso_menores,canarias,2021,0
+abuso_menores,cantabria,2021,0
+homicidio,andalucia,2021,170
+injurias,canarias,2021,160
+abuso_menores,melilla,2021,0
+allanamiento,aragon,2021,0
+injurias,baleares,2021,270
+injurias,asturias,2021,60
+injurias,aragon,2021,100
+injurias,andalucia,2021,620
+delito,andalucia,2021,926
+allanamiento,melilla,2021,0
+lesiones,castilla la mancha,2021,6250
+allanamiento,ceuta,2021,0
+faltas,navarra,2021,0
+allanamiento,la rioja,2021,0
+allanamiento,pais vasco,2021,10
+delito,ceuta,2021,970
+allanamiento,navarra,2021,30
+allanamiento,andalucia,2021,90
+allanamiento,madrid,2021,30
+allanamiento,region de murcia,2021,0
+lesiones,cataluña,2021,1996
+allanamiento,asturias,2021,10
+faltas,la rioja,2021,0
+allanamiento,baleares,2021,20
+lesiones,valencia,2021,245
+allanamiento,canarias,2021,10
+allanamiento,cantabria,2021,0
+allanamiento,galicia,2021,30
+detencion_secuestro,castilla y leon,2021,0
+delito,melilla,2021,880
+allanamiento,castilla la mancha,2021,0
+allanamiento,cataluña,2021,250
+allanamiento,valencia,2021,170
+faltas,pais vasco,2021,0
+allanamiento,extremadura,2021,0
+allanamiento,castilla y leon,2021,10
+faltas,aragon,2022,0
+faltas,melilla,2022,0
+faltas,ceuta,2022,0
+faltas,la rioja,2022,0
+faltas,baleares,2022,0
+faltas,navarra,2022,0
+faltas,ceuta,2022,0
+faltas,la rioja,2022,0
+faltas,pais vasco,2022,0
+faltas,navarra,2022,0
+delito,baleares,2022,1821
+faltas,cantabria,2022,0
+faltas,region de murcia,2022,0
+faltas,madrid,2022,0
+faltas,galicia,2022,0
+faltas,extremadura,2022,0
+faltas,valencia,2022,0
+delito,canarias,2022,3728
+faltas,cataluña,2022,0
+faltas,castilla y leon,2022,0
+faltas,castilla la mancha,2022,0
+faltas,melilla,2022,0
+faltas,pais vasco,2022,0
+faltas,canarias,2022,0
+faltas,aragon,2022,0
+faltas,region de murcia,2022,0
+faltas,madrid,2022,0
+faltas,galicia,2022,0
+delito,aragon,2022,1297
+faltas,asturias,2022,0
+faltas,extremadura,2022,0
+faltas,valencia,2022,0
+faltas,cataluña,2022,0
+faltas,castilla la mancha,2022,0
+faltas,castilla y leon,2022,0
+faltas,cantabria,2022,0
+faltas,baleares,2022,0
+faltas,canarias,2022,0
+delito,asturias,2022,1304
+faltas,asturias,2022,0
+faltas,andalucia,2022,0
+lesiones,andalucia,2022,351
+homicidio,andalucia,2022,140
+faltas,melilla,2022,0
+tortura_integridad_moral,valencia,2022,1265
+tortura_integridad_moral,extremadura,2022,3080
+homicidio,cataluña,2022,80
+tortura_integridad_moral,galicia,2022,4320
+tortura_integridad_moral,madrid,2022,5310
+tortura_integridad_moral,region de murcia,2022,3020
+tortura_integridad_moral,cataluña,2022,8160
+tortura_integridad_moral,navarra,2022,1400
+tortura_integridad_moral,la rioja,2022,690
+tortura_integridad_moral,ceuta,2022,170
+tortura_integridad_moral,melilla,2022,310
+homicidio,castilla la mancha,2022,10
+agresion_sexual,andalucia,2022,160
+agresion_sexual,aragon,2022,20
+tortura_integridad_moral,pais vasco,2022,4830
+tortura_integridad_moral,castilla la mancha,2022,3360
+tortura_integridad_moral,castilla y leon,2022,4300
+tortura_integridad_moral,cantabria,2022,1380
+coacciones,galicia,2022,1560
+coacciones,madrid,2022,2560
+coacciones,region de murcia,2022,1000
+homicidio,extremadura,2022,20
+coacciones,navarra,2022,510
+coacciones,pais vasco,2022,2410
+coacciones,la rioja,2022,260
+coacciones,ceuta,2022,10
+coacciones,melilla,2022,40
+tortura_integridad_moral,andalucia,2022,1934
+tortura_integridad_moral,aragon,2022,2190
+tortura_integridad_moral,asturias,2022,2010
+homicidio,valencia,2022,120
+tortura_integridad_moral,baleares,2022,2380
+tortura_integridad_moral,canarias,2022,8930
+agresion_sexual,asturias,2022,30
+agresion_sexual,baleares,2022,30
+agresion_sexual,canarias,2022,20
+agresion_sexual,cantabria,2022,10
+abuso_sexual,canarias,2022,0
+homicidio,canarias,2022,50
+abuso_sexual,cantabria,2022,0
+abuso_sexual,castilla y leon,2022,60
+abuso_sexual,castilla la mancha,2022,10
+abuso_sexual,cataluña,2022,70
+abuso_sexual,valencia,2022,100
+abuso_sexual,extremadura,2022,10
+abuso_sexual,galicia,2022,10
+abuso_sexual,madrid,2022,110
+homicidio,baleares,2022,10
+abuso_sexual,region de murcia,2022,40
+abuso_sexual,navarra,2022,0
+abuso_sexual,pais vasco,2022,50
+abuso_sexual,la rioja,2022,0
+abuso_sexual,baleares,2022,0
+coacciones,extremadura,2022,850
+abuso_sexual,asturias,2022,20
+abuso_sexual,andalucia,2022,180
+agresion_sexual,castilla y leon,2022,40
+agresion_sexual,castilla la mancha,2022,20
+homicidio,castilla y leon,2022,10
+agresion_sexual,cataluña,2022,130
+agresion_sexual,valencia,2022,100
+agresion_sexual,extremadura,2022,60
+agresion_sexual,galicia,2022,30
+agresion_sexual,madrid,2022,70
+agresion_sexual,region de murcia,2022,90
+agresion_sexual,navarra,2022,20
+agresion_sexual,pais vasco,2022,80
+homicidio,cantabria,2022,0
+agresion_sexual,la rioja,2022,0
+agresion_sexual,ceuta,2022,0
+agresion_sexual,melilla,2022,10
+abuso_sexual,aragon,2022,20
+abuso_sexual,ceuta,2022,0
+coacciones,valencia,2022,3070
+coacciones,castilla la mancha,2022,880
+lesiones,melilla,2022,330
+detencion_secuestro,andalucia,2022,70
+detencion_secuestro,aragon,2022,10
+detencion_secuestro,asturias,2022,10
+detencion_secuestro,baleares,2022,0
+homicidio,la rioja,2022,20
+lesiones,ceuta,2022,520
+detencion_secuestro,canarias,2022,10
+detencion_secuestro,castilla y leon,2022,40
+detencion_secuestro,castilla la mancha,2022,20
+detencion_secuestro,cataluña,2022,30
+detencion_secuestro,valencia,2022,60
+detencion_secuestro,extremadura,2022,10
+detencion_secuestro,galicia,2022,20
+detencion_secuestro,cantabria,2022,10
+lesiones,la rioja,2022,1750
+lesiones,pais vasco,2022,1103
+homicidio,ceuta,2022,0
+lesiones,aragon,2022,5180
+lesiones,asturias,2022,4990
+lesiones,baleares,2022,6400
+lesiones,canarias,2022,1194
+lesiones,cantabria,2022,1950
+lesiones,castilla y leon,2022,7010
+homicidio,melilla,2022,0
+lesiones,castilla la mancha,2022,6770
+lesiones,cataluña,2022,2357
+lesiones,valencia,2022,2912
+lesiones,extremadura,2022,4220
+lesiones,galicia,2022,9290
+lesiones,madrid,2022,223
+lesiones,region de murcia,2022,1092
+lesiones,navarra,2022,3260
+homicidio,pais vasco,2022,70
+detencion_secuestro,madrid,2022,40
+detencion_secuestro,region de murcia,2022,40
+detencion_secuestro,navarra,2022,0
+amenazas,region de murcia,2022,4920
+amenazas,navarra,2022,1160
+amenazas,pais vasco,2022,4730
+amenazas,la rioja,2022,760
+homicidio,madrid,2022,110
+amenazas,ceuta,2022,220
+amenazas,melilla,2022,250
+coacciones,andalucia,2022,4130
+coacciones,aragon,2022,670
+coacciones,asturias,2022,700
+coacciones,baleares,2022,2060
+coacciones,canarias,2022,1680
+coacciones,cantabria,2022,190
+homicidio,galicia,2022,40
+coacciones,castilla y leon,2022,1370
+amenazas,madrid,2022,7210
+coacciones,cataluña,2022,2150
+amenazas,galicia,2022,4020
+amenazas,valencia,2022,1439
+detencion_secuestro,pais vasco,2022,20
+detencion_secuestro,la rioja,2022,10
+detencion_secuestro,ceuta,2022,0
+detencion_secuestro,melilla,2022,0
+amenazas,andalucia,2022,211
+homicidio,navarra,2022,10
+amenazas,aragon,2022,1980
+amenazas,asturias,2022,2330
+amenazas,baleares,2022,2840
+amenazas,canarias,2022,6670
+amenazas,cantabria,2022,1160
+amenazas,castilla y leon,2022,4170
+amenazas,castilla la mancha,2022,3760
+amenazas,cataluña,2022,1021
+homicidio,region de murcia,2022,50
+amenazas,extremadura,2022,2530
+faltas,andalucia,2022,20
+abuso_sexual,melilla,2022,0
+abuso_menores,aragon,2022,0
+quebrantamiento_condena,extremadura,2022,2020
+quebrantamiento_condena,galicia,2022,3690
+quebrantamiento_condena,madrid,2022,1108
+quebrantamiento_condena,region de murcia,2022,4900
+quebrantamiento_condena,navarra,2022,2000
+delito,extremadura,2022,131
+quebrantamiento_condena,valencia,2022,1508
+quebrantamiento_condena,pais vasco,2022,6000
+quebrantamiento_condena,ceuta,2022,210
+quebrantamiento_condena,melilla,2022,200
+otros,andalucia,2022,1090
+otros,aragon,2022,120
+otros,asturias,2022,190
+otros,baleares,2022,170
+quebrantamiento_condena,la rioja,2022,1340
+quebrantamiento_condena,cataluña,2022,1123
+quebrantamiento_condena,castilla la mancha,2022,4090
+delito,galicia,2022,2381
+daños,madrid,2022,770
+daños,region de murcia,2022,280
+daños,navarra,2022,170
+daños,pais vasco,2022,260
+daños,la rioja,2022,30
+daños,ceuta,2022,0
+delito,madrid,2022,5033
+daños,melilla,2022,20
+quebrantamiento_condena,andalucia,2022,1599
+quebrantamiento_condena,aragon,2022,2570
+quebrantamiento_condena,asturias,2022,2470
+quebrantamiento_condena,baleares,2022,3990
+quebrantamiento_condena,canarias,2022,7180
+quebrantamiento_condena,cantabria,2022,1250
+quebrantamiento_condena,castilla y leon,2022,2810
+delito,valencia,2022,7734
+otros,canarias,2022,330
+otros,cantabria,2022,90
+otros,castilla y leon,2022,440
+faltas,cantabria,2022,0
+faltas,castilla y leon,2022,0
+faltas,castilla la mancha,2022,0
+faltas,cataluña,2022,0
+delito,castilla y leon,2022,2075
+faltas,valencia,2022,0
+faltas,extremadura,2022,0
+faltas,galicia,2022,0
+faltas,madrid,2022,0
+faltas,region de murcia,2022,0
+faltas,navarra,2022,0
+faltas,pais vasco,2022,0
+faltas,la rioja,2022,0
+delito,cantabria,2022,6250
+faltas,ceuta,2022,0
+faltas,canarias,2022,0
+daños,galicia,2022,370
+faltas,baleares,2022,0
+faltas,aragon,2022,0
+otros,castilla la mancha,2022,210
+otros,cataluña,2022,1750
+otros,valencia,2022,800
+otros,extremadura,2022,100
+otros,galicia,2022,360
+delito,cataluña,2022,5967
+otros,madrid,2022,510
+otros,region de murcia,2022,290
+otros,navarra,2022,160
+otros,pais vasco,2022,530
+otros,la rioja,2022,130
+otros,ceuta,2022,40
+otros,melilla,2022,10
+faltas,andalucia,2022,20
+delito,castilla la mancha,2022,1947
+faltas,asturias,2022,0
+abuso_menores,andalucia,2022,20
+daños,extremadura,2022,150
+daños,valencia,2022,1210
+allanamiento,andalucia,2022,180
+allanamiento,aragon,2022,0
+allanamiento,asturias,2022,0
+allanamiento,baleares,2022,50
+allanamiento,canarias,2022,0
+allanamiento,cantabria,2022,10
+abuso_menores,melilla,2022,0
+allanamiento,castilla y leon,2022,10
+delito,melilla,2022,1180
+allanamiento,cataluña,2022,320
+allanamiento,valencia,2022,240
+allanamiento,extremadura,2022,0
+allanamiento,galicia,2022,10
+allanamiento,madrid,2022,10
+allanamiento,castilla la mancha,2022,30
+abuso_menores,ceuta,2022,0
+abuso_menores,la rioja,2022,0
+abuso_menores,pais vasco,2022,30
+abuso_menores,asturias,2022,10
+homicidio,asturias,2022,20
+abuso_menores,baleares,2022,20
+abuso_menores,canarias,2022,0
+abuso_menores,cantabria,2022,0
+abuso_menores,castilla y leon,2022,10
+abuso_menores,castilla la mancha,2022,10
+abuso_menores,cataluña,2022,10
+abuso_menores,valencia,2022,30
+abuso_menores,extremadura,2022,0
+homicidio,aragon,2022,10
+abuso_menores,galicia,2022,10
+abuso_menores,madrid,2022,30
+abuso_menores,region de murcia,2022,10
+abuso_menores,navarra,2022,0
+allanamiento,region de murcia,2022,0
+allanamiento,navarra,2022,10
+allanamiento,pais vasco,2022,0
+delito,ceuta,2022,1170
+injurias,navarra,2022,60
+injurias,pais vasco,2022,90
+injurias,la rioja,2022,0
+injurias,ceuta,2022,0
+injurias,melilla,2022,10
+daños,andalucia,2022,1750
+daños,aragon,2022,180
+delito,navarra,2022,8760
+daños,asturias,2022,210
+daños,baleares,2022,150
+daños,canarias,2022,430
+daños,cantabria,2022,150
+daños,castilla y leon,2022,360
+daños,castilla la mancha,2022,200
+daños,cataluña,2022,1430
+injurias,region de murcia,2022,140
+delito,region de murcia,2022,257
+delito,pais vasco,2022,3013
+injurias,galicia,2022,80
+allanamiento,la rioja,2022,10
+allanamiento,ceuta,2022,0
+allanamiento,melilla,2022,0
+injurias,andalucia,2022,300
+injurias,aragon,2022,20
+injurias,asturias,2022,50
+injurias,baleares,2022,110
+injurias,canarias,2022,40
+delito,la rioja,2022,5000
+injurias,cantabria,2022,50
+injurias,castilla y leon,2022,120
+injurias,castilla la mancha,2022,100
+injurias,cataluña,2022,530
+injurias,valencia,2022,370
+injurias,extremadura,2022,50
+injurias,madrid,2022,220
+delito,andalucia,2022,9955
