@@ -104,6 +104,36 @@ def eliminar_num(texto):
 
 
 
+def provincias(dataframes, provincia_column='provincia'):
+    '''
+    Normaliza los nombres de provincias en una lista de DataFrames.
+    '''
+
+    def normalizar_provincia(nombre_provincia):
+        '''
+        Toma un nombre de provincia y devuelve la mejor coincidencia de la lista de nombres dados 
+        utilizando la función fuzz.ratio para calcular la similitud.
+        '''
+        nombres_provincias = ['alava', 'albacete', 'alicante', 'almeria', 'asturias', 'avila', 'badajoz',
+                              'barcelona', 'burgos', 'caceres', 'cadiz', 'cantabria', 'castellon', 'ciudad real',
+                              'cordoba', 'cuenca', 'gerona', 'granada', 'guadalajara', 'guipuzcoa', 'huelva',
+                              'huesca', 'islas baleares', 'jaen', 'coruña', 'rioja', 'las palmas', 'leon',
+                              'lerida', 'lugo', 'madrid', 'malaga', 'melilla', 'murcia', 'navarra', 'orense',
+                              'palencia', 'pontevedra', 'salamanca', 'santa cruz de tenerife', 'segovia', 'sevilla',
+                              'soria', 'tarragona', 'teruel', 'toledo', 'valencia', 'valladolid', 'vizcaya',
+                              'zamora', 'zaragoza']
+
+        mejor_coincidencia = max(nombres_provincias, key=lambda x: fuzz.ratio(x, nombre_provincia.lower()))
+        return mejor_coincidencia
+
+    for df in dataframes:
+        '''
+        Normalizar provincias si la columna especificada (provincia_column) está presente
+        '''
+        if provincia_column in df.columns:
+            df[provincia_column] = df[provincia_column].apply(normalizar_provincia)
+
+    return dataframes
 
 
 

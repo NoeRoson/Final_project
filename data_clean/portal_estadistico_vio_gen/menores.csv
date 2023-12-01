@@ -1,49 +1,913 @@
-año,trimestre,edad,padre_biologico,suicidio,almeria,cadiz,jaen,malaga,teruel,asturias,illes balears,santa cruz de tenerife,cantabria,valladolid,ciudad real,barcelona,alicante/alacant,castellon/castello,valencia/valencia,a coruna,pontevedra,madrid,murcia
-2013,primero,3-4,si,no,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-2013,segundo,<1,si,si,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-2013,segundo,5-6,si,si,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2013,segundo,11-12,si,si,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-2013,tercero,5-6,si,no,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2013,cuarto,9-10,si,si,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-2014,segundo,1-2,si,tentativa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-2014,cuarto,7-8,si,si,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-2014,cuarto,9-10,si,si,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-2014,cuarto,9-10,no,no,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-2015,primero,3-4,no,no,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2015,segundo,9-10,no,tentativa,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-2015,tercero,3-4,si,no,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-2015,tercero,7-8,si,si,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-2015,tercero,9-10,si,no,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-2015,tercero,11-12,si,si,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-2015,cuarto,<1,si,si,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-2016,segundo,<1,si,no,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2017,primero,1-2,si,si,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-2017,primero,5-6,si,si,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-2017,primero,7-8,si,si,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-2017,segundo,1-2,si,no,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2017,segundo,11-12,si,no,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-2017,segundo,11-12,no,no,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-2017,cuarto,<1,si,si,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-2017,cuarto,1-2,si,tentativa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-2018,primero,7-8,si,si,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-2018,primero,13-14,si,si,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-2018,segundo,7-8,si,no,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2018,tercero,1-2,si,si,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
-2018,tercero,5-6,si,si,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
-2019,segundo,9-10,si,no,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-2019,tercero,11-12,si,si,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2019,tercero,15-17,si,si,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2020,primero,3-4,si,tentativa,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-2020,segundo,9-10,si,si,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2020,segundo,15-17,si,si,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2021,primero,11-12,si,si,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-2021,segundo,1-2,si,si,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-2021,segundo,5-6,si,si,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-2021,segundo,7-8,si,no,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-2021,tercero,1-2,si,si,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-2021,cuarto,<1,si,no,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-2021,cuarto,3-4,si,si,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-2022,segundo,11-12,si,no,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-2022,cuarto,5-6,si,tentativa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-2023,primero,7-8,no,tentativa,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-2023,cuarto,5-6,si,tentativa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+año,trimestre,edad,padre_biologico,suicidio,provincia,total_menores_vict_mortales
+2013,primero,3-4,si,no,almeria,0
+2013,segundo,<1,si,si,almeria,0
+2013,segundo,5-6,si,si,almeria,0
+2013,segundo,11-12,si,si,almeria,0
+2013,tercero,5-6,si,no,almeria,0
+2013,cuarto,9-10,si,si,almeria,0
+2014,segundo,1-2,si,tentativa,almeria,0
+2014,cuarto,7-8,si,si,almeria,0
+2014,cuarto,9-10,si,si,almeria,0
+2014,cuarto,9-10,no,no,almeria,0
+2015,primero,3-4,no,no,almeria,0
+2015,segundo,9-10,no,tentativa,almeria,0
+2015,tercero,3-4,si,no,almeria,0
+2015,tercero,7-8,si,si,almeria,0
+2015,tercero,9-10,si,no,almeria,0
+2015,tercero,11-12,si,si,almeria,0
+2015,cuarto,<1,si,si,almeria,0
+2016,segundo,<1,si,no,almeria,1
+2017,primero,1-2,si,si,almeria,0
+2017,primero,5-6,si,si,almeria,0
+2017,primero,7-8,si,si,almeria,0
+2017,segundo,1-2,si,no,almeria,0
+2017,segundo,11-12,si,no,almeria,0
+2017,segundo,11-12,no,no,almeria,0
+2017,cuarto,<1,si,si,almeria,0
+2017,cuarto,1-2,si,tentativa,almeria,0
+2018,primero,7-8,si,si,almeria,0
+2018,primero,13-14,si,si,almeria,0
+2018,segundo,7-8,si,no,almeria,1
+2018,tercero,1-2,si,si,almeria,0
+2018,tercero,5-6,si,si,almeria,0
+2019,segundo,9-10,si,no,almeria,0
+2019,tercero,11-12,si,si,almeria,0
+2019,tercero,15-17,si,si,almeria,0
+2020,primero,3-4,si,tentativa,almeria,0
+2020,segundo,9-10,si,si,almeria,0
+2020,segundo,15-17,si,si,almeria,0
+2021,primero,11-12,si,si,almeria,0
+2021,segundo,1-2,si,si,almeria,0
+2021,segundo,5-6,si,si,almeria,0
+2021,segundo,7-8,si,no,almeria,0
+2021,tercero,1-2,si,si,almeria,0
+2021,cuarto,<1,si,no,almeria,0
+2021,cuarto,3-4,si,si,almeria,0
+2022,segundo,11-12,si,no,almeria,0
+2022,cuarto,5-6,si,tentativa,almeria,0
+2023,primero,7-8,no,tentativa,almeria,0
+2023,cuarto,5-6,si,tentativa,almeria,0
+2013,primero,3-4,si,no,cadiz,0
+2013,segundo,<1,si,si,cadiz,0
+2013,segundo,5-6,si,si,cadiz,0
+2013,segundo,11-12,si,si,cadiz,0
+2013,tercero,5-6,si,no,cadiz,0
+2013,cuarto,9-10,si,si,cadiz,0
+2014,segundo,1-2,si,tentativa,cadiz,0
+2014,cuarto,7-8,si,si,cadiz,0
+2014,cuarto,9-10,si,si,cadiz,0
+2014,cuarto,9-10,no,no,cadiz,0
+2015,primero,3-4,no,no,cadiz,0
+2015,segundo,9-10,no,tentativa,cadiz,0
+2015,tercero,3-4,si,no,cadiz,0
+2015,tercero,7-8,si,si,cadiz,0
+2015,tercero,9-10,si,no,cadiz,0
+2015,tercero,11-12,si,si,cadiz,0
+2015,cuarto,<1,si,si,cadiz,0
+2016,segundo,<1,si,no,cadiz,0
+2017,primero,1-2,si,si,cadiz,0
+2017,primero,5-6,si,si,cadiz,0
+2017,primero,7-8,si,si,cadiz,0
+2017,segundo,1-2,si,no,cadiz,1
+2017,segundo,11-12,si,no,cadiz,0
+2017,segundo,11-12,no,no,cadiz,0
+2017,cuarto,<1,si,si,cadiz,0
+2017,cuarto,1-2,si,tentativa,cadiz,0
+2018,primero,7-8,si,si,cadiz,0
+2018,primero,13-14,si,si,cadiz,0
+2018,segundo,7-8,si,no,cadiz,0
+2018,tercero,1-2,si,si,cadiz,0
+2018,tercero,5-6,si,si,cadiz,0
+2019,segundo,9-10,si,no,cadiz,0
+2019,tercero,11-12,si,si,cadiz,0
+2019,tercero,15-17,si,si,cadiz,0
+2020,primero,3-4,si,tentativa,cadiz,0
+2020,segundo,9-10,si,si,cadiz,0
+2020,segundo,15-17,si,si,cadiz,0
+2021,primero,11-12,si,si,cadiz,0
+2021,segundo,1-2,si,si,cadiz,0
+2021,segundo,5-6,si,si,cadiz,0
+2021,segundo,7-8,si,no,cadiz,0
+2021,tercero,1-2,si,si,cadiz,0
+2021,cuarto,<1,si,no,cadiz,0
+2021,cuarto,3-4,si,si,cadiz,0
+2022,segundo,11-12,si,no,cadiz,0
+2022,cuarto,5-6,si,tentativa,cadiz,0
+2023,primero,7-8,no,tentativa,cadiz,0
+2023,cuarto,5-6,si,tentativa,cadiz,0
+2013,primero,3-4,si,no,jaen,0
+2013,segundo,<1,si,si,jaen,0
+2013,segundo,5-6,si,si,jaen,0
+2013,segundo,11-12,si,si,jaen,0
+2013,tercero,5-6,si,no,jaen,0
+2013,cuarto,9-10,si,si,jaen,0
+2014,segundo,1-2,si,tentativa,jaen,0
+2014,cuarto,7-8,si,si,jaen,0
+2014,cuarto,9-10,si,si,jaen,0
+2014,cuarto,9-10,no,no,jaen,0
+2015,primero,3-4,no,no,jaen,0
+2015,segundo,9-10,no,tentativa,jaen,0
+2015,tercero,3-4,si,no,jaen,0
+2015,tercero,7-8,si,si,jaen,0
+2015,tercero,9-10,si,no,jaen,0
+2015,tercero,11-12,si,si,jaen,0
+2015,cuarto,<1,si,si,jaen,0
+2016,segundo,<1,si,no,jaen,0
+2017,primero,1-2,si,si,jaen,0
+2017,primero,5-6,si,si,jaen,0
+2017,primero,7-8,si,si,jaen,0
+2017,segundo,1-2,si,no,jaen,0
+2017,segundo,11-12,si,no,jaen,0
+2017,segundo,11-12,no,no,jaen,0
+2017,cuarto,<1,si,si,jaen,0
+2017,cuarto,1-2,si,tentativa,jaen,0
+2018,primero,7-8,si,si,jaen,0
+2018,primero,13-14,si,si,jaen,0
+2018,segundo,7-8,si,no,jaen,0
+2018,tercero,1-2,si,si,jaen,0
+2018,tercero,5-6,si,si,jaen,0
+2019,segundo,9-10,si,no,jaen,0
+2019,tercero,11-12,si,si,jaen,0
+2019,tercero,15-17,si,si,jaen,0
+2020,primero,3-4,si,tentativa,jaen,0
+2020,segundo,9-10,si,si,jaen,1
+2020,segundo,15-17,si,si,jaen,1
+2021,primero,11-12,si,si,jaen,0
+2021,segundo,1-2,si,si,jaen,0
+2021,segundo,5-6,si,si,jaen,0
+2021,segundo,7-8,si,no,jaen,0
+2021,tercero,1-2,si,si,jaen,0
+2021,cuarto,<1,si,no,jaen,0
+2021,cuarto,3-4,si,si,jaen,0
+2022,segundo,11-12,si,no,jaen,0
+2022,cuarto,5-6,si,tentativa,jaen,0
+2023,primero,7-8,no,tentativa,jaen,0
+2023,cuarto,5-6,si,tentativa,jaen,0
+2013,primero,3-4,si,no,malaga,0
+2013,segundo,<1,si,si,malaga,0
+2013,segundo,5-6,si,si,malaga,1
+2013,segundo,11-12,si,si,malaga,0
+2013,tercero,5-6,si,no,malaga,1
+2013,cuarto,9-10,si,si,malaga,0
+2014,segundo,1-2,si,tentativa,malaga,0
+2014,cuarto,7-8,si,si,malaga,0
+2014,cuarto,9-10,si,si,malaga,0
+2014,cuarto,9-10,no,no,malaga,0
+2015,primero,3-4,no,no,malaga,1
+2015,segundo,9-10,no,tentativa,malaga,0
+2015,tercero,3-4,si,no,malaga,0
+2015,tercero,7-8,si,si,malaga,0
+2015,tercero,9-10,si,no,malaga,0
+2015,tercero,11-12,si,si,malaga,0
+2015,cuarto,<1,si,si,malaga,0
+2016,segundo,<1,si,no,malaga,0
+2017,primero,1-2,si,si,malaga,0
+2017,primero,5-6,si,si,malaga,0
+2017,primero,7-8,si,si,malaga,0
+2017,segundo,1-2,si,no,malaga,0
+2017,segundo,11-12,si,no,malaga,0
+2017,segundo,11-12,no,no,malaga,0
+2017,cuarto,<1,si,si,malaga,0
+2017,cuarto,1-2,si,tentativa,malaga,0
+2018,primero,7-8,si,si,malaga,0
+2018,primero,13-14,si,si,malaga,0
+2018,segundo,7-8,si,no,malaga,0
+2018,tercero,1-2,si,si,malaga,0
+2018,tercero,5-6,si,si,malaga,0
+2019,segundo,9-10,si,no,malaga,0
+2019,tercero,11-12,si,si,malaga,0
+2019,tercero,15-17,si,si,malaga,0
+2020,primero,3-4,si,tentativa,malaga,0
+2020,segundo,9-10,si,si,malaga,0
+2020,segundo,15-17,si,si,malaga,0
+2021,primero,11-12,si,si,malaga,0
+2021,segundo,1-2,si,si,malaga,0
+2021,segundo,5-6,si,si,malaga,0
+2021,segundo,7-8,si,no,malaga,0
+2021,tercero,1-2,si,si,malaga,0
+2021,cuarto,<1,si,no,malaga,0
+2021,cuarto,3-4,si,si,malaga,0
+2022,segundo,11-12,si,no,malaga,0
+2022,cuarto,5-6,si,tentativa,malaga,0
+2023,primero,7-8,no,tentativa,malaga,0
+2023,cuarto,5-6,si,tentativa,malaga,0
+2013,primero,3-4,si,no,teruel,0
+2013,segundo,<1,si,si,teruel,0
+2013,segundo,5-6,si,si,teruel,0
+2013,segundo,11-12,si,si,teruel,0
+2013,tercero,5-6,si,no,teruel,0
+2013,cuarto,9-10,si,si,teruel,0
+2014,segundo,1-2,si,tentativa,teruel,0
+2014,cuarto,7-8,si,si,teruel,0
+2014,cuarto,9-10,si,si,teruel,0
+2014,cuarto,9-10,no,no,teruel,0
+2015,primero,3-4,no,no,teruel,0
+2015,segundo,9-10,no,tentativa,teruel,0
+2015,tercero,3-4,si,no,teruel,0
+2015,tercero,7-8,si,si,teruel,0
+2015,tercero,9-10,si,no,teruel,0
+2015,tercero,11-12,si,si,teruel,0
+2015,cuarto,<1,si,si,teruel,0
+2016,segundo,<1,si,no,teruel,0
+2017,primero,1-2,si,si,teruel,0
+2017,primero,5-6,si,si,teruel,0
+2017,primero,7-8,si,si,teruel,0
+2017,segundo,1-2,si,no,teruel,0
+2017,segundo,11-12,si,no,teruel,0
+2017,segundo,11-12,no,no,teruel,0
+2017,cuarto,<1,si,si,teruel,0
+2017,cuarto,1-2,si,tentativa,teruel,0
+2018,primero,7-8,si,si,teruel,0
+2018,primero,13-14,si,si,teruel,0
+2018,segundo,7-8,si,no,teruel,0
+2018,tercero,1-2,si,si,teruel,0
+2018,tercero,5-6,si,si,teruel,0
+2019,segundo,9-10,si,no,teruel,0
+2019,tercero,11-12,si,si,teruel,0
+2019,tercero,15-17,si,si,teruel,1
+2020,primero,3-4,si,tentativa,teruel,0
+2020,segundo,9-10,si,si,teruel,0
+2020,segundo,15-17,si,si,teruel,0
+2021,primero,11-12,si,si,teruel,0
+2021,segundo,1-2,si,si,teruel,0
+2021,segundo,5-6,si,si,teruel,0
+2021,segundo,7-8,si,no,teruel,0
+2021,tercero,1-2,si,si,teruel,0
+2021,cuarto,<1,si,no,teruel,0
+2021,cuarto,3-4,si,si,teruel,0
+2022,segundo,11-12,si,no,teruel,0
+2022,cuarto,5-6,si,tentativa,teruel,0
+2023,primero,7-8,no,tentativa,teruel,0
+2023,cuarto,5-6,si,tentativa,teruel,0
+2013,primero,3-4,si,no,asturias,0
+2013,segundo,<1,si,si,asturias,0
+2013,segundo,5-6,si,si,asturias,0
+2013,segundo,11-12,si,si,asturias,0
+2013,tercero,5-6,si,no,asturias,0
+2013,cuarto,9-10,si,si,asturias,0
+2014,segundo,1-2,si,tentativa,asturias,0
+2014,cuarto,7-8,si,si,asturias,1
+2014,cuarto,9-10,si,si,asturias,1
+2014,cuarto,9-10,no,no,asturias,0
+2015,primero,3-4,no,no,asturias,0
+2015,segundo,9-10,no,tentativa,asturias,0
+2015,tercero,3-4,si,no,asturias,0
+2015,tercero,7-8,si,si,asturias,0
+2015,tercero,9-10,si,no,asturias,0
+2015,tercero,11-12,si,si,asturias,0
+2015,cuarto,<1,si,si,asturias,0
+2016,segundo,<1,si,no,asturias,0
+2017,primero,1-2,si,si,asturias,0
+2017,primero,5-6,si,si,asturias,0
+2017,primero,7-8,si,si,asturias,0
+2017,segundo,1-2,si,no,asturias,0
+2017,segundo,11-12,si,no,asturias,0
+2017,segundo,11-12,no,no,asturias,0
+2017,cuarto,<1,si,si,asturias,0
+2017,cuarto,1-2,si,tentativa,asturias,0
+2018,primero,7-8,si,si,asturias,0
+2018,primero,13-14,si,si,asturias,0
+2018,segundo,7-8,si,no,asturias,0
+2018,tercero,1-2,si,si,asturias,0
+2018,tercero,5-6,si,si,asturias,0
+2019,segundo,9-10,si,no,asturias,0
+2019,tercero,11-12,si,si,asturias,0
+2019,tercero,15-17,si,si,asturias,0
+2020,primero,3-4,si,tentativa,asturias,0
+2020,segundo,9-10,si,si,asturias,0
+2020,segundo,15-17,si,si,asturias,0
+2021,primero,11-12,si,si,asturias,0
+2021,segundo,1-2,si,si,asturias,0
+2021,segundo,5-6,si,si,asturias,0
+2021,segundo,7-8,si,no,asturias,0
+2021,tercero,1-2,si,si,asturias,0
+2021,cuarto,<1,si,no,asturias,0
+2021,cuarto,3-4,si,si,asturias,0
+2022,segundo,11-12,si,no,asturias,0
+2022,cuarto,5-6,si,tentativa,asturias,0
+2023,primero,7-8,no,tentativa,asturias,0
+2023,cuarto,5-6,si,tentativa,asturias,0
+2013,primero,3-4,si,no,illes balears,0
+2013,segundo,<1,si,si,illes balears,0
+2013,segundo,5-6,si,si,illes balears,0
+2013,segundo,11-12,si,si,illes balears,0
+2013,tercero,5-6,si,no,illes balears,0
+2013,cuarto,9-10,si,si,illes balears,0
+2014,segundo,1-2,si,tentativa,illes balears,0
+2014,cuarto,7-8,si,si,illes balears,0
+2014,cuarto,9-10,si,si,illes balears,0
+2014,cuarto,9-10,no,no,illes balears,0
+2015,primero,3-4,no,no,illes balears,0
+2015,segundo,9-10,no,tentativa,illes balears,0
+2015,tercero,3-4,si,no,illes balears,0
+2015,tercero,7-8,si,si,illes balears,0
+2015,tercero,9-10,si,no,illes balears,0
+2015,tercero,11-12,si,si,illes balears,0
+2015,cuarto,<1,si,si,illes balears,0
+2016,segundo,<1,si,no,illes balears,0
+2017,primero,1-2,si,si,illes balears,0
+2017,primero,5-6,si,si,illes balears,0
+2017,primero,7-8,si,si,illes balears,0
+2017,segundo,1-2,si,no,illes balears,0
+2017,segundo,11-12,si,no,illes balears,0
+2017,segundo,11-12,no,no,illes balears,0
+2017,cuarto,<1,si,si,illes balears,0
+2017,cuarto,1-2,si,tentativa,illes balears,0
+2018,primero,7-8,si,si,illes balears,0
+2018,primero,13-14,si,si,illes balears,0
+2018,segundo,7-8,si,no,illes balears,0
+2018,tercero,1-2,si,si,illes balears,0
+2018,tercero,5-6,si,si,illes balears,0
+2019,segundo,9-10,si,no,illes balears,0
+2019,tercero,11-12,si,si,illes balears,0
+2019,tercero,15-17,si,si,illes balears,0
+2020,primero,3-4,si,tentativa,illes balears,0
+2020,segundo,9-10,si,si,illes balears,0
+2020,segundo,15-17,si,si,illes balears,0
+2021,primero,11-12,si,si,illes balears,0
+2021,segundo,1-2,si,si,illes balears,0
+2021,segundo,5-6,si,si,illes balears,0
+2021,segundo,7-8,si,no,illes balears,1
+2021,tercero,1-2,si,si,illes balears,0
+2021,cuarto,<1,si,no,illes balears,0
+2021,cuarto,3-4,si,si,illes balears,0
+2022,segundo,11-12,si,no,illes balears,0
+2022,cuarto,5-6,si,tentativa,illes balears,0
+2023,primero,7-8,no,tentativa,illes balears,0
+2023,cuarto,5-6,si,tentativa,illes balears,0
+2013,primero,3-4,si,no,santa cruz de tenerife,1
+2013,segundo,<1,si,si,santa cruz de tenerife,0
+2013,segundo,5-6,si,si,santa cruz de tenerife,0
+2013,segundo,11-12,si,si,santa cruz de tenerife,0
+2013,tercero,5-6,si,no,santa cruz de tenerife,0
+2013,cuarto,9-10,si,si,santa cruz de tenerife,0
+2014,segundo,1-2,si,tentativa,santa cruz de tenerife,0
+2014,cuarto,7-8,si,si,santa cruz de tenerife,0
+2014,cuarto,9-10,si,si,santa cruz de tenerife,0
+2014,cuarto,9-10,no,no,santa cruz de tenerife,0
+2015,primero,3-4,no,no,santa cruz de tenerife,0
+2015,segundo,9-10,no,tentativa,santa cruz de tenerife,0
+2015,tercero,3-4,si,no,santa cruz de tenerife,0
+2015,tercero,7-8,si,si,santa cruz de tenerife,0
+2015,tercero,9-10,si,no,santa cruz de tenerife,0
+2015,tercero,11-12,si,si,santa cruz de tenerife,0
+2015,cuarto,<1,si,si,santa cruz de tenerife,0
+2016,segundo,<1,si,no,santa cruz de tenerife,0
+2017,primero,1-2,si,si,santa cruz de tenerife,0
+2017,primero,5-6,si,si,santa cruz de tenerife,0
+2017,primero,7-8,si,si,santa cruz de tenerife,0
+2017,segundo,1-2,si,no,santa cruz de tenerife,0
+2017,segundo,11-12,si,no,santa cruz de tenerife,0
+2017,segundo,11-12,no,no,santa cruz de tenerife,0
+2017,cuarto,<1,si,si,santa cruz de tenerife,0
+2017,cuarto,1-2,si,tentativa,santa cruz de tenerife,0
+2018,primero,7-8,si,si,santa cruz de tenerife,0
+2018,primero,13-14,si,si,santa cruz de tenerife,0
+2018,segundo,7-8,si,no,santa cruz de tenerife,0
+2018,tercero,1-2,si,si,santa cruz de tenerife,1
+2018,tercero,5-6,si,si,santa cruz de tenerife,1
+2019,segundo,9-10,si,no,santa cruz de tenerife,1
+2019,tercero,11-12,si,si,santa cruz de tenerife,0
+2019,tercero,15-17,si,si,santa cruz de tenerife,0
+2020,primero,3-4,si,tentativa,santa cruz de tenerife,0
+2020,segundo,9-10,si,si,santa cruz de tenerife,0
+2020,segundo,15-17,si,si,santa cruz de tenerife,0
+2021,primero,11-12,si,si,santa cruz de tenerife,0
+2021,segundo,1-2,si,si,santa cruz de tenerife,1
+2021,segundo,5-6,si,si,santa cruz de tenerife,1
+2021,segundo,7-8,si,no,santa cruz de tenerife,0
+2021,tercero,1-2,si,si,santa cruz de tenerife,0
+2021,cuarto,<1,si,no,santa cruz de tenerife,0
+2021,cuarto,3-4,si,si,santa cruz de tenerife,0
+2022,segundo,11-12,si,no,santa cruz de tenerife,0
+2022,cuarto,5-6,si,tentativa,santa cruz de tenerife,0
+2023,primero,7-8,no,tentativa,santa cruz de tenerife,0
+2023,cuarto,5-6,si,tentativa,santa cruz de tenerife,0
+2013,primero,3-4,si,no,cantabria,0
+2013,segundo,<1,si,si,cantabria,0
+2013,segundo,5-6,si,si,cantabria,0
+2013,segundo,11-12,si,si,cantabria,0
+2013,tercero,5-6,si,no,cantabria,0
+2013,cuarto,9-10,si,si,cantabria,0
+2014,segundo,1-2,si,tentativa,cantabria,0
+2014,cuarto,7-8,si,si,cantabria,0
+2014,cuarto,9-10,si,si,cantabria,0
+2014,cuarto,9-10,no,no,cantabria,0
+2015,primero,3-4,no,no,cantabria,0
+2015,segundo,9-10,no,tentativa,cantabria,0
+2015,tercero,3-4,si,no,cantabria,0
+2015,tercero,7-8,si,si,cantabria,0
+2015,tercero,9-10,si,no,cantabria,0
+2015,tercero,11-12,si,si,cantabria,0
+2015,cuarto,<1,si,si,cantabria,0
+2016,segundo,<1,si,no,cantabria,0
+2017,primero,1-2,si,si,cantabria,0
+2017,primero,5-6,si,si,cantabria,0
+2017,primero,7-8,si,si,cantabria,0
+2017,segundo,1-2,si,no,cantabria,0
+2017,segundo,11-12,si,no,cantabria,0
+2017,segundo,11-12,no,no,cantabria,0
+2017,cuarto,<1,si,si,cantabria,0
+2017,cuarto,1-2,si,tentativa,cantabria,0
+2018,primero,7-8,si,si,cantabria,0
+2018,primero,13-14,si,si,cantabria,0
+2018,segundo,7-8,si,no,cantabria,0
+2018,tercero,1-2,si,si,cantabria,0
+2018,tercero,5-6,si,si,cantabria,0
+2019,segundo,9-10,si,no,cantabria,0
+2019,tercero,11-12,si,si,cantabria,0
+2019,tercero,15-17,si,si,cantabria,0
+2020,primero,3-4,si,tentativa,cantabria,0
+2020,segundo,9-10,si,si,cantabria,0
+2020,segundo,15-17,si,si,cantabria,0
+2021,primero,11-12,si,si,cantabria,0
+2021,segundo,1-2,si,si,cantabria,0
+2021,segundo,5-6,si,si,cantabria,0
+2021,segundo,7-8,si,no,cantabria,0
+2021,tercero,1-2,si,si,cantabria,0
+2021,cuarto,<1,si,no,cantabria,1
+2021,cuarto,3-4,si,si,cantabria,0
+2022,segundo,11-12,si,no,cantabria,0
+2022,cuarto,5-6,si,tentativa,cantabria,0
+2023,primero,7-8,no,tentativa,cantabria,0
+2023,cuarto,5-6,si,tentativa,cantabria,0
+2013,primero,3-4,si,no,valladolid,0
+2013,segundo,<1,si,si,valladolid,0
+2013,segundo,5-6,si,si,valladolid,0
+2013,segundo,11-12,si,si,valladolid,0
+2013,tercero,5-6,si,no,valladolid,0
+2013,cuarto,9-10,si,si,valladolid,0
+2014,segundo,1-2,si,tentativa,valladolid,0
+2014,cuarto,7-8,si,si,valladolid,0
+2014,cuarto,9-10,si,si,valladolid,0
+2014,cuarto,9-10,no,no,valladolid,0
+2015,primero,3-4,no,no,valladolid,0
+2015,segundo,9-10,no,tentativa,valladolid,0
+2015,tercero,3-4,si,no,valladolid,0
+2015,tercero,7-8,si,si,valladolid,0
+2015,tercero,9-10,si,no,valladolid,0
+2015,tercero,11-12,si,si,valladolid,0
+2015,cuarto,<1,si,si,valladolid,0
+2016,segundo,<1,si,no,valladolid,0
+2017,primero,1-2,si,si,valladolid,0
+2017,primero,5-6,si,si,valladolid,0
+2017,primero,7-8,si,si,valladolid,0
+2017,segundo,1-2,si,no,valladolid,0
+2017,segundo,11-12,si,no,valladolid,0
+2017,segundo,11-12,no,no,valladolid,0
+2017,cuarto,<1,si,si,valladolid,0
+2017,cuarto,1-2,si,tentativa,valladolid,0
+2018,primero,7-8,si,si,valladolid,0
+2018,primero,13-14,si,si,valladolid,0
+2018,segundo,7-8,si,no,valladolid,0
+2018,tercero,1-2,si,si,valladolid,0
+2018,tercero,5-6,si,si,valladolid,0
+2019,segundo,9-10,si,no,valladolid,0
+2019,tercero,11-12,si,si,valladolid,0
+2019,tercero,15-17,si,si,valladolid,0
+2020,primero,3-4,si,tentativa,valladolid,0
+2020,segundo,9-10,si,si,valladolid,0
+2020,segundo,15-17,si,si,valladolid,0
+2021,primero,11-12,si,si,valladolid,0
+2021,segundo,1-2,si,si,valladolid,0
+2021,segundo,5-6,si,si,valladolid,0
+2021,segundo,7-8,si,no,valladolid,0
+2021,tercero,1-2,si,si,valladolid,0
+2021,cuarto,<1,si,no,valladolid,0
+2021,cuarto,3-4,si,si,valladolid,0
+2022,segundo,11-12,si,no,valladolid,0
+2022,cuarto,5-6,si,tentativa,valladolid,0
+2023,primero,7-8,no,tentativa,valladolid,1
+2023,cuarto,5-6,si,tentativa,valladolid,0
+2013,primero,3-4,si,no,ciudad real,0
+2013,segundo,<1,si,si,ciudad real,1
+2013,segundo,5-6,si,si,ciudad real,0
+2013,segundo,11-12,si,si,ciudad real,1
+2013,tercero,5-6,si,no,ciudad real,0
+2013,cuarto,9-10,si,si,ciudad real,0
+2014,segundo,1-2,si,tentativa,ciudad real,0
+2014,cuarto,7-8,si,si,ciudad real,0
+2014,cuarto,9-10,si,si,ciudad real,0
+2014,cuarto,9-10,no,no,ciudad real,0
+2015,primero,3-4,no,no,ciudad real,0
+2015,segundo,9-10,no,tentativa,ciudad real,0
+2015,tercero,3-4,si,no,ciudad real,0
+2015,tercero,7-8,si,si,ciudad real,0
+2015,tercero,9-10,si,no,ciudad real,0
+2015,tercero,11-12,si,si,ciudad real,0
+2015,cuarto,<1,si,si,ciudad real,0
+2016,segundo,<1,si,no,ciudad real,0
+2017,primero,1-2,si,si,ciudad real,0
+2017,primero,5-6,si,si,ciudad real,1
+2017,primero,7-8,si,si,ciudad real,1
+2017,segundo,1-2,si,no,ciudad real,0
+2017,segundo,11-12,si,no,ciudad real,0
+2017,segundo,11-12,no,no,ciudad real,0
+2017,cuarto,<1,si,si,ciudad real,0
+2017,cuarto,1-2,si,tentativa,ciudad real,0
+2018,primero,7-8,si,si,ciudad real,0
+2018,primero,13-14,si,si,ciudad real,0
+2018,segundo,7-8,si,no,ciudad real,0
+2018,tercero,1-2,si,si,ciudad real,0
+2018,tercero,5-6,si,si,ciudad real,0
+2019,segundo,9-10,si,no,ciudad real,0
+2019,tercero,11-12,si,si,ciudad real,0
+2019,tercero,15-17,si,si,ciudad real,0
+2020,primero,3-4,si,tentativa,ciudad real,0
+2020,segundo,9-10,si,si,ciudad real,0
+2020,segundo,15-17,si,si,ciudad real,0
+2021,primero,11-12,si,si,ciudad real,0
+2021,segundo,1-2,si,si,ciudad real,0
+2021,segundo,5-6,si,si,ciudad real,0
+2021,segundo,7-8,si,no,ciudad real,0
+2021,tercero,1-2,si,si,ciudad real,0
+2021,cuarto,<1,si,no,ciudad real,0
+2021,cuarto,3-4,si,si,ciudad real,0
+2022,segundo,11-12,si,no,ciudad real,0
+2022,cuarto,5-6,si,tentativa,ciudad real,0
+2023,primero,7-8,no,tentativa,ciudad real,0
+2023,cuarto,5-6,si,tentativa,ciudad real,0
+2013,primero,3-4,si,no,barcelona,0
+2013,segundo,<1,si,si,barcelona,0
+2013,segundo,5-6,si,si,barcelona,0
+2013,segundo,11-12,si,si,barcelona,0
+2013,tercero,5-6,si,no,barcelona,0
+2013,cuarto,9-10,si,si,barcelona,0
+2014,segundo,1-2,si,tentativa,barcelona,0
+2014,cuarto,7-8,si,si,barcelona,0
+2014,cuarto,9-10,si,si,barcelona,0
+2014,cuarto,9-10,no,no,barcelona,0
+2015,primero,3-4,no,no,barcelona,0
+2015,segundo,9-10,no,tentativa,barcelona,0
+2015,tercero,3-4,si,no,barcelona,0
+2015,tercero,7-8,si,si,barcelona,1
+2015,tercero,9-10,si,no,barcelona,0
+2015,tercero,11-12,si,si,barcelona,1
+2015,cuarto,<1,si,si,barcelona,0
+2016,segundo,<1,si,no,barcelona,0
+2017,primero,1-2,si,si,barcelona,0
+2017,primero,5-6,si,si,barcelona,0
+2017,primero,7-8,si,si,barcelona,0
+2017,segundo,1-2,si,no,barcelona,0
+2017,segundo,11-12,si,no,barcelona,0
+2017,segundo,11-12,no,no,barcelona,0
+2017,cuarto,<1,si,si,barcelona,1
+2017,cuarto,1-2,si,tentativa,barcelona,0
+2018,primero,7-8,si,si,barcelona,0
+2018,primero,13-14,si,si,barcelona,0
+2018,segundo,7-8,si,no,barcelona,0
+2018,tercero,1-2,si,si,barcelona,0
+2018,tercero,5-6,si,si,barcelona,0
+2019,segundo,9-10,si,no,barcelona,0
+2019,tercero,11-12,si,si,barcelona,0
+2019,tercero,15-17,si,si,barcelona,0
+2020,primero,3-4,si,tentativa,barcelona,1
+2020,segundo,9-10,si,si,barcelona,0
+2020,segundo,15-17,si,si,barcelona,0
+2021,primero,11-12,si,si,barcelona,0
+2021,segundo,1-2,si,si,barcelona,0
+2021,segundo,5-6,si,si,barcelona,0
+2021,segundo,7-8,si,no,barcelona,0
+2021,tercero,1-2,si,si,barcelona,1
+2021,cuarto,<1,si,no,barcelona,0
+2021,cuarto,3-4,si,si,barcelona,0
+2022,segundo,11-12,si,no,barcelona,0
+2022,cuarto,5-6,si,tentativa,barcelona,0
+2023,primero,7-8,no,tentativa,barcelona,0
+2023,cuarto,5-6,si,tentativa,barcelona,0
+2013,primero,3-4,si,no,alicante/alacant,0
+2013,segundo,<1,si,si,alicante/alacant,0
+2013,segundo,5-6,si,si,alicante/alacant,0
+2013,segundo,11-12,si,si,alicante/alacant,0
+2013,tercero,5-6,si,no,alicante/alacant,0
+2013,cuarto,9-10,si,si,alicante/alacant,0
+2014,segundo,1-2,si,tentativa,alicante/alacant,0
+2014,cuarto,7-8,si,si,alicante/alacant,0
+2014,cuarto,9-10,si,si,alicante/alacant,0
+2014,cuarto,9-10,no,no,alicante/alacant,0
+2015,primero,3-4,no,no,alicante/alacant,0
+2015,segundo,9-10,no,tentativa,alicante/alacant,1
+2015,tercero,3-4,si,no,alicante/alacant,0
+2015,tercero,7-8,si,si,alicante/alacant,0
+2015,tercero,9-10,si,no,alicante/alacant,0
+2015,tercero,11-12,si,si,alicante/alacant,0
+2015,cuarto,<1,si,si,alicante/alacant,1
+2016,segundo,<1,si,no,alicante/alacant,0
+2017,primero,1-2,si,si,alicante/alacant,0
+2017,primero,5-6,si,si,alicante/alacant,0
+2017,primero,7-8,si,si,alicante/alacant,0
+2017,segundo,1-2,si,no,alicante/alacant,0
+2017,segundo,11-12,si,no,alicante/alacant,0
+2017,segundo,11-12,no,no,alicante/alacant,0
+2017,cuarto,<1,si,si,alicante/alacant,0
+2017,cuarto,1-2,si,tentativa,alicante/alacant,0
+2018,primero,7-8,si,si,alicante/alacant,0
+2018,primero,13-14,si,si,alicante/alacant,0
+2018,segundo,7-8,si,no,alicante/alacant,0
+2018,tercero,1-2,si,si,alicante/alacant,0
+2018,tercero,5-6,si,si,alicante/alacant,0
+2019,segundo,9-10,si,no,alicante/alacant,0
+2019,tercero,11-12,si,si,alicante/alacant,0
+2019,tercero,15-17,si,si,alicante/alacant,0
+2020,primero,3-4,si,tentativa,alicante/alacant,0
+2020,segundo,9-10,si,si,alicante/alacant,0
+2020,segundo,15-17,si,si,alicante/alacant,0
+2021,primero,11-12,si,si,alicante/alacant,0
+2021,segundo,1-2,si,si,alicante/alacant,0
+2021,segundo,5-6,si,si,alicante/alacant,0
+2021,segundo,7-8,si,no,alicante/alacant,0
+2021,tercero,1-2,si,si,alicante/alacant,0
+2021,cuarto,<1,si,no,alicante/alacant,0
+2021,cuarto,3-4,si,si,alicante/alacant,0
+2022,segundo,11-12,si,no,alicante/alacant,0
+2022,cuarto,5-6,si,tentativa,alicante/alacant,0
+2023,primero,7-8,no,tentativa,alicante/alacant,0
+2023,cuarto,5-6,si,tentativa,alicante/alacant,0
+2013,primero,3-4,si,no,castellon/castello,0
+2013,segundo,<1,si,si,castellon/castello,0
+2013,segundo,5-6,si,si,castellon/castello,0
+2013,segundo,11-12,si,si,castellon/castello,0
+2013,tercero,5-6,si,no,castellon/castello,0
+2013,cuarto,9-10,si,si,castellon/castello,1
+2014,segundo,1-2,si,tentativa,castellon/castello,0
+2014,cuarto,7-8,si,si,castellon/castello,0
+2014,cuarto,9-10,si,si,castellon/castello,0
+2014,cuarto,9-10,no,no,castellon/castello,0
+2015,primero,3-4,no,no,castellon/castello,0
+2015,segundo,9-10,no,tentativa,castellon/castello,0
+2015,tercero,3-4,si,no,castellon/castello,0
+2015,tercero,7-8,si,si,castellon/castello,0
+2015,tercero,9-10,si,no,castellon/castello,0
+2015,tercero,11-12,si,si,castellon/castello,0
+2015,cuarto,<1,si,si,castellon/castello,0
+2016,segundo,<1,si,no,castellon/castello,0
+2017,primero,1-2,si,si,castellon/castello,0
+2017,primero,5-6,si,si,castellon/castello,0
+2017,primero,7-8,si,si,castellon/castello,0
+2017,segundo,1-2,si,no,castellon/castello,0
+2017,segundo,11-12,si,no,castellon/castello,0
+2017,segundo,11-12,no,no,castellon/castello,0
+2017,cuarto,<1,si,si,castellon/castello,0
+2017,cuarto,1-2,si,tentativa,castellon/castello,0
+2018,primero,7-8,si,si,castellon/castello,0
+2018,primero,13-14,si,si,castellon/castello,0
+2018,segundo,7-8,si,no,castellon/castello,0
+2018,tercero,1-2,si,si,castellon/castello,1
+2018,tercero,5-6,si,si,castellon/castello,1
+2019,segundo,9-10,si,no,castellon/castello,0
+2019,tercero,11-12,si,si,castellon/castello,0
+2019,tercero,15-17,si,si,castellon/castello,0
+2020,primero,3-4,si,tentativa,castellon/castello,0
+2020,segundo,9-10,si,si,castellon/castello,0
+2020,segundo,15-17,si,si,castellon/castello,0
+2021,primero,11-12,si,si,castellon/castello,0
+2021,segundo,1-2,si,si,castellon/castello,0
+2021,segundo,5-6,si,si,castellon/castello,0
+2021,segundo,7-8,si,no,castellon/castello,0
+2021,tercero,1-2,si,si,castellon/castello,0
+2021,cuarto,<1,si,no,castellon/castello,0
+2021,cuarto,3-4,si,si,castellon/castello,0
+2022,segundo,11-12,si,no,castellon/castello,0
+2022,cuarto,5-6,si,tentativa,castellon/castello,0
+2023,primero,7-8,no,tentativa,castellon/castello,0
+2023,cuarto,5-6,si,tentativa,castellon/castello,0
+2013,primero,3-4,si,no,valencia/valencia,0
+2013,segundo,<1,si,si,valencia/valencia,0
+2013,segundo,5-6,si,si,valencia/valencia,0
+2013,segundo,11-12,si,si,valencia/valencia,0
+2013,tercero,5-6,si,no,valencia/valencia,0
+2013,cuarto,9-10,si,si,valencia/valencia,0
+2014,segundo,1-2,si,tentativa,valencia/valencia,0
+2014,cuarto,7-8,si,si,valencia/valencia,0
+2014,cuarto,9-10,si,si,valencia/valencia,0
+2014,cuarto,9-10,no,no,valencia/valencia,0
+2015,primero,3-4,no,no,valencia/valencia,0
+2015,segundo,9-10,no,tentativa,valencia/valencia,0
+2015,tercero,3-4,si,no,valencia/valencia,0
+2015,tercero,7-8,si,si,valencia/valencia,0
+2015,tercero,9-10,si,no,valencia/valencia,0
+2015,tercero,11-12,si,si,valencia/valencia,0
+2015,cuarto,<1,si,si,valencia/valencia,0
+2016,segundo,<1,si,no,valencia/valencia,0
+2017,primero,1-2,si,si,valencia/valencia,0
+2017,primero,5-6,si,si,valencia/valencia,0
+2017,primero,7-8,si,si,valencia/valencia,0
+2017,segundo,1-2,si,no,valencia/valencia,0
+2017,segundo,11-12,si,no,valencia/valencia,0
+2017,segundo,11-12,no,no,valencia/valencia,0
+2017,cuarto,<1,si,si,valencia/valencia,0
+2017,cuarto,1-2,si,tentativa,valencia/valencia,1
+2018,primero,7-8,si,si,valencia/valencia,0
+2018,primero,13-14,si,si,valencia/valencia,0
+2018,segundo,7-8,si,no,valencia/valencia,0
+2018,tercero,1-2,si,si,valencia/valencia,0
+2018,tercero,5-6,si,si,valencia/valencia,0
+2019,segundo,9-10,si,no,valencia/valencia,0
+2019,tercero,11-12,si,si,valencia/valencia,0
+2019,tercero,15-17,si,si,valencia/valencia,0
+2020,primero,3-4,si,tentativa,valencia/valencia,0
+2020,segundo,9-10,si,si,valencia/valencia,0
+2020,segundo,15-17,si,si,valencia/valencia,0
+2021,primero,11-12,si,si,valencia/valencia,0
+2021,segundo,1-2,si,si,valencia/valencia,0
+2021,segundo,5-6,si,si,valencia/valencia,0
+2021,segundo,7-8,si,no,valencia/valencia,0
+2021,tercero,1-2,si,si,valencia/valencia,0
+2021,cuarto,<1,si,no,valencia/valencia,0
+2021,cuarto,3-4,si,si,valencia/valencia,0
+2022,segundo,11-12,si,no,valencia/valencia,1
+2022,cuarto,5-6,si,tentativa,valencia/valencia,0
+2023,primero,7-8,no,tentativa,valencia/valencia,0
+2023,cuarto,5-6,si,tentativa,valencia/valencia,0
+2013,primero,3-4,si,no,a coruna,0
+2013,segundo,<1,si,si,a coruna,0
+2013,segundo,5-6,si,si,a coruna,0
+2013,segundo,11-12,si,si,a coruna,0
+2013,tercero,5-6,si,no,a coruna,0
+2013,cuarto,9-10,si,si,a coruna,0
+2014,segundo,1-2,si,tentativa,a coruna,0
+2014,cuarto,7-8,si,si,a coruna,0
+2014,cuarto,9-10,si,si,a coruna,0
+2014,cuarto,9-10,no,no,a coruna,0
+2015,primero,3-4,no,no,a coruna,0
+2015,segundo,9-10,no,tentativa,a coruna,0
+2015,tercero,3-4,si,no,a coruna,0
+2015,tercero,7-8,si,si,a coruna,0
+2015,tercero,9-10,si,no,a coruna,0
+2015,tercero,11-12,si,si,a coruna,0
+2015,cuarto,<1,si,si,a coruna,0
+2016,segundo,<1,si,no,a coruna,0
+2017,primero,1-2,si,si,a coruna,0
+2017,primero,5-6,si,si,a coruna,0
+2017,primero,7-8,si,si,a coruna,0
+2017,segundo,1-2,si,no,a coruna,0
+2017,segundo,11-12,si,no,a coruna,1
+2017,segundo,11-12,no,no,a coruna,0
+2017,cuarto,<1,si,si,a coruna,0
+2017,cuarto,1-2,si,tentativa,a coruna,0
+2018,primero,7-8,si,si,a coruna,0
+2018,primero,13-14,si,si,a coruna,0
+2018,segundo,7-8,si,no,a coruna,0
+2018,tercero,1-2,si,si,a coruna,0
+2018,tercero,5-6,si,si,a coruna,0
+2019,segundo,9-10,si,no,a coruna,0
+2019,tercero,11-12,si,si,a coruna,0
+2019,tercero,15-17,si,si,a coruna,0
+2020,primero,3-4,si,tentativa,a coruna,0
+2020,segundo,9-10,si,si,a coruna,0
+2020,segundo,15-17,si,si,a coruna,0
+2021,primero,11-12,si,si,a coruna,0
+2021,segundo,1-2,si,si,a coruna,0
+2021,segundo,5-6,si,si,a coruna,0
+2021,segundo,7-8,si,no,a coruna,0
+2021,tercero,1-2,si,si,a coruna,0
+2021,cuarto,<1,si,no,a coruna,0
+2021,cuarto,3-4,si,si,a coruna,0
+2022,segundo,11-12,si,no,a coruna,0
+2022,cuarto,5-6,si,tentativa,a coruna,0
+2023,primero,7-8,no,tentativa,a coruna,0
+2023,cuarto,5-6,si,tentativa,a coruna,0
+2013,primero,3-4,si,no,pontevedra,0
+2013,segundo,<1,si,si,pontevedra,0
+2013,segundo,5-6,si,si,pontevedra,0
+2013,segundo,11-12,si,si,pontevedra,0
+2013,tercero,5-6,si,no,pontevedra,0
+2013,cuarto,9-10,si,si,pontevedra,0
+2014,segundo,1-2,si,tentativa,pontevedra,0
+2014,cuarto,7-8,si,si,pontevedra,0
+2014,cuarto,9-10,si,si,pontevedra,0
+2014,cuarto,9-10,no,no,pontevedra,0
+2015,primero,3-4,no,no,pontevedra,0
+2015,segundo,9-10,no,tentativa,pontevedra,0
+2015,tercero,3-4,si,no,pontevedra,1
+2015,tercero,7-8,si,si,pontevedra,0
+2015,tercero,9-10,si,no,pontevedra,1
+2015,tercero,11-12,si,si,pontevedra,0
+2015,cuarto,<1,si,si,pontevedra,0
+2016,segundo,<1,si,no,pontevedra,0
+2017,primero,1-2,si,si,pontevedra,0
+2017,primero,5-6,si,si,pontevedra,0
+2017,primero,7-8,si,si,pontevedra,0
+2017,segundo,1-2,si,no,pontevedra,0
+2017,segundo,11-12,si,no,pontevedra,0
+2017,segundo,11-12,no,no,pontevedra,0
+2017,cuarto,<1,si,si,pontevedra,0
+2017,cuarto,1-2,si,tentativa,pontevedra,0
+2018,primero,7-8,si,si,pontevedra,0
+2018,primero,13-14,si,si,pontevedra,0
+2018,segundo,7-8,si,no,pontevedra,0
+2018,tercero,1-2,si,si,pontevedra,0
+2018,tercero,5-6,si,si,pontevedra,0
+2019,segundo,9-10,si,no,pontevedra,0
+2019,tercero,11-12,si,si,pontevedra,0
+2019,tercero,15-17,si,si,pontevedra,0
+2020,primero,3-4,si,tentativa,pontevedra,0
+2020,segundo,9-10,si,si,pontevedra,0
+2020,segundo,15-17,si,si,pontevedra,0
+2021,primero,11-12,si,si,pontevedra,0
+2021,segundo,1-2,si,si,pontevedra,0
+2021,segundo,5-6,si,si,pontevedra,0
+2021,segundo,7-8,si,no,pontevedra,0
+2021,tercero,1-2,si,si,pontevedra,0
+2021,cuarto,<1,si,no,pontevedra,0
+2021,cuarto,3-4,si,si,pontevedra,0
+2022,segundo,11-12,si,no,pontevedra,0
+2022,cuarto,5-6,si,tentativa,pontevedra,0
+2023,primero,7-8,no,tentativa,pontevedra,0
+2023,cuarto,5-6,si,tentativa,pontevedra,0
+2013,primero,3-4,si,no,madrid,0
+2013,segundo,<1,si,si,madrid,0
+2013,segundo,5-6,si,si,madrid,0
+2013,segundo,11-12,si,si,madrid,0
+2013,tercero,5-6,si,no,madrid,0
+2013,cuarto,9-10,si,si,madrid,0
+2014,segundo,1-2,si,tentativa,madrid,1
+2014,cuarto,7-8,si,si,madrid,0
+2014,cuarto,9-10,si,si,madrid,0
+2014,cuarto,9-10,no,no,madrid,1
+2015,primero,3-4,no,no,madrid,0
+2015,segundo,9-10,no,tentativa,madrid,0
+2015,tercero,3-4,si,no,madrid,0
+2015,tercero,7-8,si,si,madrid,0
+2015,tercero,9-10,si,no,madrid,0
+2015,tercero,11-12,si,si,madrid,0
+2015,cuarto,<1,si,si,madrid,0
+2016,segundo,<1,si,no,madrid,0
+2017,primero,1-2,si,si,madrid,1
+2017,primero,5-6,si,si,madrid,0
+2017,primero,7-8,si,si,madrid,0
+2017,segundo,1-2,si,no,madrid,0
+2017,segundo,11-12,si,no,madrid,0
+2017,segundo,11-12,no,no,madrid,1
+2017,cuarto,<1,si,si,madrid,0
+2017,cuarto,1-2,si,tentativa,madrid,0
+2018,primero,7-8,si,si,madrid,1
+2018,primero,13-14,si,si,madrid,1
+2018,segundo,7-8,si,no,madrid,0
+2018,tercero,1-2,si,si,madrid,0
+2018,tercero,5-6,si,si,madrid,0
+2019,segundo,9-10,si,no,madrid,0
+2019,tercero,11-12,si,si,madrid,0
+2019,tercero,15-17,si,si,madrid,0
+2020,primero,3-4,si,tentativa,madrid,0
+2020,segundo,9-10,si,si,madrid,0
+2020,segundo,15-17,si,si,madrid,0
+2021,primero,11-12,si,si,madrid,1
+2021,segundo,1-2,si,si,madrid,0
+2021,segundo,5-6,si,si,madrid,0
+2021,segundo,7-8,si,no,madrid,0
+2021,tercero,1-2,si,si,madrid,0
+2021,cuarto,<1,si,no,madrid,0
+2021,cuarto,3-4,si,si,madrid,1
+2022,segundo,11-12,si,no,madrid,0
+2022,cuarto,5-6,si,tentativa,madrid,1
+2023,primero,7-8,no,tentativa,madrid,0
+2023,cuarto,5-6,si,tentativa,madrid,1
+2013,primero,3-4,si,no,murcia,0
+2013,segundo,<1,si,si,murcia,0
+2013,segundo,5-6,si,si,murcia,0
+2013,segundo,11-12,si,si,murcia,0
+2013,tercero,5-6,si,no,murcia,0
+2013,cuarto,9-10,si,si,murcia,0
+2014,segundo,1-2,si,tentativa,murcia,0
+2014,cuarto,7-8,si,si,murcia,0
+2014,cuarto,9-10,si,si,murcia,0
+2014,cuarto,9-10,no,no,murcia,0
+2015,primero,3-4,no,no,murcia,0
+2015,segundo,9-10,no,tentativa,murcia,0
+2015,tercero,3-4,si,no,murcia,0
+2015,tercero,7-8,si,si,murcia,0
+2015,tercero,9-10,si,no,murcia,0
+2015,tercero,11-12,si,si,murcia,0
+2015,cuarto,<1,si,si,murcia,0
+2016,segundo,<1,si,no,murcia,0
+2017,primero,1-2,si,si,murcia,0
+2017,primero,5-6,si,si,murcia,0
+2017,primero,7-8,si,si,murcia,0
+2017,segundo,1-2,si,no,murcia,0
+2017,segundo,11-12,si,no,murcia,0
+2017,segundo,11-12,no,no,murcia,0
+2017,cuarto,<1,si,si,murcia,0
+2017,cuarto,1-2,si,tentativa,murcia,0
+2018,primero,7-8,si,si,murcia,0
+2018,primero,13-14,si,si,murcia,0
+2018,segundo,7-8,si,no,murcia,0
+2018,tercero,1-2,si,si,murcia,0
+2018,tercero,5-6,si,si,murcia,0
+2019,segundo,9-10,si,no,murcia,0
+2019,tercero,11-12,si,si,murcia,1
+2019,tercero,15-17,si,si,murcia,0
+2020,primero,3-4,si,tentativa,murcia,0
+2020,segundo,9-10,si,si,murcia,0
+2020,segundo,15-17,si,si,murcia,0
+2021,primero,11-12,si,si,murcia,0
+2021,segundo,1-2,si,si,murcia,0
+2021,segundo,5-6,si,si,murcia,0
+2021,segundo,7-8,si,no,murcia,0
+2021,tercero,1-2,si,si,murcia,0
+2021,cuarto,<1,si,no,murcia,0
+2021,cuarto,3-4,si,si,murcia,0
+2022,segundo,11-12,si,no,murcia,0
+2022,cuarto,5-6,si,tentativa,murcia,0
+2023,primero,7-8,no,tentativa,murcia,0
+2023,cuarto,5-6,si,tentativa,murcia,0
