@@ -1,0 +1,115 @@
+sexo,comunidad,frecuencia,consumo_medio
+hombres,andalucia,diario,13.23
+hombres,andalucia,entre semana,7.94
+hombres,andalucia,fin de semana,20.28
+hombres,aragon,diario,16.03
+hombres,aragon,entre semana,10.56
+hombres,aragon,fin de semana,23.38
+hombres,asturias,diario,17.68
+hombres,asturias,entre semana,9.66
+hombres,asturias,fin de semana,28.48
+hombres,baleares,diario,14.05
+hombres,baleares,entre semana,10.0
+hombres,baleares,fin de semana,19.41
+hombres,canarias,diario,14.08
+hombres,canarias,entre semana,7.22
+hombres,canarias,fin de semana,23.22
+hombres,cantabria,diario,9.86
+hombres,cantabria,entre semana,6.35
+hombres,cantabria,fin de semana,14.56
+hombres,castilla y leon,diario,18.52
+hombres,castilla y leon,entre semana,12.97
+hombres,castilla y leon,fin de semana,26.0
+hombres,castilla la mancha,diario,17.44
+hombres,castilla la mancha,entre semana,10.38
+hombres,castilla la mancha,fin de semana,26.87
+hombres,cataluña,diario,11.5
+hombres,cataluña,entre semana,7.57
+hombres,cataluña,fin de semana,16.8
+hombres,valencia,diario,14.12
+hombres,valencia,entre semana,8.62
+hombres,valencia,fin de semana,21.52
+hombres,extremadura,diario,12.98
+hombres,extremadura,entre semana,7.03
+hombres,extremadura,fin de semana,20.92
+hombres,galicia,diario,13.16
+hombres,galicia,entre semana,8.64
+hombres,galicia,fin de semana,19.27
+hombres,madrid,diario,13.17
+hombres,madrid,entre semana,7.83
+hombres,madrid,fin de semana,20.38
+hombres,region de murcia,diario,9.65
+hombres,region de murcia,entre semana,5.75
+hombres,region de murcia,fin de semana,14.89
+hombres,navarra,diario,14.36
+hombres,navarra,entre semana,8.48
+hombres,navarra,fin de semana,22.24
+hombres,pais vasco,diario,16.49
+hombres,pais vasco,entre semana,9.58
+hombres,pais vasco,fin de semana,25.73
+hombres,la rioja,diario,15.29
+hombres,la rioja,entre semana,9.36
+hombres,la rioja,fin de semana,23.2
+hombres,ceuta,diario,14.01
+hombres,ceuta,entre semana,10.21
+hombres,ceuta,fin de semana,19.14
+hombres,melilla,diario,10.07
+hombres,melilla,entre semana,0.8
+hombres,melilla,fin de semana,21.99
+mujeres,andalucia,diario,7.38
+mujeres,andalucia,entre semana,3.02
+mujeres,andalucia,fin de semana,13.27
+mujeres,aragon,diario,8.68
+mujeres,aragon,entre semana,3.61
+mujeres,aragon,fin de semana,15.57
+mujeres,asturias,diario,9.77
+mujeres,asturias,entre semana,3.71
+mujeres,asturias,fin de semana,17.89
+mujeres,baleares,diario,8.11
+mujeres,baleares,entre semana,5.07
+mujeres,baleares,fin de semana,12.27
+mujeres,canarias,diario,7.88
+mujeres,canarias,entre semana,2.25
+mujeres,canarias,fin de semana,15.48
+mujeres,cantabria,diario,6.62
+mujeres,cantabria,entre semana,4.0
+mujeres,cantabria,fin de semana,10.3
+mujeres,castilla y leon,diario,10.5
+mujeres,castilla y leon,entre semana,5.33
+mujeres,castilla y leon,fin de semana,17.38
+mujeres,castilla la mancha,diario,8.08
+mujeres,castilla la mancha,entre semana,3.27
+mujeres,castilla la mancha,fin de semana,14.53
+mujeres,cataluña,diario,7.53
+mujeres,cataluña,entre semana,4.22
+mujeres,cataluña,fin de semana,12.02
+mujeres,valencia,diario,7.7
+mujeres,valencia,entre semana,3.6
+mujeres,valencia,fin de semana,13.27
+mujeres,extremadura,diario,7.42
+mujeres,extremadura,entre semana,2.51
+mujeres,extremadura,fin de semana,14.07
+mujeres,galicia,diario,9.07
+mujeres,galicia,entre semana,6.16
+mujeres,galicia,fin de semana,12.98
+mujeres,madrid,diario,8.38
+mujeres,madrid,entre semana,4.32
+mujeres,madrid,fin de semana,13.83
+mujeres,region de murcia,diario,7.22
+mujeres,region de murcia,entre semana,3.21
+mujeres,region de murcia,fin de semana,12.52
+mujeres,navarra,diario,8.36
+mujeres,navarra,entre semana,4.0
+mujeres,navarra,fin de semana,14.17
+mujeres,pais vasco,diario,10.43
+mujeres,pais vasco,entre semana,4.25
+mujeres,pais vasco,fin de semana,18.67
+mujeres,la rioja,diario,9.26
+mujeres,la rioja,entre semana,5.2
+mujeres,la rioja,fin de semana,14.52
+mujeres,ceuta,diario,9.12
+mujeres,ceuta,entre semana,6.37
+mujeres,ceuta,fin de semana,12.74
+mujeres,melilla,diario,9.82
+mujeres,melilla,entre semana,4.16
+mujeres,melilla,fin de semana,17.03

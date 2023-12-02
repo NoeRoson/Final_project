@@ -137,6 +137,70 @@ def provincias(dataframes, provincia_column='provincia'):
 
 
 
+def crear_ccaa(dataframes, provincia_column='provincia'):
+    '''
+    Toma un nombre de provincia y crea en una nueva columna llamada comunidad la comunidad autónoma a la que pertenece
+    '''
+
+    prov_ccaa = {'alava': 'pais vasco',
+    'albacete': 'castilla la mancha',
+    'alicante': 'comunidad valenciana',
+    'almeria': 'andalucia',
+    'asturias': 'asturias',
+    'avila': 'castilla y leon',
+    'badajoz': 'extremadura',
+    'barcelona': 'cataluña',
+    'burgos': 'castilla y leon',
+    'caceres': 'extremadura',
+    'cadiz': 'andalucia',
+    'cantabria': 'cantabria',
+    'castellon': 'comunidad valenciana',
+    'ciudad real': 'castilla la mancha',
+    'cordoba': 'andalucia',
+    'cuenca': 'castilla la mancha',
+    'gerona': 'cataluña',
+    'granada': 'andalucia',
+    'guadalajara': 'castilla la mancha',
+    'guipuzcoa': 'pais vasco',
+    'huelva': 'andalucia',
+    'huesca': 'aragon',
+    'islas baleares': 'islas baleares',
+    'jaen': 'andalucia',
+    'coruña': 'galicia',
+    'rioja': 'la rioja',
+    'las palmas': 'canarias',
+    'leon': 'castilla y leon',
+    'lerida': 'cataluña',
+    'lugo': 'galicia',
+    'madrid': 'madrid',
+    'malaga': 'andalucia',
+    'melilla': 'melilla',
+    'murcia': 'murcia',
+    'navarra': 'navarra',
+    'orense': 'galicia',
+    'palencia': 'castilla y leon',
+    'pontevedra': 'galicia',
+    'salamanca': 'castilla y leon',
+    'santa cruz de tenerife': 'canarias',
+    'segovia': 'castilla y leon',
+    'sevilla': 'andalucia',
+    'soria': 'castilla y leon',
+    'tarragona': 'cataluña',
+    'teruel': 'aragon',
+    'toledo': 'castilla la mancha',
+    'valencia': 'comunidad valenciana',
+    'valladolid': 'castilla y leon',
+    'vizcaya': 'pais vasco',
+    'zamora': 'castilla y leon',
+    'zaragoza': 'aragon'}
+
+    for df in dataframes:
+        '''
+        Normaliza provincias si la columna especificada (provincia_column) está presente
+        Mapea las provincias y crea una nueva columna 'comunidad' al lado de 'provincia'
+        '''
+        df.insert(df.columns.get_loc(provincia_column) + 1, 'comunidad', df[provincia_column].map(prov_ccaa))
 
 
+    return dataframes
 
