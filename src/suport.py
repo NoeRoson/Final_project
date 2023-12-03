@@ -5,6 +5,7 @@ import warnings
 warnings.filterwarnings('ignore')
 import re
 from fuzzywuzzy import fuzz
+import matplotlib.pyplot as plt
 
 
 def unif_col(columns):
@@ -203,6 +204,8 @@ def crear_ccaa(dataframes, provincia_column='provincia'):
 
 
     return dataframes
+
+
 
 
 
