@@ -6,6 +6,8 @@ warnings.filterwarnings('ignore')
 import re
 from fuzzywuzzy import fuzz
 import matplotlib.pyplot as plt
+from sklearn.preprocessing import StandardScaler
+import seaborn as sns
 
 
 def unif_col(columns):
@@ -206,6 +208,83 @@ def crear_ccaa(dataframes, provincia_column='provincia'):
     return dataframes
 
 
+
+def plot_denuncias(df, provincia):
+    # Filtramos el DataFrame para la provincia específica
+    pro = df[df['provincia'] == provincia]
+
+    # Calculamos la media total del DataFrame
+    media_total = df.groupby('año')['tasa_por_1000'].mean().reset_index()
+
+    # Crear el gráfico de barras para la provincia
+    plt.figure(figsize=(10, 6))
+    plt.bar(pro['año'], pro['tasa_por_1000'], color='pink', label=provincia.capitalize())
+
+    # Línea para la media total del DataFrame
+    plt.plot(media_total['año'], media_total['tasa_por_1000'], linestyle='--', color='purple', label='Media España')
+
+    plt.xlabel('Año')
+    plt.ylabel('Tasa por 1000 mujeres')
+    plt.title(f'Evolución de la tasa de denuncias por VG en {provincia.capitalize()} y media de España')
+    plt.legend()
+    plt.show()
+
+
+
+def norm_data(df, columns_to_normalize):
+    """
+    Normaliza las columnas especificadas de un DataFrame utilizando la normalización estándar (z-score).
+
+    Parameters:
+    - df (pd.DataFrame): El DataFrame que contiene los datos.
+    - columns_to_normalize (list): Lista de nombres de columnas que se deben normalizar.
+
+    Returns:
+    - pd.DataFrame: Un nuevo DataFrame con las columnas normalizadas.
+    """
+    scaler = StandardScaler()
+    df_normalized = df.copy()
+    df_normalized[columns_to_normalize] = scaler.fit_transform(df_normalized[columns_to_normalize].values)
+    return df_normalized
+
+
+
+def plot_four_lines(df, provincia, año):
+    # Filtrar el DataFrame para la provincia y año específicos
+    df_provincia_año = df[(df['provincia'] == provincia) & (df['año'] == año)]
+
+    # Crear un gráfico de líneas para cada variable
+    fig, axes = plt.subplots(nrows=4, figsize=(10, 12))
+
+    # Iterar sobre las variables y crear gráficos individuales
+    for i, variable in enumerate(['total_denuncias', 'total_llamadas', 'total_victimas_mortales', 'total_festivos']):
+        sns.lineplot(
+            x='trimestre',
+            y=variable,
+            color=['#FFB6C1', '#FFD700', '#87CEFA', '#98FB98'][i],  # Color diferente para cada variable
+            label=variable.capitalize(),
+            marker='o',
+            ci=None,
+            ax=axes[i],
+            data=df_provincia_año
+        )
+
+        # Etiquetas y título para cada subgráfico
+        axes[i].set_xlabel('Trimestre')
+        axes[i].set_ylabel(variable.capitalize())
+        axes[i].set_title(f'{variable.capitalize()} en {provincia.capitalize()} en {año}')
+        axes[i].set_xticks(ticks=[0, 1, 2, 3])
+        axes[i].set_xticklabels(['primero', 'segundo', 'tercero', 'cuarto'])
+
+        # Mostrar la leyenda en el último subgráfico
+        if i == 3:
+            axes[i].legend()
+
+    # Ajustar el espaciado entre subgráficos
+    plt.tight_layout()
+
+    # Mostrar los gráficos
+    plt.show()
 
 
 
