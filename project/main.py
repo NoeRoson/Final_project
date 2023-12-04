@@ -2,26 +2,45 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 import pylab as plt
-import webbrowser
-import base64
-import io
 import numpy as np
 import altair as alt
 
 
+# Aquí cargar imagenes e iconos:
 
-st.title('VIODATA: Violencia de género en datos')
-# aqui poner una foto
+mano = Image.open('../img/mano.jpeg')
 
-# aqui poner un subtitulo
+# CONFIGURACION DE LA PAGINA:
 
-# aqui poner una introducción
+st.set_page_config(
+    page_title="VioData",
+    page_icon="🟣",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 
 
+st.title('VioData: Violencia de género en datos')
 
 def home():
-    st.title('#niunamás')
-    st.write('¡Bienvenido a la página de inicio!')
+
+    # Creamos dos columnas
+    col1, col2 = st.columns(2)
+
+    # Contenido de la primera columna
+    with col1:
+        st.markdown('<span style="color:#9777e8; font-size: 18px;">#niunamás</span>', unsafe_allow_html=True)
+        st.markdown('<span style="font-size: 24px;">¡Bienvenida a VioData!</span>', unsafe_allow_html=True)
+        st.markdown('''
+                    <span style="font-size: 18px;>La nueva plataforma para dar a conocer todos los datos disponibles 
+                    sobre la violencia de género en España.</span>
+                    ''', unsafe_allow_html=True)
+
+    # Contenido de la segunda columna
+    with col2:
+        st.image('../img/mano.jpeg', width = 500)
+
+
 
 def denuncias():
     st.title('Denuncias por violencia de género')
