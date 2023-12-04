@@ -231,6 +231,28 @@ def plot_denuncias(df, provincia):
 
 
 
+def plot_llamadas(df, provincia):
+    # Filtramos el DataFrame para la provincia específica
+    pro = df[df['provincia'] == provincia]
+
+    # Calculamos la media total del DataFrame
+    media_total = df.groupby('año')['tasa_por_1000'].mean().reset_index()
+
+    # Crear el gráfico de barras para la provincia
+    plt.figure(figsize=(10, 6))
+    plt.bar(pro['año'], pro['tasa_por_1000'], color='pink', label=provincia.capitalize())
+
+    # Línea para la media total del DataFrame
+    plt.plot(media_total['año'], media_total['tasa_por_1000'], linestyle='--', color='purple', label='Media España')
+
+    plt.xlabel('Año')
+    plt.ylabel('Tasa por 1000 mujeres')
+    plt.title(f'Evolución de la tasa de llamadas al 016 en {provincia.capitalize()} y media de España')
+    plt.legend()
+    plt.show()
+
+
+
 def norm_data(df, columns_to_normalize):
     """
     Normaliza las columnas especificadas de un DataFrame utilizando la normalización estándar (z-score).
@@ -246,6 +268,8 @@ def norm_data(df, columns_to_normalize):
     df_normalized = df.copy()
     df_normalized[columns_to_normalize] = scaler.fit_transform(df_normalized[columns_to_normalize].values)
     return df_normalized
+
+
 
 
 
@@ -288,3 +312,20 @@ def plot_four_lines(df, provincia, año):
 
 
 
+def plot_delitos(df, comunidad):
+    # Filtrar el DataFrame para la comunidad específica
+    df_comunidad = df[df['comunidad'] == comunidad]
+
+    # Crear el gráfico de barras
+    plt.figure(figsize=(12, 8))
+    sns.set(style="dark")
+    sns.lineplot(x='año', y='total', hue='tipo', palette = ("tab10"), marker='o', data=df_comunidad)
+
+    # Etiquetas y título
+    plt.xlabel('Año')
+    plt.ylabel('Total de Delitos')
+    plt.title(f'Evolución del Total de Delitos por Tipo en {comunidad.capitalize()}')
+
+    # Mostrar el gráfico
+    plt.legend(title='Tipo de Delito', bbox_to_anchor=(1.05, 1), loc='upper left')
+    plt.show()
