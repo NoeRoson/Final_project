@@ -43,7 +43,7 @@ def home():
 
     with col1:
         st.markdown('<span style="color:#9777e8; font-size: 18px; font-weight: bold; ">#niunamás</span>', unsafe_allow_html=True)
-        st.markdown('<span style="font-size: 24px;font-weight: bold; ">¡Bienvenidxs a VioData!</span>', unsafe_allow_html=True)
+        st.markdown('<span style="font-size: 24px;font-weight: bold; ">¡Bienvenidas a VioData!</span>', unsafe_allow_html=True)
         st.markdown(
     f"""
     <div style='text-align: justify;'>
@@ -79,9 +79,9 @@ def home():
 
         st.markdown(
     """
-        <div style='background-color: #B177BB; padding: 10px; border-radius: 5px;text-align: center;'>
-        <p style='color: #E2BBFA; font-weight: bold;'>ULTIMA ACTUALIZACIÓN:</p>
-        <p style='color: #E2BBFA; font-weight: bold;font-size: 20px'>¿Sabías que desde 2003 son 1237 las mujeres asesinadas por violencia machista?</p>
+        <div style='background-color: #CDB3DC; padding: 10px; border-radius: 5px;text-align: center;'>
+        <p style='color: #4757BB; font-weight: bold;'>ULTIMA ACTUALIZACIÓN:</p>
+        <p style='color: #511973; font-weight: bold;font-size: 20px'>¿Sabías que desde 2003 son 1237 las mujeres asesinadas por violencia machista?</p>
         </div>
         """,
         unsafe_allow_html=True)
@@ -92,9 +92,9 @@ def home():
        
         st.markdown(
         """
-        <div style='background-color: #B177BB; padding: 5px; border-radius: 3px;text-align: center;'>
-        <p style='color: #E2BBFA; font-weight: bold;'>SÚSCRIBETE AQUÍ PARA MÁS RECIBIR MÁS INFORMACIÓN SOBRE VIOLENCIA DE GÉNERO</p>
-        <button style='background-color: #80048C; color: #9777e8; border: 2px solid #340252; padding: 5px; border-radius: 3px; font-weight: bold; '>¡Pulsa!</button>
+        <div style='background-color: #CDB3DC; padding: 5px; border-radius: 3px;text-align: center;'>
+        <p style='color: #511973; font-weight: bold;'>SÚSCRIBETE AQUÍ PARA MÁS RECIBIR MÁS INFORMACIÓN SOBRE VIOLENCIA DE GÉNERO</p>
+        <button style='background-color: #4757BB; color: #E9D6F3; border: 2px solid #340252; padding: 5px; border-radius: 3px; font-weight: bold; '>¡Pulsa!</button>
         </div>
         """,
         unsafe_allow_html=True)
@@ -127,7 +127,7 @@ def denuncias():
                               'zamora', 'zaragoza']    
     
 
-    # ---GRÁFICO 1. TASA DE DENUNCIAS POR CADA MIL MUJERES POR PROVINCIA---
+    # ---GRÁFICO 1.A. TASA DE DENUNCIAS POR CADA MIL MUJERES POR PROVINCIA---
 
     denu_combi = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/denu_combi.csv')
     provincias = denu_combi['provincia'].unique()
@@ -145,7 +145,7 @@ def denuncias():
     bars = alt.Chart(pro).mark_bar(color='lightsteelblue').encode(
         x='año:O',
         y='tasa_por_1000:Q',
-        tooltip=['tasa_por_1000:Q']).properties(width=800, height=500)
+        tooltip=['tasa_por_1000:Q']).properties(width=1000, height=600)
 
     # Línea para la media total de España
     line = alt.Chart(media_total).mark_line(color='purple', strokeDash=[5, 5]).encode(
@@ -163,7 +163,7 @@ def denuncias():
     st.divider()
 
 
-    # ---GRAFICO 2. DENUNCIAS POR TRIMESTRE---
+    # ---GRAFICO 1.B. DENUNCIAS POR TRIMESTRE---
 
     st.write('''
              En el siguiente gráfico se visualizan las variaciones por trimestre que se dan en 
@@ -176,20 +176,19 @@ def denuncias():
     denu = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/denuncias.csv')
     denu = denu[(denu['año'] >= 2008) & (denu['año'] <= 2022)]
     df_grouped = denu.groupby(['año', 'trimestre']).agg({'total_denuncias': 'mean'}).reset_index()
+    df_grouped.sort_values(by='trimestre')
 
-    # Crear gráfico interactivo con Plotly Express
-    # Crear un gráfico de líneas
+    # Creamos gráfico interactivo con Plotly Express
     fig = px.line(df_grouped, x='año', y='total_denuncias', color='trimestre',
-                labels={'total_denuncias': 'Total de Denuncias', 'trimestre': 'Trimestre'},
+                labels={'total_denuncias': 'Media de Denuncias', 'trimestre': 'Trimestre'},
                 title='Evolución de las denuncias por violencia de género según trimestre a lo largo de los años',
                 color_discrete_sequence=['cornflowerblue', 'plum', 'darkseagreen', 'darkorchid'])
 
-    # Diseño adicional del gráfico
-    fig.update_layout(xaxis_title='Año', yaxis_title='Total de Denuncias', legend_title='Trimestre',
+    # Diseño del gráfico
+    fig.update_layout(xaxis_title='Año', yaxis_title='Media de Denuncias', legend_title='Trimestre',
                     legend=dict(orientation='h', y=-0.15),  # Ajustar la posición de la leyenda
-                    width=800)
-
-    # Mostrar gráfico en Streamlit
+                    width=1000, height=600) # Mantener el orden original en la leyenda
+                    
     st.plotly_chart(fig)
 
 
@@ -206,10 +205,12 @@ def llamadas():
             a través del número telefónico de marcación abreviada [016](https://violenciagenero.igualdad.gob.es/informacionUtil/recursos/telefono016/home.htm); 
             por WhatsApp en el número [600 000 016](https://wa.me/600000016); a través de un chat online en la página web de la Delegación del Gobierno contra 
             la Violencia de Género y por correo electrónico al servicio 016 online: [016-online@igualdad.gob.es](mailto:016-online@igualdad.gob.es).
+            En el siguiente gráfico puedes seleccionar la provincia sobre la que deseas ver la tasa de llamadas recibidas por el 016
+            por cada mil mujeres que residen en dicha provincia y podrás compararla con la media nacional.
             ''')
 
 
-# ---GRÁFICO 1. TASA DE LLAMADAS AL 016 POR CADA MIL MUJERES POR PROVINCIA---
+# ---GRÁFICO 2.A. TASA DE LLAMADAS AL 016 POR CADA MIL MUJERES POR PROVINCIA---
     
     llam_combi = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/llam_combi.csv')
     provincias = llam_combi['provincia'].unique()
@@ -227,10 +228,10 @@ def llamadas():
     bars = alt.Chart(pro).mark_bar(color='plum').encode(
         x='año:O',
         y='tasa_por_1000:Q',
-        tooltip=['tasa_por_1000:Q']).properties(width=800, height=500)
+        tooltip=['tasa_por_1000:Q']).properties(width=1000, height=600)
 
     # Línea para la media total de España
-    line = alt.Chart(media_total).mark_line(color='cornflowerblue', strokeDash=[5, 5]).encode(
+    line = alt.Chart(media_total).mark_line(color='purple', strokeDash=[5, 5]).encode(
         x='año:O',
         y='tasa_por_1000:Q')
 
@@ -244,20 +245,17 @@ def llamadas():
 
     st.divider()
 
-    # ---GRAFICO 2. ---
+    # ---GRAFICO 2.B. LLAMADAS AL 016 Y DENUNCIAS POR AÑO ---
 
-    st.write()
 
-    st.markdown(
-            '''
-            <span style="color:#4757BB; font-size: 16px; font-weight: bold; ">Evolución de las 
-            denuncias por violencia de género y llamadas al 016 por año:</span>
-            '''
-            , unsafe_allow_html=True)
-        
-    st.text('   ')
-
-    # Importamos el dataframe:
+    st.write('''
+             En el siguiente gráfico se visualiza la evolución tanto de las llamadas como de
+             las denuncias por violencia de género entre 2009 y 2022. Como podemos observar, podría existir cierta
+             correlación entre ambas variables, lo cual cobra sentido si pensamos que muchas de esas llamadas es posible que 
+             hayan terminado en una denuncia real. Ambas variables se han ido incrementando con el paso del tiempo, lo que
+             puede traducirse en una mayor concienciación sobre la violencia de género y el aumento de la
+             voluntad de las mujeres en solicitar apoyo ante tal situación.
+             ''')
     llam_denu = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/llam_denu.csv')
     df_selected = llam_denu[['año', 'total_llamadas', 'total_denuncias']]
     df_selected = df_selected[df_selected['año'] <= 2022]
@@ -267,12 +265,14 @@ def llamadas():
 
     # Crear gráfico interactivo con Plotly Express
     fig = px.line(df_grouped, x='año', y=['total_llamadas', 'total_denuncias'],
-                labels={'value': 'Total', 'variable': 'Tipo'},
-                title='Llamadas y Denuncias por Año',
-                markers={'total_llamadas': 'circle', 'total_denuncias': 'x'})
+                labels={'value': 'Media', 'variable': 'Tipo'},
+                title='Evolución de las denuncias por violencia de género y llamadas al 016 por año',
+                markers={'total_llamadas': 'circle', 'total_denuncias': 'x'},
+                color_discrete_sequence=['plum', 'cornflowerblue'])
 
     # Diseño del gráfico
-    fig.update_layout(xaxis_title='Año', yaxis_title='Total', legend_title='Tipo', legend=dict(orientation='h'))
+    fig.update_layout(xaxis_title='Año', yaxis_title='Media', legend=dict(orientation='h'),
+                      width=1000, height=600)
 
     # Mostrar gráfico en Streamlit
     st.plotly_chart(fig)
@@ -280,9 +280,6 @@ def llamadas():
 
 
 
-
-# PRUEBA
-    
     
 
 
@@ -321,7 +318,7 @@ def info():
 
 
 pages = {
-    'Bienvenid@': home,
+    'Página principal': home,
     'Denuncias por violencia de género': denuncias,
     'Llamadas al 016': llamadas,
     'Víctimas de violencia de género': victimas,
