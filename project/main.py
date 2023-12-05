@@ -278,10 +278,29 @@ def llamadas():
     st.plotly_chart(fig)
 
 
+    st.text('   ')
 
+    st.divider()
 
-    
+    # ---GRAFICO 2.C. LLAMADAS AL 016 SEGÚN PERSONA LLAMANTE ---
 
+    llam = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/llamadas016.csv')
+    df_filtered = llam[llam['año'] <= 2022]
+
+    # Creamos el gráfico interactivo con Plotly Express
+    fig = px.bar(df_filtered, x='año', y='total_llamadas', color='llamante',
+                labels={'total_llamadas': 'Total de Llamadas', 'año': 'Año'},
+                title='Llamadas al 016 según la persona llamante',
+                category_orders={'llamante': sorted(df_filtered['llamante'].unique())},  # Orden personalizado para la leyenda
+                width=1000, height=600,
+                color_discrete_sequence=['plum', 'darkseagreen', 'lightsteelblue'])
+
+    # Diseño del gráfico
+    fig.update_layout(xaxis_title='Año', yaxis_title='Total de Llamadas', legend_title='Llamante',
+                    legend=dict(orientation='h', y=-0.15))  # Ajustar la posición de la leyenda
+
+    # Mostrar gráfico en Streamlit
+    st.plotly_chart(fig)
 
 
 
