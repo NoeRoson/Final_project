@@ -8,7 +8,7 @@ from fuzzywuzzy import fuzz
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 import seaborn as sns
-import altair as alt
+
 
 
 def unif_col(columns):
@@ -54,6 +54,9 @@ def eliminar_alfa(columna):
     '''
     Entra una columna de un DataFrame.
     Elimina los caracteres alfabéticos de cada elemento de la columna y los espacios.
+    Coge cada caracter de cada celda y devuelve un espacio si es alfa o tiene espacios,
+    uniéndolo de nuevo;
+    de lo contrario, lo deja como está.
     '''
     return columna.apply(lambda x: ''.join(c if not c.isalpha() and not c.isspace() else '' for c in str(x)))
 
@@ -104,6 +107,12 @@ def comunidades(dataframes, column_name='comunidad'):
 
 
 def eliminar_num(texto):
+    '''
+    Entra un texto.
+    Elimina los caracteres numéricos de cada elemento en el texto.
+    Coge cada caracter de cada celda y devuelve un espacio si es alfa o tiene espacios;
+    de lo contrario, lo deja como está.
+    '''
     return ''.join(caracter for caracter in texto if not caracter.isdigit())
 
 
@@ -254,22 +263,14 @@ def plot_llamadas(df, provincia):
 
 
 
-def norm_data(df, columns_to_normalize):
-    """
+def norm_data(df, columns_to_norm):
+    '''
     Normaliza las columnas especificadas de un DataFrame utilizando la normalización estándar (z-score).
-
-    Parameters:
-    - df (pd.DataFrame): El DataFrame que contiene los datos.
-    - columns_to_normalize (list): Lista de nombres de columnas que se deben normalizar.
-
-    Returns:
-    - pd.DataFrame: Un nuevo DataFrame con las columnas normalizadas.
-    """
+    '''
     scaler = StandardScaler()
-    df_normalized = df.copy()
-    df_normalized[columns_to_normalize] = scaler.fit_transform(df_normalized[columns_to_normalize].values)
-    return df_normalized
-
+    df_norm = df.copy()
+    df_norm[columns_to_norm] = scaler.fit_transform(df_norm[columns_to_norm].values)
+    return df_norm
 
 
 
@@ -332,30 +333,3 @@ def plot_delitos(df, comunidad):
     plt.show()
 
 
-def plot_interactivo_denuncias(df, provincia):
-    # Filtramos el DataFrame para la provincia específica
-    pro = df[df['provincia'] == provincia]
-
-    # Calculamos la media total del DataFrame
-    media_total = df.groupby('año')['tasa_por_1000'].mean().reset_index()
-
-    # Crear el gráfico de barras para la provincia con Altair
-    bars = alt.Chart(pro).mark_bar(color='pink').encode(
-        x='año:O',
-        y='tasa_por_1000:Q',
-        tooltip=['tasa_por_1000:Q']
-    ).properties(width=800, height=500)
-
-    # Línea para la media total del DataFrame
-    line = alt.Chart(media_total).mark_line(color='purple', strokeDash=[5, 5]).encode(
-        x='año:O',
-        y='tasa_por_1000:Q'
-    )
-
-    # Configuración del diseño del gráfico
-    chart = (bars + line).properties(
-        title=f'Evolución de la tasa de denuncias por VG en {provincia.capitalize()} y media de España'
-    )
-
-    # Mostrar el gráfico
-    chart.show()

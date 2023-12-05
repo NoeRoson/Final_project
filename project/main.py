@@ -311,6 +311,36 @@ def victimas():
     st.title('Información sobre víctimas por violencia de género')
     st.write('Aquí te mostramos datos sobre víctimas mujeres y menores.')
 
+    norm = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/scrapeo/norm.csv')
+    norm['normativas_presentes'] = norm['total_normativas'].apply(lambda x: 'Sí' if x > 0 else 'No')
+
+
+    # Creamos el gráfico interactivo con Plotly Express
+    fig = px.histogram(norm, x='año', color='normativas_presentes',
+                    labels={'año': 'Año', 'normativas_presentes': '¿Hubo normativa?'},
+                    title='Presencia de Normativas por Año y Comunidad Autónoma',
+                    category_orders={'normativas_presentes': ['Sí', 'No']},
+                    width=1000, height=600)
+
+    # Agregamos información personalizada al texto de la barra
+    fig.update_traces(texttemplate='%{y} CCAA<br>%{customdata}', textposition='outside',
+                  customdata=norm['comunidad'], selector=dict(type='histogram'))
+
+    # Diseño del gráfico
+    fig.update_layout(xaxis_title='Año', yaxis_title='Número de Comunidades Autónomas',
+                    legend_title='¿Hubo normativa ese año?',
+                    legend=dict(orientation='h', y=-0.15, x=0.5),  # Ajustamos la posición de la leyenda
+                    barmode='group')  # Mostrar barras agrupadas
+
+
+    st.plotly_chart(fig)
+
+
+
+
+
+
+
 def proteccion():
     st.title('Protección a las Víctimas')
     st.write('Información sobre órdenes de protección y dispositivos de seguimiento.')
@@ -330,6 +360,26 @@ def denun():
 def normas():
     st.title('¿Qué normativas rigen en mi Comunidad Autónoma')
     st.write('Aquí puedes encontrar información sobre las distintas normativas regionales en materia de violencia de género')
+    norm = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/scrapeo/norm.csv')
+    norm['normativas_presentes'] = norm['total_normativas'].apply(lambda x: 'Sí' if x > 0 else 'No')
+
+    # Creamos el gráfico interactivo con Plotly Express
+    fig = px.histogram(norm, x='año', color='normativas_presentes',
+                    labels={'año': 'Año', 'normativas_presentes': 'Normativas Presentes'},
+                    title='Presencia de Normativas por Año y Comunidad Autónoma',
+                    category_orders={'normativas_presentes': ['No', 'Sí']},
+                    width=800, height=500)
+
+    # Diseño del gráfico
+    fig.update_layout(xaxis_title='Año', yaxis_title='Número de Comunidades Autónomas',
+                    legend_title='Normativas Presentes',
+                    legend=dict(orientation='h', y=-0.15, x=0.5),  # Ajustar la posición de la leyenda
+                    barmode='group')  # Mostrar barras agrupadas
+
+    # Mostrar gráfico en Streamlit
+    st.plotly_chart(fig)
+
+
 
 def info():
     st.title('Más información sobre la violencia de género')
