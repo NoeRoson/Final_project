@@ -8,6 +8,7 @@ from fuzzywuzzy import fuzz
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 import seaborn as sns
+import altair as alt
 
 
 def unif_col(columns):
@@ -329,3 +330,32 @@ def plot_delitos(df, comunidad):
     # Mostrar el gráfico
     plt.legend(title='Tipo de Delito', bbox_to_anchor=(1.05, 1), loc='upper left')
     plt.show()
+
+
+def plot_interactivo_denuncias(df, provincia):
+    # Filtramos el DataFrame para la provincia específica
+    pro = df[df['provincia'] == provincia]
+
+    # Calculamos la media total del DataFrame
+    media_total = df.groupby('año')['tasa_por_1000'].mean().reset_index()
+
+    # Crear el gráfico de barras para la provincia con Altair
+    bars = alt.Chart(pro).mark_bar(color='pink').encode(
+        x='año:O',
+        y='tasa_por_1000:Q',
+        tooltip=['tasa_por_1000:Q']
+    ).properties(width=800, height=500)
+
+    # Línea para la media total del DataFrame
+    line = alt.Chart(media_total).mark_line(color='purple', strokeDash=[5, 5]).encode(
+        x='año:O',
+        y='tasa_por_1000:Q'
+    )
+
+    # Configuración del diseño del gráfico
+    chart = (bars + line).properties(
+        title=f'Evolución de la tasa de denuncias por VG en {provincia.capitalize()} y media de España'
+    )
+
+    # Mostrar el gráfico
+    chart.show()

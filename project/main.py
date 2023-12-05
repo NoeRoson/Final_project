@@ -1,11 +1,20 @@
 # ---IMPORTAMOS LIBRERIAS NECESARIAS---
 
+import os
+import sys
+current_dir = os.path.dirname(os.path.realpath(__file__))
+src_dir = os.path.abspath(os.path.join(current_dir, '..', 'src'))
+sys.path.append(src_dir)
+from suport import plot_denuncias
 import streamlit as st
 import pandas as pd
 from PIL import Image
 import pylab as plt
 import numpy as np
 import altair as alt
+import seaborn as sns
+import plotly.express as px
+import plotly.graph_objects as go
 
 
 # ---IMAGENES---
@@ -94,12 +103,89 @@ def home():
         )
 
     
-# --- ESTRUCTURA MENU LATERAL---
+# --- ESTRUCTURA INTERNA DEL CONTENIDO DEL MENU LATERAL---
 
+# ---PAGINA SOBRE DENUNCIAS DE VIOLENCIA DE GENERO---
 def denuncias():
-    st.title('Denuncias por violencia de género')
-    st.write('Esta es la página de información sobre denuncias.')
 
+    #INTRODUCCION
+
+    st.title('Denuncias por violencia de género')
+    st.write('''
+             En el siguiente gráfico podemos observar la evolución de la tasa por mil mujeres
+             desde el año 2009 hasta el 2021, último año de actualización de la población total
+             de mujeres por provincia. Destaca el caso de Cuenca que, junto a las provincias de 
+             Alicante, Almería, Granada, Huelva o Melilla, entre otras, superan la tasa media de España.
+             ''')
+
+    provincias = ['alava', 'albacete', 'alicante', 'almeria', 'asturias', 'avila', 'badajoz',
+                              'barcelona', 'burgos', 'caceres', 'cadiz', 'cantabria', 'castellon', 'ciudad real',
+                              'cordoba', 'cuenca', 'gerona', 'granada', 'guadalajara', 'guipuzcoa', 'huelva',
+                              'huesca', 'islas baleares', 'jaen', 'coruña', 'rioja', 'las palmas', 'leon',
+                              'lerida', 'lugo', 'madrid', 'malaga', 'melilla', 'murcia', 'navarra', 'orense',
+                              'palencia', 'pontevedra', 'salamanca', 'santa cruz de tenerife', 'segovia', 'sevilla',
+                              'soria', 'tarragona', 'teruel', 'toledo', 'valencia', 'valladolid', 'vizcaya',
+                              'zamora', 'zaragoza']    
+    
+    # GRÁFICO 1. TASA DE DENUNCIAS POR CADA MIL MUJERES POR PROVINCIA
+    denu_combi = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/denu_combi.csv')
+    provincias = denu_combi['provincia'].unique()
+    provincia_seleccionada = st.selectbox('Selecciona una provincia:', provincias)
+    pro = denu_combi[denu_combi['provincia'] == provincia_seleccionada]
+    media_total = denu_combi.groupby('año')['tasa_por_1000'].mean().reset_index()
+
+    # Filtramos ya que no hay datos posteriores para el total de la población
+    pro = pro[pro['año'] <= 2021]
+    media_total = media_total[media_total['año'] <= 2021]
+
+    # Creamos el gráfico de barras para la provincia
+    bars = alt.Chart(pro).mark_bar(color='pink').encode(
+        x='año:O',
+        y='tasa_por_1000:Q',
+        tooltip=['tasa_por_1000:Q']
+    ).properties(width=800, height=500)
+
+    # Línea para la media total de España
+    line = alt.Chart(media_total).mark_line(color='purple', strokeDash=[5, 5]).encode(
+        x='año:O',
+        y='tasa_por_1000:Q'
+    )
+
+    # Configuración del diseño del gráfico
+    chart = (bars + line).properties(
+        title=f'Evolución de la tasa de denuncias por violencia de género en {provincia_seleccionada.capitalize()} y media de España'
+    )
+
+    st.altair_chart(chart)
+
+    st.text('   ')
+
+    # GRAFICO 2. DENUNCIAS POR TRIMESTRE
+    denu = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/denuncias.csv')
+    df_filtered = denu[(denu['año'] >= 2008) & (denu['año'] <= 2022)]
+    
+    # Crear el gráfico de líneas
+    plt.figure(figsize=(6, 3))
+    sns.lineplot(x='año', y='total_denuncias', hue='trimestre', palette=['#C378FA', '#F9B0E4', '#FDC148', '#87CEFA'],
+                data=df_filtered, marker='o', markersize=3, err_style=None)
+
+    # Configuración adicional
+    plt.xlabel('Año', color='gray', fontsize=8)
+    plt.ylabel('Total de Denuncias por VG', color='gray', fontsize=8)
+
+    # Ajustar tamaño de leyenda
+    plt.legend(fontsize=6)
+
+    # Ajustar tamaño de etiquetas en los ejes
+    plt.tick_params(axis='both', which='both', labelsize=6, color='gray')
+
+    plt.title('')  # Eliminar el título
+
+    # Eliminar bordes
+    sns.despine()
+
+    # Guardar el gráfico con fondo transparente
+    st.pyplot(plt, transparent=True)
 def llamadas():
     st.title('Llamadas recibidas por el 016')
     st.write('Esta es la página de información sobre llamadas al 016.')
