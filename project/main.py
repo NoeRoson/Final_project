@@ -1,3 +1,5 @@
+# ---IMPORTAMOS LIBRERIAS NECESARIAS---
+
 import streamlit as st
 import pandas as pd
 from PIL import Image
@@ -6,11 +8,12 @@ import numpy as np
 import altair as alt
 
 
-# Aquí cargar imagenes e iconos:
+# ---IMAGENES---
 
-mano = Image.open('../img/mano.jpeg')
+espalda = Image.open('/Users/noeliarosonmartin/Ironhack/final_project_viodata/img/vio.jpeg')
 
-# CONFIGURACION DE LA PAGINA:
+
+# ---CONFIGURACION DE LA PAGINA---
 
 st.set_page_config(
     page_title="VioData",
@@ -20,27 +23,78 @@ st.set_page_config(
 )
 
 
-st.title('VioData: Violencia de género en datos')
+# ---CUERPO DE LA PAGINA---
+
+st.header('VioData: Violencia de género en datos', divider='rainbow')
 
 def home():
 
-    # Creamos dos columnas
     col1, col2 = st.columns(2)
 
-    # Contenido de la primera columna
+    # ---COLUMNA 1---
+
     with col1:
-        st.markdown('<span style="color:#9777e8; font-size: 18px;">#niunamás</span>', unsafe_allow_html=True)
-        st.markdown('<span style="font-size: 24px;">¡Bienvenida a VioData!</span>', unsafe_allow_html=True)
-        st.markdown('''
-                    <span style="font-size: 18px;>La nueva plataforma para dar a conocer todos los datos disponibles 
-                    sobre la violencia de género en España.</span>
-                    ''', unsafe_allow_html=True)
+        st.markdown('<span style="color:#9777e8; font-size: 18px; font-weight: bold; ">#niunamás</span>', unsafe_allow_html=True)
+        st.markdown('<span style="font-size: 24px;font-weight: bold; ">¡Bienvenidxs a VioData!</span>', unsafe_allow_html=True)
+        st.markdown(
+    f"""
+    <div style='text-align: justify;'>
+        <h6 style='font-size: 18px; color: #4D458E;'> Tu nueva plataforma para interactuar con todos los datos disponibles 
+        sobre la violencia de género en España 📊
+        </h6>
+        <h6 style='font-size: 16px; color: #4D458E;'> En este espacio, nos embarcamos en un viaje de conciencia 
+        y acción contra la violencia de género, desde una perspectiva feminista. Reconocemos la urgencia de abordar esta trágica realidad 
+        que afecta a mujeres en todo el mundo y estamos comprometidas a ser agentes de cambio.
+        </h6>
+        <h6 style='font-size: 16px; color: #4D458E;'> Este espacio no solo es un depósito de información, sino también una llamada a la acción. 
+        Creemos en la importancia de la concienciación como primer paso hacia un cambio real. Queremos empoderarte con el conocimiento necesario 
+        para desafiar y transformar las normas sociales que perpetúan la violencia de género.
+        </h6>
+        <h6 style='font-size: 16px; color: #4D458E;'> A través del análisis analítico y la difusión de recursos de prevención, aspiramos a crear 
+        una comunidad comprometida con la erradicación de la violencia de género. Cada estadística contribuye a 
+        nuestro objetivo colectivo de construir un mundo donde todas las personas, independientemente de su género, vivan libres de miedo y violencia.
+        </h6>
+        <h6 style='font-size: 16px; color: #4D458E;'> Únete a nosotras en este viaje. Juntas, estamos tejiendo una red de apoyo, solidaridad y resistencia 
+        que desafiará y cambiará el status quo. La violencia de género no tiene cabida en nuestro futuro, y trabajaremos incansablemente hasta que sea una realidad para todas y todos.
+        </h6>
+        <h6 style='font-size: 20px; color: #4D458E;'>¿Nos acompañas?♀︎
+        </h6>
+    </div>
+    """, 
+    unsafe_allow_html=True)
+   
 
-    # Contenido de la segunda columna
+
+    # ---COLUMNA 2---
+
     with col2:
-        st.image('../img/mano.jpeg', width = 500)
 
+        st.markdown(
+    """
+        <div style='background-color: #B177BB; padding: 10px; border-radius: 5px;text-align: center;'>
+        <p style='color: #E2BBFA; font-weight: bold;'>ULTIMA ACTUALIZACIÓN:</p>
+        <p style='color: #E2BBFA; font-weight: bold;font-size: 20px'>¿Sabías que desde 2003 son 1237 las mujeres asesinadas por violencia machista?</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+        st.text("  ")
+        st.image(espalda, width = 500)
+        
+        st.text("  ")
+       
+        st.markdown(
+        """
+        <div style='background-color: #B177BB; padding: 5px; border-radius: 3px;text-align: center;'>
+        <p style='color: #E2BBFA; font-weight: bold;'>SÚSCRIBETE AQUÍ PARA MÁS RECIBIR MÁS INFORMACIÓN SOBRE VIOLENCIA DE GÉNERO</p>
+        <button style='background-color: #80048C; color: #9777e8; border: 2px solid #340252; padding: 5px; border-radius: 3px; font-weight: bold; '>¡Pulsa!</button>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
 
+    
+# --- ESTRUCTURA MENU LATERAL---
 
 def denuncias():
     st.title('Denuncias por violencia de género')
@@ -78,7 +132,7 @@ def info():
     st.title('Más información sobre la violencia de género')
     st.write('Aquí puedes encontrar información adicional sobre violencia de género')
 
-# Crear un diccionario que asocie nombres de página con funciones de página
+
 pages = {
     'Bienvenid@': home,
     'Denuncias por violencia de género': denuncias,
@@ -94,13 +148,20 @@ rec = {
     'Más información': info}
 
 # Título en el menú lateral
-st.sidebar.title('VIODATA')
+st.sidebar.markdown('<span style="color: #511973; font-size: 24px; font-weight: bold;">VIODATA 🟣</span>', unsafe_allow_html=True)
 
-# Selección de la página principal
-selected_page_main = st.sidebar.selectbox('Despliega para saber más', list(pages.keys()))
+# Selección de la página principal con estilo personalizado
+st.sidebar.markdown('<span style="color: #511973; font-size: 18px; font-weight: bold;">¿Qué quieres saber hoy?</span>', unsafe_allow_html=True)
+selected_page_main = st.sidebar.selectbox('Elige una opción:', list(pages.keys()))
 
-# Selección de la página de recursos
-selected_page_rec = st.sidebar.selectbox('¿Qué puedes hacer frente a la Violencia de Género?', list(rec.keys()))
+# Línea divisoria con estilo personalizado
+st.sidebar.markdown('<hr style="border-color: #511973;">', unsafe_allow_html=True)
+
+# Selección de la página de recursos con estilo personalizado
+selected_page_rec = st.sidebar.selectbox('¿QUÉ PUEDES HACER CONTRA LA VIOLENCIA DE GÉNERO?', list(rec.keys()))
+
+# Línea divisoria con estilo personalizado
+st.sidebar.markdown('<hr style="border-color: #511973;">', unsafe_allow_html=True)
 
 # Obtener la función de la página seleccionada y ejecutarla
 if selected_page_main in pages:
