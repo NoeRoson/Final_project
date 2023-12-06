@@ -224,13 +224,13 @@ def llamadas():
     media_total = media_total[media_total['año'] <= 2021]
 
     # Creamos el gráfico de barras para la provincia
-    bars = alt.Chart(pro).mark_bar(color='lightsteelblue').encode(
+    bars = alt.Chart(pro).mark_bar(color='#EDBB99').encode(
         x='año:O',
         y='tasa_por_1000:Q',
         tooltip=['tasa_por_1000:Q']).properties(width=1000, height=600)
 
     # Línea para la media total de España
-    line = alt.Chart(media_total).mark_line(color='purple', strokeDash=[5, 5]).encode(
+    line = alt.Chart(media_total).mark_line(color='#16A085', strokeDash=[5, 5]).encode(
         x='año:O',
         y='tasa_por_1000:Q')
 
@@ -267,7 +267,7 @@ def llamadas():
                 labels={'value': 'Media', 'variable': 'Tipo'},
                 title='Evolución de las denuncias por violencia de género y llamadas al 016 por año',
                 markers={'total_llamadas': 'circle', 'total_denuncias': 'x'},
-                color_discrete_sequence=['#C884D1', 'cornflowerblue'])
+                color_discrete_sequence=['#EDBB99', 'cornflowerblue'])
 
     # Diseño del gráfico
     fig.update_layout(xaxis_title='Año', yaxis_title='Media', legend=dict(orientation='h'),
@@ -466,6 +466,44 @@ def menores():
 def proteccion():
     st.title('Protección a las Víctimas')
     st.write('Información sobre órdenes de protección y dispositivos de seguimiento.')
+
+    ord = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/ordenes_prot.csv')
+    provincias = ord['provincia'].unique()
+    provincia_seleccionada = st.selectbox('Selecciona una provincia:', provincias)
+    pro = ord[ord['provincia'] == provincia_seleccionada]
+    media_total = pro['numero_ordenes_proteccion'].mean()
+
+    # Creamos el gráfico de barras para la provincia
+    bars = alt.Chart(pro).mark_bar(color='#A2D9CE').encode(
+    x='año:O',
+    y='mean(numero_ordenes_proteccion):Q',
+    tooltip=['año:N', alt.Tooltip('mean(numero_ordenes_proteccion):Q', title='Número de Órdenes de Protección')]
+    ).properties(
+        width=1000,
+        height=600,
+        title='Evolución anual del número de órdenes de Protección por Provincia'
+    )
+
+    # Línea para la media total de España
+    line = alt.Chart(pro).mark_line(color='#D35400', strokeDash=[5, 5]).encode(
+        x='año:O',
+        y='mean(numero_ordenes_proteccion):Q'
+    )
+
+    # Configuración del diseño del gráfico
+    chart = (bars + line).properties(
+        title=f'Evolución de las órdenes de protección interpuestas en {provincia_seleccionada.capitalize()} y media de España:'
+    ).configure_axis(
+        labelFontSize=12,
+        titleFontSize=14
+    ).configure_title(
+        fontSize=16
+    ).configure_legend(
+        title=None
+    )
+
+    st.altair_chart(chart, use_container_width=True)
+
 
 def delitos():
     st.title('Tipología de delitos en materia de violencia de género')
