@@ -30,7 +30,7 @@ st.set_page_config(
     initial_sidebar_state = 'expanded',)
 
 
-# ---CUERPO DE LA PAGINA---
+# ---CUERPO DE LA PÁGINA PRINCIPAL---
 
 st.header('VioData: Violencia de género en datos', divider='rainbow')
 
@@ -99,10 +99,14 @@ def home():
         unsafe_allow_html=True)
 
     
+
+
 # --- ESTRUCTURA INTERNA DEL CONTENIDO DEL MENU LATERAL---
 
-# --- PAGINA 1. DENUNCIAS DE VIOLENCIA DE GENERO---
 
+# ---------MENÚ LATERAL 1----------
+
+# --- PAGINA 1. DENUNCIAS DE VIOLENCIA DE GENERO---
 
 def denuncias():
 
@@ -244,6 +248,7 @@ def llamadas():
 
     st.divider()
 
+
     # ---GRAFICO 2.B. LLAMADAS AL 016 Y DENUNCIAS POR AÑO ---
 
 
@@ -281,6 +286,7 @@ def llamadas():
 
     st.divider()
 
+
     # ---GRAFICO 2.C. LLAMADAS AL 016 SEGÚN PERSONA LLAMANTE ---
 
     llam = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/llamadas016.csv')
@@ -302,6 +308,7 @@ def llamadas():
     st.plotly_chart(fig)
 
 
+# --- PAGINA 3. VICTIMAS DE VIOLENCIA DE GENERO---
 
 def victimas():
     st.title('Mujeres asesinadas por violencia de género')
@@ -311,7 +318,7 @@ def victimas():
     estos años.
     ''')
 
-    # GRAFICO 3.A. VICTIMAS COMBINADO:
+    # ---GRAFICO 3.A. VICTIMAS COMBINADO---
     
     # Cargar datos
     vic = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/victimas_mortales.csv')
@@ -362,7 +369,8 @@ def victimas():
 
     st.divider()
 
-    #--GRAFICO 3.B. DISTRIBUCIÓN VÍCTIMAS MORTALES POR TRIMESTRE Y PROVINCIA
+
+    #--GRAFICO 3.B. DISTRIBUCIÓN VÍCTIMAS MORTALES POR TRIMESTRE Y PROVINCIA---
 
     # Filtrar por provincia
     provincia_seleccionada = st.selectbox('Selecciona una provincia:', vic['provincia'].unique())
@@ -411,6 +419,7 @@ def victimas():
     st.plotly_chart(fig)
    
 
+# ---PAGINA 4. MENORES---
 
 def menores():
     st.title('Menores asesinados por violencia de género')
@@ -461,6 +470,7 @@ def menores():
     st.plotly_chart(fig)
 
 
+# ---PAGINA 5. PROTECCION Y TIPOS DE DELITOS---
 
 def prote_tipos():
     st.title('Protección a las víctimas y tipología de delitos')
@@ -524,11 +534,15 @@ def prote_tipos():
     st.altair_chart(bars)
         
 
+
+# ---PAGINA 6. COMBINACIONES---
+
 def datos_combinados():
     st.title('Combinación')
     st.write('Información sobre combinaciones.')
     
 
+# --GRAFICOS COMBINADOS LLAMADAS, DENUNCIAS, VICTIMAS Y FESTIVOS--
 
     datos = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/llam_denu_vic.csv')
 
@@ -543,20 +557,21 @@ def datos_combinados():
 
     with col1:
 
-        
-
-        # Agrupar los datos por trimestre
+        # Agrupamos los datos por trimestre
         datos_agrupados = datos_provincia.groupby('trimestre').agg({
             'total_denuncias': 'mean',
             'total_llamadas': 'mean',
             'total_victimas_mortales': 'mean'
         }).reset_index()
 
-        # Crear gráficos individuales
+        # --GRAFICO 6.A. DENUNCIAS--
+
         fig_denuncias = px.line(datos_agrupados, x='trimestre', y='total_denuncias', labels={'total_denuncias': 'Total de Denuncias'},
                                 title=f'Denuncias en {provincia_seleccionada.capitalize()} por trimestre')
 
         st.plotly_chart(fig_denuncias, use_container_width=True)
+
+        # --GRAFICO 6.B. LLAMADAS 016--
 
         fig_llamadas = px.line(datos_agrupados, x='trimestre', y='total_llamadas', labels={'total_llamadas': 'Total de Llamadas'},
                             title=f'Llamadas al 016 en {provincia_seleccionada.capitalize()} por trimestre')
@@ -567,10 +582,14 @@ def datos_combinados():
 
     with col2:
 
+        # --GRAFICO 6.C. LLAMADAS 016--
 
         fig_victimas = px.line(datos_agrupados, x='trimestre', y='total_victimas_mortales', labels={'total_victimas_mortales': 'Total de Víctimas Mortales'},
                             title=f'Víctimas Mortales en {provincia_seleccionada.capitalize()} por trimestre')
         st.plotly_chart(fig_victimas, use_container_width=True)
+
+        
+        # --GRAFICO 6.D. LLAMADAS 016--
 
         fest = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/fest_melted.csv')
         # Agrupar los datos por trimestre
@@ -584,6 +603,12 @@ def datos_combinados():
         fig_festivos.update_traces(line=dict(dash='solid'))
 
         st.plotly_chart(fig_festivos, use_container_width=True)
+
+
+
+
+
+# ---------MENÚ LATERAL 2----------
 
 def recursos():
     st.title('Recursos en tu ciudad')
@@ -622,6 +647,11 @@ def info():
     st.write('Aquí puedes encontrar información adicional sobre violencia de género')
 
 
+
+
+# ----ESTRUCTURA DEL MENÚ LATERAL----
+
+
 pages = {
     'Página principal': home,
     'Denuncias por violencia de género': denuncias,
@@ -640,24 +670,18 @@ rec = {
 # Título en el menú lateral
 st.sidebar.markdown('<span style="color: #511973; font-size: 24px; font-weight: bold;">VIODATA 🟣</span>', unsafe_allow_html=True)
 
-# Selección de la página principal con estilo personalizado
+# Selección del menú principal
 st.sidebar.markdown('<span style="color: #511973; font-size: 18px; font-weight: bold;">¿Qué quieres saber hoy?</span>', unsafe_allow_html=True)
 selected_page_main = st.sidebar.selectbox('Elige una opción:', list(pages.keys()))
 
-# Línea divisoria con estilo personalizado
+# Línea divisoria
 st.sidebar.markdown('<hr style="border-color: #511973;">', unsafe_allow_html=True)
 
-# Selección de la página de recursos con estilo personalizado
-selected_page_rec = st.sidebar.selectbox('¿QUÉ PUEDES HACER CONTRA LA VIOLENCIA DE GÉNERO?', list(rec.keys()))
-
-# Línea divisoria con estilo personalizado
-st.sidebar.markdown('<hr style="border-color: #511973;">', unsafe_allow_html=True)
+# Selección de la página de recursos
+selected_page_rec = st.sidebar.radio('¿QUÉ PUEDES HACER CONTRA LA VIOLENCIA DE GÉNERO?', list(rec.keys()))
 
 # Obtener la función de la página seleccionada y ejecutarla
 if selected_page_main in pages:
     pages[selected_page_main]()
 elif selected_page_rec in rec:
     rec[selected_page_rec]()
-
-
-
