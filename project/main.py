@@ -80,7 +80,7 @@ def home():
     """
         <div style='background-color: #CDB3DC; padding: 10px; border-radius: 5px;text-align: center;'>
         <p style='color: #4757BB; font-weight: bold;'>ULTIMA ACTUALIZACIÓN:</p>
-        <p style='color: #511973; font-weight: bold;font-size: 20px'>¿Sabías que desde 2003 son 1237 las mujeres asesinadas por violencia machista?</p>
+        <p style='color: #511973; font-weight: bold;font-size: 20px'>¿Sabías que desde 2003 son 1237 las mujeres y desde 2013, 50 menores asesinados por la violencia machista?</p>
         </div>
         """,
         unsafe_allow_html=True)
@@ -303,13 +303,56 @@ def llamadas():
 
 
 
-
-
-
 def victimas():
     st.title('Información sobre víctimas por violencia de género')
     st.write('Aquí te mostramos datos sobre víctimas mujeres y menores.')
 
+
+    # GRAFICO 3.A. VICTIMAS COMBINADO:
+    
+    # Cargar datos
+    vic = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/victimas_mortales.csv')
+
+    # Crear una lista con las columnas que puedes usar como filtros
+    filtros_disponibles = ['pareja', 'convivencia', 'suicidio', 'denuncia', 'edad_agresor',
+                            'edad_victima', 'nacimiento_agresor', 'nacimiento_victima']
+
+    # Diccionario de nombres de columnas personalizados
+    filtros = {
+        'pareja': '¿Eran pareja?',
+        'convivencia': '¿Había convivencia?',
+        'suicidio': '¿Hubo suicidio?',
+        'denuncia': '¿Existía denuncia previa?',
+        'edad_agresor': 'Rango de edad Agresor',
+        'edad_victima': 'Rango de edad Víctima',
+        'nacimiento_agresor': 'Procedencia Agresor',
+        'nacimiento_victima': 'Procedencia Víctima'}
+    
+    # Crear una lista con las columnas que puedes usar como filtros
+    filtros_disponibles = list(filtros.values())
+
+    # Agregar un widget de selección para que el usuario elija el filtro
+    filtros_nuevos = st.selectbox('Selecciona un filtro:', filtros_disponibles)
+
+    # Encontrar la clave correspondiente al valor seleccionado
+    filtro_seleccionado = next(key for key, value in filtros.items() if value == filtros_nuevos)
+
+    # Ordenar las edades de manera lógica
+    orden_edades = ['<16', '16-17', '18-20', '21-30', '31-40', '41-50', '51-60', '61-70', '71-84', '81-90', '>=85', 'desconocido']
+
+    # Crear el gráfico utilizando Plotly Express
+    fig = px.bar(vic, x='año', y='total_victimas_mortales', color=filtro_seleccionado,
+                labels={'total_victimas_mortales': 'Total de mujeres asesinadas'},
+                title=f'Evolución anual de mujeres asesinadas según filtro seleccionado',
+                width=1000, height=600, category_orders={'edad_agresor': orden_edades, 'edad_victima': orden_edades})
+
+    # Diseño del gráfico
+    fig.update_layout(xaxis_title='Año', yaxis_title='Total de mujeres asesinadas')
+
+    # Mostrar gráfico en Streamlit
+    st.plotly_chart(fig)
+
+#------------------------------------------
     # --GRAFICO DE PRUEBA PARA NORMATIVAS--
     norm = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/scrapeo/norm.csv')
     norm['normativas_presentes'] = norm['total_normativas'].apply(lambda x: 'Sí' if x > 0 else 'No')
@@ -320,7 +363,8 @@ def victimas():
                     labels={'año': 'Año', 'normativas_presentes': '¿Hubo normativa?'},
                     title='Presencia de Normativas por Año y Comunidad Autónoma',
                     category_orders={'normativas_presentes': ['Sí', 'No']},
-                    width=1000, height=600)
+                    width=1000, height=600,
+                    color_discrete_sequence=['mediumslateblue', 'darkseagreen', 'lightsteelblue'])
 
     # Diseño del gráfico
     fig.update_layout(xaxis_title='Año', yaxis_title='Número de Comunidades Autónomas',
@@ -331,12 +375,7 @@ def victimas():
 
     st.plotly_chart(fig)
 
-    st.text('   ')
-
-    st.divider()
-
-    #--GRAFICO 3.A. 
-    vic = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/victimas_mortales.csv')
+    #--GRAFICO 3.B. DISTRIBUCIÓN VÍCTIMAS MORTALES POR TRIMESTRE Y PROVINCIA
 
     # Filtrar por provincia
     provincia_seleccionada = st.selectbox('Selecciona una provincia:', vic['provincia'].unique())
@@ -345,8 +384,10 @@ def victimas():
     # Crear gráfico interactivo con Plotly Express
     fig = px.bar(df_provincia, x='año', y='total_victimas_mortales', color='trimestre',
                 labels={'total_victimas_mortales': 'Víctimas Mortales', 'año': 'Año'},
-                title=f'Distribución de Víctimas Mortales por Trimestre y Año en {provincia_seleccionada}',
-                barmode='stack')
+                title=f'Distribución de Víctimas Mortales por Trimestre y Año en {provincia_seleccionada.capitalize()}',
+                barmode='stack',
+                width=1000, height=600,
+                color_discrete_sequence=['cornflowerblue', 'plum', 'darkseagreen', 'darkorchid'])
 
     # Diseño del gráfico
     fig.update_layout(xaxis_title='Año', yaxis_title='Víctimas Mortales')
@@ -354,22 +395,14 @@ def victimas():
     # Mostrar gráfico en Streamlit
     st.plotly_chart(fig)
 
+    st.text('   ')
+
+    st.divider()
 
 
 
-
-
-    # Crear gráfico interactivo con Plotly Express
-    fig = px.bar(df_provincia, x='año', y='total_victimas_mortales',
-                labels={'total_victimas_mortales': 'Total de mujeres asesinadas', 'año': 'Año'},
-                title=f'Evolución Anual de mujeres asesinadas en {provincia_seleccionada}')
-
-    # Diseño del gráfico
-    fig.update_layout(xaxis_title='Año', yaxis_title='Total de mujeres asesinadas')
-
-    # Mostrar gráfico en Streamlit
-    st.plotly_chart(fig)
-
+   
+    
 def proteccion():
     st.title('Protección a las Víctimas')
     st.write('Información sobre órdenes de protección y dispositivos de seguimiento.')
