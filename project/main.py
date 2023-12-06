@@ -78,9 +78,9 @@ def home():
 
         st.markdown(
     """
-        <div style='background-color: #CDB3DC; padding: 10px; border-radius: 5px;text-align: center;'>
-        <p style='color: #4757BB; font-weight: bold;'>ULTIMA ACTUALIZACIÓN:</p>
-        <p style='color: #511973; font-weight: bold;font-size: 20px'>¿Sabías que desde 2003 son 1237 las mujeres y desde 2013, 50 menores asesinados por la violencia machista?</p>
+        <div style='background-color: #E9B1EC; padding: 10px; border-radius: 5px;text-align: center;'>
+        <p style='color: #4D458E; font-weight: bold;'>ULTIMA ACTUALIZACIÓN:</p>
+        <p style='color: #4757BB; font-weight: bold;font-size: 20px'>¿Sabías que van 1237 asesinatos de mujeres desde 2003 y 50 de menores desde 2013?</p>
         </div>
         """,
         unsafe_allow_html=True)
@@ -91,9 +91,9 @@ def home():
        
         st.markdown(
         """
-        <div style='background-color: #CDB3DC; padding: 5px; border-radius: 3px;text-align: center;'>
-        <p style='color: #511973; font-weight: bold;'>SÚSCRIBETE AQUÍ PARA MÁS RECIBIR MÁS INFORMACIÓN SOBRE VIOLENCIA DE GÉNERO</p>
-        <button style='background-color: #4757BB; color: #E9D6F3; border: 2px solid #340252; padding: 5px; border-radius: 3px; font-weight: bold; '>¡Pulsa!</button>
+        <div style='background-color: #E9B1EC; padding: 5px; border-radius: 3px;text-align: center;'>
+        <p style='color: #4757BB; font-weight: bold;'>SÚSCRIBETE AQUÍ PARA MÁS RECIBIR MÁS INFORMACIÓN SOBRE VIOLENCIA DE GÉNERO</p>
+        <button style='background-color: #9777e8; color: #E9D6F3; border: 2px solid #340252; padding: 5px; border-radius: 3px; font-weight: bold; '>¡Pulsa!</button>
         </div>
         """,
         unsafe_allow_html=True)
@@ -340,11 +340,14 @@ def victimas():
     # Ordenar las edades de manera lógica
     orden_edades = ['<16', '16-17', '18-20', '21-30', '31-40', '41-50', '51-60', '61-70', '71-84', '81-90', '>=85', 'desconocido']
 
-    # Crear el gráfico utilizando Plotly Express
+    # Elegimos los colores:
+    colores = ['#FEB4D2', '#F8A1C4', '#F580AB', '#F15C93', '#EB3A7B', '#E81863', '#DC0052', '#C50042', '#AC0032', '#920021', '#631333']
     fig = px.bar(vic, x='año', y='total_victimas_mortales', color=filtro_seleccionado,
-                labels={'total_victimas_mortales': 'Total de mujeres asesinadas'},
-                title=f'Evolución anual de mujeres asesinadas según filtro seleccionado',
-                width=1000, height=600, category_orders={'edad_agresor': orden_edades, 'edad_victima': orden_edades})
+    labels={'total_victimas_mortales': 'Total de mujeres asesinadas'},
+    title=f'Evolución anual de mujeres asesinadas según filtro seleccionado',
+    width=1000, height=600, 
+    category_orders={'edad_agresor': orden_edades, 'edad_victima': orden_edades},
+    color_discrete_sequence=colores)
 
     # Diseño del gráfico
     fig.update_layout(xaxis_title='Año', yaxis_title='Total de mujeres asesinadas')
