@@ -527,43 +527,63 @@ def prote_tipos():
 def datos_combinados():
     st.title('Combinación')
     st.write('Información sobre combinaciones.')
+    
 
 
-    datos = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/llam_denu_fest_vic.csv')
+    datos = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/llam_denu_vic.csv')
 
     # Widget para seleccionar la provincia
     provincias = datos['provincia'].unique()
     provincia_seleccionada = st.selectbox('Selecciona una provincia:', provincias)
     datos_provincia = datos[datos['provincia'] == provincia_seleccionada]
 
-    # Agrupar los datos por trimestre
-    datos_agrupados = datos_provincia.groupby('trimestre').agg({
-        'total_denuncias': 'mean',
-        'total_llamadas': 'mean',
-        'total_victimas_mortales': 'mean',
-        'total_festivos': 'mean'
-    }).reset_index()
+    col1, col2 = st.columns(2)
 
-    # Crear gráficos individuales
-    fig_denuncias = px.line(datos_agrupados, x='trimestre', y='total_denuncias', labels={'total_denuncias': 'Total de Denuncias'},
-                            title=f'Denuncias en {provincia_seleccionada.capitalize()} por trimestre')
+    # ---COLUMNA 1---
 
-    fig_llamadas = px.line(datos_agrupados, x='trimestre', y='total_llamadas', labels={'total_llamadas': 'Total de Llamadas'},
-                        title=f'Llamadas en {provincia_seleccionada.capitalize()} por trimestre')
+    with col1:
 
-    fig_victimas = px.line(datos_agrupados, x='trimestre', y='total_victimas_mortales', labels={'total_victimas_mortales': 'Total de Víctimas Mortales'},
-                        title=f'Víctimas Mortales en {provincia_seleccionada.capitalize()} por trimestre')
+        
 
-    fig_festivos = px.line(datos_agrupados, x='trimestre', y='total_festivos', labels={'total_festivos': 'Total de Festivos'},
-                        title=f'Festivos en {provincia_seleccionada.capitalize()} por trimestre')
+        # Agrupar los datos por trimestre
+        datos_agrupados = datos_provincia.groupby('trimestre').agg({
+            'total_denuncias': 'mean',
+            'total_llamadas': 'mean',
+            'total_victimas_mortales': 'mean'
+        }).reset_index()
 
-    
-    st.plotly_chart(fig_denuncias, use_container_width=True)
-    st.plotly_chart(fig_llamadas, use_container_width=True)
+        # Crear gráficos individuales
+        fig_denuncias = px.line(datos_agrupados, x='trimestre', y='total_denuncias', labels={'total_denuncias': 'Total de Denuncias'},
+                                title=f'Denuncias en {provincia_seleccionada.capitalize()} por trimestre')
 
-    st.plotly_chart(fig_victimas, use_container_width=True)
-    st.plotly_chart(fig_festivos, use_container_width=True)
-  
+        st.plotly_chart(fig_denuncias, use_container_width=True)
+
+        fig_llamadas = px.line(datos_agrupados, x='trimestre', y='total_llamadas', labels={'total_llamadas': 'Total de Llamadas'},
+                            title=f'Llamadas al 016 en {provincia_seleccionada.capitalize()} por trimestre')
+
+        st.plotly_chart(fig_llamadas, use_container_width=True)
+
+
+
+    with col2:
+
+
+        fig_victimas = px.line(datos_agrupados, x='trimestre', y='total_victimas_mortales', labels={'total_victimas_mortales': 'Total de Víctimas Mortales'},
+                            title=f'Víctimas Mortales en {provincia_seleccionada.capitalize()} por trimestre')
+        st.plotly_chart(fig_victimas, use_container_width=True)
+
+        fest = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/fest_melted.csv')
+        # Agrupar los datos por trimestre
+        group = fest.groupby('trimestre').agg({
+        'total_festivos': 'sum'
+        }).reset_index()
+        fig_festivos = px.line(group, x='trimestre', y='total_festivos', labels={'total_festivos': 'Total de Festivos'},
+                            title=f'Festivos en {provincia_seleccionada.capitalize()} por trimestre')
+        
+        # Configurar la línea para que sea horizontal
+        fig_festivos.update_traces(line=dict(dash='solid'))
+
+        st.plotly_chart(fig_festivos, use_container_width=True)
 
 def recursos():
     st.title('Recursos en tu ciudad')
