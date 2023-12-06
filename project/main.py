@@ -16,6 +16,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 
+
+
 # ---IMAGENES---
 
 espalda = Image.open('/Users/noeliarosonmartin/Ironhack/final_project_viodata/img/vio.jpeg')
@@ -394,29 +396,6 @@ def victimas():
 
     st.divider()
 
-
-#------------------------------------------
-    # --GRAFICO DE PRUEBA PARA NORMATIVAS--
-    norm = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/scrapeo/norm.csv')
-    norm['normativas_presentes'] = norm['total_normativas'].apply(lambda x: 'Sí' if x > 0 else 'No')
-
-
-    # Creamos el gráfico interactivo con Plotly Express
-    fig = px.histogram(norm, x='año', color='normativas_presentes',
-                    labels={'año': 'Año', 'normativas_presentes': '¿Hubo normativa?'},
-                    title='Presencia de Normativas por Año y Comunidad Autónoma',
-                    category_orders={'normativas_presentes': ['Sí', 'No']},
-                    width=1000, height=600,
-                    color_discrete_sequence=['#AED6F1', '#F5B7B1'])
-
-    # Diseño del gráfico
-    fig.update_layout(xaxis_title='Año', yaxis_title='Número de Comunidades Autónomas',
-                    legend_title='¿Hubo normativa ese año?',
-                    legend=dict(orientation='h', y=-0.15, x=0.5),  # Ajustamos la posición de la leyenda
-                    barmode='group')  # Mostrar barras agrupadas
-
-
-    st.plotly_chart(fig)
    
 
 # ---PAGINA 4. MENORES---
@@ -495,7 +474,7 @@ def prote_tipos():
     ).properties(
         width=1000,
         height=600,
-        title=f'Evolución anual del número de órdenes de protección en {provincia_seleccionada}'
+        title=f'Evolución anual del número de órdenes de protección en {provincia_seleccionada.capitalize()}'
     )
     
     st.altair_chart(bars, use_container_width=True)
@@ -535,10 +514,10 @@ def prote_tipos():
         
 
 
-# ---PAGINA 6. COMBINACIONES---
+# ---PAGINA 6. COMBINACIONES CON FESTIVOS---
 
 def datos_combinados():
-    st.title('Combinación')
+    st.title('Denuncias, llamadas 016, víctimas y festivos provinciales')
     st.write('Información sobre combinaciones.')
     
 
@@ -594,7 +573,7 @@ def datos_combinados():
         fest = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/fest_melted.csv')
         # Agrupar los datos por trimestre
         group = fest.groupby('trimestre').agg({
-        'total_festivos': 'sum'
+        'total_festivos': 'mean'
         }).reset_index()
         fig_festivos = px.line(group, x='trimestre', y='total_festivos', labels={'total_festivos': 'Total de Festivos'},
                             title=f'Festivos en {provincia_seleccionada.capitalize()} por trimestre')
@@ -606,41 +585,58 @@ def datos_combinados():
 
 
 
-
-
-# ---------MENÚ LATERAL 2----------
-
-def recursos():
-    st.title('Recursos en tu ciudad')
-    st.write('Aquí puedes encontrar información sobre recursos de prevención de la violencia de género')
-
-def denun():
-    st.title('¿Qué puedo hacer yo?')
-    st.write('Aquí puedes encontrar información sobre qué hacer si conoces un caso de violencia de género')
+# ---PAGINA 9. ---
 
 def normas():
     st.title('¿Qué normativas rigen en mi Comunidad Autónoma?')
     st.write('Aquí puedes encontrar información sobre las distintas normativas regionales en materia de violencia de género')
+    
     norm = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/scrapeo/norm.csv')
     norm['normativas_presentes'] = norm['total_normativas'].apply(lambda x: 'Sí' if x > 0 else 'No')
 
     # Creamos el gráfico interactivo con Plotly Express
     fig = px.histogram(norm, x='año', color='normativas_presentes',
-                    labels={'año': 'Año', 'normativas_presentes': 'Normativas Presentes'},
+                    labels={'año': 'Año', 'normativas_presentes': '¿Hubo normativa?'},
                     title='Presencia de Normativas por Año y Comunidad Autónoma',
-                    category_orders={'normativas_presentes': ['No', 'Sí']},
-                    width=800, height=500)
+                    category_orders={'normativas_presentes': ['Sí', 'No']},
+                    width=1000, height=600,
+                    color_discrete_sequence=['#AED6F1', '#F5B7B1'])
 
     # Diseño del gráfico
     fig.update_layout(xaxis_title='Año', yaxis_title='Número de Comunidades Autónomas',
-                    legend_title='Normativas Presentes',
-                    legend=dict(orientation='h', y=-0.15, x=0.5),  # Ajustar la posición de la leyenda
+                    legend_title='¿Hubo normativa ese año?',
+                    legend=dict(orientation='h', y=-0.15, x=0.5),  # Ajustamos la posición de la leyenda
                     barmode='group')  # Mostrar barras agrupadas
 
-    # Mostrar gráfico en Streamlit
+
     st.plotly_chart(fig)
 
+    st.text('   ')
+    st.divider()
 
+
+
+    col1, col2 = st.columns([2, 1])
+    
+    with col1:
+
+        top = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/scrapeo/top.csv')
+        selected_comunidad = st.selectbox('Selecciona una comunidad para saber cuántas normativas se han implementado en materia de violencia de género:', top['comunidad'])
+
+        # Filtrar el DataFrame según la comunidad seleccionada
+        selected_row = top[top['comunidad'] == selected_comunidad]
+
+    with col2:
+        
+        # Mostrar el resultado en un contenedor a la derecha
+        st.text('   ')
+        st.text('   ')
+        st.container()
+        st.write(f'Desde 2003 {selected_comunidad.capitalize()} ha implementado un total de {selected_row["total_normativas"].values[0]} normativas')
+    
+    
+    
+# ---PAGINA 10. ---
 
 def info():
     st.title('Más información sobre la violencia de género')
@@ -651,37 +647,28 @@ def info():
 
 # ----ESTRUCTURA DEL MENÚ LATERAL----
 
-
-pages = {
-    'Página principal': home,
+options = {
+    'Conoce este espacio': home,
     'Denuncias por violencia de género': denuncias,
     'Llamadas al 016': llamadas,
     'Mujeres víctimas': victimas,
     'Menores víctimas': menores,
     'Protección y tipología de delitos': prote_tipos,
-    'Combinaciones': datos_combinados}
-
-rec = {
-    'Recursos en tu ciudad': recursos,
-    '¿Qué hacer ante la violencia de género?': denun,
+    '¿Qué ocurre cuando hay festivos?': datos_combinados,
     'Normativas en materia de violencia de género': normas,
-    'Más información': info}
+    'Más información': info
+}
 
 # Título en el menú lateral
 st.sidebar.markdown('<span style="color: #511973; font-size: 24px; font-weight: bold;">VIODATA 🟣</span>', unsafe_allow_html=True)
 
 # Selección del menú principal
 st.sidebar.markdown('<span style="color: #511973; font-size: 18px; font-weight: bold;">¿Qué quieres saber hoy?</span>', unsafe_allow_html=True)
-selected_page_main = st.sidebar.selectbox('Elige una opción:', list(pages.keys()))
+selected_option = st.sidebar.radio('',list(options.keys()))
 
 # Línea divisoria
 st.sidebar.markdown('<hr style="border-color: #511973;">', unsafe_allow_html=True)
 
-# Selección de la página de recursos
-selected_page_rec = st.sidebar.radio('¿QUÉ PUEDES HACER CONTRA LA VIOLENCIA DE GÉNERO?', list(rec.keys()))
-
-# Obtener la función de la página seleccionada y ejecutarla
-if selected_page_main in pages:
-    pages[selected_page_main]()
-elif selected_page_rec in rec:
-    rec[selected_page_rec]()
+# Obtener la función de la opción seleccionada y ejecutarla
+if selected_option in options:
+    options[selected_option]()
