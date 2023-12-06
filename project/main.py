@@ -224,7 +224,7 @@ def llamadas():
     media_total = media_total[media_total['año'] <= 2021]
 
     # Creamos el gráfico de barras para la provincia
-    bars = alt.Chart(pro).mark_bar(color='#EDBB99').encode(
+    bars = alt.Chart(pro).mark_bar(color='#F5B7B1').encode(
         x='año:O',
         y='tasa_por_1000:Q',
         tooltip=['tasa_por_1000:Q']).properties(width=1000, height=600)
@@ -267,7 +267,7 @@ def llamadas():
                 labels={'value': 'Media', 'variable': 'Tipo'},
                 title='Evolución de las denuncias por violencia de género y llamadas al 016 por año',
                 markers={'total_llamadas': 'circle', 'total_denuncias': 'x'},
-                color_discrete_sequence=['#EDBB99', 'cornflowerblue'])
+                color_discrete_sequence=['#F1948A', 'cornflowerblue'])
 
     # Diseño del gráfico
     fig.update_layout(xaxis_title='Año', yaxis_title='Media', legend=dict(orientation='h'),
@@ -292,7 +292,7 @@ def llamadas():
                 title='Llamadas al 016 según la persona llamante',
                 category_orders={'llamante': sorted(df_filtered['llamante'].unique())},  # Orden personalizado para la leyenda
                 width=1000, height=600,
-                color_discrete_sequence=['lightsteelblue', 'cadetblue', '#C884D1'])
+                color_discrete_sequence=['#7FB3D5', '#A2D9CE', '#C39BD3'])
 
     # Diseño del gráfico
     fig.update_layout(xaxis_title='Año', yaxis_title='Total de Llamadas', legend_title='Llamante',
@@ -462,52 +462,88 @@ def menores():
 
 
 
+def prote_tipos():
+    st.title('Protección a las víctimas y tipología de delitos')
+    st.write('Información sobre órdenes de protección y tipos de delitos en materia de violencia de género.')
 
-def proteccion():
-    st.title('Protección a las Víctimas')
-    st.write('Información sobre órdenes de protección y dispositivos de seguimiento.')
 
+    # ---GRAFICO 5.A. ORDENES DE PROTECCION---
     ord = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/ordenes_prot.csv')
+
+    # Widget para seleccionar la provincia
     provincias = ord['provincia'].unique()
     provincia_seleccionada = st.selectbox('Selecciona una provincia:', provincias)
-    pro = ord[ord['provincia'] == provincia_seleccionada]
-    media_total = pro['numero_ordenes_proteccion'].mean()
 
-    # Creamos el gráfico de barras para la provincia
-    bars = alt.Chart(pro).mark_bar(color='#A2D9CE').encode(
+    # Filtrar datos según la provincia seleccionada
+    pro_ord = ord[ord['provincia'] == provincia_seleccionada]
+
+    # Gráfico de órdenes de protección
+    bars = alt.Chart(pro_ord).mark_bar(color='#A2D9CE').encode(
     x='año:O',
-    y='mean(numero_ordenes_proteccion):Q',
-    tooltip=['año:N', alt.Tooltip('mean(numero_ordenes_proteccion):Q', title='Número de Órdenes de Protección')]
+    y='numero_ordenes_proteccion:Q',
+    tooltip=['año:N', alt.Tooltip('numero_ordenes_proteccion:Q', title='Número de Órdenes de Protección')]
     ).properties(
         width=1000,
         height=600,
-        title='Evolución anual del número de órdenes de Protección por Provincia'
+        title=f'Evolución anual del número de órdenes de protección en {provincia_seleccionada}'
     )
+    
+    st.altair_chart(bars, use_container_width=True)
 
-    # Línea para la media total de España
-    line = alt.Chart(pro).mark_line(color='#D35400', strokeDash=[5, 5]).encode(
+    st.text('   ')
+    st.divider()
+
+    # ---GRAFICO 5.B.TIPOLOGIAS DELITOS---
+    
+    tipos = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/ine/tipos_violencias.csv')
+
+    comunidades = tipos['comunidad'].unique()
+    comunidad_seleccionada = st.selectbox('Selecciona una comunidad:', comunidades)
+
+    # Filtrar datos según la comunidad seleccionada
+    com = tipos[tipos['comunidad'] == comunidad_seleccionada]
+
+    # Pivotar el DataFrame para tener los tipos como columnas
+    com_pivot = com.pivot_table(index=['año'], columns=['tipo'], values='total', fill_value=0).reset_index()
+
+    # Convertir el DataFrame a formato largo para el gráfico
+    com_pivot_long = com_pivot.melt(id_vars='año', var_name='tipo', value_name='total')
+
+    # Gráfico de barras
+    bars = alt.Chart(com_pivot_long).mark_bar().encode(
         x='año:O',
-        y='mean(numero_ordenes_proteccion):Q'
-    )
+        y='total:Q',
+        color='tipo:N',
+        tooltip=['año:N', 'tipo:N', 'total:Q']
+    ).properties(width=1000, height=600)
 
-    # Configuración del diseño del gráfico
-    chart = (bars + line).properties(
-        title=f'Evolución de las órdenes de protección interpuestas en {provincia_seleccionada.capitalize()} y media de España:'
-    ).configure_axis(
-        labelFontSize=12,
-        titleFontSize=14
-    ).configure_title(
-        fontSize=16
-    ).configure_legend(
-        title=None
-    )
-
-    st.altair_chart(chart, use_container_width=True)
+    # Mostrar gráfico en Streamlit
+    st.altair_chart(bars) 
+    
 
 
-def delitos():
-    st.title('Tipología de delitos en materia de violencia de género')
-    st.write('Datos sobre los distintos tipos de delitos')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def recursos():
     st.title('Recursos en tu ciudad')
@@ -552,8 +588,7 @@ pages = {
     'Llamadas al 016': llamadas,
     'Mujeres víctimas': victimas,
     'Menores víctimas': menores,
-    'Protección a víctimas': proteccion,
-    'Tipología de delitos': delitos}
+    'Protección y tipología de delitos': prote_tipos}
 
 rec = {
     'Recursos en tu ciudad': recursos,
