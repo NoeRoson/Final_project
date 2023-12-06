@@ -496,7 +496,10 @@ def prote_tipos():
     # ---GRAFICO 5.B.TIPOLOGIAS DELITOS---
     
     tipos = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/ine/tipos_violencias.csv')
+    tiposs = ['amenazas', 'delito', 'coacciones', 'daños', 'faltas', 'homicidio', 'lesiones', 'quebrantamiento_condena', 'tortura_integridad_moral']
+    tipos = tipos[tipos['tipo'].isin(tiposs)]
 
+    # Widget para seleccionar la comunidad
     comunidades = tipos['comunidad'].unique()
     comunidad_seleccionada = st.selectbox('Selecciona una comunidad:', comunidades)
 
@@ -508,18 +511,23 @@ def prote_tipos():
 
     # Convertir el DataFrame a formato largo para el gráfico
     com_pivot_long = com_pivot.melt(id_vars='año', var_name='tipo', value_name='total')
+    colores = ['#FDB4DB','#d5f5f3', '#69A8FA', '#8ED6E5', '#FA69A8', '#783367', '#CE93D8', '#FFCC80', '#B1DDBC']
 
+
+
+
+#FFD1DC', '#FFB6C1', '#FFA07A', '#D5F5E3', '#A9DFBF', '#ADD8E6', 
     # Gráfico de barras
     bars = alt.Chart(com_pivot_long).mark_bar().encode(
         x='año:O',
         y='total:Q',
-        color='tipo:N',
+        color=alt.Color('tipo:N', scale=alt.Scale(range=colores)),
         tooltip=['año:N', 'tipo:N', 'total:Q']
     ).properties(width=1000, height=600)
 
     # Mostrar gráfico en Streamlit
-    st.altair_chart(bars) 
-    
+    st.altair_chart(bars)
+        
 
 
 
