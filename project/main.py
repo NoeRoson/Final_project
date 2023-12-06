@@ -5,7 +5,6 @@ import sys
 current_dir = os.path.dirname(os.path.realpath(__file__))
 src_dir = os.path.abspath(os.path.join(current_dir, '..', 'src'))
 sys.path.append(src_dir)
-from suport import plot_denuncias
 import streamlit as st
 import pandas as pd
 from PIL import Image
@@ -311,6 +310,7 @@ def victimas():
     st.title('Información sobre víctimas por violencia de género')
     st.write('Aquí te mostramos datos sobre víctimas mujeres y menores.')
 
+    # --GRAFICO DE PRUEBA PARA NORMATIVAS--
     norm = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/scrapeo/norm.csv')
     norm['normativas_presentes'] = norm['total_normativas'].apply(lambda x: 'Sí' if x > 0 else 'No')
 
@@ -322,10 +322,6 @@ def victimas():
                     category_orders={'normativas_presentes': ['Sí', 'No']},
                     width=1000, height=600)
 
-    # Agregamos información personalizada al texto de la barra
-    fig.update_traces(texttemplate='%{y} CCAA<br>%{customdata}', textposition='outside',
-                  customdata=norm['comunidad'], selector=dict(type='histogram'))
-
     # Diseño del gráfico
     fig.update_layout(xaxis_title='Año', yaxis_title='Número de Comunidades Autónomas',
                     legend_title='¿Hubo normativa ese año?',
@@ -335,11 +331,44 @@ def victimas():
 
     st.plotly_chart(fig)
 
+    st.text('   ')
+
+    st.divider()
+
+    #--GRAFICO 3.A. 
+    vic = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/victimas_mortales.csv')
+
+    # Filtrar por provincia
+    provincia_seleccionada = st.selectbox('Selecciona una provincia:', vic['provincia'].unique())
+    df_provincia = vic[vic['provincia'] == provincia_seleccionada]
+
+    # Crear gráfico interactivo con Plotly Express
+    fig = px.bar(df_provincia, x='año', y='total_victimas_mortales', color='trimestre',
+                labels={'total_victimas_mortales': 'Víctimas Mortales', 'año': 'Año'},
+                title=f'Distribución de Víctimas Mortales por Trimestre y Año en {provincia_seleccionada}',
+                barmode='stack')
+
+    # Diseño del gráfico
+    fig.update_layout(xaxis_title='Año', yaxis_title='Víctimas Mortales')
+
+    # Mostrar gráfico en Streamlit
+    st.plotly_chart(fig)
 
 
 
 
 
+
+    # Crear gráfico interactivo con Plotly Express
+    fig = px.bar(df_provincia, x='año', y='total_victimas_mortales',
+                labels={'total_victimas_mortales': 'Total de mujeres asesinadas', 'año': 'Año'},
+                title=f'Evolución Anual de mujeres asesinadas en {provincia_seleccionada}')
+
+    # Diseño del gráfico
+    fig.update_layout(xaxis_title='Año', yaxis_title='Total de mujeres asesinadas')
+
+    # Mostrar gráfico en Streamlit
+    st.plotly_chart(fig)
 
 def proteccion():
     st.title('Protección a las Víctimas')
@@ -358,7 +387,7 @@ def denun():
     st.write('Aquí puedes encontrar información sobre qué hacer si conoces un caso de violencia de género')
 
 def normas():
-    st.title('¿Qué normativas rigen en mi Comunidad Autónoma')
+    st.title('¿Qué normativas rigen en mi Comunidad Autónoma?')
     st.write('Aquí puedes encontrar información sobre las distintas normativas regionales en materia de violencia de género')
     norm = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/scrapeo/norm.csv')
     norm['normativas_presentes'] = norm['total_normativas'].apply(lambda x: 'Sí' if x > 0 else 'No')
