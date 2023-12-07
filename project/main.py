@@ -19,11 +19,6 @@ import json
 
 
 
-# ---IMAGENES---
-
-espalda = Image.open('/Users/noeliarosonmartin/Ironhack/final_project/img/vio.jpeg')
-
-
 # ---CONFIGURACION DE LA PAGINA---
 
 st.set_page_config(
@@ -50,7 +45,7 @@ def home():
     f"""
     <div style='text-align: justify;'>
         <h6 style='font-size: 18px; color: #4757BB;'> Tu nueva plataforma para interactuar con todos los datos disponibles 
-        sobre la violencia de género en España 📊
+        sobre la violencia de género en España 📉
         </h6>
         <h6 style='font-size: 16px;font-weight: normal; color: #4D458E;'> En este espacio, nos embarcamos en un viaje de conciencia 
         y acción contra la violencia de género, desde una perspectiva feminista. Reconocemos la urgencia de abordar esta trágica realidad 
@@ -78,7 +73,9 @@ def home():
     # ---COLUMNA 2---
 
     with col2:
-
+        st.text('   ')
+        st.text('   ')
+        st.text('   ')
         st.markdown(
     """
         <div style='background-color: #B8B8FF; padding: 10px; border-radius: 5px;text-align: center;'>
@@ -87,27 +84,25 @@ def home():
         </div>
         """,
         unsafe_allow_html=True)
-        st.text('   ')
-        st.image(espalda, width = 500)
+
         
         st.text('   ')
+        st.text('   ')
+
+        ima = Image.open('/Users/noeliarosonmartin/Ironhack/final_project/img/vio.jpeg')
+        st.image(ima, width = 500)
+        
+
+    st.text('   ')
        
-        st.markdown(
-        """
-        <div style='background-color: #B8B8FF; padding: 5px; border-radius: 3px;text-align: center;'>
-        <p style='color: #4757BB; font-weight: bold;'>SÚSCRIBETE AQUÍ PARA MÁS RECIBIR MÁS INFORMACIÓN SOBRE VIOLENCIA DE GÉNERO</p>
-        <button style='background-color: #FFEEDD; color: #4D458E; border: 2px solid #340252; padding: 5px; border-radius: 3px; font-weight: bold; '>¡Pulsa!</button>
-        </div>
-        """,
-        unsafe_allow_html=True)
+       
 
     
-
 
 # --- ESTRUCTURA INTERNA DEL CONTENIDO DEL MENU LATERAL---
 
 
-# ---------MENÚ LATERAL 1----------
+# ---------MENÚ LATERAL----------
 
 # --- PAGINA 1. DENUNCIAS DE VIOLENCIA DE GENERO---
 provin = ['alava', 'albacete', 'alicante', 'almeria', 'asturias', 'avila', 'badajoz',
@@ -157,8 +152,7 @@ def denuncias():
     line = alt.Chart(media_total).mark_line(color='#FF934F', strokeDash=[5, 5]).encode(
         x='año:O',
         y='tasa_por_1000:Q')
-
-    # Configuración del diseño del gráfico
+    
     chart = (bars + line).properties(
         title=f'Evolución de la tasa de denuncias por violencia de género en {provincia_seleccionada} y media de España:')
 
@@ -167,6 +161,7 @@ def denuncias():
     st.text('   ')
 
     st.divider()
+
 
 
     # ---GRAFICO 1.B. DENUNCIAS POR TRIMESTRE---
@@ -185,7 +180,7 @@ def denuncias():
     denu = denu[(denu['año'] >= 2008) & (denu['año'] <= 2022)]
     df_grouped = denu.groupby(['año', 'trimestre']).agg({'total_denuncias': 'mean'}).reset_index()
     orden = ['primero', 'segundo', 'tercero', 'cuarto']
-    # Creamos gráfico interactivo con Plotly Express
+    
     fig = px.line(df_grouped, x='año', y='total_denuncias', color='trimestre',
                 labels={'total_denuncias': 'Media de Denuncias', 'trimestre': 'Trimestre'},
                 title='Evolución de las denuncias por violencia de género según trimestre a lo largo de los años',
@@ -193,9 +188,9 @@ def denuncias():
                 category_orders={'trimestre': orden},
                 width=1000, height=600)
 
-    # Diseño del gráfico
+    
     fig.update_layout(xaxis_title='Año', yaxis_title='Media de Denuncias', legend_title='Trimestre',
-                    legend=dict(orientation='h', y=-0.15)) # Ajustar la posición de la leyenda
+                    legend=dict(orientation='h', y=-0.15)) # Esto sirve para ajustar la posición de la leyenda
                     
     st.plotly_chart(fig)
 
@@ -245,7 +240,6 @@ def llamadas():
         x='año:O',
         y='tasa_por_1000:Q')
 
-    # Configuración del diseño del gráfico
     chart = (bars + line).properties(
         title=f'Evolución de la tasa de llamadas al 016 en {provincia_seleccionada.capitalize()} y media de España:')
 
@@ -273,7 +267,7 @@ def llamadas():
     df_selected = llam_denu[['año', 'total_llamadas', 'total_denuncias']]
     df_selected = df_selected[df_selected['año'] <= 2022]
 
-    # Agrupar por año y calcular la suma de llamadas y denuncias
+    # Agrupamos por año y calculamos la suma de llamadas y denuncias
     df_grouped = df_selected.groupby('año').mean().reset_index()
 
     # Crear gráfico interactivo con Plotly Express
@@ -283,11 +277,9 @@ def llamadas():
                 markers={'total_llamadas': 'circle', 'total_denuncias': 'x'},
                 color_discrete_sequence=['#A7CAB1', '#9381FF'])
 
-    # Diseño del gráfico
     fig.update_layout(xaxis_title='Año', yaxis_title='Media', legend=dict(orientation='h'),
                       width=1000, height=600)
 
-    # Mostrar gráfico en Streamlit
     st.plotly_chart(fig)
 
 
@@ -309,7 +301,7 @@ def llamadas():
     llam = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/llamadas016.csv')
     df_filtered = llam[llam['año'] <= 2022]
 
-    # Creamos el gráfico interactivo con Plotly Express
+   
     fig = px.bar(df_filtered, x='año', y='total_llamadas', color='llamante',
                 labels={'total_llamadas': 'Total de Llamadas', 'año': 'Año'},
                 title='Llamadas al 016 según la persona llamante',
@@ -317,11 +309,11 @@ def llamadas():
                 width=1000, height=600,
                 color_discrete_sequence=['#A7CAB1', '#FF934F', '#B8B8FF'])
 
-    # Diseño del gráfico
+    
     fig.update_layout(xaxis_title='Año', yaxis_title='Total de Llamadas', legend_title='Llamante',
                     legend=dict(orientation='h', y=-0.15))  # Ajustar la posición de la leyenda
 
-    # Mostrar gráfico en Streamlit
+    
     st.plotly_chart(fig)
 
 
@@ -339,14 +331,11 @@ def victimas():
 
     # ---GRAFICO 3.A. VICTIMAS COMBINADO---
     
-    # Cargar datos
     vic = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/victimas_mortales.csv')
 
-    # Crear una lista con las columnas que puedes usar como filtros
     filtros_disponibles = ['pareja', 'convivencia', 'suicidio', 'denuncia', 'edad_agresor',
                             'edad_victima', 'nacimiento_agresor', 'nacimiento_victima']
-
-    # Diccionario de nombres de columnas personalizados
+    # Personalizamos:
     filtros = {
         'pareja': '¿Eran pareja?',
         'convivencia': '¿Había convivencia?',
@@ -357,19 +346,17 @@ def victimas():
         'nacimiento_agresor': 'Procedencia Agresor',
         'nacimiento_victima': 'Procedencia Víctima'}
     
-    # Crear una lista con las columnas que puedes usar como filtros
     filtros_disponibles = list(filtros.values())
 
-    # Agregar un widget de selección para que el usuario elija el filtro
+    # Agregamos el boton de filtro:
     filtros_nuevos = st.selectbox('Selecciona un filtro:', filtros_disponibles)
 
-    # Encontrar la clave correspondiente al valor seleccionado
+    # Buscamos la key:
     filtro_seleccionado = next(key for key, value in filtros.items() if value == filtros_nuevos)
 
-    # Ordenar las edades de manera lógica
+    # Orden de edades:
     orden_edades = ['<16', '16-17', '18-20', '21-30', '31-40', '41-50', '51-60', '61-70', '71-84', '81-90', '>=85', 'desconocido']
 
-    # Elegimos los colores:
     colores = ['#9381FF', '#A7CAB1', '#B8B8FF', '#FFD8BE', '#6F9B88', '#B8B8FF', '#FF934F', '#E8998D', '#365939', '#4747FF', '#F3C98B']
     fig = px.bar(vic, x='año', y='total_victimas_mortales', color=filtro_seleccionado,
                 labels={'total_victimas_mortales': 'Total de mujeres asesinadas'},
@@ -378,10 +365,8 @@ def victimas():
                 category_orders={'edad_agresor': orden_edades, 'edad_victima': orden_edades},
                 color_discrete_sequence=colores)
 
-    # Diseño del gráfico
     fig.update_layout(xaxis_title='Año', yaxis_title='Total de mujeres asesinadas')
 
-    # Mostrar gráfico en Streamlit
     st.plotly_chart(fig)
 
     st.text('   ')
@@ -394,11 +379,10 @@ def victimas():
     En el siguiente gráfico, puedes elegir una provincia para ver la distribución de víctimas mortales
     por trimestre a lo largo de los años en esa provincia.
     ''')
-    # Filtrar por provincia
+    # Filtramos por provincia
     provincia_seleccionada = st.selectbox('Selecciona una provincia:', vic['provincia'].unique())
     df_provincia = vic[vic['provincia'] == provincia_seleccionada]
 
-    # Crear gráfico interactivo con Plotly Express
     fig = px.bar(df_provincia, x='año', y='total_victimas_mortales', color='trimestre',
                 labels={'total_victimas_mortales': 'Víctimas Mortales', 'año': 'Año'},
                 title=f'Distribución de Víctimas Mortales por Trimestre y Año en {provincia_seleccionada.capitalize()}',
@@ -406,10 +390,8 @@ def victimas():
                 width=1000, height=600,
                 color_discrete_sequence=['#9381FF', '#A7CAB1', '#B8B8FF', '#FF934F'])
 
-    # Diseño del gráfico
     fig.update_layout(xaxis_title='Año', yaxis_title='Víctimas Mortales')
 
-    # Mostrar gráfico en Streamlit
     st.plotly_chart(fig)
 
     st.text('   ')
@@ -431,33 +413,28 @@ def menores():
 
 # ---GRAFICO 4.A. MENORES:
 
-    # Cargar datos
     men = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/menores.csv')
 
-    # Crear una lista con las columnas que puedes usar como filtros
+    # Personalizamos filtros
     filtros_disponibles = ['padre_biologico', 'suicidio', 'edad']
 
-    # Diccionario de nombres de columnas personalizados
     filtros = {
         'edad': 'Edad del menor',
         'suicidio': '¿Hubo suicidio por parte del agresor?',
         'provincia': 'Provincia'}
     
-    # Crear una lista con las columnas que puedes usar como filtros
     filtros_disponibles = list(filtros.values())
 
-    # Agregar un widget de selección para que el usuario elija el filtro
+    # Agregamos boton de filtro: 
     filtros_nuevos = st.selectbox('Selecciona un filtro:', filtros_disponibles)
 
-    # Encontrar la clave correspondiente al valor seleccionado
+    # Buscamos la key:
     filtro_seleccionado = next(key for key, value in filtros.items() if value == filtros_nuevos)
     
-    # Ordenar las edades de manera lógica
+    # Orden de edades:
     orden_edades = ['<1', '1-2', '3-4', '5-6', '7-8', '9-10', '11-12', '13-14', '15-17']
 
-    # Elegimos los colores:
     color = ['#9381FF', '#A7CAB1', '#B8B8FF', '#FFD8BE', '#6F9B88', '#B8B8FF', '#FF934F', '#E8998D', '#365939', '#4747FF', '#F3C98B']
-
 
     fig = px.bar(men, x='año', y='total_menores_vict_mortales', color=filtro_seleccionado,
                 labels={'total_menores_vict_mortales': 'Total de menores asesinados'},
@@ -466,10 +443,8 @@ def menores():
                 category_orders={'edad': orden_edades},
                 color_discrete_sequence=color)
 
-    # Diseño del gráfico
     fig.update_layout(xaxis_title='Año', yaxis_title='Total de menores asesinados')
 
-    # Mostrar gráfico en Streamlit
     st.plotly_chart(fig)
 
 
@@ -489,17 +464,17 @@ def prote_tipos():
     st.write(f"<div style='text-align: justify;'>{texto}</div>", unsafe_allow_html=True)
     st.text('   ')
 
+
     # ---GRAFICO 5.A. ORDENES DE PROTECCION---
+
     ord = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/ordenes_prot.csv')
 
-    # Widget para seleccionar la provincia
+    # Boton de filtro:
     provincias = ord['provincia'].unique()
     provincia_seleccionada = st.selectbox('Selecciona una provincia:', provincias)
 
-    # Filtrar datos según la provincia seleccionada
     pro_ord = ord[ord['provincia'] == provincia_seleccionada]
 
-    # Gráfico de órdenes de protección
     bars = alt.Chart(pro_ord).mark_bar(color='#A7CAB1').encode(
     x='año:O',
     y='numero_ordenes_proteccion:Q',
@@ -507,13 +482,14 @@ def prote_tipos():
     ).properties(
         width=1000,
         height=600,
-        title=f'Evolución anual del número de órdenes de protección en {provincia_seleccionada.capitalize()}'
-    )
+        title=f'Evolución anual del número de órdenes de protección en {provincia_seleccionada.capitalize()}')
     
     st.altair_chart(bars, use_container_width=True)
 
     st.text('   ')
     st.divider()
+
+
 
     # ---GRAFICO 5.B.TIPOLOGIAS DELITOS---
 
@@ -526,6 +502,7 @@ def prote_tipos():
              arrojar luz sobre la dinámica de la violencia de género en distintas localidades y aportar a la comprensión 
              de los desafíos y progresos en la lucha contra esta problemática a lo largo del tiempo.
              ''')
+    
     st.write(f"<div style='text-align: justify;'>{texto}</div>", unsafe_allow_html=True)
     st.text('   ')
 
@@ -533,20 +510,20 @@ def prote_tipos():
     tiposs = ['amenazas', 'delito', 'coacciones', 'daños', 'faltas', 'homicidio', 'lesiones', 'quebrantamiento_condena', 'tortura_integridad_moral']
     tipos = tipos[tipos['tipo'].isin(tiposs)]
 
-    # Widget para seleccionar la comunidad
+    # Boton para filtro:
     comunidades = tipos['comunidad'].unique()
     comunidad_seleccionada = st.selectbox('Selecciona una comunidad:', comunidades)
 
-    # Filtrar datos según la comunidad seleccionada
     com = tipos[tipos['comunidad'] == comunidad_seleccionada]
 
-    # Pivotar el DataFrame para tener los tipos como columnas
+    # Hacemos una pivot table:
     com_pivot = com.pivot_table(index=['año'], columns=['tipo'], values='total', fill_value=0).reset_index()
 
-    # Convertir el DataFrame a formato largo para el gráfico
+    # Convertimos el DataFrame a formato largo para el gráfico
     com_pivot_long = com_pivot.melt(id_vars='año', var_name='tipo', value_name='total')
+
     colores = ['#9381FF', '#FFD8BE', '#B8B8FF', '#A7CAB1', '#6F9B88', '#B8B8FF', '#FF934F', '#E8998D', '#365939']
-    # Gráfico de barras
+    
     bars = alt.Chart(com_pivot_long).mark_bar().encode(
         x='año:O',
         y='total:Q',
@@ -554,7 +531,6 @@ def prote_tipos():
         tooltip=['año:N', 'tipo:N', 'total:Q']
     ).properties(width=1000, height=600)
 
-    # Mostrar gráfico en Streamlit
     st.altair_chart(bars)
         
 
@@ -575,7 +551,7 @@ def datos_combinados():
 
     datos = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/llam_denu_fest_vic.csv')
 
-    # Widget para seleccionar la provincia
+    # Boton para el filtro
     provincias = datos['provincia'].unique()
     provincia_seleccionada = st.selectbox('Selecciona una provincia:', provincias)
     datos_provincia = datos[datos['provincia'] == provincia_seleccionada]
@@ -658,7 +634,7 @@ def normas():
     norm = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/scrapeo/norm.csv')
     norm['normativas_presentes'] = norm['total_normativas'].apply(lambda x: 'Sí' if x > 0 else 'No')
 
-    # Creamos el gráfico interactivo con Plotly Express
+   
     fig = px.histogram(norm, x='año', color='normativas_presentes',
                     labels={'año': 'Año', 'normativas_presentes': '¿Hubo normativa?'},
                     title='Presencia de Normativas por Año y Comunidad Autónoma',
@@ -666,11 +642,11 @@ def normas():
                     width=1000, height=600,
                     color_discrete_sequence=['#9381FF', '#A7CAB1'])
 
-    # Diseño del gráfico
+
     fig.update_layout(xaxis_title='Año', yaxis_title='Número de Comunidades Autónomas',
                     legend_title='¿Hubo normativa ese año?',
-                    legend=dict(orientation='h', y=-0.15, x=0.5),  # Ajustamos la posición de la leyenda
-                    barmode='group')  # Mostrar barras agrupadas
+                    legend=dict(orientation='h', y=-0.15, x=0.5),  
+                    barmode='group')  # Barras agrupadas
 
     st.plotly_chart(fig)
 
@@ -683,11 +659,11 @@ def normas():
     with open('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/scrapeo/leyes.json', 'r') as archivo_json:
         datos_leyes = json.load(archivo_json)
 
-    # Filtro comunidad
+    # Filtro comunidad:
     comunidad = list(datos_leyes.keys())
     comunidad_selecc = st.selectbox('Selecciona una Comunidad Autónoma para conocer su normativa en materia de Violencia de Género:', comunidad)
 
-    # Mostrar los nombres de las leyes para la provincia seleccionada
+    # Mostramos las normas de cada comunidad seleccionada:
     st.write(f"Normativa Regional en {comunidad_selecc}:")
     leyes_regionales = datos_leyes[comunidad_selecc]
     for ley in leyes_regionales:
@@ -706,13 +682,16 @@ def info():
             donde podrás encontrar más informes y cifras, formación y otros recursos sobre violencia de género.''')
 
     st.write('''
-            - Por aquí te dejo una serie de [testimonios de mujeres supervivientes]('https://violenciagenero.igualdad.gob.es/informacionUtil/testimonios/supervivientes/home.htm') 
-            para que puedas acercarte más a esta realidad.
+            - Por aquí te dejo una serie de [testimonios de mujeres supervivientes](https://violenciagenero.igualdad.gob.es/informacionUtil/testimonios/supervivientes/home.htm) para que puedas acercarte más a esta realidad.
             ''')
     
     st.write('- Aquí puedes ver la última campaña del Ministerio de Igualdad contra la Violencia de Género ⬇️')
-    video_url = 'https://www.youtube.com/watch?v=bE3r26x-VJM&t=1s'
-    st.video(video_url)
+    
+
+    video = 'https://www.youtube.com/watch?v=bE3r26x-VJM&t=4s'
+
+    st.video(video)
+    
 
 
 # ----ESTRUCTURA DEL MENÚ LATERAL----
@@ -732,6 +711,7 @@ options = {
 # Título en el menú lateral
 st.sidebar.markdown('<span style="color: #4757BB; font-size: 24px; font-weight: bold;">VIODATA 🟣</span>', unsafe_allow_html=True)
 
+
 # Selección del menú principal
 st.sidebar.markdown('<span style="color: #4757BB; font-size: 18px; font-weight: bold;">¿Qué quieres saber hoy?</span>', unsafe_allow_html=True)
 selected_option = st.sidebar.radio('',list(options.keys()))
@@ -739,6 +719,9 @@ selected_option = st.sidebar.radio('',list(options.keys()))
 # Línea divisoria
 st.sidebar.markdown('<hr style="border-color: #511973;">', unsafe_allow_html=True)
 
+
 # Obtener la función de la opción seleccionada y ejecutarla
 if selected_option in options:
     options[selected_option]()
+
+
