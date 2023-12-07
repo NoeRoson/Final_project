@@ -96,7 +96,7 @@ def home():
         """
         <div style='background-color: #B8B8FF; padding: 5px; border-radius: 3px;text-align: center;'>
         <p style='color: #4757BB; font-weight: bold;'>SÚSCRIBETE AQUÍ PARA MÁS RECIBIR MÁS INFORMACIÓN SOBRE VIOLENCIA DE GÉNERO</p>
-        <button style='background-color: #F8F7FF; color: #4D458E; border: 2px solid #340252; padding: 5px; border-radius: 3px; font-weight: bold; '>¡Pulsa!</button>
+        <button style='background-color: #FFEEDD; color: #4D458E; border: 2px solid #340252; padding: 5px; border-radius: 3px; font-weight: bold; '>¡Pulsa!</button>
         </div>
         """,
         unsafe_allow_html=True)
@@ -700,18 +700,20 @@ def normas():
 
 def info():
     st.title('¿Quieres saber más?')
-    st.write('Aquí puedes ver la última campaña del Ministerio de Igualdad contra la Violencia de Género ⬇️')
+    
+    st.write('''
+            - Si estás interesada en obtener más información en esta materia, te invito a que visites la web de [FEMINICIDIO.NET](https://feminicidio.net/)
+            donde podrás encontrar más informes y cifras, formación y otros recursos sobre violencia de género.''')
 
+    st.write('''
+            - Por aquí te dejo una serie de [testimonios de mujeres supervivientes]('https://violenciagenero.igualdad.gob.es/informacionUtil/testimonios/supervivientes/home.htm') 
+            para que puedas acercarte más a esta realidad.
+            ''')
+    
+    st.write('- Aquí puedes ver la última campaña del Ministerio de Igualdad contra la Violencia de Género ⬇️')
     video_url = 'https://www.youtube.com/watch?v=bE3r26x-VJM&t=1s'
     st.video(video_url)
 
-    st.text('   ')
-    texto = '''
-        Si estás interesada en obtener más información en esta materia, te invito a que visites la web de [FEMINICIDIO.NET](https://feminicidio.net/)
-        donde podrás encontrar  
-        '''
-    st.markdown(texto)
-    ('https://violenciagenero.igualdad.gob.es/informacionUtil/testimonios/supervivientes/home.htm')
 
 # ----ESTRUCTURA DEL MENÚ LATERAL----
 
