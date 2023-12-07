@@ -149,7 +149,7 @@ def denuncias():
         tooltip=['tasa_por_1000:Q']).properties(width=1000, height=600)
 
     # Línea para la media total de España
-    line = alt.Chart(media_total).mark_line(color='#FF934F', strokeDash=[5, 5]).encode(
+    line = alt.Chart(media_total).mark_line(color='#4747FF', strokeDash=[5, 5]).encode(
         x='año:O',
         y='tasa_por_1000:Q')
     
@@ -236,7 +236,7 @@ def llamadas():
         tooltip=['tasa_por_1000:Q']).properties(width=1000, height=600)
 
     # Línea para la media total de España
-    line = alt.Chart(media_total).mark_line(color='#FF934F', strokeDash=[5, 5]).encode(
+    line = alt.Chart(media_total).mark_line(color='#4747FF', strokeDash=[5, 5]).encode(
         x='año:O',
         y='tasa_por_1000:Q')
 
@@ -416,12 +416,13 @@ def menores():
     men = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/menores.csv')
 
     # Personalizamos filtros
-    filtros_disponibles = ['padre_biologico', 'suicidio', 'edad']
+    filtros_disponibles = ['edad', 'suicidio', 'provincia', 'padre_biologico']
 
     filtros = {
         'edad': 'Edad del menor',
         'suicidio': '¿Hubo suicidio por parte del agresor?',
-        'provincia': 'Provincia'}
+        'provincia': 'Provincia',
+        'padre_biologico': '¿Era el agresor su padre biológico?'}
     
     filtros_disponibles = list(filtros.values())
 
