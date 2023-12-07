@@ -20,7 +20,7 @@ import plotly.graph_objects as go
 
 # ---IMAGENES---
 
-espalda = Image.open('/Users/noeliarosonmartin/Ironhack/final_project_viodata/img/vio.jpeg')
+espalda = Image.open('/Users/noeliarosonmartin/Ironhack/final_project/img/vio.jpeg')
 
 
 # ---CONFIGURACION DE LA PAGINA---
@@ -109,38 +109,38 @@ def home():
 # ---------MENÚ LATERAL 1----------
 
 # --- PAGINA 1. DENUNCIAS DE VIOLENCIA DE GENERO---
-
-def denuncias():
-
-    # ---INTRODUCCION---
-
-    st.title('Denuncias por violencia de género')
-    st.write('''
-             En el siguiente gráfico podemos observar la evolución de la tasa por mil mujeres
-             desde el año 2009 hasta el 2021, último año de actualización de la población total
-             de mujeres por provincia. Destaca el caso de Cuenca que, junto a las provincias de 
-             Alicante, Almería, Granada, Huelva o Melilla, entre otras, superan la tasa media de España.
-             ''')
-
-    provincias = ['alava', 'albacete', 'alicante', 'almeria', 'asturias', 'avila', 'badajoz',
+provin = ['alava', 'albacete', 'alicante', 'almeria', 'asturias', 'avila', 'badajoz',
                               'barcelona', 'burgos', 'caceres', 'cadiz', 'cantabria', 'castellon', 'ciudad real',
                               'cordoba', 'cuenca', 'gerona', 'granada', 'guadalajara', 'guipuzcoa', 'huelva',
                               'huesca', 'islas baleares', 'jaen', 'coruña', 'rioja', 'las palmas', 'leon',
                               'lerida', 'lugo', 'madrid', 'malaga', 'melilla', 'murcia', 'navarra', 'orense',
                               'palencia', 'pontevedra', 'salamanca', 'santa cruz de tenerife', 'segovia', 'sevilla',
                               'soria', 'tarragona', 'teruel', 'toledo', 'valencia', 'valladolid', 'vizcaya',
-                              'zamora', 'zaragoza']    
-    
+                              'zamora', 'zaragoza'] 
+
+def denuncias():
+
+    # ---INTRODUCCION---
+
+    st.title('Denuncias por violencia de género')
+    texto = ('''
+             En el siguiente gráfico podemos observar la evolución de la tasa por mil mujeres
+             desde el año 2009 hasta el 2021, último año de actualización de la población total
+             de mujeres por provincia. Destaca el caso de Cuenca que, junto a las provincias de 
+             Alicante, Almería, Granada, Huelva o Melilla, entre otras, superan la tasa media de España.
+             ''')
+    st.write(f"<div style='text-align: justify;'>{texto}</div>", unsafe_allow_html=True)
+    st.text('   ')
+
+
 
     # ---GRÁFICO 1.A. TASA DE DENUNCIAS POR CADA MIL MUJERES POR PROVINCIA---
 
-    denu_combi = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/denu_combi.csv')
+    denu_combi = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/denu_combi.csv')
     provincias = denu_combi['provincia'].unique()
     provincia_seleccionada = st.selectbox('Selecciona una provincia:', provincias)
     pro = denu_combi[denu_combi['provincia'] == provincia_seleccionada]
     media_total = denu_combi.groupby('año')['tasa_por_1000'].mean().reset_index()
-
-    st.text('   ')
 
     # Filtramos ya que no hay datos posteriores para el total de la población
     pro = pro[pro['año'] <= 2021]
@@ -159,7 +159,7 @@ def denuncias():
 
     # Configuración del diseño del gráfico
     chart = (bars + line).properties(
-        title=f'Evolución de la tasa de denuncias por violencia de género en {provincia_seleccionada.capitalize()} y media de España:')
+        title=f'Evolución de la tasa de denuncias por violencia de género en {provincia_seleccionada} y media de España:')
 
     st.altair_chart(chart)
 
@@ -170,15 +170,17 @@ def denuncias():
 
     # ---GRAFICO 1.B. DENUNCIAS POR TRIMESTRE---
 
-    st.write('''
+    texto = ('''
              En el siguiente gráfico se visualizan las variaciones por trimestre que se dan en 
              las denuncias por violencia de género entre 2009 y 2022. Como podemos observar, estas han 
              seguido una tendencia similar a lo largo de los años, si bien en el tercer trimestre
              se aprecia siempre una mayor cantidad de denuncias.
              ''')
+    st.write(f"<div style='text-align: justify;'>{texto}</div>", unsafe_allow_html=True)
 
+    st.text('   ')
 
-    denu = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/denuncias.csv')
+    denu = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/denuncias.csv')
     denu = denu[(denu['año'] >= 2008) & (denu['año'] <= 2022)]
     df_grouped = denu.groupby(['año', 'trimestre']).agg({'total_denuncias': 'mean'}).reset_index()
     orden = ['primero', 'segundo', 'tercero', 'cuarto']
@@ -203,21 +205,23 @@ def denuncias():
 
 def llamadas():
     st.title('Llamadas recibidas por el 016')
-    st.write('''
-            El Ministerio de Igualdad, a través de la [Delegación del Gobierno contra la Violencia de Género](https://violenciagenero.igualdad.gob.es/home.htm), 
-            ofrece un servicio integral para brindar [información](https://violenciagenero.igualdad.gob.es/informacionUtil/recursos/telefono016/home.htm), 
-            asesoramiento jurídico, y atención psicosocial inmediata por personal especializado a todas las formas de violencia contra las mujeres,
-            a través del número telefónico de marcación abreviada [016](https://violenciagenero.igualdad.gob.es/informacionUtil/recursos/telefono016/home.htm); 
-            por WhatsApp en el número [600 000 016](https://wa.me/600000016); a través de un chat online en la página web de la Delegación del Gobierno contra 
-            la Violencia de Género y por correo electrónico al servicio 016 online: [016-online@igualdad.gob.es](mailto:016-online@igualdad.gob.es).
-            En el siguiente gráfico puedes seleccionar la provincia sobre la que deseas ver la tasa de llamadas recibidas por el 016
-            por cada mil mujeres que residen en dicha provincia y podrás compararla con la media nacional.
-            ''')
+    texto = '''
+        El Ministerio de Igualdad, a través de la [Delegación del Gobierno contra la Violencia de Género](https://violenciagenero.igualdad.gob.es/home.htm), 
+        ofrece un servicio integral para brindar [información](https://violenciagenero.igualdad.gob.es/informacionUtil/recursos/telefono016/home.htm), 
+        asesoramiento jurídico, y atención psicosocial inmediata por personal especializado a todas las formas de violencia contra las mujeres,
+        a través del número telefónico de marcación abreviada [016](https://violenciagenero.igualdad.gob.es/informacionUtil/recursos/telefono016/home.htm); 
+        por WhatsApp en el número [600 000 016](https://wa.me/600000016); a través de un chat online en la página web de la Delegación del Gobierno contra 
+        la Violencia de Género y por correo electrónico al servicio 016 online: [016-online@igualdad.gob.es](mailto:016-online@igualdad.gob.es).
+        En el siguiente gráfico puedes seleccionar la provincia sobre la que deseas ver la tasa de llamadas recibidas por el 016
+        por cada mil mujeres que residen en dicha provincia y podrás compararla con la media nacional.
+        '''
+    st.markdown(texto)
+
 
 
 # ---GRÁFICO 2.A. TASA DE LLAMADAS AL 016 POR CADA MIL MUJERES POR PROVINCIA---
     
-    llam_combi = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/llam_combi.csv')
+    llam_combi = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/llam_combi.csv')
     provincias = llam_combi['provincia'].unique()
     provincia_seleccionada = st.selectbox('Selecciona una provincia:', provincias)
     pro = llam_combi[llam_combi['provincia'] == provincia_seleccionada]
@@ -252,17 +256,19 @@ def llamadas():
 
 
     # ---GRAFICO 2.B. LLAMADAS AL 016 Y DENUNCIAS POR AÑO ---
+        
+    texto = '''
+    En el siguiente gráfico se visualiza la evolución tanto de las llamadas como de
+    las denuncias por violencia de género entre 2009 y 2022. Como podemos observar, podría existir cierta
+    correlación entre ambas variables, lo cual cobra sentido si pensamos que muchas de esas llamadas es posible que 
+    hayan terminado en una denuncia real. Ambas variables se han ido incrementando con el paso del tiempo, lo que
+    puede traducirse en una mayor concienciación sobre la violencia de género y el aumento de la
+    voluntad de las mujeres en solicitar apoyo ante tal situación.
+    '''
+    st.write(f"<div style='text-align: justify;'>{texto}</div>", unsafe_allow_html=True)
 
 
-    st.write('''
-             En el siguiente gráfico se visualiza la evolución tanto de las llamadas como de
-             las denuncias por violencia de género entre 2009 y 2022. Como podemos observar, podría existir cierta
-             correlación entre ambas variables, lo cual cobra sentido si pensamos que muchas de esas llamadas es posible que 
-             hayan terminado en una denuncia real. Ambas variables se han ido incrementando con el paso del tiempo, lo que
-             puede traducirse en una mayor concienciación sobre la violencia de género y el aumento de la
-             voluntad de las mujeres en solicitar apoyo ante tal situación.
-             ''')
-    llam_denu = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/llam_denu.csv')
+    llam_denu = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/llam_denu.csv')
     df_selected = llam_denu[['año', 'total_llamadas', 'total_denuncias']]
     df_selected = df_selected[df_selected['año'] <= 2022]
 
@@ -291,7 +297,15 @@ def llamadas():
 
     # ---GRAFICO 2.C. LLAMADAS AL 016 SEGÚN PERSONA LLAMANTE ---
 
-    llam = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/llamadas016.csv')
+    texto = ('''
+             El siguiente gráfico permite conocer el origen de las llamadas recibidas por el 016, a saber: la propia usuaria, 
+             un familiar u origen desconocido. Como se puede apreciar, la mayoría de las llamadas son realizadas por la propia
+             usuaria, lo cual indica que la difusión de la existencia de este servicio llega a esas víctimas que pueden requerirlo
+             y dan el paso de pedir ayuda.
+             ''')
+    st.write(f"<div style='text-align: justify;'>{texto}</div>", unsafe_allow_html=True)
+
+    llam = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/llamadas016.csv')
     df_filtered = llam[llam['año'] <= 2022]
 
     # Creamos el gráfico interactivo con Plotly Express
@@ -317,13 +331,15 @@ def victimas():
     st.write('''
     Aquí te mostramos datos relacionados con múltiples variables que ofrecen diferente
     información sobre las mujeres que han sido asesinadas por sus agresores durante
-    estos años.
+    estos años. Podrás visualizar datos relativos a si agresor y víctima eran pareja o 
+    había convivencia, si el agresor se suicidó, si había denuncia previa así como otros
+    datos relativos a las edades u origen de ambos.
     ''')
 
     # ---GRAFICO 3.A. VICTIMAS COMBINADO---
     
     # Cargar datos
-    vic = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/victimas_mortales.csv')
+    vic = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/victimas_mortales.csv')
 
     # Crear una lista con las columnas que puedes usar como filtros
     filtros_disponibles = ['pareja', 'convivencia', 'suicidio', 'denuncia', 'edad_agresor',
@@ -373,7 +389,10 @@ def victimas():
 
 
     #--GRAFICO 3.B. DISTRIBUCIÓN VÍCTIMAS MORTALES POR TRIMESTRE Y PROVINCIA---
-
+    st.write('''
+    En el siguiente gráfico, puedes elegir una provincia para ver la distribución de víctimas mortales
+    por trimestre a lo largo de los años en esa provincia.
+    ''')
     # Filtrar por provincia
     provincia_seleccionada = st.selectbox('Selecciona una provincia:', vic['provincia'].unique())
     df_provincia = vic[vic['provincia'] == provincia_seleccionada]
@@ -402,12 +421,17 @@ def victimas():
 
 def menores():
     st.title('Menores asesinados por violencia de género')
-    st.write('Información sobre muertes de menores víctimas de violencia machista.')
+    st.write('''El siguiente gráfico muestra datos relacionados con las muertes de menores a causa de la violencia de género.
+             Gracias al mismo, podrás conocer la distribución por edad del menor, si el agresor era su padre biológico o si 
+             se produjo suicidio tras los hechos.
+             ''')
+    
+    st.text('   ')
 
 # ---GRAFICO 4.A. MENORES:
 
     # Cargar datos
-    men = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/menores.csv')
+    men = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/menores.csv')
 
     # Crear una lista con las columnas que puedes usar como filtros
     filtros_disponibles = ['padre_biologico', 'suicidio', 'edad']
@@ -453,11 +477,20 @@ def menores():
 
 def prote_tipos():
     st.title('Protección a las víctimas y tipología de delitos')
-    st.write('Información sobre órdenes de protección y tipos de delitos en materia de violencia de género.')
-
+    texto = ('''
+             La orden de protección es una herramienta legal diseñada para salvaguardar a las víctimas de la violencia 
+             de género ante diversas formas de agresión. En una resolución judicial inmediata, conocida como auto, se aplican 
+             medidas de protección y seguridad de índole penal y civil. Simultáneamente, esta orden activa los mecanismos de asistencia 
+             y protección social ofrecidos por el Estado, las Comunidades Autónomas y las Corporaciones Locales en beneficio de la víctima. 
+             En resumen, la orden de protección integra los diferentes recursos legales destinados a proteger a la víctima, otorgándole un 
+             estatus completo de resguardo.
+             ''')
+    
+    st.write(f"<div style='text-align: justify;'>{texto}</div>", unsafe_allow_html=True)
+    st.text('   ')
 
     # ---GRAFICO 5.A. ORDENES DE PROTECCION---
-    ord = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/ordenes_prot.csv')
+    ord = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/ordenes_prot.csv')
 
     # Widget para seleccionar la provincia
     provincias = ord['provincia'].unique()
@@ -483,8 +516,20 @@ def prote_tipos():
     st.divider()
 
     # ---GRAFICO 5.B.TIPOLOGIAS DELITOS---
-    
-    tipos = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/ine/tipos_violencias.csv')
+
+    texto = ('''
+             En el siguiente gráfico, exploraremos la evolución de diversos tipos de delitos relacionados con la violencia de 
+             género a lo largo de los años. Los delitos considerados incluyen amenazas, delitos, coacciones, daños, faltas, 
+             homicidio, lesiones, quebrantamiento de condena y tortura a la integridad moral. Este análisis permite una visión 
+             detallada de cómo la incidencia de estos delitos ha variado con el tiempo, brindando la capacidad de realizar 
+             filtrados específicos por comunidades para examinar patrones regionales. La información proporcionada busca 
+             arrojar luz sobre la dinámica de la violencia de género en distintas localidades y aportar a la comprensión 
+             de los desafíos y progresos en la lucha contra esta problemática a lo largo del tiempo.
+             ''')
+    st.write(f"<div style='text-align: justify;'>{texto}</div>", unsafe_allow_html=True)
+    st.text('   ')
+
+    tipos = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/ine/tipos_violencias.csv')
     tiposs = ['amenazas', 'delito', 'coacciones', 'daños', 'faltas', 'homicidio', 'lesiones', 'quebrantamiento_condena', 'tortura_integridad_moral']
     tipos = tipos[tipos['tipo'].isin(tiposs)]
 
@@ -518,17 +563,25 @@ def prote_tipos():
 
 def datos_combinados():
     st.title('Denuncias, llamadas 016, víctimas y festivos provinciales')
-    st.write('Información sobre combinaciones.')
+    texto = ('''
+             El objetivo del siguiente gráfico es mostrar en un simple vistazo la tendencia trimestral de las denuncias,
+             las llamadas al 016, las víctimas asesinadas para tratar de encontrar correlaciones o tendencias. 
+             ''')
+    st.write(f"<div style='text-align: justify;'>{texto}</div>", unsafe_allow_html=True)
+    st.text('   ')
     
 
 # --GRAFICOS COMBINADOS LLAMADAS, DENUNCIAS, VICTIMAS Y FESTIVOS--
 
-    datos = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/llam_denu_vic.csv')
+    datos = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/llam_denu_fest_vic.csv')
 
     # Widget para seleccionar la provincia
     provincias = datos['provincia'].unique()
     provincia_seleccionada = st.selectbox('Selecciona una provincia:', provincias)
     datos_provincia = datos[datos['provincia'] == provincia_seleccionada]
+
+    orden = ['primero', 'segundo', 'tercero', 'cuarto']
+    
 
     col1, col2 = st.columns(2)
 
@@ -540,20 +593,23 @@ def datos_combinados():
         datos_agrupados = datos_provincia.groupby('trimestre').agg({
             'total_denuncias': 'mean',
             'total_llamadas': 'mean',
-            'total_victimas_mortales': 'mean'
-        }).reset_index()
+            'total_victimas_mortales': 'mean',
+            'total_festivos': 'mean'
+        }).reindex(orden).reset_index()
 
         # --GRAFICO 6.A. DENUNCIAS--
 
         fig_denuncias = px.line(datos_agrupados, x='trimestre', y='total_denuncias', labels={'total_denuncias': 'Total de Denuncias'},
-                                title=f'Denuncias en {provincia_seleccionada.capitalize()} por trimestre')
+                                title=f'Denuncias en {provincia_seleccionada.capitalize()} por trimestre',
+                                category_orders={'trimestre': orden})
 
         st.plotly_chart(fig_denuncias, use_container_width=True)
 
         # --GRAFICO 6.B. LLAMADAS 016--
 
         fig_llamadas = px.line(datos_agrupados, x='trimestre', y='total_llamadas', labels={'total_llamadas': 'Total de Llamadas'},
-                            title=f'Llamadas al 016 en {provincia_seleccionada.capitalize()} por trimestre')
+                            title=f'Llamadas al 016 en {provincia_seleccionada.capitalize()} por trimestre',
+                            category_orders={'trimestre': orden})
 
         st.plotly_chart(fig_llamadas, use_container_width=True)
 
@@ -564,25 +620,24 @@ def datos_combinados():
         # --GRAFICO 6.C. LLAMADAS 016--
 
         fig_victimas = px.line(datos_agrupados, x='trimestre', y='total_victimas_mortales', labels={'total_victimas_mortales': 'Total de Víctimas Mortales'},
-                            title=f'Víctimas Mortales en {provincia_seleccionada.capitalize()} por trimestre')
+                            title=f'Víctimas Mortales en {provincia_seleccionada.capitalize()} por trimestre',
+                            category_orders={'trimestre': orden})
+        
         st.plotly_chart(fig_victimas, use_container_width=True)
 
         
-        # --GRAFICO 6.D. LLAMADAS 016--
+        # --GRAFICO 6.D. FESTIVOS--
 
-        fest = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/portal_estadistico_vio_gen/fest_melted.csv')
-        # Agrupar los datos por trimestre
-        group = fest.groupby('trimestre').agg({
-        'total_festivos': 'mean'
-        }).reset_index()
-        fig_festivos = px.line(group, x='trimestre', y='total_festivos', labels={'total_festivos': 'Total de Festivos'},
-                            title=f'Festivos en {provincia_seleccionada.capitalize()} por trimestre')
+
+        fig_festivos = px.line(datos_agrupados, x='trimestre', y='total_festivos', labels={'total_festivos': 'Total de Festivos'},
+                            title=f'Festivos en {provincia_seleccionada.capitalize()} por trimestre',
+                            category_orders={'trimestre': orden})
         
-        # Configurar la línea para que sea horizontal
         fig_festivos.update_traces(line=dict(dash='solid'))
-
         st.plotly_chart(fig_festivos, use_container_width=True)
 
+
+        
 
 
 # ---PAGINA 9. ---
@@ -591,7 +646,7 @@ def normas():
     st.title('¿Qué normativas rigen en mi Comunidad Autónoma?')
     st.write('Aquí puedes encontrar información sobre las distintas normativas regionales en materia de violencia de género')
     
-    norm = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/scrapeo/norm.csv')
+    norm = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/scrapeo/norm.csv')
     norm['normativas_presentes'] = norm['total_normativas'].apply(lambda x: 'Sí' if x > 0 else 'No')
 
     # Creamos el gráfico interactivo con Plotly Express
@@ -620,7 +675,7 @@ def normas():
     
     with col1:
 
-        top = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project_viodata/data_clean/scrapeo/top.csv')
+        top = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/scrapeo/top.csv')
         selected_comunidad = st.selectbox('Selecciona una comunidad para saber cuántas normativas se han implementado en materia de violencia de género:', top['comunidad'])
 
         # Filtrar el DataFrame según la comunidad seleccionada

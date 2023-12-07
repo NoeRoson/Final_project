@@ -333,3 +333,6 @@ def plot_delitos(df, comunidad):
     plt.show()
 
 
+def mayus(lista):
+        return ' '.join(prov.capitalize() for prov in lista.split())
+
