@@ -14,6 +14,7 @@ import altair as alt
 import seaborn as sns
 import plotly.express as px
 import plotly.graph_objects as go
+import json
 
 
 
@@ -642,6 +643,8 @@ def datos_combinados():
 
 # ---PAGINA 9. ---
 
+
+
 def normas():
     st.title('¿Qué normativas rigen en mi Comunidad Autónoma?')
     st.write('Aquí puedes encontrar información sobre las distintas normativas regionales en materia de violencia de género')
@@ -663,33 +666,29 @@ def normas():
                     legend=dict(orientation='h', y=-0.15, x=0.5),  # Ajustamos la posición de la leyenda
                     barmode='group')  # Mostrar barras agrupadas
 
-
     st.plotly_chart(fig)
 
     st.text('   ')
     st.divider()
 
 
+    # Cargamos los datos sobre leyes:
 
-    col1, col2 = st.columns([2, 1])
-    
-    with col1:
+    with open('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/scrapeo/leyes.json', 'r') as archivo_json:
+        datos_leyes = json.load(archivo_json)
 
-        top = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/scrapeo/top.csv')
-        selected_comunidad = st.selectbox('Selecciona una comunidad para saber cuántas normativas se han implementado en materia de violencia de género:', top['comunidad'])
+    # Filtro comunidad
+    comunidad = list(datos_leyes.keys())
+    comunidad_selecc = st.selectbox('Selecciona una Comunidad Autónoma para saber qué leyes ha habido en materia de Violencia de Género:', comunidad)
 
-        # Filtrar el DataFrame según la comunidad seleccionada
-        selected_row = top[top['comunidad'] == selected_comunidad]
+    # Mostrar los nombres de las leyes para la provincia seleccionada
+    st.write(f"Leyes en {comunidad_selecc}:")
+    leyes_regionales = datos_leyes[comunidad_selecc]
+    for ley in leyes_regionales:
+        st.write(f"- {ley}")
 
-    with col2:
-        
-        # Mostrar el resultado en un contenedor a la derecha
-        st.text('   ')
-        st.text('   ')
-        st.container()
-        st.write(f'Desde 2003 {selected_comunidad.capitalize()} ha implementado un total de {selected_row["total_normativas"].values[0]} normativas')
-    
-    
+
+
     
 # ---PAGINA 10. ---
 
