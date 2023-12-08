@@ -38,8 +38,7 @@ Las visualizaciones creadas aportan una **visión a nivel global** del fenómeno
 
 ## Datos destacados ✨
 
-
-
+![](https://github.com/NoeRoson/VioData/blob/main/ppt/video.gif)
 
 - Cuando comencé esta investigación me llamaba la atención que siempre hubiese más denuncias y llamadas al 016 en el **tercer trimestre**. Es algo que tengo pendiente por descubrir y que continuaré investigando. Sin embargo, una de las posibles explicaciones tiene que ver con que la tasa de denuncias por cada mil mujeres es mayor a la media nacional en las provincias del sur y menor en las del norte. Es posible que siendo el tercer trimestre el más caluroso del año esté influyendo en estos datos.
 
