@@ -23,7 +23,6 @@ st.set_page_config(
     page_icon='🟣',
     layout='wide',
     initial_sidebar_state='expanded',
-    theme='light',
 )
 
 # Configuración de colores
@@ -33,7 +32,7 @@ primary_color = "#9381ff"
 secondary_background_color = "#b8b8ff"
 
 # Establecer estilos personalizados usando HTML y CSS
-custom_css = f"""
+st.markdown(f"""
     <style>
         body {{
             background-color: {background_color} !important;
@@ -46,9 +45,7 @@ custom_css = f"""
             background-color: {secondary_background_color} !important;
         }}
     </style>
-"""
-
-st.markdown(custom_css, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
 
 # ---CUERPO DE LA PÁGINA PRINCIPAL---
 
