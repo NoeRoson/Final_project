@@ -31,21 +31,15 @@ text_color = "#4757bb"
 primary_color = "#9381ff"
 secondary_background_color = "#b8b8ff"
 
-# Establecer estilos personalizados usando HTML y CSS
-st.markdown(f"""
-    <style>
-        body {{
-            background-color: {background_color} !important;
-            color: {text_color} !important;
-        }}
-        .css-1k2tse0 {{
-            color: {primary_color} !important;
-        }}
-        .css-9ujsvg {{
-            background-color: {secondary_background_color} !important;
-        }}
-    </style>
-    """, unsafe_allow_html=True)
+# Establecer estilos personalizados
+st.style(
+    body={
+        "background-color": background_color,
+        "color": text_color,
+    },
+    ".css-1k2tse0": {"color": primary_color},
+    ".css-9ujsvg": {"background-color": secondary_background_color},
+)
 
 # ---CUERPO DE LA PÁGINA PRINCIPAL---
 
