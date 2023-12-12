@@ -23,6 +23,7 @@ st.set_page_config(
     page_icon='🟣',
     layout='wide',
     initial_sidebar_state='expanded',
+    theme='light',
 )
 
 # Configuración de colores
@@ -61,7 +62,7 @@ def home():
 
     with col1:
         st.markdown('<span style="color:#9381ffff; font-size: 18px; font-weight: bold; ">#niunamás</span>', unsafe_allow_html=True)
-        st.markdown('<span style="font-size: 24px;font-weight: bold; ">¡Bienvenidas a VioData!</span>', unsafe_allow_html=True)
+        st.markdown('<span style="color: #4757BB; font-size: 24px;font-weight: bold; ">¡Bienvenidas a VioData!</span>', unsafe_allow_html=True)
         st.markdown(
     f"""
     <div style='text-align: justify;'>
