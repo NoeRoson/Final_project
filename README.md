@@ -42,6 +42,8 @@ Vista previa de VioData:
 
 ![](https://github.com/NoeRoson/VioData/blob/main/media/video.gif)
 
+Para acceder a VioData pulsa [aquí](https://viodata.streamlit.app/)
+
 - Cuando comencé esta investigación me llamaba la atención que siempre hubiese más denuncias y llamadas al 016 en el **tercer trimestre**. Es algo que tengo pendiente por descubrir y que continuaré investigando. Sin embargo, una de las posibles explicaciones tiene que ver con que la tasa de denuncias por cada mil mujeres es mayor a la media nacional en las provincias del sur y menor en las del norte. Es posible que siendo el tercer trimestre el más caluroso del año esté influyendo en estos datos.
 
 - Valorando la posibilidad de que se trate de algo estacional, otra posible explicación es que en verano tanto los adultos como los hijos menores tienen vacaciones habitualmente, lo cual puede traducirse en una mayor **fuente de estrés** que desencadene más conflictos. Sin embargo, no podemos comprobar si las denuncias interpuestas durante ese trimestre son por parte de mujeres con hijos menores o no.
