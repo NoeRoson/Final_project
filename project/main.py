@@ -25,7 +25,11 @@ st.set_page_config(
     page_title =' VioData',
     page_icon = '🟣',
     layout = 'wide',
-    initial_sidebar_state = 'expanded',)
+    initial_sidebar_state = 'expanded',
+    primaryColor="#9381ff",
+    backgroundColor="#ffeedd",
+    secondaryBackgroundColor="#b8b8ff",
+    textColor="#4757bb")
 
 
 # ---CUERPO DE LA PÁGINA PRINCIPAL---
