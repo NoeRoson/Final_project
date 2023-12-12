@@ -88,8 +88,8 @@ def home():
         
         st.text('   ')
         st.text('   ')
-
-        ima = Image.open('/Users/noeliarosonmartin/Ironhack/final_project/img/vio.jpeg')
+        
+        ima = Image.open('img/vio.jpeg')
         st.image(ima, width = 500)
         
 
@@ -132,7 +132,7 @@ def denuncias():
 
     # ---GRÁFICO 1.A. TASA DE DENUNCIAS POR CADA MIL MUJERES POR PROVINCIA---
 
-    denu_combi = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/denu_combi.csv')
+    denu_combi = pd.read_csv('data_clean/portal_estadistico_vio_gen/denu_combi.csv')
     provincias = denu_combi['provincia'].unique()
     provincia_seleccionada = st.selectbox('Selecciona una provincia:', provincias)
     pro = denu_combi[denu_combi['provincia'] == provincia_seleccionada]
@@ -176,7 +176,7 @@ def denuncias():
 
     st.text('   ')
 
-    denu = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/denuncias.csv')
+    denu = pd.read_csv('data_clean/portal_estadistico_vio_gen/denuncias.csv')
     denu = denu[(denu['año'] >= 2008) & (denu['año'] <= 2022)]
     df_grouped = denu.groupby(['año', 'trimestre']).agg({'total_denuncias': 'mean'}).reset_index()
     orden = ['primero', 'segundo', 'tercero', 'cuarto']
@@ -217,7 +217,7 @@ def llamadas():
 
 # ---GRÁFICO 2.A. TASA DE LLAMADAS AL 016 POR CADA MIL MUJERES POR PROVINCIA---
     
-    llam_combi = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/llam_combi.csv')
+    llam_combi = pd.read_csv('data_clean/portal_estadistico_vio_gen/llam_combi.csv')
     provincias = llam_combi['provincia'].unique()
     provincia_seleccionada = st.selectbox('Selecciona una provincia:', provincias)
     pro = llam_combi[llam_combi['provincia'] == provincia_seleccionada]
@@ -263,7 +263,7 @@ def llamadas():
     st.write(f"<div style='text-align: justify;'>{texto}</div>", unsafe_allow_html=True)
 
 
-    llam_denu = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/llam_denu.csv')
+    llam_denu = pd.read_csv('data_clean/portal_estadistico_vio_gen/llam_denu.csv')
     df_selected = llam_denu[['año', 'total_llamadas', 'total_denuncias']]
     df_selected = df_selected[df_selected['año'] <= 2022]
 
@@ -298,7 +298,7 @@ def llamadas():
              ''')
     st.write(f"<div style='text-align: justify;'>{texto}</div>", unsafe_allow_html=True)
 
-    llam = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/llamadas016.csv')
+    llam = pd.read_csv('data_clean/portal_estadistico_vio_gen/llamadas016.csv')
     df_filtered = llam[llam['año'] <= 2022]
 
    
@@ -331,7 +331,7 @@ def victimas():
 
     # ---GRAFICO 3.A. VICTIMAS COMBINADO---
     
-    vic = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/victimas_mortales.csv')
+    vic = pd.read_csv('data_clean/portal_estadistico_vio_gen/victimas_mortales.csv')
 
     filtros_disponibles = ['pareja', 'convivencia', 'suicidio', 'denuncia', 'edad_agresor',
                             'edad_victima', 'nacimiento_agresor', 'nacimiento_victima']
@@ -413,7 +413,7 @@ def menores():
 
 # ---GRAFICO 4.A. MENORES:
 
-    men = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/menores.csv')
+    men = pd.read_csv('data_clean/portal_estadistico_vio_gen/menores.csv')
 
     # Personalizamos filtros
     filtros_disponibles = ['edad', 'suicidio', 'provincia', 'padre_biologico']
@@ -468,7 +468,7 @@ def prote_tipos():
 
     # ---GRAFICO 5.A. ORDENES DE PROTECCION---
 
-    ord = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/ordenes_prot.csv')
+    ord = pd.read_csv('data_clean/portal_estadistico_vio_gen/ordenes_prot.csv')
 
     # Boton de filtro:
     provincias = ord['provincia'].unique()
@@ -507,7 +507,7 @@ def prote_tipos():
     st.write(f"<div style='text-align: justify;'>{texto}</div>", unsafe_allow_html=True)
     st.text('   ')
 
-    tipos = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/ine/tipos_violencias.csv')
+    tipos = pd.read_csv('data_clean/ine/tipos_violencias.csv')
     tiposs = ['amenazas', 'delito', 'coacciones', 'daños', 'faltas', 'homicidio', 'lesiones', 'quebrantamiento_condena', 'tortura_integridad_moral']
     tipos = tipos[tipos['tipo'].isin(tiposs)]
 
@@ -550,7 +550,7 @@ def datos_combinados():
 
 # --GRAFICOS COMBINADOS LLAMADAS, DENUNCIAS, VICTIMAS Y FESTIVOS--
 
-    datos = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/portal_estadistico_vio_gen/llam_denu_fest_vic.csv')
+    datos = pd.read_csv('data_clean/portal_estadistico_vio_gen/llam_denu_fest_vic.csv')
 
     # Boton para el filtro
     provincias = datos['provincia'].unique()
@@ -632,7 +632,7 @@ def normas():
              Más abajo, podrás conocer dichas normativas según la Comunidad seleccionada.
              ''')
     
-    norm = pd.read_csv('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/scrapeo/norm.csv')
+    norm = pd.read_csv('data_clean/scrapeo/norm.csv')
     norm['normativas_presentes'] = norm['total_normativas'].apply(lambda x: 'Sí' if x > 0 else 'No')
 
    
@@ -657,7 +657,7 @@ def normas():
 
     # Cargamos los datos sobre leyes:
 
-    with open('/Users/noeliarosonmartin/Ironhack/final_project/data_clean/scrapeo/leyes.json', 'r') as archivo_json:
+    with open('data_clean/scrapeo/leyes.json', 'r') as archivo_json:
         datos_leyes = json.load(archivo_json)
 
     # Filtro comunidad:
