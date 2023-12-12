@@ -17,20 +17,37 @@ import plotly.graph_objects as go
 import json
 
 
-
-
-# ---CONFIGURACION DE LA PAGINA---
-
+# Configuración de la página
 st.set_page_config(
-    page_title =' VioData',
-    page_icon = '🟣',
-    layout = 'wide',
-    initial_sidebar_state = 'expanded',
-    primaryColor="#9381ff",
-    backgroundColor="#ffeedd",
-    secondaryBackgroundColor="#b8b8ff",
-    textColor="#4757bb")
+    page_title='VioData',
+    page_icon='🟣',
+    layout='wide',
+    initial_sidebar_state='expanded',
+)
 
+# Configuración de colores
+background_color = "#ffeedd"
+text_color = "#4757bb"
+primary_color = "#9381ff"
+secondary_background_color = "#b8b8ff"
+
+# Establecer estilos personalizados usando HTML y CSS
+custom_css = f"""
+    <style>
+        body {{
+            background-color: {background_color} !important;
+            color: {text_color} !important;
+        }}
+        .css-1k2tse0 {{
+            color: {primary_color} !important;
+        }}
+        .css-9ujsvg {{
+            background-color: {secondary_background_color} !important;
+        }}
+    </style>
+"""
+
+st.markdown(custom_css, unsafe_allow_html=True)
 
 # ---CUERPO DE LA PÁGINA PRINCIPAL---
 
