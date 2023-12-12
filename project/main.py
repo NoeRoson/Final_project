@@ -33,10 +33,7 @@ secondary_background_color = "#b8b8ff"
 
 # Establecer estilos personalizados
 st.style(
-    body={
-        "background-color": background_color,
-        "color": text_color,
-    },
+    body={"background-color": background_color, "color": text_color},
     ".css-1k2tse0": {"color": primary_color},
     ".css-9ujsvg": {"background-color": secondary_background_color},
 )
