@@ -2,9 +2,6 @@
 
 import os
 import sys
-current_dir = os.path.dirname(os.path.realpath(__file__))
-src_dir = os.path.abspath(os.path.join(current_dir, '..', 'src'))
-sys.path.append(src_dir)
 import streamlit as st
 import pandas as pd
 from PIL import Image
@@ -17,6 +14,11 @@ import plotly.graph_objects as go
 import json
 
 
+# Establecer el color de fondo
+st.set_style(
+    body=dict(background_color="#FFEEDD"),
+)
+
 # Configuración de la página
 st.set_page_config(
     page_title='VioData',
@@ -25,18 +27,29 @@ st.set_page_config(
     initial_sidebar_state='expanded',
 )
 
-# Configuración de colores
+
 background_color = "#ffeedd"
 text_color = "#4757bb"
 primary_color = "#9381ff"
 secondary_background_color = "#b8b8ff"
 
-# Establecer estilos personalizados
-st.style(
-    body={"background-color": background_color, "color": text_color},
-    ".css-1k2tse0": {"color": primary_color},
-    ".css-9ujsvg": {"background-color": secondary_background_color},
-)
+
+st.markdown(f"""
+    <style>
+        body {{
+            background-color: {background_color} !important;
+            color: {text_color} !important;
+        }}
+        .css-1k2tse0 {{
+            color: {primary_color} !important;
+        }}
+        .css-9ujsvg {{
+            background-color: {secondary_background_color} !important;
+        }}
+    </style>
+    """, unsafe_allow_html=True)
+
+
 
 # ---CUERPO DE LA PÁGINA PRINCIPAL---
 
