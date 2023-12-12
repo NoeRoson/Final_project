@@ -14,11 +14,6 @@ import plotly.graph_objects as go
 import json
 
 
-# Establecer el color de fondo
-st.set_style(
-    body=dict(background_color="#FFEEDD"),
-)
-
 # Configuración de la página
 st.set_page_config(
     page_title='VioData',
